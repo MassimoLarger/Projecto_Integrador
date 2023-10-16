@@ -1,0 +1,27 @@
+[
+    {
+      "pregunta": "¿Cuál es la capital de Francia?",
+      "opciones": ["Berlín", "Londres", "París", "Madrid"],
+      "respuesta_correcta": ["París"]
+    },
+    {
+      "pregunta": "¿En qué año se fundó Google?",
+      "opciones": ["1995", "2000", "1998", "2005"],
+      "respuesta_correcta": ["1998"]
+    },
+    {
+      "pregunta": "¿Cuál es el río más largo del mundo?",
+      "opciones": ["Amazonas", "Nilo", "Yangtsé", "Misisipi"],
+      "respuesta_correcta": ["Amazonas"]
+    },
+    {
+      "pregunta": "¿Cuál es el elemento químico con el símbolo 'O'?",
+      "opciones": ["Oxígeno", "Oro", "Osmio", "Oganesón"],
+      "respuesta_correcta": ["Oxígeno"]
+    },
+    {
+      "pregunta": "¿Cuántos continentes hay en el mundo?",
+      "opciones": ["5", "6", "7", "8"],
+      "respuesta_correcta": ["7"]
+    }
+  ]  

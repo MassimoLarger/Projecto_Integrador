@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego de Trivia</title>
+</head>
+<body>
+    <h1>Juego de Trivia</h1>
+
+    <div id="info-container">
+        <p>Puntuación: <span id="puntuacion">0</span></p>
+        <p>Vidas: <span id="vidas">3</span></p>
+    </div>
+
+    <div id="form-container">
+        <p><label for="name">Nombre:</label>
+        <input type="text" id="name" placeholder="Ingrese su nombre" /></p>
+
+        <p><button onclick="cargarPreguntas()">Iniciar Juego</button></p>
+    </div>
+
+    <div id="trivia-container" style="display: none;">
+        <p id="question"></p>
+        <!-- Cambiar a botones y manejar la respuesta directamente -->
+        <div id="options"></div>
+        <div id="respuesta"></div>
+    </div>
+    
+    <!-- Mover la importación del JSON al final del cuerpo del HTML -->
+    <script src="ProjectoIntegrador.js" defer></script>
+    <script src="preguntas_y_respuestas.json"></script>
+</body>
+</html>
