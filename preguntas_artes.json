@@ -1,0 +1,843 @@
+[
+    {
+        "pregunta": "¿Quién escribió 'Azazel'?",
+        "opciones": ["Isaac Asimov", "Gabriel García Márquez", "J.K. Rowling", "Stephen King"],
+        "respuesta_correcta": ["Isaac Asimov"]
+    },
+    {
+        "pregunta": "¿En qué isla vivía Otelo?",
+        "opciones": ["Sicilia", "Creta", "Corfú", "Malta"],
+        "respuesta_correcta": ["Creta"]
+    },
+    {
+        "pregunta": "¿Cuál es el nombre del primer gran poema épico de la literatura inglesa?",
+        "opciones": ["Odisea", "Beowulf", "La Ilíada", "Eneida"],
+        "respuesta_correcta": ["Beowulf"]
+    },
+    {
+        "pregunta": "¿Quién pintó 'Mujer mirando por la ventana'?",
+        "opciones": ["Pablo Picasso", "Vincent Van Gogh", "Salvador Dalí", "Joan Miró"],
+        "respuesta_correcta": ["Salvador Dalí"]
+    },
+    {
+        "pregunta": "¿En qué ciudad nació el pintor y escultor Joan Miro?",
+        "opciones": ["Madrid", "Valencia", "Barcelona", "Sevilla"],
+        "respuesta_correcta": ["Barcelona"]
+    },
+    {
+        "pregunta": "¿De qué género es la obra 'Luces de Bohemia'?",
+        "opciones": ["Novela", "Poesía", "Teatro", "Ensayo"],
+        "respuesta_correcta": ["Teatro"]
+    },
+    {
+        "pregunta": "¿Cuál de los siguientes personajes no aparece en la portada del álbum Sgt Pepper's Lonely Hearts Club Band, de la banda británica The Beatles?",
+        "opciones": ["Marilyn Monroe", "Albert Einstein", "Bob Marley", "Shirley Temple"],
+        "respuesta_correcta": ["Bob Marley"]
+    },
+    {
+        "pregunta": "¿Cuál es el baile popular de Aragón?",
+        "opciones": ["Flamenco", "Sardana", "Jota", "Sevillanas"],
+        "respuesta_correcta": ["Jota"]
+    },
+    {
+        "pregunta": "¿En qué año se suicidó Van Gogh?",
+        "opciones": ["1880", "1885", "1890", "1895"],
+        "respuesta_correcta": ["1890"]
+    },
+    {
+        "pregunta": "¿Cuál es el baile típico de Galicia?",
+        "opciones": ["Flamenco", "Sardana", "Jota", "Muiñeira"],
+        "respuesta_correcta": ["Muiñeira"]
+    },
+    {
+        "pregunta": "¿Quién escribió La Divina Comedia?",
+        "opciones": ["William Shakespeare", "Homer", "Dante Alighieri", "Miguel de Cervantes"],
+        "respuesta_correcta": ["Dante Alighieri"]
+    },
+    {
+        "pregunta": "¿Cuántas cuerdas suele tener un bajo eléctrico?",
+        "opciones": ["Tres", "Cuatro", "Cinco", "Seis"],
+        "respuesta_correcta": ["Cuatro"]
+    },
+    {
+        "pregunta": "¿Quién escribió \"El Ejército Negro\"?",
+        "opciones": ["J.K. Rowling", "Santiago García-Clairac", "George Orwell", "Stephen King"],
+        "respuesta_correcta": ["Santiago García-Clairac"]
+    },
+    {
+        "pregunta": "¿Cuál de las siguientes obras fue escrita por Wolfgang Amadeus Mozart?",
+        "opciones": ["Claro de luna", "Las cuatro estaciones", "Réquiem", "El arte de la fuga"],
+        "respuesta_correcta": ["Réquiem"]
+    },
+    {
+        "pregunta": "¿Para qué sirve la paleta?",
+        "opciones": ["Para comer", "Para mezclar pinturas", "Para cavar", "Para escribir"],
+        "respuesta_correcta": ["Para mezclar pinturas"]
+    },
+    {
+        "pregunta": "¿Quién escribió el poema romano, Las Metamorfosis?",
+        "opciones": ["Virgilio", "Ovidio", "Horacio", "Cicerón"],
+        "respuesta_correcta": ["Ovidio"]
+    },
+    {
+        "pregunta": "¿Qué ruta se hace en honor al poeta Miguel Hernández?",
+        "opciones": ["Camino de Santiago", "Ruta de Don Quijote", "La senda del poeta", "Camino del Inca"],
+        "respuesta_correcta": ["La senda del poeta"]
+    },
+    {
+        "pregunta": "¿Qué personaje femenino protagoniza el libro de Dan Brown \"La Conspiración\"?",
+        "opciones": ["Sophie Neveu", "Vittoria Vetra", "Rachel Sexton", "Katherine Solomon"],
+        "respuesta_correcta": ["Rachel Sexton"]
+    },
+    {
+        "pregunta": "¿Según el cuento de \"el principito\" cuál fue el séptimo planeta que visitó?",
+        "opciones": ["El planeta del astrónomo", "El planeta de la rosa", "El planeta de las serpientes", "El planeta tierra"],
+        "respuesta_correcta": ["El planeta tierra"]
+    },
+    {
+        "pregunta": "¿Qué tendencia musical es la que más incursiona en Jamaica?",
+        "opciones": ["Salsa", "Rock", "Reggae", "Hip Hop"],
+        "respuesta_correcta": ["Reggae"]
+    },
+    {
+        "pregunta": "¿Cuál es la famosa cueva que se narra el Quijote?",
+        "opciones": ["Cueva de Cervantes", "Cueva de Montesinos", "Cueva de Dulcinea", "Cueva de Sancho"],
+        "respuesta_correcta": ["Cueva de Montesinos"]
+    },
+    {
+        "pregunta": "¿Qué usamos para diluir los colores de las acuarelas?",
+        "opciones": ["Aceite", "Disolvente", "Agua", "Alcohol"],
+        "respuesta_correcta": ["Agua"]
+    },
+    {
+        "pregunta": "¿Cuántos anillos fueron creados por Sauron para los Señores Enanos en el Señor de los Anillos?",
+        "opciones": ["3", "7", "9", "12"],
+        "respuesta_correcta": ["7"]
+    },
+    {
+        "pregunta": "¿Cómo se llama el padre que devora a su hijo en una obra de Francisco de Goya?",
+        "opciones": ["Neptuno", "Zeus", "Saturno", "Plutón"],
+        "respuesta_correcta": ["Saturno"]
+    },
+    {
+        "pregunta": "¿Cuál de las siguientes palabras es esdrújula?",
+        "opciones": ["Metilico", "Metal", "Metalico", "Metálico"],
+        "respuesta_correcta": ["Metálico"]
+    },
+    {
+        "pregunta": "¿Quién escribió la novela \"El Código Da Vinci\"?",
+        "opciones": ["Paulo Coelho", "Dan Brown", "John Grisham", "Stephen King"],
+        "respuesta_correcta": ["Dan Brown"]
+    },
+    {
+        "pregunta": "¿Cuál de las siguientes obras fue escrita por Gabriel García Márquez?",
+        "opciones": ["Cien años de soledad", "El coronel no tiene quién le escriba", "Don Quijote de la Mancha", "Rayuela"],
+        "respuesta_correcta": ["El coronel no tiene quién le escriba"]
+    },
+    {
+        "pregunta": "¿Cuál es la obra cumbre en la literatura española escrita por Fernando de Rojas?",
+        "opciones": ["Don Quijote", "La Celestina", "La Regenta", "Fortunata y Jacinta"],
+        "respuesta_correcta": ["La Celestina"]
+    },
+    {
+        "pregunta": "¿Cuál de estos pintores hace pinturas con forma geométricas?",
+        "opciones": ["Velázquez", "Rembrandt", "Picasso", "Monet"],
+        "respuesta_correcta": ["Picasso"]
+    },
+    {
+        "pregunta": "¿Cuál de estos libros no fue escrito por Haruki Murakami?",
+        "opciones": ["Kafka en la orilla", "1Q84", "La devoción del sospechoso X", "Norwegian Wood"],
+        "respuesta_correcta": ["La devoción del sospechoso X"]
+    },
+    {
+        "pregunta": "¿Quién escribió \"Romancero Gitano\"?",
+        "opciones": ["Miguel de Cervantes", "Antonio Machado", "Federico García Lorca", "Pablo Neruda"],
+        "respuesta_correcta": ["Federico García Lorca"]
+    },
+    {
+        "pregunta": "¿Con qué cualidad describirías a Tom Sawyer?",
+        "opciones": ["Inteligente", "Travieso", "Serio", "Tímido"],
+        "respuesta_correcta": ["Travieso"]
+    },
+    {
+        "pregunta": "¿A qué familia de instrumentos pertenece la guitarra, el violín y el bajo?",
+        "opciones": ["Viento", "Cuerdas", "Percusión", "Teclado"],
+        "respuesta_correcta": ["Cuerdas"]
+    },
+    {
+        "pregunta": "¿Cuál compositor de música clásica era zurdo?",
+        "opciones": ["Mozart", "Bach", "Beethoven", "Vivaldi"],
+        "respuesta_correcta": ["Beethoven"]
+    },
+    {
+        "pregunta": "¿Cuántos dedos tiene por lo general una caricatura?",
+        "opciones": ["Tres", "Cuatro", "Cinco", "Seis"],
+        "respuesta_correcta": ["Cuatro"]
+    },
+    {
+        "pregunta": "¿Quiénes eran los \"Tres tenores\"?",
+        "opciones": ["Bocelli, Divo, Rossini", "Carreras, Pavarotti, Domingo", "Verdi, Liszt, Chopin", "Mozart, Wagner, Brahms"],
+        "respuesta_correcta": ["Carreras, Pavarotti, Domingo"]
+    },
+    {
+        "pregunta": "¿Quién pintó \"La Sagrada Familia del Cordero\"?",
+        "opciones": ["Leonardo da Vinci", "Rafael Sanzio", "Michelangelo", "Tiziano"],
+        "respuesta_correcta": ["Rafael Sanzio"]
+    },
+    {
+        "pregunta": "¿Cuál de las siguientes pertenece a las 7 maravillas del mundo antiguo?",
+        "opciones": ["Estatua de Zeus en Olimpia", "Machu Picchu", "Gran Pirámide de Giza", "Todas son correctas"],
+        "respuesta_correcta": ["Todas son correctas"]
+    },
+    {
+        "pregunta": "¿Qué nota musical hay entre re y fa?",
+        "opciones": ["Sol", "La", "Si", "Mi"],
+        "respuesta_correcta": ["Mi"]
+    },
+    {
+        "pregunta": "¿Qué instrumento tocaba Zeta Bosio en Soda Stereo?",
+        "opciones": ["Guitarra", "Batería", "Teclado", "Bajo"],
+        "respuesta_correcta": ["Bajo"]
+    },
+    {
+        "pregunta": "¿Cómo se llama al conjunto de 5 líneas y 4 espacios que se usa para componer música?",
+        "opciones": ["Partitura", "Pentagrama", "Notación", "Compás"],
+        "respuesta_correcta": ["Pentagrama"]
+    },
+    {
+        "pregunta": "¿Qué parte del cuerpo se cortó Vicent Van Gogh?",
+        "opciones": ["Mano", "Dedo", "Oreja", "Nariz"],
+        "respuesta_correcta": ["Oreja"]
+    },
+    {
+        "pregunta": "¿Quién escribió \"Platero y yo\"?",
+        "opciones": ["Miguel de Unamuno", "Antonio Machado", "Federico García Lorca", "Juan Ramón Jiménez"],
+        "respuesta_correcta": ["Juan Ramón Jiménez"]
+    },
+    {
+        "pregunta": "¿Quién pintó \"La Anunciación\"?",
+        "opciones": ["Jan Van Eyck", "Jan de Beer", "Leonardo da Vinci", "Caravaggio"],
+        "respuesta_correcta": ["Jan de Beer"]
+    },
+    {
+        "pregunta": "¿Quién pintó la obra mundialmente conocida con el nombre de \"Mona Lisa\" o \"Gioconda\"?",
+        "opciones": ["Michelangelo", "Leonardo Da Vinci", "Rafael Sanzio", "Titian"],
+        "respuesta_correcta": ["Leonardo Da Vinci"]
+    },
+    {
+        "pregunta": "¿Cuál de ellos es un adverbio de lugar?",
+        "opciones": ["Mañana", "Rápidamente", "Ahí", "Tal vez"],
+        "respuesta_correcta": ["Ahí"]
+    },
+    {
+        "pregunta": "¿Cuál de estos poemas escribió Mario Benedetti?",
+        "opciones": ["Hoy te vi", "Amor eterno", "Táctica y estrategia", "Todas las anteriores"],
+        "respuesta_correcta": ["Todas las anteriores"]
+    },
+    {
+        "pregunta": "Amor con amor se paga...",
+        "opciones": ["Y lo demás con lágrimas", "Y el resto es historia", "Y lo demás con dinero", "Y todo se equilibra"],
+        "respuesta_correcta": ["Y lo demás con dinero"]
+    },
+    {
+        "pregunta": "¿Qué libro de Gabriel García Márquez es considerado una de las obras más famosas de la literatura mundial?",
+        "opciones": ["El otoño del patriarca", "El amor en los tiempos del cólera", "Crónica de una muerte anunciada", "Cien años de soledad"],
+        "respuesta_correcta": ["Cien años de soledad"]
+    },
+    {
+        "pregunta": "¿Qué tenía Salvador Dalí de característico?",
+        "opciones": ["El sombrero", "El bastón", "El bigote", "Las gafas"],
+        "respuesta_correcta": ["El bigote"]
+    },
+    {
+        "pregunta": "¿Quién es Laura Gallego García?",
+        "opciones": ["Una actriz", "Una cantante", "Una política", "Una escritora"],
+        "respuesta_correcta": ["Una escritora"]
+    },
+    {
+        "pregunta": "¿Quién es al autor de \"La guerra del fin del mundo\"?",
+        "opciones": ["Gabriel García Márquez", "Isabel Allende", "Mario Vargas Llosa", "Ernesto Sabato"],
+        "respuesta_correcta": ["Mario Vargas Llosa"]
+    },
+    {
+        "pregunta": "¿Cuál es la técnica usada en dibujo a base de carboncillo?",
+        "opciones": ["Raspadura", "Esgrafiado", "Mancha", "Claroscuro"],
+        "respuesta_correcta": ["Mancha"]
+    },
+    {
+        "pregunta": "¿Quién es el autor de la obra: Viaje al centro de la Tierra?",
+        "opciones": ["H.G. Wells", "Julio Verne", "Isaac Asimov", "Ray Bradbury"],
+        "respuesta_correcta": ["Julio Verne"]
+    },
+    {
+        "pregunta": "¿Cuál de las siguientes obras no pertenece a Edgar Allan Poe?",
+        "opciones": ["El cuervo", "El corazón delator", "El monte de las ánimas", "La caída de la Casa Usher"],
+        "respuesta_correcta": ["El monte de las ánimas"]
+    },
+    {
+        "pregunta": "Más vale pájaro en mano...",
+        "opciones": ["que no tener nada", "que cien volando", "que en el aire", "que en el monte"],
+        "respuesta_correcta": ["que cien volando"]
+    },
+    {
+        "pregunta": "¿Dónde se encontraba el cuadro \"El Grito\"?",
+        "opciones": ["Noruega", "Alemania", "Francia", "España"],
+        "respuesta_correcta": ["Francia"]
+    },
+    {
+        "pregunta": "¿A qué ciudad vasca dedicó un cuadro Pablo Picasso?",
+        "opciones": ["San Sebastián", "Bilbao", "Guernica", "Vitoria"],
+        "respuesta_correcta": ["Guernica"]
+    },
+    {
+        "pregunta": "¿Qué importante pieza de arte fue robada y guardada debajo de una cama hasta que se devolvió al Museo Louvre?",
+        "opciones": ["La última cena", "El nacimiento de Venus", "Mona Lisa", "El David"],
+        "respuesta_correcta": ["Mona Lisa"]
+    },
+    {
+        "pregunta": "¿Quién escribió la novela \"Contagio\"?",
+        "opciones": ["Stephen King", "Michael Crichton", "Robin Cook", "John Grisham"],
+        "respuesta_correcta": ["Robin Cook"]
+    },
+    {
+        "pregunta": "¿Cuál de estos artistas se destacó por su estilo impresionista?",
+        "opciones": ["Van Gogh", "Dali", "Rembrandt", "Monet"],
+        "respuesta_correcta": ["Monet"]
+    },
+    {
+        "pregunta": "¿Cuál de éstas es obra de García Lorca?",
+        "opciones": ["El alquimista", "El árbol de la ciencia", "La sombra del viento", "El maleficio de la mariposa"],
+        "respuesta_correcta": ["El maleficio de la mariposa"]
+    },
+    {
+        "pregunta": "¿Cuál de estas obras de Gabriel García Márquez ha sido llevada al cine?",
+        "opciones": ["El amor en los tiempos del cólera", "Cien años de soledad", "El otoño del patriarca", "Todas las anteriores"],
+        "respuesta_correcta": ["Todas las anteriores"]
+    },
+    {
+        "pregunta": "¿Dónde estudió Antoni Gaudí?",
+        "opciones": ["Madrid", "Sevilla", "Valencia", "Barcelona"],
+        "respuesta_correcta": ["Barcelona"]
+    },
+    {
+        "pregunta": "¿Cuál es la tesitura más alta de voz masculina?",
+        "opciones": ["Tenor", "Bajo", "Barítono", "Contratenor"],
+        "respuesta_correcta": ["Contratenor"]
+    },
+    {
+        "pregunta": "¿Quién escribió \"El cuervo\"?",
+        "opciones": ["William Shakespeare", "Edgar Allan Poe", "H.P. Lovecraft", "Robert Frost"],
+        "respuesta_correcta": ["Edgar Allan Poe"]
+    },
+    {
+        "pregunta": "¿Qué autor utilizó en uno de sus poemas el verso de Bécquer \"donde habite el olvido allí estará mi tumba\"?",
+        "opciones": ["Pablo Neruda", "Federico García Lorca", "Joaquín Sabina", "Mario Benedetti"],
+        "respuesta_correcta": ["Neruda"]
+    },
+    {
+        "pregunta": "¿A qué se dedicaban los siete enanitos?",
+        "opciones": ["Eran agricultores", "Eran zapateros", "Eran cazadores", "Eran mineros"],
+        "respuesta_correcta": ["Eran mineros"]
+    },
+    {
+        "pregunta": "¿Cuál es el estilo de la catedral de Burgos?",
+        "opciones": ["Románico", "Barroco", "Gótico", "Renacentista"],
+        "respuesta_correcta": ["Gótico"]
+    },
+    {
+        "pregunta": "¿Cuál es el autor del libro \"Inés del alma mía\"?",
+        "opciones": ["Gabriela Mistral", "Laura Esquivel", "Julia de Burgos", "Isabel Allende"],
+        "respuesta_correcta": ["Isabel Allende"]
+    },
+    {
+        "pregunta": "¿Quién es el autor de Rimas y Leyendas?",
+        "opciones": ["Federico García Lorca", "Gustavo Adolfo Bécquer", "Miguel de Unamuno", "Lope de Vega"],
+        "respuesta_correcta": ["Gustavo Adolfo Bécquer"]
+    },
+    {
+        "pregunta": "¿Qué canción le dedicó Bob Marley a Rita Marley?",
+        "opciones": ["No Woman No Cry", "Redemption Song", "Milkshake & potato chips", "Three Little Birds"],
+        "respuesta_correcta": ["Milkshake & potato chips"]
+    },
+    {
+        "pregunta": "Perro que ladra...",
+        "opciones": ["Siempre muerde", "Es un buen perro", "No muerde", "Necesita atención"],
+        "respuesta_correcta": ["No muerde"]
+    },
+    {
+        "pregunta": "¿Qué afición artística tenía Hitler?",
+        "opciones": ["Escritura", "Música", "Danza", "Pintura"],
+        "respuesta_correcta": ["Pintura"]
+    },
+    {
+        "pregunta": "¿En qué país nació el escritor Jorge Luís Borges?",
+        "opciones": ["México", "Colombia", "Argentina", "España"],
+        "respuesta_correcta": ["Argentina"]
+    },
+    {
+        "pregunta": "¿En qué novela el protagonista es un asesino en serie con un sentido del olfato increíblemente desarrollado?",
+        "opciones": ["Drácula", "Frankenstein", "La metamorfosis", "El Perfume"],
+        "respuesta_correcta": ["El Perfume"]
+    },
+    {
+        "pregunta": "¿De quién es la obra \"El Alcalde de Zalamea\" representada por los vecinos de la localidad pacense de Zalamea de la Serena?",
+        "opciones": ["Lope de Vega", "Garcilaso de la Vega", "Federico García Lorca", "Calderón de la Barca"],
+        "respuesta_correcta": ["Calderón de la Barca"]
+    },
+    {
+        "pregunta": "¿Cuál de los siguientes libros fue escrito por Stephen King?",
+        "opciones": ["Juego de tronos", "La chica del tren", "Insomnia", "El código Da Vinci"],
+        "respuesta_correcta": ["Insomnia"]
+    },
+    {
+        "pregunta": "¿Quién pintó 'La muerte de Lucrecia'?",
+        "opciones": ["Diego Velázquez", "Eduardo Rosales", "Francisco de Goya", "Joaquín Sorolla"],
+        "respuesta_correcta": ["Eduardo Rosales"]
+    },
+    {
+        "pregunta": "¿De qué país es la caricatura \"Condorito\"?",
+        "opciones": ["México", "Argentina", "Chile", "Perú"],
+        "respuesta_correcta": ["Chile"]
+    },
+    {
+        "pregunta": "¿En qué ciudad se encuentra el museo Guggenheim?",
+        "opciones": ["Barcelona", "Madrid", "Bilbao", "Valencia"],
+        "respuesta_correcta": ["Bilbao"]
+    },
+    {
+        "pregunta": "¿A qué corriente pertenece Garcilaso de la Vega?",
+        "opciones": ["Barroco", "Romanticismo", "Renacimiento", "Realismo"],
+        "respuesta_correcta": ["Renacimiento"]
+    },
+    {
+        "pregunta": "¿Quién fue un humanista, filósofo, filólogo y teólogo holandés?",
+        "opciones": ["San Agustín", "Descartes", "Santo Tomás de Aquino", "Erasmo de Róterdam"],
+        "respuesta_correcta": ["Erasmo de Róterdam"]
+    },
+    {
+        "pregunta": "¿Cómo se señalan las rimas en los versos de arte mayor?",
+        "opciones": ["Minúsculas", "Mayúsculas", "Con números", "No se señalan"],
+        "respuesta_correcta": ["Mayúsculas"]
+    },
+    {
+        "pregunta": "¿Quién es el autor de \"Mazurca para dos muertos\"?",
+        "opciones": ["Mario Vargas Llosa", "Camilo José Cela", "Miguel Delibes", "Juan Marsé"],
+        "respuesta_correcta": ["Camilo José Cela"]
+    },
+    {
+        "pregunta": "¿Quién escribió \"Orgullo y Prejuicio\"?",
+        "opciones": ["Emily Brontë", "Virginia Woolf", "Charlotte Brontë", "Jane Austen"],
+        "respuesta_correcta": ["Jane Austen"]
+    },
+    {
+        "pregunta": "¿De qué nacionalidad es el pintor Gustav Klimt?",
+        "opciones": ["Alemán", "Austriaco", "Italiano", "Francés"],
+        "respuesta_correcta": ["Austriaco"]
+    },
+    {
+        "pregunta": "¿Quién es el autor de la frase \"Es tan corto el amor, y es tan largo el olvido\"?",
+        "opciones": ["Mario Benedetti", "Pablo Neruda", "Gabriel García Márquez", "Federico García Lorca"],
+        "respuesta_correcta": ["Pablo Neruda"]
+    },
+    {
+        "pregunta": "¿Cómo se llamaba el padre de Hilde MØller Knag en \"el mundo de Sofía\"?",
+        "opciones": ["Albert Camus", "Albert Sartre", "Albert Knag", "Albert Kierkegaard"],
+        "respuesta_correcta": ["Albert Knag"]
+    },
+    {
+        "pregunta": "¿Qué perdió el soldadito de plomo?",
+        "opciones": ["Una pierna", "Un brazo", "Una mano", "Un ojo"],
+        "respuesta_correcta": ["Una pierna"]
+    },
+    {
+        "pregunta": "¿Cuál es la obra fundamental de Kant?",
+        "opciones": ["El mundo como voluntad y representación", "Crítica de la razón pura", "Meditaciones", "Discurso del método"],
+        "respuesta_correcta": ["Crítica de la razón pura"]
+    },
+    {
+        "pregunta": "¿Cuál fue el primer filósofo del que se tiene alguna noticia?",
+        "opciones": ["Platón", "Sócrates", "Tales de Mileto", "Heráclito"],
+        "respuesta_correcta": ["Tales de Mileto"]
+    },
+    {
+        "pregunta": "¿Qué estaba demasiado verde para la zorra de la fábula de La Fontaine?",
+        "opciones": ["Manzanas", "Uvas", "Peras", "Cerezas"],
+        "respuesta_correcta": ["Uvas"]
+    },
+    {
+        "pregunta": "Caminante no hay camino, se hace...",
+        "opciones": ["buscando respuestas", "caminando despacio", "con cada paso", "camino al andar"],
+        "respuesta_correcta": ["camino al andar"]
+    },
+    {
+        "pregunta": "¿A qué movimiento artístico perteneció el pintor francés Eugène Delacroix?",
+        "opciones": ["Cubismo", "Impresionismo", "Romanticismo", "Neoclasicismo"],
+        "respuesta_correcta": ["Romanticismo"]
+    },
+    {
+        "pregunta": "¿De qué novela de Jane Austen es protagonista el personaje de Elizabeth Bennet?",
+        "opciones": ["Emma", "Sentido y sensibilidad", "Orgullo y Prejuicio", "Mansfield Park"],
+        "respuesta_correcta": ["Orgullo y Prejuicio"]
+    },
+    {
+        "pregunta": "¿Cuántos 'gritos' pintó Munch?",
+        "opciones": ["Uno", "Dos", "Tres", "Cuatro"],
+        "respuesta_correcta": ["Cuatro"]
+    },
+    {
+        "pregunta": "¿En qué museo se encuentra 'El jardín de las delicias'?",
+        "opciones": ["Louvre", "El Prado", "Museo de Orsay", "Museo Británico"],
+        "respuesta_correcta": ["El Prado"]
+    },
+    {
+        "pregunta": "¿Qué técnica utiliza Goya en 'Los desastres de la Guerra'?",
+        "opciones": ["Óleo sobre lienzo", "Acuarela", "Aguafuerte", "Témpera sobre madera"],
+        "respuesta_correcta": ["Aguafuerte"]
+    },
+    {
+        "pregunta": "¿Quién escribió 'El Diario de Ana Frank'?",
+        "opciones": ["Elie Wiesel", "Primo Levi", "Victor Frankl", "Ana Frank"],
+        "respuesta_correcta": ["Ana Frank"]
+    },
+    {
+        "pregunta": "El que a buen árbol se arrima...",
+        "opciones": ["buena fruta recoge", "buen fruto da", "buena sombra le cobija", "no teme al viento"],
+        "respuesta_correcta": ["buena sombra le cobija"]
+    },
+    {
+        "pregunta": "¿Qué era lo primero que iba a comprar la Lechera con el dinero que obtuviera de la leche?",
+        "opciones": ["Pan", "Queso", "Huevos", "Miel"],
+        "respuesta_correcta": ["Huevos"]
+    },
+    {
+        "pregunta": "¿Quién escribió \"El Conde de Montecristo\"?",
+        "opciones": ["Victor Hugo", "Alexandre Dumas", "Honoré de Balzac", "Gustave Flaubert"],
+        "respuesta_correcta": ["Alexandre Dumas"]
+    },
+    {
+        "pregunta": "¿A partir de cuántas sílabas se considera verso de arte mayor?",
+        "opciones": ["5", "7", "8", "9"],
+        "respuesta_correcta": ["9"]
+    },
+    {
+        "pregunta": "¿En qué país nació Jorge Luis Borges?",
+        "opciones": ["México", "España", "Colombia", "Argentina"],
+        "respuesta_correcta": ["Argentina"]
+    },
+    {
+        "pregunta": "El andaluz es un dialecto del...",
+        "opciones": ["Catalán", "Gallego", "Castellano", "Vasco"],
+        "respuesta_correcta": ["Castellano"]
+    },
+    {
+        "pregunta": "¿Qué nombre genérico recibe una estatua en la que se representa a una persona sentada?",
+        "opciones": ["Yacente", "Sedente", "De pie", "Reclinada"],
+        "respuesta_correcta": ["Sedente"]
+    },
+    {
+        "pregunta": "¿Quién escribió \"Crítica de la razón pura\"?",
+        "opciones": ["Georg Wilhelm Friedrich Hegel", "Friedrich Nietzsche", "Baruch Spinoza", "Inmanuel Kant"],
+        "respuesta_correcta": ["Inmanuel Kant"]
+    },
+    {
+        "pregunta": "¿Qué obra NO pertenece a Shakespeare?",
+        "opciones": ["Romeo y Julieta", "Macbeth", "Hamlet", "La Divina Comedia"],
+        "respuesta_correcta": ["La Divina Comedia"]
+    },
+    {
+        "pregunta": "¿Quién de estos artistas pintó \"Los relojes derretidos\"?",
+        "opciones": ["Vincent van Gogh", "Pablo Picasso", "Rembrandt", "Dalí"],
+        "respuesta_correcta": ["Dalí"]
+    },
+    {
+        "pregunta": "¿Dónde nació el pintor Alejandro Obregón?",
+        "opciones": ["Colombia", "México", "Argentina", "España"],
+        "respuesta_correcta": ["España"]
+    },
+    {
+        "pregunta": "¿Qué color consigues mezclando todos los colores del CMYK?",
+        "opciones": ["Blanco", "Rojo", "Verde", "Negro"],
+        "respuesta_correcta": ["Negro"]
+    },
+    {
+        "pregunta": "¿Quién escribió Oliver Twist?",
+        "opciones": ["Robert Louis Stevenson", "Jules Verne", "Mark Twain", "Charles Dickens"],
+        "respuesta_correcta": ["Charles Dickens"]
+    },
+    {
+        "pregunta": "¿Quién dijo la frase \"no soy lo suficientemente joven como para saberlo todo\"?",
+        "opciones": ["George Bernard Shaw", "Winston Churchill", "Oscar Wilde", "Albert Einstein"],
+        "respuesta_correcta": ["Oscar Wilde"]
+    },
+    {
+        "pregunta": "¿En qué ciudad se encuentra el David de Miguel Ángel?",
+        "opciones": ["Roma", "Milán", "Venecia", "Florencia"],
+        "respuesta_correcta": ["Florencia"]
+    },
+    {
+        "pregunta": "¿Quién pintó el cuadro La Persistencia de la Memoria?",
+        "opciones": ["Monet", "Renoir", "Van Gogh", "Dalí"],
+        "respuesta_correcta": ["Dalí"]
+    },
+    {
+        "pregunta": "¿Qué obra está realizada en soporte de cartón?",
+        "opciones": ["La Noche Estrellada", "El Nacimiento de Venus", "El Grito de Munch", "La Última Cena"],
+        "respuesta_correcta": ["El Grito de Munch"]
+    },
+    {
+        "pregunta": "¿Cuál era la 'Ciudad de las Siete Puertas de Homero'?",
+        "opciones": ["Atenas", "Esparta", "Corinto", "Tebas"],
+        "respuesta_correcta": ["Tebas"]
+    },
+    {
+        "pregunta": "¿Cuál era el nombre del capitán que intentó dar caza a Moby Dick?",
+        "opciones": ["Sparrow", "Nemo", "Hook", "Ahab"],
+        "respuesta_correcta": ["Ahab"]
+    },
+    {
+        "pregunta": "Gabriel García Márquez se caracteriza por narrar en un mundo:",
+        "opciones": ["Real Absurdo", "Real Dramático", "Real Maravilloso", "Real Fantástico"],
+        "respuesta_correcta": ["Real Maravilloso"]
+    },
+    {
+        "pregunta": "¿Quién escribió \"Dos años de vacaciones\"?",
+        "opciones": ["Julio Verne", "Mark Twain", "Charles Dickens", "Herman Melville"],
+        "respuesta_correcta": ["Julio Verne"]
+    },
+    {
+        "pregunta": "¿Quién era la diosa de la sabiduría en la mitología griega?",
+        "opciones": ["Afrodita", "Deméter", "Atenea", "Hestia"],
+        "respuesta_correcta": ["Atenea"]
+    },
+    {
+        "pregunta": "¿De qué muere Jean Valjean en la novela 'Los Miserables'?",
+        "opciones": ["De enfermedad", "Asesinado", "De tristeza", "De viejo"],
+        "respuesta_correcta": ["De viejo"]
+    },
+    {
+        "pregunta": "¿De qué estaba hecha la casa que se encontraron Hansel y Gretel?",
+        "opciones": ["Madera", "Chocolate", "Ladrillo", "Piedra"],
+        "respuesta_correcta": ["Chocolate"]
+    },
+    {
+        "pregunta": "¿Quién escribió la novela \"100 años de Soledad\"?",
+        "opciones": ["Mario Vargas Llosa", "Gabriel García Márquez", "Julio Cortázar", "Jorge Luis Borges"],
+        "respuesta_correcta": ["Gabriel García Márquez"]
+    },
+    {
+        "pregunta": "¿Quién escribió 'Mujercitas'?",
+        "opciones": ["Jane Austen", "Emily Brontë", "Louisa May Alcott", "Charlotte Brontë"],
+        "respuesta_correcta": ["Louisa May Alcott"]
+    },
+    {
+        "pregunta": "¿Quién es el autor de \"Las aventuras de Alicia en el País de las Maravillas?\"",
+        "opciones": ["Roald Dahl", "J.M. Barrie", "Lewis Carroll", "L. Frank Baum"],
+        "respuesta_correcta": ["Lewis Carroll"]
+    },
+    {
+        "pregunta": "¿Quién es el autor de \"Las Cuatro Estaciones\"?",
+        "opciones": ["Johann Sebastian Bach", "Ludwig van Beethoven", "Antonio Vivaldi", "Wolfgang Amadeus Mozart"],
+        "respuesta_correcta": ["Antonio Vivaldi"]
+    },
+    {
+        "pregunta": "¿De qué nacionalidad era Leonardo Da Vinci?",
+        "opciones": ["Español", "Francés", "Italiano", "Alemán"],
+        "respuesta_correcta": ["Italiano"]
+    },
+    {
+        "pregunta": "¿Cuál es el nombre del conde de Montecristo?",
+        "opciones": ["Albert de Morcerf", "Fernand Mondego", "Edmon Dantès", "Noirtier de Villefort"],
+        "respuesta_correcta": ["Edmon Dantès"]
+    },
+    {
+        "pregunta": "Más vale tarde...",
+        "opciones": ["que pronto", "que temprano", "que nunca", "que siempre"],
+        "respuesta_correcta": ["que nunca"]
+    },
+    {
+        "pregunta": "En mitología griega, ¿quién traslada a los muertos hacia el inframundo?",
+        "opciones": ["Hades", "Zeus", "Poseidón", "Caronte"],
+        "respuesta_correcta": ["Caronte"]
+    },
+    {
+        "pregunta": "¿De qué color es el Caballo de Santiago?",
+        "opciones": ["Negro", "Marrón", "Blanco", "Gris"],
+        "respuesta_correcta": ["Blanco"]
+    },
+    {
+        "pregunta": "¿Cuál es el nombre dado a la epopeya escrita en la Edad Media?",
+        "opciones": ["Poema épico", "Cantar lírico", "Cantar de trovadores", "Cantar de gesta"],
+        "respuesta_correcta": ["Cantar de gesta"]
+    },
+    {
+        "pregunta": "¿Cómo se denominan las primeras novelas andaluzas?",
+        "opciones": ["Moriscas", "Caballerescas", "Andalusíes", "Cortesanas"],
+        "respuesta_correcta": ["Moriscas"]
+    },
+    {
+        "pregunta": "¿Cuál es el siglo más importante para el arte barroco en España?",
+        "opciones": ["XVI", "XVII", "XVIII", "XIX"],
+        "respuesta_correcta": ["XVII"]
+    },
+    {
+        "pregunta": "¿Cuál es la ciudad europea sede del prestigioso Teatro Negro?",
+        "opciones": ["Viena", "París", "Praga", "Budapest"],
+        "respuesta_correcta": ["Praga"]
+    },
+    {
+        "pregunta": "¿De qué tipo de arte es la escultura Apolo de Belvedere?",
+        "opciones": ["Arte Romano", "Arte Renacentista", "Arte Barroco", "Arte Griego"],
+        "respuesta_correcta": ["Arte Griego"]
+    },
+    {
+        "pregunta": "¿Con qué animal apostó la libre a que llegaba antes que él, en el cuento de La Fontaine?",
+        "opciones": ["Conejo", "Tortuga", "Ratón", "Zorro"],
+        "respuesta_correcta": ["Tortuga"]
+    },
+    {
+        "pregunta": "¿Dónde nació Clarín?",
+        "opciones": ["Asturias", "Madrid", "Zamora", "Barcelona"],
+        "respuesta_correcta": ["Zamora"]
+    },
+    {
+        "pregunta": "¿Cuál es el nombre de Picasso?",
+        "opciones": ["Juan", "Fernando", "Carlos", "Pablo"],
+        "respuesta_correcta": ["Pablo"]
+    },
+    {
+        "pregunta": "¿Qué es 'El País'?",
+        "opciones": ["Libro", "Película", "Ciudad", "Periódico"],
+        "respuesta_correcta": ["Periódico"]
+    },
+    {
+        "pregunta": "En una palabra, el movimiento literario Romanticismo se define con:",
+        "opciones": ["Realismo", "Tragedia", "Sentimientos", "Comedia"],
+        "respuesta_correcta": ["Sentimientos"]
+    },
+    {
+        "pregunta": "Harry Potter fue escrita por...",
+        "opciones": ["George Orwell", "Stephen King", "JK Rowling", "Agatha Christie"],
+        "respuesta_correcta": ["JK Rowling"]
+    },
+    {
+        "pregunta": "¿Cómo se llama el escudero de Don Quijote?",
+        "opciones": ["Pedro", "Juan", "Roberto", "Sancho Panza"],
+        "respuesta_correcta": ["Sancho Panza"]
+    },
+    {
+        "pregunta": "¿Qué plantas pintaba Monet?",
+        "opciones": ["Rosas", "Orquídeas", "Girasoles", "Nenúfares"],
+        "respuesta_correcta": ["Nenúfares"]
+    },
+    {
+        "pregunta": "¿Quién escribió el ensayo feminista 'El segundo sexo'?",
+        "opciones": ["Virginia Woolf", "Simone de Beauvoir", "Margaret Atwood", "Doris Lessing"],
+        "respuesta_correcta": ["Simone de Beauvoir"]
+    },
+    {
+        "pregunta": "¿En qué año apareció por primera vez el personaje Astérix?",
+        "opciones": ["1949", "1969", "1959", "1979"],
+        "respuesta_correcta": ["1959"]
+    },
+    {
+        "pregunta": "¿Cuál de estos es uno de los temas centrales de la obra \"Otelo\"?",
+        "opciones": ["Ambición", "Venganza", "Poder", "Celos"],
+        "respuesta_correcta": ["Celos"]
+    },
+    {
+        "pregunta": "¿Quién fue el arquitecto creador de la catedral de Brasilia?",
+        "opciones": ["Frank Lloyd Wright", "Le Corbusier", "Oscar Niemeyer", "Antoni Gaudí"],
+        "respuesta_correcta": ["Oscar Niemeyer"]
+    },
+    {
+        "pregunta": "¿Cómo se llama la estrofa de cinco versos de arte menor?",
+        "opciones": ["Cuarteta", "Terceto", "Quintilla", "Octava"],
+        "respuesta_correcta": ["Quintilla"]
+    },
+    {
+        "pregunta": "¿Cuál de estos cuentos fue escrito por Julio Cortázar?",
+        "opciones": ["El sur", "Final del juego", "Casa Tomada", "La fiesta ajena"],
+        "respuesta_correcta": ["Casa Tomada"]
+    },
+    {
+        "pregunta": "Se queda más solo que...",
+        "opciones": ["un árbol", "el viento", "la lluvia", "la una"],
+        "respuesta_correcta": ["la una"]
+    },
+    {
+        "pregunta": "¿Cuál de los siguientes instrumentos no es de viento metal?",
+        "opciones": ["Trombón", "Tuba", "Trompeta", "Flauta travesera"],
+        "respuesta_correcta": ["Flauta travesera"]
+    },
+    {
+        "pregunta": "Es Mejor Morir de Pie...",
+        "opciones": ["Que Vivir de Rodillas", "Que Correr", "Que Luchar", "Que Sufrir"],
+        "respuesta_correcta": ["Que Vivir de Rodillas"]
+    },
+    {
+        "pregunta": "¿Quién 'El triunfo de David'?",
+        "opciones": ["Leonardo Da Vinci", "Nicolas Poussin", "Caravaggio", "Rembrandt"],
+        "respuesta_correcta": ["Nicolas Poussin"]
+    },
+    {
+        "pregunta": "¿Quién fue uno de los escritores más destacados de la época del romanticismo?",
+        "opciones": ["Miguel de Cervantes", "Lope de Vega", "Federico García Lorca", "Adolfo Becquer"],
+        "respuesta_correcta": ["Adolfo Becquer"]
+    },
+    {
+        "pregunta": "¿Cómo es Obélix?",
+        "opciones": ["Delgado", "Alto", "Pequeño", "Gordo"],
+        "respuesta_correcta": ["Gordo"]
+    },
+    {
+        "pregunta": "¿Con quién pasó más hambre el Lazarillo de Tormes?",
+        "opciones": ["El hidalgo", "El arcipreste", "El clérigo", "El escudero"],
+        "respuesta_correcta": ["El clérigo"]
+    },
+    {
+        "pregunta": "¿Qué poeta escribió 'Mi bufón'?",
+        "opciones": ["Gustavo Adolfo Bécquer", "Antonio Machado", "Juan Ramón Jiménez", "Federico García Lorca"],
+        "respuesta_correcta": ["Antonio Machado"]
+    },
+    {
+        "pregunta": "¿Tira la piedra...",
+        "opciones": ["Y rompe el cristal", "Y sale corriendo", "Y esconde la mano", "Y da en el blanco"],
+        "respuesta_correcta": ["Y esconde la mano"]
+    },
+    {
+        "pregunta": "¿Cómo se denomina a la poesía popular creada durante la Edad Media por los juglares?",
+        "opciones": ["Mester de clerecía", "Trova", "Mester de juglaría", "Canzone"],
+        "respuesta_correcta": ["Mester de juglaría"]
+    },
+    {
+        "pregunta": "¿Quién escribió la obra \"Trabajo asalariado y capital\"?",
+        "opciones": ["Friedrich Engels", "Vladimir Lenin", "Karl Marx", "John Locke"],
+        "respuesta_correcta": ["Karl Marx"]
+    },
+    {
+        "pregunta": "¿De qué época artística es el pintor Bartolomé Esteban Murillo?",
+        "opciones": ["Renacimiento", "Barroco", "Romanticismo", "Neoclasicismo"],
+        "respuesta_correcta": ["Barroco"]
+    },
+    {
+        "pregunta": "¿En qué ciudad nórdica está situada la acción de la trilogía Millenium, del escritor Stieg Larsson?",
+        "opciones": ["Copenhague", "Oslo", "Reikiavik", "Estocolmo"],
+        "respuesta_correcta": ["Estocolmo"]
+    },
+    {
+        "pregunta": "¿De qué material era el escarabajo del cuento de Edgard Allan Poe?",
+        "opciones": ["Plata", "Bronce", "Oro", "Cobre"],
+        "respuesta_correcta": ["Oro"]
+    },
+    {
+        "pregunta": "¿Cómo despertó el príncipe a la Bella Durmiente?",
+        "opciones": ["Abrazándola", "Hablando", "Cantando", "Besándola"],
+        "respuesta_correcta": ["Besándola"]
+    },
+    {
+        "pregunta": "¿Quién pinto 'La Gioconda'?",
+        "opciones": ["Rafael", "Michelangelo", "Sandro Botticelli", "Leonardo Da Vinci"],
+        "respuesta_correcta": ["Leonardo Da Vinci"]
+    }
+]
+  
