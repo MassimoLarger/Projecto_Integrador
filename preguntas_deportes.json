@@ -48,5 +48,251 @@
         "pregunta": "¿Con qué deporte relacionarías a Aitor Osa?",
         "opciones": ["Ciclismo", "Atletismo", "Tenis", "Fórmula 1"],
         "respuesta_correcta": ["Ciclismo"]
+    },
+    {
+        "pregunta": "¿Quién ganó el mundial de 2010 en Sudáfrica?",
+        "opciones": ["España", "Brasil", "Alemania", "Argentina"],
+        "respuesta_correcta": ["España"]
+    },
+    {
+        "pregunta": "¿Quién fue el primer jugador que recibió la distinción de \"Mejor Jugador del Siglo\"?",
+        "opciones": ["Pelé", "Diego Maradona", "Alfredo Di Stéfano", "Johan Cruyff"],
+        "respuesta_correcta": ["Pelé"]
+    },
+    {
+        "pregunta": "¿A qué se denomina hacer un rosco en Tenis?",
+        "opciones": ["6-0", "6-4", "7-5", "6-3"],
+        "respuesta_correcta": ["6-0"]
+    },
+    {
+        "pregunta": "¿Qué deporte estamos viendo si el árbitro señala \"falta de rotación\"?",
+        "opciones": ["Voleibol", "Balonmano", "Fútbol", "Basketball"],
+        "respuesta_correcta": ["Voleibol"]
+    },
+    {
+        "pregunta": "¿Cuál es el salto más alto en caballo?",
+        "opciones": ["1'20 m", "1'50 m", "1'10 m", "1'40 m"],
+        "respuesta_correcta": ["1'20 m"]
+    },
+    {
+        "pregunta": "¿Cuántos jugadores componen usualmente un equipo de rugby?",
+        "opciones": ["12", "15", "11", "14"],
+        "respuesta_correcta": ["15"]
+    },
+    {
+        "pregunta": "¿Cómo se llama el lugar destinado a las carreras de caballos?",
+        "opciones": ["Hipódromo", "Estadio", "Campo de golf", "Ring"],
+        "respuesta_correcta": ["Hipódromo"]
+    },
+    {
+        "pregunta": "¿Cómo se llama la anotación de un tanto en el fútbol americano?",
+        "opciones": ["Goal", "Basket", "Home Run", "Touchdown"],
+        "respuesta_correcta": ["Touchdown"]
+    },
+    {
+        "pregunta": "¿Quién fue el primer equipo en llevar dorsales en la liga Española?",
+        "opciones": ["Barcelona", "Atlético Madrid", "Real Madrid", "Sevilla"],
+        "respuesta_correcta": ["Real Madrid"]
+    },
+    {
+        "pregunta": "¿Quién tiene más balones de oro?",
+        "opciones": ["Lionel Messi", "Cristiano Ronaldo", "Zinedine Zidane", "Ronaldinho"],
+        "respuesta_correcta": ["Lionel Messi"]
+    },
+    {
+        "pregunta": "¿Quién fue el máximo goleador de la UEFA Champions League en 2013?",
+        "opciones": ["Cristiano Ronaldo", "Lionel Messi", "Robert Lewandowski", "Neymar"],
+        "respuesta_correcta": ["Cristiano Ronaldo"]
+    },
+    {
+        "pregunta": "¿Quién es 'O Rei'?",
+        "opciones": ["Maradona", "Romario", "Ronaldo", "Pelé"],
+        "respuesta_correcta": ["Pelé"]
+    },
+    {
+        "pregunta": "En voleibol, ¿hasta cuántos toques se le puede dar a la pelota antes de pasarla al campo rival?",
+        "opciones": ["Dos", "Tres", "Cuatro", "Cinco"],
+        "respuesta_correcta": ["Tres"]
+    },
+    {
+        "pregunta": "¿De qué nacionalidad es el futbolista Zlatan Ibrahimovic?",
+        "opciones": ["Danesa", "Noruega", "Sueca", "Finlandesa"],
+        "respuesta_correcta": ["Sueca"]
+    },
+    {
+        "pregunta": "Estilo de atletismo en el que los corredores llevan un testigo",
+        "opciones": ["Larga distancia", "Relevo", "Maratón", "Sprint"],
+        "respuesta_correcta": ["Relevo"]
+    },
+    {
+        "pregunta": "¿En qué año se fundó el FC Barcelona?",
+        "opciones": ["1888", "1899", "1902", "1905"],
+        "respuesta_correcta": ["1899"]
+    },
+    {
+        "pregunta": "¿De qué equipo procedía Louis Van Gaal antes de entrenar al Barça?",
+        "opciones": ["Bayern Munich", "Ajax", "Manchester United", "AZ Alkmaar"],
+        "respuesta_correcta": ["Ajax"]
+    },
+    {
+        "pregunta": "Evgenia Kanaeva es la 'reina' de...",
+        "opciones": ["Natación sincronizada", "Patinaje artístico", "Gimnasia rítmica", "Gimnasia artística"],
+        "respuesta_correcta": ["Gimnasia rítmica"]
+    },
+    {
+        "pregunta": "¿Cuántas Copas del Mundo de Fútbol ha ganado la selección de Italia?",
+        "opciones": ["Cinco", "Tres", "Cuatro", "Seis"],
+        "respuesta_correcta": ["Cuatro"]
+    },
+    {
+        "pregunta": "¿Cuántos tiempos tiene un partido de baloncesto?",
+        "opciones": ["2", "3", "4", "5"],
+        "respuesta_correcta": ["4"]
+    },
+    {
+        "pregunta": "¿Qué equipo de baloncesto ha sido campeón de la NBA en 2012 y 2013?",
+        "opciones": ["Los Angeles Lakers", "San Antonio Spurs", "Miami Heat", "Golden State Warriors"],
+        "respuesta_correcta": ["Miami Heat"]
+    },
+    {
+        "pregunta": "¿Quién acaba 2013 como número 1 de la ATP?",
+        "opciones": ["Djokovic", "Federer", "Murray", "Nadal"],
+        "respuesta_correcta": ["Nadal"]
+    },
+    {
+        "pregunta": "¿Qué boxeador se negó a ir a Vietnam diciendo 'Yo no tengo ningún problema con los Viet Cong' y 'Ningún Viet Cong me ha llamado negrata'?",
+        "opciones": ["Mike Tyson", "Joe Frazier", "George Foreman", "Muhammad Ali"],
+        "respuesta_correcta": ["Muhammad Ali"]
+    },
+    {
+        "pregunta": "¿En qué equipo juega Cristiano Ronaldo?",
+        "opciones": ["Juventus", "Manchester United", "Real Madrid", "Paris Saint-Germain"],
+        "respuesta_correcta": ["Real Madrid"]
+    },
+    {
+        "pregunta": "¿Dónde nació el mítico portero español Ricardo Zamora?",
+        "opciones": ["Madrid", "Sevilla", "Barcelona", "Valencia"],
+        "respuesta_correcta": ["Barcelona"]
+    },
+    {
+        "pregunta": "¿Cuándo ganó el 'pichichi' Juanito?",
+        "opciones": ["1980", "1984", "1987", "1991"],
+        "respuesta_correcta": ["1984"]
+    },
+    {
+        "pregunta": "¿Cómo se llama el estadio del Deportivo Alavés?",
+        "opciones": ["San Mamés", "Riazor", "Mendizorroza", "La Romareda"],
+        "respuesta_correcta": ["Mendizorroza"]
+    },
+    {
+        "pregunta": "¿Cuál fue el único club español donde jugó El Piojo López?",
+        "opciones": ["Real Betis", "Valencia CF", "Atletico Madrid", "Espanyol"],
+        "respuesta_correcta": ["Valencia CF"]
+    },
+    {
+        "pregunta": "¿En qué país nació Martina Hingis?",
+        "opciones": ["Suiza", "Austria", "Checoslovaquia", "Eslovaquia"],
+        "respuesta_correcta": ["Checoslovaquia"]
+    },
+    {
+        "pregunta": "¿Cómo se llama la cuerda que une el tobillo del surfero con su tabla?",
+        "opciones": ["Lazo", "Invento", "Cordel", "Enganche"],
+        "respuesta_correcta": ["Invento"]
+    },
+    {
+        "pregunta": "¿En qué deporte olímpico conlleva la expulsión salpicar deliberadamente la cara de un oponente o hundirlo en el agua cuando no tiene la pelota?",
+        "opciones": ["Natación", "Buceo", "Waterpolo", "Nado sincronizado"],
+        "respuesta_correcta": ["Waterpolo"]
+    },
+    {
+        "pregunta": "¿En qué año se inauguró el Camp Nou?",
+        "opciones": ["1952", "1957", "1960", "1965"],
+        "respuesta_correcta": ["1957"]
+    },
+    {
+        "pregunta": "¿Qué equipo ha sido mayor número de veces Campeón de España?",
+        "opciones": ["FC Barcelona", "Real Madrid", "Atletico Madrid", "Valencia CF"],
+        "respuesta_correcta": ["Real Madrid"]
+    },
+    {
+        "pregunta": "¿Cuántos Grand Slam tiene Roger Federer?",
+        "opciones": ["15", "17", "19", "21"],
+        "respuesta_correcta": ["17"]
+    },
+    {
+        "pregunta": "¿De qué tipo eran las 3 medallas conseguidas por Usain Bolt en los Juegos Olímpicos en Londres 2012?",
+        "opciones": ["Plata", "Bronce", "Oro", "Ninguna"],
+        "respuesta_correcta": ["Oro"]
+    },
+    {
+        "pregunta": "¿Qué tenista masculino logró la medalla de oro en los Juegos Olímpicos de Pekín 2008?",
+        "opciones": ["Novak Djokovic", "Andy Murray", "Roger Federer", "Rafael Nadal"],
+        "respuesta_correcta": ["Rafael Nadal"]
+    },
+    {
+        "pregunta": "¿Cuál de estas posiciones no representa a un jugador de Baseball?",
+        "opciones": ["Pitcher", "Shortstop", "Fullback", "Catcher"],
+        "respuesta_correcta": ["Fullback"]
+    },
+    {
+        "pregunta": "¿Quién ganó la Eurocopa 2000?",
+        "opciones": ["Italia", "Portugal", "Francia", "Alemania"],
+        "respuesta_correcta": ["Francia"]
+    },
+    {
+        "pregunta": "¿Cuál de estos partidos de la Liga Española se considera un clásico?",
+        "opciones": ["Sevilla vs Valencia", "Espanyol vs Getafe", "Barça vs Madrid", "Betis vs Malaga"],
+        "respuesta_correcta": ["Barça vs Madrid"]
+    },
+    {
+        "pregunta": "¿Cuántos anillos de la NBA tiene Shaquille O'Neal?",
+        "opciones": ["Tres", "Cuatro", "Cinco", "Seis"],
+        "respuesta_correcta": ["Cuatro"]
+    },
+    {
+        "pregunta": "¿Cuánto dura un partido de béisbol?",
+        "opciones": ["9 innings", "90 minutos", "4 cuartos", "No es por tiempo"],
+        "respuesta_correcta": ["No es por tiempo"]
+    },
+    {
+        "pregunta": "¿Cuántos jugadores hay en un equipo de béisbol?",
+        "opciones": ["7", "8", "9", "10"],
+        "respuesta_correcta": ["9"]
+    },
+    {
+        "pregunta": "¿Qué país logró la medalla de oro de Voleibol masculina en Pekín 2008?",
+        "opciones": ["Brasil", "Italia", "Rusia", "EE.UU"],
+        "respuesta_correcta": ["EE.UU"]
+    },
+    {
+        "pregunta": "¿De qué federación dependen los saltadores de trampolín?",
+        "opciones": ["Gimnasia", "Atletismo", "Diving", "Natación"],
+        "respuesta_correcta": ["Natación"]
+    },
+    {
+        "pregunta": "¿Cuál de estos eventos no forma parte del triatlón 'hombres de hierro'?",
+        "opciones": ["Natación", "Ciclismo", "Carreras a caballo", "Carrera a pie"],
+        "respuesta_correcta": ["Carreras a caballo"]
+    },
+    {
+        "pregunta": "¿En qué deporte destacó Magic Johnson?",
+        "opciones": ["Fútbol", "Baloncesto", "Baseball", "Boxeo"],
+        "respuesta_correcta": ["Baloncesto"]
+    },
+    {
+        "pregunta": "¿Quién fundó la Copa Davis?",
+        "opciones": ["Smith", "Davis", "Johnson", "Robinson"],
+        "respuesta_correcta": ["Davis"]
+    },
+    {
+        "pregunta": "¿Qué animal se puede cazar en la modalidad de 'Caza menor'?",
+        "opciones": ["Jabalí", "Ciervo", "Perdiz", "Oso"],
+        "respuesta_correcta": ["Perdiz"]
+    },
+    {
+        "pregunta": "¿Con qué deporte relacionarías a Emanuel Ginóbili?",
+        "opciones": ["Fútbol", "Rugby", "Tennis", "Baloncesto"],
+        "respuesta_correcta": ["Baloncesto"]
     }
+    
 ]
