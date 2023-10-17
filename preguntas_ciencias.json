@@ -1,0 +1,797 @@
+[
+    {
+        "pregunta": "¿A qué edad alcanzan la madurez las crías de elefante?",
+        "opciones": ["5-7 años", "12-15 años", "20-25 años", "30-35 años"],
+        "respuesta_correcta": ["12-15 años"]
+    },
+    {
+        "pregunta": "¿Cuántas células de esperma fabrican los testículos de un hombre al día?",
+        "opciones": ["1 millón", "5 millones", "10 millones", "100 millones"],
+        "respuesta_correcta": ["10 millones"]
+    },
+    {
+        "pregunta": "¿Qué nombre tiene el portátil más ligero, en peso, de Apple?",
+        "opciones": ["MacBook Pro", "MacBook", "MacBook Air", "iMac"],
+        "respuesta_correcta": ["MacBook Air"]
+    },
+    {
+        "pregunta": "¿Cómo llaman los dentistas a 'matar un nervio'?",
+        "opciones": ["Ortodoncia", "Exodoncia", "Endodoncia", "Periodoncia"],
+        "respuesta_correcta": ["Endodoncia"]
+    },
+    {
+        "pregunta": "¿Quienes fundaron la marca Apple?",
+        "opciones": ["S.Jobs y B.Gates", "S.Wozniak y B.Gates", "S.Jobs y S.Wozniak", "J.Ive y S.Jobs"],
+        "respuesta_correcta": ["S.Jobs y S.Wozniak"]
+    },
+    {
+        "pregunta": "¿Cuál de las siguientes enfermedades es muy común en los mayores por la disminución de la densidad de los huesos?",
+        "opciones": ["Osteoartritis", "Artritis reumatoide", "Osteoporosis", "Fibromialgia"],
+        "respuesta_correcta": ["Osteoporosis"]
+    },
+    {
+        "pregunta": "¿Qué parte del cuerpo tiene 27 huesos y 35 músculos?",
+        "opciones": ["Pie", "Mano", "Brazo", "Cabeza"],
+        "respuesta_correcta": ["Mano"]
+    },
+    {
+        "pregunta": "¿Cuál de estos animales es endémico de Colombia?",
+        "opciones": ["Tucán", "Titi gris", "Cóndor de los Andes", "Puma"],
+        "respuesta_correcta": ["Titi gris"]
+    },
+    {
+        "pregunta": "En matemáticas, ¿qué es 3,14?",
+        "opciones": ["Euler", "Pi", "Tau", "Phi"],
+        "respuesta_correcta": ["Pi"]
+    },
+    {
+        "pregunta": "¿Qué animal puede correr sobre el agua?",
+        "opciones": ["Lagarto basilisco", "Gecko", "Iguana", "Camaleón"],
+        "respuesta_correcta": ["Lagarto basilisco"]
+    },
+    {
+        "pregunta": "¿Por qué vía parenteral se obtiene una biodisponibilidad del 100 por cien del fármaco?",
+        "opciones": ["Oral", "Intravenosa", "Subcutánea", "Intramuscular"],
+        "respuesta_correcta": ["Intravenosa"]
+    },
+    {
+        "pregunta": "¿Cuál es la fórmula química del ácido clorhídrico?",
+        "opciones": ["H2SO4", "H2O", "HCl", "CH4"],
+        "respuesta_correcta": ["HCl"]
+    },
+    {
+        "pregunta": "¿Qué estudia la topografía?",
+        "opciones": ["El estudio de las montañas", "La representación gráfica de la superficie de la Tierra", "El estudio de los océanos", "El estudio de las rocas"],
+        "respuesta_correcta": ["La representación gráfica de la superficie de la Tierra"]
+    },
+    {
+        "pregunta": "¿A cuántas personas podría matar un solo gramo de veneno de la cobra?",
+        "opciones": ["1", "10", "100", "150"],
+        "respuesta_correcta": ["150"]
+    },
+    {
+        "pregunta": "¿Qué órgano es el encargado de fabricar insulina?",
+        "opciones": ["Hígado", "Riñón", "Páncreas", "Corazón"],
+        "respuesta_correcta": ["Páncreas"]
+    },
+    {
+        "pregunta": "¿Qué número equivale al 16 en hexadecimal?",
+        "opciones": ["A", "B", "10", "16"],
+        "respuesta_correcta": ["10"]
+    },
+    {
+        "pregunta": "¿Cuántas vertebras forman la columna vertebral humana?",
+        "opciones": ["24", "28", "30", "33"],
+        "respuesta_correcta": ["33"]
+    },
+    {
+        "pregunta": "¿Qué compañía multinacional compró al sistema de mensajería WhatsApp?",
+        "opciones": ["Apple", "Google", "Microsoft", "Facebook"],
+        "respuesta_correcta": ["Facebook"]
+    },
+    {
+        "pregunta": "¿Cómo se llaman los vasos sanguíneos más finos?",
+        "opciones": ["Arterias", "Venas", "Capilares", "Aortas"],
+        "respuesta_correcta": ["Capilares"]
+    },
+    {
+        "pregunta": "¿Cómo se denomina a la nube que se encuentra a nivel de superficie?",
+        "opciones": ["Cumulonimbus", "Cirrus", "Stratus", "Niebla"],
+        "respuesta_correcta": ["Niebla"]
+    },
+    {
+        "pregunta": "¿Cuántos millones de años se estima que le restan de vida a nuestro Sol?",
+        "opciones": ["1000", "2500", "5500", "8000"],
+        "respuesta_correcta": ["5500"]
+    },
+    {
+        "pregunta": "¿Cuál es la hormona sexual masculina más importante?",
+        "opciones": ["Progesterona", "Estrogeno", "Insulina", "Testosterona"],
+        "respuesta_correcta": ["Testosterona"]
+    },
+    {
+        "pregunta": "¿Gracias a cuál de tus cinco sentidos puedes descodificar vibraciones en el aire?",
+        "opciones": ["Vista", "Tacto", "Olfato", "Oído"],
+        "respuesta_correcta": ["Oído"]
+    },
+    {
+        "pregunta": "¿De qué sustrato se nutre principalmente el cerebro?",
+        "opciones": ["Proteínas", "Glucosa", "Vitaminas", "Lípidos"],
+        "respuesta_correcta": ["Glucosa"]
+    },
+    {
+        "pregunta": "¿Cuánto midió el hombre más alto del mundo (acreditado)?",
+        "opciones": ["2.50 mts", "2.72 mts", "3.00 mts", "2.90 mts"],
+        "respuesta_correcta": ["2.72 mts"]
+    },
+    {
+        "pregunta": "¿Qué virus se atacó con la primera vacuna?",
+        "opciones": ["VIH", "Gripe", "Viruela", "Sarampión"],
+        "respuesta_correcta": ["Viruela"]
+    },
+    {
+        "pregunta": "¿Qué registra un sismógrafo?",
+        "opciones": ["Vientos", "Temblores de tierra", "Niveles de agua", "Temperaturas"],
+        "respuesta_correcta": ["Temblores de tierra"]
+    },
+    {
+        "pregunta": "¿Cómo se llama el estudio de los alimentos?",
+        "opciones": ["Gastronomía", "Bromatología", "Dietética", "Nutrición"],
+        "respuesta_correcta": ["Bromatología"]
+    },
+    {
+        "pregunta": "¿Con que otro nombre se conoce a la piel?",
+        "opciones": ["Melanina", "Dermis", "Epidermis", "Cutis"],
+        "respuesta_correcta": ["Epidermis"]
+    },
+    {
+        "pregunta": "¿Cuántas patas tienen las arañas?",
+        "opciones": ["6", "8", "10", "12"],
+        "respuesta_correcta": ["8"]
+    },
+    {
+        "pregunta": "¿Qué es un bacilo?",
+        "opciones": ["Un virus", "Una bacteria en forma de esfera", "Una bacteria en forma de bastón", "Un tipo de hongo"],
+        "respuesta_correcta": ["Una bacteria en forma de bastón"]
+    },
+    {
+        "pregunta": "¿Cuál es la hormona que le cambia el tono de voz a los hombres?",
+        "opciones": ["Progesterona", "Oxitocina", "Testosterona", "Insulina"],
+        "respuesta_correcta": ["Testosterona"]
+    },
+    {
+        "pregunta": "¿Qué es la luna?",
+        "opciones": ["Una estrella", "Un planeta", "Un satélite", "Un meteorito"],
+        "respuesta_correcta": ["Un satélite"]
+    },
+    {
+        "pregunta": "¿De qué están formadas las estrellas?",
+        "opciones": ["De oxígeno y nitrógeno", "De carbono y oxígeno", "De hidrógeno y helio", "De silicio y hierro"],
+        "respuesta_correcta": ["De hidrógeno y helio"]
+    },
+    {
+        "pregunta": "¿Cuál es el componente principal del chocolate?",
+        "opciones": ["Azúcar", "Leche", "Cacao", "Vainilla"],
+        "respuesta_correcta": ["Cacao"]
+    },
+    {
+        "pregunta": "¿A partir de qué edad, como máximo, empieza a andar un niño de desarrollo normal?",
+        "opciones": ["6 meses", "12 meses", "18 meses", "24 meses"],
+        "respuesta_correcta": ["18 meses"]
+    },
+    {
+        "pregunta": "¿Qué es un ser unicelular?",
+        "opciones": ["Un ser vivo con múltiples células", "Un ser vivo de una célula", "Un ser vivo sin células", "Un ser vivo con dos células"],
+        "respuesta_correcta": ["Un ser vivo de una célula"]
+    },
+    {
+        "pregunta": "¿En qué estado se encuentra el uranio a temperatura ambiente?",
+        "opciones": ["Líquido", "Gaseoso", "Sólido", "Plasmático"],
+        "respuesta_correcta": ["Sólido"]
+    },
+    {
+        "pregunta": "¿Qué es la filofobia?",
+        "opciones": ["Temor a los libros", "Temor a las multitudes", "Temor a enamorarse", "Temor a las alturas"],
+        "respuesta_correcta": ["Temor a enamorarse"]
+    },
+    {
+        "pregunta": "¿Qué símbolo tiene el niobio en la tabla periódica?",
+        "opciones": ["Ni", "N", "Nb", "Nbo"],
+        "respuesta_correcta": ["Nb"]
+    },
+    {
+        "pregunta": "¿Para qué sirven los orificios de las ballenas?",
+        "opciones": ["Para comer", "Para ver", "Para escuchar", "Para respirar"],
+        "respuesta_correcta": ["Para respirar"]
+    },
+    {
+        "pregunta": "Las 'itis' nos indican que algo está...",
+        "opciones": ["Roto", "Inflamado", "Funcionando", "Desgastado"],
+        "respuesta_correcta": ["Inflamado"]
+    },
+    {
+        "pregunta": "¿Cómo se le denomina al periodo de la reproducción humana en la que el placer es culminante en ambos órganos sexuales del hombre y de la mujer?",
+        "opciones": ["Erección", "Excitación", "Orgasmo", "Ovulación"],
+        "respuesta_correcta": ["Orgasmo"]
+    },
+    {
+        "pregunta": "¿Cómo se llama la rama de la medicina que estudia las hormonas y las glándulas?",
+        "opciones": ["Cardiología", "Neurología", "Endocrinología", "Hematología"],
+        "respuesta_correcta": ["Endocrinología"]
+    },
+    {
+        "pregunta": "¿Qué dedo de la mano sólo tiene dos falanges?",
+        "opciones": ["Índice", "Medio", "Anular", "Pulgar"],
+        "respuesta_correcta": ["Pulgar"]
+    },
+    {
+        "pregunta": "¿Qué es la fosfatidiletanolamina?",
+        "opciones": ["Una proteína", "Un carbohidrato", "Un aminoácido", "Un fosfolípido"],
+        "respuesta_correcta": ["Un fosfolípido"]
+    },
+    {
+        "pregunta": "¿Qué enfermedad se produce por la deficiencia en la producción de la hormona insulina por parte del páncreas?",
+        "opciones": ["Cáncer", "Hipertensión", "Asma", "Diabetes"],
+        "respuesta_correcta": ["Diabetes"]
+    },
+    {
+        "pregunta": "¿Cuál es el símbolo químico de la plata?",
+        "opciones": ["Au", "Ag", "Fe", "Cu"],
+        "respuesta_correcta": ["Ag"]
+    },
+    {
+        "pregunta": "¿Son lo mismo 20 grados Fahrenheit que 20 grados Celsius?",
+        "opciones": ["Sí", "No"],
+        "respuesta_correcta": ["No"]
+    },
+    {
+        "pregunta": "¿Qué vitamina ayuda a la fijación de calcio en los huesos?",
+        "opciones": ["Vitamina A", "Vitamina B", "Vitamina C", "Vitamina D"],
+        "respuesta_correcta": ["Vitamina D"]
+    },
+    {
+        "pregunta": "¿Cuál es el símbolo del potasio?",
+        "opciones": ["P", "Po", "K", "Ka"],
+        "respuesta_correcta": ["K"]
+    },
+    {
+        "pregunta": "¿Qué es la eremofobia?",
+        "opciones": ["Miedo a los espacios abiertos", "Miedo a los insectos", "Miedo a la soledad", "Ninguna es correcta"],
+        "respuesta_correcta": ["Ninguna es correcta"]
+    },
+    {
+        "pregunta": "¿Cuál de los siguientes es un gas noble?",
+        "opciones": ["Oxígeno", "Hidrógeno", "Metano", "Neón"],
+        "respuesta_correcta": ["Neón"]
+    },
+    {
+        "pregunta": "¿Dónde tienen el sentido del gusto las moscas?",
+        "opciones": ["En las alas", "En las antenas", "En las patas", "En la boca"],
+        "respuesta_correcta": ["En las patas"]
+    },
+    {
+        "pregunta": "¿Qué codificación utiliza solamente 0 y 1?",
+        "opciones": ["Decimal", "Hexadecimal", "Binario", "Alfabético"],
+        "respuesta_correcta": ["Binario"]
+    },
+    {
+        "pregunta": "Calcula: 20 + 100 + 420 =",
+        "opciones": ["500", "540", "640", "650"],
+        "respuesta_correcta": ["540"]
+    },
+    {
+        "pregunta": "¿Hasta cuántos colores puede tener un perro collie naturalmente?",
+        "opciones": ["Uno", "Dos", "Tres", "Cuatro"],
+        "respuesta_correcta": ["Tres"]
+    },
+    {
+        "pregunta": "¿Cuál es el símbolo químico del hierro?",
+        "opciones": ["H", "Hi", "Fe", "He"],
+        "respuesta_correcta": ["Fe"]
+    },
+    {
+        "pregunta": "¿Qué hormona representa la abreviatura T4?",
+        "opciones": ["Testosterona", "Tirotropina", "Tiroxina", "Triyodotironina"],
+        "respuesta_correcta": ["Tiroxina"]
+    },
+    {
+        "pregunta": "¿Qué son las pupilas?",
+        "opciones": ["Hueso del oído", "Estructura del cerebro", "Estructura del ojo", "Músculo del brazo"],
+        "respuesta_correcta": ["Estructura del ojo"]
+    },
+    {
+        "pregunta": "¿Qué animal siempre cae de pie?",
+        "opciones": ["Perro", "Gato", "Tortuga", "Pájaro"],
+        "respuesta_correcta": ["Gato"]
+    },
+    {
+        "pregunta": "¿Cómo se llama la técnica de cultivo de especies acuáticas vegetales y animales?",
+        "opciones": ["Agricultura", "Hidroponía", "Acuicultura", "Pesca"],
+        "respuesta_correcta": ["Acuicultura"]
+    },
+    {
+        "pregunta": "¿Qué es la cotangente de un ángulo (cotg)?",
+        "opciones": ["sen/cos", "1/sen", "1/cos", "cos/sen"],
+        "respuesta_correcta": ["cos/sen"]
+    },
+    {
+        "pregunta": "¿A qué parte del corazón le afectan más los infartos?",
+        "opciones": ["Pericardio", "Endocardio", "Miocardio", "Epicardio"],
+        "respuesta_correcta": ["Miocardio"]
+    },
+    {
+        "pregunta": "¿De qué metal suele ser la bola de los bolígrafos?",
+        "opciones": ["Hierro", "Tungsteno", "Plata", "Aluminio"],
+        "respuesta_correcta": ["Tungsteno"]
+    },
+    {
+        "pregunta": "¿Quién formuló la teoría de la relatividad general?",
+        "opciones": ["Isaac Newton", "Niels Bohr", "Galileo Galilei", "Albert Einstein"],
+        "respuesta_correcta": ["Albert Einstein"]
+    },
+    {
+        "pregunta": "¿Cómo se conoce comúnmente la planta \"Datura stramonium\"?",
+        "opciones": ["Belladona", "Mandrágora", "Estramonio", "Todas son correctas"],
+        "respuesta_correcta": ["Todas son correctas"]
+    },
+    {
+        "pregunta": "¿Cuál es la fórmula del dióxido de carbono?",
+        "opciones": ["CO", "CO3", "C2O", "CO2"],
+        "respuesta_correcta": ["CO2"]
+    },
+    {
+        "pregunta": "¿Cuál de las siguientes actitudes en un gato demuestran su tranquilidad?",
+        "opciones": ["Arquear su espalda", "Bufar", "Atacar", "Ninguna es correcta"],
+        "respuesta_correcta": ["Ninguna es correcta"]
+    },
+    {
+        "pregunta": "¿Qué es el esternocleidomastoideo?",
+        "opciones": ["Un hueso", "Una arteria", "Una vena", "Un músculo"],
+        "respuesta_correcta": ["Un músculo"]
+    },
+    {
+        "pregunta": "¿Cómo conocemos comúnmente al compuesto químico H2O2?",
+        "opciones": ["Ácido sulfúrico", "Agua oxigenada", "Dióxido de hidrógeno", "Cloruro de hidrógeno"],
+        "respuesta_correcta": ["Agua oxigenada"]
+    },
+    {
+        "pregunta": "¿De qué país proviene del pez dorado?",
+        "opciones": ["Japón", "China", "India", "Tailandia"],
+        "respuesta_correcta": ["China"]
+    },
+    {
+        "pregunta": "¿Qué ciencia se ocupa del clima?",
+        "opciones": ["Geografía", "Astronomía", "Climatología", "Meteorología"],
+        "respuesta_correcta": ["Meteorología"]
+    },
+    {
+        "pregunta": "¿A qué parte del cuerpo afecta la enfermedad de Crohn?",
+        "opciones": ["Hígado", "Pulmones", "Riñones", "Intestino"],
+        "respuesta_correcta": ["Intestino"]
+    },
+    {
+        "pregunta": "Los glóbulos rojos también se llaman...",
+        "opciones": ["Leucocitos", "Plaquetas", "Eritrocitos", "Neutrófilos"],
+        "respuesta_correcta": ["Eritrocitos"]
+    },
+    {
+        "pregunta": "¿Qué es la estrella de mar?",
+        "opciones": ["Molusco", "Crustáceo", "Equinodermo", "Cnidario"],
+        "respuesta_correcta": ["Equinodermo"]
+    },
+    {
+        "pregunta": "Si te hacen una angiografía, ¿qué están fotografiando?",
+        "opciones": ["El cerebro", "Los pulmones", "Los vasos sanguíneos", "Los huesos"],
+        "respuesta_correcta": ["Los vasos sanguíneos"]
+    },
+    {
+        "pregunta": "¿Qué es la celiaquía?",
+        "opciones": ["Alergia a la lactosa", "Intolerancia el gluten", "Deficiencia de vitamina B12", "Alergia a los frutos secos"],
+        "respuesta_correcta": ["Intolerancia el gluten"]
+    },
+    {
+        "pregunta": "¿Qué sonido hacen las gallinas?",
+        "opciones": ["Maullan", "Mugir", "Balar", "Cararean"],
+        "respuesta_correcta": ["Cararean"]
+    },
+    {
+        "pregunta": "¿Cómo se llama la amnesia caracterizada por una incapacidad para recordar los eventos ocurridos después de haber sufrido una lesión cerebral?",
+        "opciones": ["Amnesia retrógrada", "Amnesia global", "Amnesia disociativa", "Amnesia anterógrada"],
+        "respuesta_correcta": ["Amnesia anterógrada"]
+    },
+    {
+        "pregunta": "¿Qué nombre recibe el defecto visual que consiste en que el eje de los ojos no está centrado?",
+        "opciones": ["Astigmatismo", "Hipermetropía", "Miopía", "Estrabismo"],
+        "respuesta_correcta": ["Estrabismo"]
+    },
+    {
+        "pregunta": "¿Qué componente de ADN se uno en su estructura con la guanina?",
+        "opciones": ["Adenina", "Citosina", "Timina", "Uracilo"],
+        "respuesta_correcta": ["Citosina"]
+    },
+    {
+        "pregunta": "¿Cuál es la sustancia deficiente en los diabéticos?",
+        "opciones": ["Glucosa", "Insulina", "Glucacon", "Epinefrina"],
+        "respuesta_correcta": ["Insulina"]
+    },
+    {
+        "pregunta": "¿Cómo se llaman las lesiones en la pared del tubo digestivo?",
+        "opciones": ["Pólipo", "Fístula", "Úlcera", "Divertículo"],
+        "respuesta_correcta": ["Úlcera"]
+    },
+    {
+        "pregunta": "¿Qué es la queratina?",
+        "opciones": ["Una enzima", "Una vitamina", "Un carbohidrato", "Una proteína"],
+        "respuesta_correcta": ["Una proteína"]
+    },
+    {
+        "pregunta": "¿Qué significan las siglas \"www\"?",
+        "opciones": ["Web With Width", "World Wide Window", "World Web Wish", "World Wide Web"],
+        "respuesta_correcta": ["World Wide Web"]
+    },
+    {
+        "pregunta": "¿Cómo se denomina el juramento que realizan los médicos?",
+        "opciones": ["Juramento de Galeano", "Juramento de Esculapio", "Juramento de Aesclepio", "Juramento Hipocrático"],
+        "respuesta_correcta": ["Juramento Hipocrático"]
+    },
+    {
+        "pregunta": "¿Qué es el colesterol?",
+        "opciones": ["Un carbohidrato", "Una proteína", "Un lípido", "Una enzima"],
+        "respuesta_correcta": ["Un lípido"]
+    },
+    {
+        "pregunta": "¿Cómo se llama la torcedura de una articulación en el cuerpo?",
+        "opciones": ["Fractura", "Contusión", "Esguince", "Lesión"],
+        "respuesta_correcta": ["Esguince"]
+    },
+    {
+        "pregunta": "Si padeces la enfermedad de Crohn o colitis ulcerosa, tienes una enfermedad...",
+        "opciones": ["Cardíaca", "Respiratoria", "Intestinal", "Renal"],
+        "respuesta_correcta": ["Intestinal"]
+    },
+    {
+        "pregunta": "¿Qué tiene más concentración de sal?",
+        "opciones": ["El sudor", "La saliva", "La sangre", "La orina"],
+        "respuesta_correcta": ["La orina"]
+    },
+    {
+        "pregunta": "¿Qué enfermedad se caracteriza por repentinos ataques de sueño?",
+        "opciones": ["Insomnio", "Apnea del sueño", "Narcolepsia", "Sonambulismo"],
+        "respuesta_correcta": ["Narcolepsia"]
+    },
+    {
+        "pregunta": "¿Qué es el caracol?",
+        "opciones": ["Crustáceo", "Anélido", "Molusco", "Cnidario"],
+        "respuesta_correcta": ["Molusco"]
+    },
+    {
+        "pregunta": "¿Dónde se encuentran las medusas con veneno mortal?",
+        "opciones": ["África", "Caribe", "Mediterráneo", "Australia"],
+        "respuesta_correcta": ["Australia"]
+    },
+    {
+        "pregunta": "¿Dónde tienen las papilas gustativas las moscas?",
+        "opciones": ["En las alas", "En el abdomen", "En las antenas", "En las patas"],
+        "respuesta_correcta": ["En las patas"]
+    },
+    {
+        "pregunta": "¿De dónde forman parte los axones?",
+        "opciones": ["Célula muscular", "Célula epitelial", "Neurona", "Glóbulo rojo"],
+        "respuesta_correcta": ["Neurona"]
+    },
+    {
+        "pregunta": "¿Cuál es el símbolo químico del fósforo?",
+        "opciones": ["F", "Ph", "Po", "P"],
+        "respuesta_correcta": ["P"]
+    },
+    {
+        "pregunta": "¿Qué es lo que más lugar ocupa en el cerebro humano?",
+        "opciones": ["Cerebelo", "Tálamo", "Hipotálamo", "Hemisferios cerebrales"],
+        "respuesta_correcta": ["Hemisferios cerebrales"]
+    },
+    {
+        "pregunta": "¿Qué significan las siglas USB?",
+        "opciones": ["United System Base", "Universal Serial Bridge", "Unified Slot Block", "Universal Serial Bus"],
+        "respuesta_correcta": ["Universal Serial Bus"]
+    },
+    {
+        "pregunta": "¿Cuáles de los siguientes no es un grupo sanguíneo?",
+        "opciones": ["AB", "A", "B", "OO"],
+        "respuesta_correcta": ["OO"]
+    },
+    {
+        "pregunta": "¿A qué tienes miedo si sufres de aracnofobia?",
+        "opciones": ["Serpientes", "Arañas", "Altura", "Lugares cerrados"],
+        "respuesta_correcta": ["Arañas"]
+    },
+    {
+        "pregunta": "¿Cuál de estos NO es un musculo del cuerpo?",
+        "opciones": ["Bíceps", "Tríceps", "Cruzado", "Deltoides"],
+        "respuesta_correcta": ["Cruzado"]
+    },
+    {
+        "pregunta": "¿Cómo se llaman las pinzas especiales que se usan en obstetricia para sujetar la cabeza del bebé y hacer tracción sobre ella en los partos difíciles?",
+        "opciones": ["Pinza de Kocher", "Forceps", "Pinza de Allis", "Pinza de Babcock"],
+        "respuesta_correcta": ["Forceps"]
+    },
+    {
+        "pregunta": "¿Cómo llamamos a la inflamación de la piel?",
+        "opciones": ["Hepatitis", "Conjuntivitis", "Dermatitis", "Sinusitis"],
+        "respuesta_correcta": ["Dermatitis"]
+    },
+    {
+        "pregunta": "¿Qué droga de las denominadas 'blandas' es útil en el tratamiento del dolor?",
+        "opciones": ["Cocaína", "Marihuana", "Heroína", "LSD"],
+        "respuesta_correcta": ["Marihuana"]
+    },
+    {
+        "pregunta": "¿Cuál es la distribución de Linux más usada?",
+        "opciones": ["Red Hat", "Fedora", "Debian", "Ubuntu"],
+        "respuesta_correcta": ["Ubuntu"]
+    },
+    {
+        "pregunta": "¿Cómo llamamos a una lesión térmica o química de los tejidos?",
+        "opciones": ["Esguince", "Quemadura", "Fractura", "Laceración"],
+        "respuesta_correcta": ["Quemadura"]
+    },
+    {
+        "pregunta": "¿Con qué nombre se conoce la energía producida por las partículas en movimiento?",
+        "opciones": ["Energía Potencial", "Energía Cinética", "Energía Térmica", "Energía Nuclear"],
+        "respuesta_correcta": ["Energía Cinética"]
+    },
+    {
+        "pregunta": "¿Quién fue el Inventor de la dinamita?",
+        "opciones": ["Thomas Edison", "Nikola Tesla", "Marie Curie", "Alfred Nobel"],
+        "respuesta_correcta": ["Alfred Nobel"]
+    },
+    {
+        "pregunta": "¿Cómo se llama la arteria principal del cuerpo humano?",
+        "opciones": ["Coronaria", "Carótida", "Aorta", "Femoral"],
+        "respuesta_correcta": ["Aorta"]
+    },
+    {
+        "pregunta": "¿Qué parte del cuerpo humano puede tener un soplo?",
+        "opciones": ["Pulmón", "Hígado", "Corazón", "Estómago"],
+        "respuesta_correcta": ["Corazón"]
+    },
+    {
+        "pregunta": "¿Cuántas Leyes de Mendel hay?",
+        "opciones": ["2", "3", "4", "5"],
+        "respuesta_correcta": ["3"]
+    },
+    {
+        "pregunta": "¿Cuánto es la raíz cuadrada del 121?",
+        "opciones": ["10", "11", "12", "13"],
+        "respuesta_correcta": ["11"]
+    },
+    {
+        "pregunta": "¿Cómo se llama la enfermedad por la que una persona cree infundadamente que padece alguna enfermedad grave?",
+        "opciones": ["Paranoia", "Hipocondría", "Esquizofrenia", "Depresión"],
+        "respuesta_correcta": ["Hipocondría"]
+    },
+    {
+        "pregunta": "¿El pulso de qué arteria se usa para comprobar la muerte de una persona?",
+        "opciones": ["Aorta", "Femoral", "Coronaria", "Carótida"],
+        "respuesta_correcta": ["Carótida"]
+    },
+    {
+        "pregunta": "¿Qué es la levadura?",
+        "opciones": ["Un hongo", "Una bacteria", "Un protozoo", "Un alga"],
+        "respuesta_correcta": ["Un hongo"]
+    },
+    {
+        "pregunta": "¿A partir de qué nivel de inteligencia se puede considerar que alguien es un genio?",
+        "opciones": ["120", "130", "140", "150"],
+        "respuesta_correcta": ["140"]
+    },
+    {
+        "pregunta": "¿Cómo se llama el registro gráfico de la activa eléctrica del cerebro?",
+        "opciones": ["Electrocardiograma", "Electromiograma", "Electroencefalograma", "Radiografía"],
+        "respuesta_correcta": ["Electroencefalograma"]
+    },
+    {
+        "pregunta": "¿El ciempiés gigante del Amazonas puede medir más de 30 centímetros y cuelga de las cuevas. ¿Qué mamífero volador le resulta fácil cazar?",
+        "opciones": ["Aves", "Mariposas", "Abejas", "Murciélagos"],
+        "respuesta_correcta": ["Murciélagos"]
+    },
+    {
+        "pregunta": "¿Qué son los pugs?",
+        "opciones": ["Una raza de gato", "Una raza de perro", "Un tipo de pez", "Un tipo de pájaro"],
+        "respuesta_correcta": ["Una raza de perro"]
+    },
+    {
+        "pregunta": "¿En cuántos lóbulos se divide el pulmón derecho?",
+        "opciones": ["Dos", "Tres", "Cuatro", "Cinco"],
+        "respuesta_correcta": ["Tres"]
+    },
+    {
+        "pregunta": "¿Cuál de estas fases NO es una de las fases de la división celular?",
+        "opciones": ["Interfase", "Rinofase", "Profase", "Telofase"],
+        "respuesta_correcta": ["Rinofase"]
+    },
+    {
+        "pregunta": "¿Quién es considerado el padre de la genética?",
+        "opciones": ["Darwin", "Newton", "Watson", "Gregor Mendel"],
+        "respuesta_correcta": ["Gregor Mendel"]
+    },
+    {
+        "pregunta": "¿Cuántos grados Kelvin son 0 grados Celcius?",
+        "opciones": ["0", "100", "273,15", "373,15"],
+        "respuesta_correcta": ["273,15"]
+    },
+    {
+        "pregunta": "¿Cuál de los siguientes NO forma parte de un ordenador personal?",
+        "opciones": ["CPU", "RAM", "Monitor", "Microondas"],
+        "respuesta_correcta": ["Microondas"]
+    },
+    {
+        "pregunta": "¿Quién fue el inventor de la bombilla?",
+        "opciones": ["Tesla", "Edison", "Franklin", "Bell"],
+        "respuesta_correcta": ["Edison"]
+    },
+    {
+        "pregunta": "¿Por qué compuesto químico está formada la lavandina?",
+        "opciones": ["Ácido Sulfúrico", "Bicarbonato de Sodio", "Hipoclorito de Sodio", "Ácido Clorhídrico"],
+        "respuesta_correcta": ["Hipoclorito de Sodio"]
+    },
+    {
+        "pregunta": "¿Cómo se conoce el virus del SIDA?",
+        "opciones": ["HPV", "EBV", "VIH", "RSV"],
+        "respuesta_correcta": ["VIH"]
+    },
+    {
+        "pregunta": "¿Cuál es el músculo causante del espasmo muscular \"Torticolis\"?",
+        "opciones": ["Bíceps", "Deltoides", "Trapezio", "Esternocleidomastoideo"],
+        "respuesta_correcta": ["Esternocleidomastoideo"]
+    },
+    {
+        "pregunta": "¿Por qué tipo de elementos están formadas las sales binarias?",
+        "opciones": ["Dos metales", "Dos no metales", "Un metal y un gas noble", "Un metal y un no metal"],
+        "respuesta_correcta": ["Un metal y un no metal"]
+    },
+    {
+        "pregunta": "¿Qué significan las siglas ADN?",
+        "opciones": ["Ácido diclorhídrico", "Ácido desoxirribonucleico", "Adenina dinitrato", "Ácido dinucleótido"],
+        "respuesta_correcta": ["Ácido desoxirribonucleico"]
+    },
+    {
+        "pregunta": "¿Qué son los leucocitos?",
+        "opciones": ["Glóbulos rojos", "Glóbulos blancos", "Plaquetas", "Bacterias"],
+        "respuesta_correcta": ["Glóbulos blancos"]
+    },
+    {
+        "pregunta": "¿Cómo se conoce comúnmente al compuesto químico NaCI?",
+        "opciones": ["Azúcar", "Bicarbonato", "Sal", "Agua"],
+        "respuesta_correcta": ["Sal"]
+    },
+    {
+        "pregunta": "¿Cuántas alas tiene una pulga?",
+        "opciones": ["Dos", "Cuatro", "Seis", "Ninguna"],
+        "respuesta_correcta": ["Ninguna"]
+    },
+    {
+        "pregunta": "¿Qué es un bit?",
+        "opciones": ["Un conjunto de bytes", "Un programa informático", "La unidad más grande de almacenamiento", "La unidad más pequeña de almacenamiento"],
+        "respuesta_correcta": ["La unidad más pequeña de almacenamiento"]
+    },
+    {
+        "pregunta": "¿Qué hay que ponerle a un vidrio para convertirlo en un espejo?",
+        "opciones": ["Plata", "Oro", "Aluminio", "Hierro"],
+        "respuesta_correcta": ["Aluminio"]
+    },
+    {
+        "pregunta": "¿Cómo se llama la técnica consistente en descender la temperatura del cuerpo humano por debajo de -190ºC?",
+        "opciones": ["Criogenización", "Destilación", "Congelación", "Refrigeración"],
+        "respuesta_correcta": ["Criogenización"]
+    },
+    {
+        "pregunta": "¿Qué nervio es el VII par craneal?",
+        "opciones": ["Nervio óptico", "Nervio auditivo", "Nervio trigémino", "Nervio facial"],
+        "respuesta_correcta": ["Nervio facial"]
+    },
+    {
+        "pregunta": "¿Cuál de los siguientes números es mayor?",
+        "opciones": ["El número e", "El número 3", "El número Pi", "El número 2"],
+        "respuesta_correcta": ["El número Pi"]
+    },
+    {
+        "pregunta": "¿Dónde se almacena la información genética del ser humano?",
+        "opciones": ["ARN", "ADN", "Proteínas", "Cromosomas"],
+        "respuesta_correcta": ["ADN"]
+    },
+    {
+        "pregunta": "¿Qué estudia el herpetólogo?",
+        "opciones": ["Pájaros y aves", "Reptiles y víboras", "Peces y anfibios", "Insectos"],
+        "respuesta_correcta": ["Reptiles y víboras"]
+    },
+    {
+        "pregunta": "¿Cómo se llama el estado vital en que la persona actúa conforme a estímulos e intereses ajenos, creyendo que le son propios?",
+        "opciones": ["Ilusión", "Delirio", "Alienación", "Conformismo"],
+        "respuesta_correcta": ["Alienación"]
+    },
+    {
+        "pregunta": "¿El déficit de qué vitamina produce raquitismo?",
+        "opciones": ["A", "B", "C", "D"],
+        "respuesta_correcta": ["D"]
+    },
+    {
+        "pregunta": "¿En qué año falleció Steve Jobs?",
+        "opciones": ["2007", "2011", "2015", "2019"],
+        "respuesta_correcta": ["2011"]
+    },
+    {
+        "pregunta": "¿Quién postuló la ley del principio de inercia?",
+        "opciones": ["Galileo Galilei", "Albert Einstein", "Nikola Tesla", "Isaac Newton"],
+        "respuesta_correcta": ["Isaac Newton"]
+    },
+    {
+        "pregunta": "¿Cuántas veces se calcula que latirá el corazón a lo largo de toda la vida de una persona?",
+        "opciones": ["1.000 millones", "2.500 millones", "4.000 millones", "7.000 millones"],
+        "respuesta_correcta": ["4.000 millones"]
+    },
+    {
+        "pregunta": "¿Cuánto es la raíz cuadrada de 625?",
+        "opciones": ["15", "20", "25", "30"],
+        "respuesta_correcta": ["25"]
+    },
+    {
+        "pregunta": "¿Cómo se denomina el sulfato de calcio, cuando se usa para escribir?",
+        "opciones": ["Papel", "Grafito", "Tiza", "Tinte"],
+        "respuesta_correcta": ["Tiza"]
+    },
+    {
+        "pregunta": "¿Dónde llevan los cocodrilos a sus crías?",
+        "opciones": ["En sus patas", "En su espalda", "En la cola", "En la boca"],
+        "respuesta_correcta": ["En la boca"]
+    },
+    {
+        "pregunta": "¿Cuántos colores tenía la primera tarjeta gráfica?",
+        "opciones": ["2", "8", "16", "256"],
+        "respuesta_correcta": ["2"]
+    },
+    {
+        "pregunta": "¿Qué articulación une el fémur con la tibia?",
+        "opciones": ["Cadera", "Rodilla", "Tobillo", "Muñeca"],
+        "respuesta_correcta": ["Rodilla"]
+    },
+    {
+        "pregunta": "¿Qué función tienen las manchas de la jirafa?",
+        "opciones": ["Sacar el calor", "Mimetizarse", "Atraer pareja", "Absorber la luz solar"],
+        "respuesta_correcta": ["Sacar el calor"]
+    },
+    {
+        "pregunta": "¿Qué hace un procrastinador?",
+        "opciones": ["Pospone sus actividades", "Realiza multitareas", "Planifica su tiempo", "Trabaja sin descanso"],
+        "respuesta_correcta": ["Pospone sus actividades"]
+    },
+    {
+        "pregunta": "¿Cuál es el único nervio que no pasa por el tálamo?",
+        "opciones": ["Nervio Ocular", "Nervio Auditivo", "Nervio Facial", "Nervio Olfativo"],
+        "respuesta_correcta": ["Nervio Olfativo"]
+    },
+    {
+        "pregunta": "¿Qué sustancia permite realizar la fotosíntesis?",
+        "opciones": ["Adrenalina", "Insulina", "Estrogeno", "Clorofila"],
+        "respuesta_correcta": ["Clorofila"]
+    },
+    {
+        "pregunta": "¿Qué son la morfina y la heroína?",
+        "opciones": ["Estimulantes", "Opiáceos", "Hallucinógenos", "Depresores"],
+        "respuesta_correcta": ["Opiáceos"]
+    },
+    {
+        "pregunta": "¿Cómo se llama la cresta que hace el labio debajo de la nariz?",
+        "opciones": ["Surco mentolabial", "Línea mandibular", "Surco nasolabial", "Pliegue mentoniano"],
+        "respuesta_correcta": ["Surco nasolabial"]
+    },
+    {
+        "pregunta": "¿Qué es el ciclo de krebs?",
+        "opciones": ["Ciclo de la vida", "Ciclo celular", "Ciclo de reproducción", "Ciclo del ácido cítrico"],
+        "respuesta_correcta": ["Ciclo del ácido cítrico"]
+    },
+    {
+        "pregunta": "¿Qué órgano del cuerpo es el más dañado por el consumo excesivo de alcohol?",
+        "opciones": ["Estómago", "Páncreas", "Hígado", "Riñón"],
+        "respuesta_correcta": ["Hígado"]
+    }
+]

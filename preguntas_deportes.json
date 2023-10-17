@@ -1,0 +1,52 @@
+[
+    {
+        "pregunta": "¿Qué duración tiene un partido de fútbol que llega a la tanda de penaltis?",
+        "opciones": ["90 minutos", "105 minutos", "120 minutos", "135 minutos"],
+        "respuesta_correcta": ["120 minutos"]
+    },
+    {
+        "pregunta": "¿En cuál de los siguientes deportes se puede tocar el balón con las manos?",
+        "opciones": ["Fútbol", "Vóley", "Rugby", "Baloncesto"],
+        "respuesta_correcta": ["Baloncesto"]
+    },
+    {
+        "pregunta": "¿Cómo se llamaba la pelota del Mundial de Fútbol 1978?",
+        "opciones": ["Adidas Tango", "Adidas Telstar", "Adidas Jabulani", "Adidas Azteca"],
+        "respuesta_correcta": ["Adidas Tango"]
+    },
+    {
+        "pregunta": "¿Cuál es el nombre de pila del tenista Federer?",
+        "opciones": ["Rafael", "Novak", "Roger", "Andy"],
+        "respuesta_correcta": ["Roger"]
+    },
+    {
+        "pregunta": "¿Quién es el goleador(es) del mundial 2010?",
+        "opciones": ["Lionel Messi", "Cristiano Ronaldo", "Diego Forlán y Thomas Müller", "David Villa"],
+        "respuesta_correcta": ["Diego Forlán y Thomas Müller"]
+    },
+    {
+        "pregunta": "¿Cómo se llama Iniesta?",
+        "opciones": ["Carlos", "Sergio", "Luis", "Andrés"],
+        "respuesta_correcta": ["Andrés"]
+    },
+    {
+        "pregunta": "¿A qué deporte pertenece la WWE?",
+        "opciones": ["Boxeo", "MMA", "Karate", "Lucha libre"],
+        "respuesta_correcta": ["Lucha libre"]
+    },
+    {
+        "pregunta": "¿En qué país ganó Alemania su primer mundial de fútbol?",
+        "opciones": ["Alemania", "Brasil", "Francia", "Suiza"],
+        "respuesta_correcta": ["Suiza"]
+    },
+    {
+        "pregunta": "¿En cuántos mundiales participó la selección de Inglaterra?",
+        "opciones": ["10", "14", "16", "18"],
+        "respuesta_correcta": ["14"]
+    },
+    {
+        "pregunta": "¿Con qué deporte relacionarías a Aitor Osa?",
+        "opciones": ["Ciclismo", "Atletismo", "Tenis", "Fórmula 1"],
+        "respuesta_correcta": ["Ciclismo"]
+    }
+]
