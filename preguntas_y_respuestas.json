@@ -185,11 +185,6 @@
       "respuesta_correcta": ["Rafael Sanzio"]
   },
   {
-      "pregunta": "¿Cuál de las siguientes pertenece a las 7 maravillas del mundo antiguo?",
-      "opciones": ["Estatua de Zeus en Olimpia", "Machu Picchu", "Gran Pirámide de Giza", "Todas son correctas"],
-      "respuesta_correcta": ["Todas son correctas"]
-  },
-  {
       "pregunta": "¿Qué nota musical hay entre re y fa?",
       "opciones": ["Sol", "La", "Si", "Mi"],
       "respuesta_correcta": ["Mi"]
@@ -228,11 +223,6 @@
       "pregunta": "¿Cuál de ellos es un adverbio de lugar?",
       "opciones": ["Mañana", "Rápidamente", "Ahí", "Tal vez"],
       "respuesta_correcta": ["Ahí"]
-  },
-  {
-      "pregunta": "¿Cuál de estos poemas escribió Mario Benedetti?",
-      "opciones": ["Hoy te vi", "Amor eterno", "Táctica y estrategia", "Todas las anteriores"],
-      "respuesta_correcta": ["Todas las anteriores"]
   },
   {
       "pregunta": "Amor con amor se paga...",
@@ -308,11 +298,6 @@
       "pregunta": "¿Cuál de éstas es obra de García Lorca?",
       "opciones": ["El alquimista", "El árbol de la ciencia", "La sombra del viento", "El maleficio de la mariposa"],
       "respuesta_correcta": ["El maleficio de la mariposa"]
-  },
-  {
-      "pregunta": "¿Cuál de estas obras de Gabriel García Márquez ha sido llevada al cine?",
-      "opciones": ["El amor en los tiempos del cólera", "Cien años de soledad", "El otoño del patriarca", "Todas las anteriores"],
-      "respuesta_correcta": ["Todas las anteriores"]
   },
   {
       "pregunta": "¿Dónde estudió Antoni Gaudí?",
@@ -1168,11 +1153,6 @@
     "pregunta": "¿Quién formuló la teoría de la relatividad general?",
     "opciones": ["Isaac Newton", "Niels Bohr", "Galileo Galilei", "Albert Einstein"],
     "respuesta_correcta": ["Albert Einstein"]
-},
-{
-    "pregunta": "¿Cómo se conoce comúnmente la planta \"Datura stramonium\"?",
-    "opciones": ["Belladona", "Mandrágora", "Estramonio", "Todas son correctas"],
-    "respuesta_correcta": ["Todas son correctas"]
 },
 {
     "pregunta": "¿Cuál es la fórmula del dióxido de carbono?",
