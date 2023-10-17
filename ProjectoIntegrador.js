@@ -1,7 +1,7 @@
 var preguntas;
 var indicePreguntaActual = 0;
 var puntuacion = 0;
-var vidas = 3;
+var vidas = 5; // Ahora se establece en 5 vidas
 let nombre;
 
 function cargarPreguntas() {
@@ -25,13 +25,14 @@ function cargarPregunta(indicePregunta) {
   // Aleatorizar el orden de las opciones
   var opcionesAleatorias = shuffleArray([...preguntaActual.opciones]);
   var opcionesHTML = '';
-  opcionesAleatorias.forEach(function(opcion, index) {
+  respuestaCorrectaActual = preguntaActual.respuesta_correcta; // Guardar la respuesta correcta actual
+  opcionesAleatorias.forEach(function (opcion, index) {
     opcionesHTML += `
       <li>
-        <button onclick="responderTrivia()" value="${opcion}">${opcion}</button>
+        <button onclick="responderTrivia(this)" data-es-correcta="${respuestaCorrectaActual.includes(opcion)}">${opcion}</button>
       </li>`;
   });
-  document.getElementById('options').innerHTML = opcionesHTML;
+  document.getElementById('options').innerHTML = opcionesHTML;  
 }
 
 // Función para aleatorizar un arreglo utilizando el algoritmo de Fisher-Yates
@@ -53,47 +54,52 @@ function iniciarJuego() {
   cargarPregunta(indicePreguntaActual);
 }
 
-function responderTrivia() {
-  // Lógica para verificar la respuesta y mostrar el resultado
-  var respuestasCorrectas = preguntas[indicePreguntaActual].respuesta_correcta;
-  var opcionesSeleccionadas = obtenerRespuestasUsuario();
+function responderTrivia(botonSeleccionado) {
+  // Remover la clase 'seleccionado' de todos los botones
+  var botones = document.querySelectorAll('#options button');
+  botones.forEach(function (boton) {
+    boton.classList.remove('seleccionado');
+  });
 
-  // Verificar si las respuestas seleccionadas son correctas
-  var respuestaCorrecta = respuestasCorrectas.every(opcion =>
-    opcionesSeleccionadas.includes(opcion)
-  );
+  // Agregar la clase 'seleccionado' al botón seleccionado
+  botonSeleccionado.classList.add('seleccionado');
 
-  var respuestaContainer = document.getElementById('respuesta');
+  // Extraer la respuesta correcta del atributo data
+  var esCorrecta = botonSeleccionado.getAttribute('data-es-correcta') === 'true';
 
-  if (respuestaCorrecta) {
-    respuestaContainer.innerText = '¡Respuesta correcta!';
-    // Aumentar la puntuación
-    puntuacion += 10;
-  } else {
-    respuestaContainer.innerText = 'Respuesta incorrecta. La respuesta correcta es: ' + respuestasCorrectas.join(', ');
-    // Reducir las vidas
-    vidas--;
+  // Obtener la respuesta correcta guardada previamente
+  var respuestaCorrecta = respuestaCorrectaActual[0]; // Solo necesitamos la primera respuesta correcta
+  
+  // Obtener la opción seleccionada después de hacer clic en un botón
+  var opcionSeleccionada = botonSeleccionado.innerText;
+
+  // Verificar si el jugador ha seleccionado una respuesta
+  if (opcionSeleccionada !== null) {
+    var respuestaContainer = document.getElementById('respuesta');
+
+    if (esCorrecta) {
+      respuestaContainer.innerText = '¡Respuesta correcta!';
+      puntuacion += 10;
+    } else {
+      respuestaContainer.innerText = 'Respuesta incorrecta. La respuesta correcta es: ' + respuestaCorrecta;
+      vidas--;
+    }
+
+    actualizarInfoJuego();
+
+    // Cargar la siguiente pregunta después de un breve retraso
+    setTimeout(function () {
+      // Verificar si quedan más preguntas
+      if (indicePreguntaActual < preguntas.length - 1) {
+        // Cargar la siguiente pregunta
+        indicePreguntaActual++;
+        cargarPregunta(indicePreguntaActual);
+      } else {
+        // Fin del juego
+        mostrarResultadoFinal();
+      }
+    }, 1000);  // Esperar 1 segundo (1000 milisegundos) antes de cargar la siguiente pregunta
   }
-
-  actualizarInfoJuego();
-
-  // Verificar si quedan más preguntas
-  if (indicePreguntaActual < preguntas.length - 1) {
-    // Cargar la siguiente pregunta
-    indicePreguntaActual++;
-    cargarPregunta(indicePreguntaActual);
-  } else {
-    // Fin del juego
-    mostrarResultadoFinal();
-    // Recargar la página para reiniciar el juego
-    window.location.reload();
-  }
-}
-
-
-function obtenerRespuestasUsuario() {
-  var opciones = document.querySelectorAll('#options button');
-  return Array.from(opciones).map(opcion => opcion.innerText);
 }
 
 function actualizarInfoJuego() {
@@ -119,7 +125,7 @@ function mostrarResultadoFinal() {
 function reiniciarJuego() {
   indicePreguntaActual = 0;
   puntuacion = 0;
-  vidas = 3;
+  vidas = 5; // Reiniciar las vidas a 5
   cargarPreguntas();
   actualizarInfoJuego();
 }
