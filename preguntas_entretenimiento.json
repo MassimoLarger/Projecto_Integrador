@@ -1,0 +1,797 @@
+[
+    {
+        "pregunta": "¿Quién era Jay-Jay?",
+        "opciones": ["Un coche", "Un avioncito", "Un barco", "Una bicicleta"],
+        "respuesta_correcta": ["Un avioncito"]
+    },
+    {
+        "pregunta": "¿Qué capitán pirata es una mezcla de criaturas del mar y forma humana en las películas de Piratas del Caribe?",
+        "opciones": ["Jack Sparrow", "Héctor Barbossa", "Davy Jones", "Will Turner"],
+        "respuesta_correcta": ["Davy Jones"]
+    },
+    {
+        "pregunta": "¿Quién es el creador del talent show \"The X Factor\"?",
+        "opciones": ["Randy Jackson", "Paula Abdul", "Simon Cowell", "Louis Walsh"],
+        "respuesta_correcta": ["Simon Cowell"]
+    },
+    {
+        "pregunta": "¿Cómo se llama el personaje del videojuego Grand Theft Auto IV?",
+        "opciones": ["Carl Johnson", "Michael De Santa", "Niko Bellic", "Tommy Vercetti"],
+        "respuesta_correcta": ["Niko Bellic"]
+    },
+    {
+        "pregunta": "¿Qué fruta es la casa de Bob Esponja?",
+        "opciones": ["Manzana", "Plátano", "Piña", "Mango"],
+        "respuesta_correcta": ["Piña"]
+    },
+    {
+        "pregunta": "¿Quién es el marido de la actriz Angelina Jolie?",
+        "opciones": ["Tom Cruise", "Brad Pitt", "Johnny Depp", "Will Smith"],
+        "respuesta_correcta": ["Brad Pitt"]
+    },
+    {
+        "pregunta": "¿Cómo se llama la actriz que interpreta a una pequeña vampira en \"Entrevista con el vampiro\"?",
+        "opciones": ["Winona Ryder", "Julia Roberts", "Kirsten Dunst", "Natalie Portman"],
+        "respuesta_correcta": ["Kirsten Dunst"]
+    },
+    {
+        "pregunta": "En el juego preguntados, ¿de qué color es el muñeco de arte?",
+        "opciones": ["Amarillo", "Azul", "Verde", "Rojo"],
+        "respuesta_correcta": ["Rojo"]
+    },
+    {
+        "pregunta": "En la serie Los Simpson, ¿de qué color son las perlas de Lisa?",
+        "opciones": ["Azules", "Rojas", "Negras", "Blancas"],
+        "respuesta_correcta": ["Blancas"]
+    },
+    {
+        "pregunta": "¿Quién dirigió la película \"La Diligencia\"?",
+        "opciones": ["Alfred Hitchcock", "Steven Spielberg", "John Ford", "Stanley Kubrick"],
+        "respuesta_correcta": ["John Ford"]
+    },
+    {
+        "pregunta": "¿Cómo se llama el vocalista de los Guns \"N\" Roses?",
+        "opciones": ["Steven Tyler", "Axl Rose", "Freddie Mercury", "Mick Jagger"],
+        "respuesta_correcta": ["Axl Rose"]
+    },
+    {
+        "pregunta": "¿Cómo se llama el juguete que es un cubo de colores el cual giran sus partes?",
+        "opciones": ["Legos", "Rubik", "Jenga", "Connect 4"],
+        "respuesta_correcta": ["Rubik"]
+    },
+    {
+        "pregunta": "¿Cómo se llama el gremlin bueno de la película \"Gremlins\"?",
+        "opciones": ["Stripe", "Gizmo", "Mohawk", "Brain"],
+        "respuesta_correcta": ["Gizmo"]
+    },
+    {
+        "pregunta": "¿Cuál fue la primera película de Disney?",
+        "opciones": ["Cenicienta", "Dumbo", "Bambi", "Blancanieves"],
+        "respuesta_correcta": ["Blancanieves"]
+    },
+    {
+        "pregunta": "¿En qué año se estrenó la película de Disney \"Pinocho\"?",
+        "opciones": ["1938", "1939", "1940", "1941"],
+        "respuesta_correcta": ["1940"]
+    },
+    {
+        "pregunta": "¿Cuál es el nombre real del cantante Bruno Mars?",
+        "opciones": ["John Legend", "Peter Gene Hernández", "Christopher Brown", "Michael Stevens"],
+        "respuesta_correcta": ["Peter Gene Hernández"]
+    },
+    {
+        "pregunta": "¿De quién es la canción \"Cosas que suenan a triste\"?",
+        "opciones": ["Maldita Nerea", "Pablo Alborán", "Alejandro Sanz", "Juanes"],
+        "respuesta_correcta": ["Maldita Nerea"]
+    },
+    {
+        "pregunta": "¿Cómo se llama el programa de la Sexta presentado por Antonio García, en el que se revisa la actualidad?",
+        "opciones": ["La Sexta Noche", "El Intermedio", "Al Rojo Vivo", "Salvados"],
+        "respuesta_correcta": ["Al Rojo Vivo"]
+    },
+    {
+        "pregunta": "¿Cómo se llama el cangrejo de la película \"La sirenita\" de Walt Disney?",
+        "opciones": ["Flounder", "Scuttle", "Sebastián", "Tritón"],
+        "respuesta_correcta": ["Sebastián"]
+    },
+    {
+        "pregunta": "¿Cómo se llama el personaje de la mejor amiga de Mia Thermopolis en la película \"El Diario de la Princesa\"?",
+        "opciones": ["Gina", "Lana", "Lilly", "Tina"],
+        "respuesta_correcta": ["Lilly"]
+    },
+    {
+        "pregunta": "¿Qué famoso personaje animado sacaba inventos del futuro de su bolsillo mágico?",
+        "opciones": ["Shin Chan", "Pikachu", "Doraemon", "Astro Boy"],
+        "respuesta_correcta": ["Doraemon"]
+    },
+    {
+        "pregunta": "¿Cuántas veces hay que nombrar a Beetlejuice para que aparezca?",
+        "opciones": ["1", "2", "3", "4"],
+        "respuesta_correcta": ["3"]
+    },
+    {
+        "pregunta": "¿Quién presenta el concurso 'Ahora Caigo'?",
+        "opciones": ["Joaquín Prat", "Arturo Valls", "Roberto Leal", "Jorge Javier Vázquez"],
+        "respuesta_correcta": ["Arturo Valls"]
+    },
+    {
+        "pregunta": "¿Cuál de los siguientes juegos es de los creadores de Preguntados?",
+        "opciones": ["Angry Birds", "Candy Crush", "Apalabrados", "Clash Royale"],
+        "respuesta_correcta": ["Apalabrados"]
+    },
+    {
+        "pregunta": "¿Qué pedía el Espantapájaros al Mago de Oz en la película del mismo nombre?",
+        "opciones": ["Un corazón", "Un hogar", "Valentía", "Un cerebro"],
+        "respuesta_correcta": ["Un cerebro"]
+    },
+    {
+        "pregunta": "¿Cuál de éstas películas es del director danés Lars Von Trier?",
+        "opciones": ["Breaking the Waves", "The Lobster", "Dogville", "Festen"],
+        "respuesta_correcta": ["Dogville"]
+    },
+    {
+        "pregunta": "¿Quién se convirtió en el mejor amigo de Woody en la película Toy Story?",
+        "opciones": ["Slinky", "Rex", "Mr. Potato Head", "Buzz Lightyear"],
+        "respuesta_correcta": ["Buzz Lightyear"]
+    },
+    {
+        "pregunta": "¿Cómo se llama el cantante de la banda 'Avenged Sevenfold'?",
+        "opciones": ["James Hetfield", "M. Shadows", "Corey Taylor", "Jonathan Davis"],
+        "respuesta_correcta": ["M. Shadows"]
+    },
+    {
+        "pregunta": "¿Cuál de estos villanos NO es enemigo de Batman?",
+        "opciones": ["Joker", "Penguin", "Two-Face", "Magneto"],
+        "respuesta_correcta": ["Magneto"]
+    },
+    {
+        "pregunta": "¿Quién es la artista más joven en ganar un premio Country?",
+        "opciones": ["Miranda Lambert", "Shania Twain", "Taylor Swift", "Carrie Underwood"],
+        "respuesta_correcta": ["Taylor Swift"]
+    },
+    {
+        "pregunta": "¿De dónde es la cantante Rihanna?",
+        "opciones": ["Jamaica", "Trinidad y Tobago", "Barbados", "Puerto Rico"],
+        "respuesta_correcta": ["Barbados"]
+    },
+    {
+        "pregunta": "¿Cómo se llamaba la hermanita menor de los protagonistas de la serie \"Drake y Josh\"?",
+        "opciones": ["Miranda", "Mandy", "Maggie", "Megan"],
+        "respuesta_correcta": ["Megan"]
+    },
+    {
+        "pregunta": "¿Cuál de estas películas NO fue dirigida por Alfred Hitchcock?",
+        "opciones": ["Psicosis", "Los Pájaros", "Vértigo", "Todas fueron dirigidas por Hitchcock"],
+        "respuesta_correcta": ["Todas fueron dirigidas por Hitchcock"]
+    },
+    {
+        "pregunta": "¿En qué programa sale Sheldon Cooper?",
+        "opciones": ["Friends", "How I Met Your Mother", "The Office", "The Big Bang Theory"],
+        "respuesta_correcta": ["The Big Bang Theory"]
+    },
+    {
+        "pregunta": "¿Quién es el primer super saiyajin que se convierte en dios?",
+        "opciones": ["Vegeta", "Gohan", "Trunks", "Goku"],
+        "respuesta_correcta": ["Goku"]
+    },
+    {
+        "pregunta": "¿Cómo se llama el hijo mayor de David y Victoria Beckham?",
+        "opciones": ["Romeo", "Cruz", "Harper", "Brooklyn Joseph"],
+        "respuesta_correcta": ["Brooklyn Joseph"]
+    },
+    {
+        "pregunta": "¿Cuál de estas expresiones no es creación de Chiquito de la Calzada?",
+        "opciones": ["Jarl", "Fistro", "Poti-poti", "Pecador"],
+        "respuesta_correcta": ["Poti-poti"]
+    },
+    {
+        "pregunta": "¿Qué canal tiene una serie de baile adolescente?",
+        "opciones": ["Nickelodeon", "MTV", "Cartoon Network", "Disney Channel"],
+        "respuesta_correcta": ["Disney Channel"]
+    },
+    {
+        "pregunta": "¿Cómo se llama la cuarta película de Harry Potter?",
+        "opciones": ["El prisionero de Azkaban", "La orden del Fénix", "El cáliz de fuego", "La piedra filosofal"],
+        "respuesta_correcta": ["El cáliz de fuego"]
+    },
+    {
+        "pregunta": "¿Qué tortuga llevaba el pañuelo azul en 'Las tortugas ninja'?",
+        "opciones": ["Rafael", "Michelangelo", "Donatello", "Leonardo"],
+        "respuesta_correcta": ["Leonardo"]
+    },
+    {
+        "pregunta": "¿Qué grupo musical cantaba \"Mamma Mía\"?",
+        "opciones": ["The Beatles", "Queen", "ABBA", "The Rolling Stones"],
+        "respuesta_correcta": ["ABBA"]
+    },
+    {
+        "pregunta": "¿Qué significa \"Valar Morghulis\" en la saga de \"Juego de Tronos\"?",
+        "opciones": ["Vive libre o muere", "El invierno se acerca", "Todos los hombres deben morir", "La noche es oscura y alberga horrores"],
+        "respuesta_correcta": ["Todos los hombres deben morir"]
+    },
+    {
+        "pregunta": "¿De qué país es la gimnasta Aliya Mustafina?",
+        "opciones": ["Ucrania", "Bielorrusia", "Kazajistán", "Rusia"],
+        "respuesta_correcta": ["Rusia"]
+    },
+    {
+        "pregunta": "¿A qué grupo pertenece Pete Townshend?",
+        "opciones": ["The Rolling Stones", "Led Zeppelin", "The Who", "Pink Floyd"],
+        "respuesta_correcta": ["The Who"]
+    },
+    {
+        "pregunta": "¿Cómo se dice en música el golpe dado por un cuerpo contra otro cuerpo?",
+        "opciones": ["Vibración", "Resonancia", "Reverberación", "Percusión"],
+        "respuesta_correcta": ["Percusión"]
+    },
+    {
+        "pregunta": "¿Cómo se llama la madre del hijo del futbolista Gerard Piqué?",
+        "opciones": ["Shakira", "Jennifer Lopez", "Beyoncé", "Rihanna"],
+        "respuesta_correcta": ["Shakira"]
+    },
+    {
+        "pregunta": "¿Qué es el Jpop?",
+        "opciones": ["Pop americano", "Pop coreano", "Pop japonés", "Pop chino"],
+        "respuesta_correcta": ["Pop japonés"]
+    },
+    {
+        "pregunta": "¿Qué película no ha dirigido Quentin Tarantino?",
+        "opciones": ["Pulp Fiction", "Kill Bill", "Django Desencadenado", "From Dusk 'Til Dawn"],
+        "respuesta_correcta": ["From Dusk 'Til Dawn"]
+    },
+    {
+        "pregunta": "¿A qué marca pertenece la colonia 'One Million'?",
+        "opciones": ["Calvin Klein", "Hugo Boss", "Dolce & Gabbana", "Paco Rabanne"],
+        "respuesta_correcta": ["Paco Rabanne"]
+    },
+    {
+        "pregunta": "¿Cuántos jugadores hay en un equipo de Quidditch?",
+        "opciones": ["Seis", "Ocho", "Nueve", "Siete"],
+        "respuesta_correcta": ["Siete"]
+    },
+    {
+        "pregunta": "¿A qué se le llama 'manga'?",
+        "opciones": ["Novela japonesa", "Dibujo animado japonés", "Película japonesa", "Al cómic japonés"],
+        "respuesta_correcta": ["Al cómic japonés"]
+    },
+    {
+        "pregunta": "¿Cómo se llama el crítico culinario de Ratatouille?",
+        "opciones": ["Remy", "Linguini", "Ego", "Django"],
+        "respuesta_correcta": ["Ego"]
+    },
+    {
+        "pregunta": "¿De quién es el disco 'Yo, mi, me contigo'?",
+        "opciones": ["Alejandro Sanz", "Ricardo Arjona", "Joaquín Sabina", "Luis Fonsi"],
+        "respuesta_correcta": ["Joaquín Sabina"]
+    },
+    {
+        "pregunta": "¿Cómo se llama el hermano de Phineas, que no habla mucho?",
+        "opciones": ["Perry", "Isabella", "Baljeet", "Ferb"],
+        "respuesta_correcta": ["Ferb"]
+    },
+    {
+        "pregunta": "¿Qué personaje cómico interpreta Rowan Atkison?",
+        "opciones": ["Mr. Magoo", "Inspector Clouseau", "Mr. Bean", "Stan Laurel"],
+        "respuesta_correcta": ["Mr. Bean"]
+    },
+    {
+        "pregunta": "¿Cómo se llama el hermano menor de Mario Bros?",
+        "opciones": ["Yoshi", "Toad", "Luigi", "Wario"],
+        "respuesta_correcta": ["Luigi"]
+    },
+    {
+        "pregunta": "¿Qué palabra se utiliza para el horario de mayor audiencia en la TV?",
+        "opciones": ["Horario estelar", "Prime time", "Golden hour", "Peak time"],
+        "respuesta_correcta": ["Prime time"]
+    },
+    {
+        "pregunta": "¿En qué año murió Marilyn Monroe?",
+        "opciones": ["1957", "1960", "1962", "1965"],
+        "respuesta_correcta": ["1962"]
+    },
+    {
+        "pregunta": "¿Cuál de estas películas no fue protagonizada por Brad Pitt?",
+        "opciones": ["El club de la lucha", "El curioso caso de Benjamin Button", "Michael Clayton", "Troya"],
+        "respuesta_correcta": ["Michael Clayton"]
+    },
+    {
+        "pregunta": "¿Cómo se llamaba el papá de Simba en la película El Rey León?",
+        "opciones": ["Scar", "Rafiki", "Timón", "Mufasa"],
+        "respuesta_correcta": ["Mufasa"]
+    },
+    {
+        "pregunta": "¿De qué nacionalidad es la cantante Belinda?",
+        "opciones": ["Española", "Argentna", "Colombiana", "Mexicana"],
+        "respuesta_correcta": ["Mexicana"]
+    },
+    {
+        "pregunta": "¿Cómo se llama la nave en la que viajan los protagonistas de la película \"Matrix\"?",
+        "opciones": ["Prometeo", "Enterprise", "Odisea", "Nabucodonosor"],
+        "respuesta_correcta": ["Nabucodonosor"]
+    },
+    {
+        "pregunta": "¿Cómo se llama el Teletubbies que no es Tinky Winky, Po o Dipsy?",
+        "opciones": ["Lala", "Bo", "Minky", "Loo"],
+        "respuesta_correcta": ["Lala"]
+    },
+    {
+        "pregunta": "¿De qué juego son las siglas WOW?",
+        "opciones": ["Wonders of World", "War of Wonders", "World of Warcraft", "Wonders of Warfare"],
+        "respuesta_correcta": ["World of Warcraft"]
+    },
+    {
+        "pregunta": "¿Cuál de las siguientes películas NO fue dirigida por el holandés Paul Verhoeven?",
+        "opciones": ["RoboCop", "Starship Troopers", "Terminator", "Instinto básico"],
+        "respuesta_correcta": ["Terminator"]
+    },
+    {
+        "pregunta": "¿En cuál de estas bandas el cantante toca guitarra?",
+        "opciones": ["Coldplay", "Fall Out Boy", "Imagine Dragons", "Maroon 5"],
+        "respuesta_correcta": ["Fall Out Boy"]
+    },
+    {
+        "pregunta": "¿Con qué canción saltó a la fama del grupo Hombres G?",
+        "opciones": ["Venezia", "Sufre mamón", "Lo noto", "Marta tiene un marcapasos"],
+        "respuesta_correcta": ["Sufre mamón"]
+    },
+    {
+        "pregunta": "¿Qué grupo de música inglés soltó un globo con forma de cerdo en la estación eléctrica de Londres?",
+        "opciones": ["The Beatles", "Pink Floyd", "The Rolling Stones", "Led Zeppelin"],
+        "respuesta_correcta": ["Pink Floyd"]
+    },
+    {
+        "pregunta": "¿Qué icono tiene la aplicación Instagram?",
+        "opciones": ["Un corazón", "Un arco iris", "Un ojo", "Una cámara de fotos"],
+        "respuesta_correcta": ["Una cámara de fotos"]
+    },
+    {
+        "pregunta": "¿Cuál es el apodo de Maite en \"La que se avecina\"?",
+        "opciones": ["La choni", "La cuqui", "La petarda", "La señorona"],
+        "respuesta_correcta": ["La cuqui"]
+    },
+    {
+        "pregunta": "¿En qué país nació Benicio del Toro?",
+        "opciones": ["Cuba", "México", "España", "Puerto Rico"],
+        "respuesta_correcta": ["Puerto Rico"]
+    },
+    {
+        "pregunta": "¿Cuántas películas de \"El juego del Miedo\" hay (al 2014)?",
+        "opciones": ["5", "6", "7", "8"],
+        "respuesta_correcta": ["7"]
+    },
+    {
+        "pregunta": "¿Quién canta la canción \"Firework\"?",
+        "opciones": ["Taylor Swift", "Katy Perry", "Lady Gaga", "Adele"],
+        "respuesta_correcta": ["Katy Perry"]
+    },
+    {
+        "pregunta": "¿En qué saga de videojuegos aparece la entrega \"Ocarina Of Time\"?",
+        "opciones": ["Final Fantasy", "Super Mario", "Metroid", "Legend of Zelda"],
+        "respuesta_correcta": ["Legend of Zelda"]
+    },
+    {
+        "pregunta": "¿A qué cantante acompañaban Los Trogloditas?",
+        "opciones": ["Miguel Ríos", "Loquillo", "Rosendo", "Enrique Bunbury"],
+        "respuesta_correcta": ["Loquillo"]
+    },
+    {
+        "pregunta": "¿Cuántos discos de estudio hizo Queen con Freddie Mercury?",
+        "opciones": ["10", "12", "14", "16"],
+        "respuesta_correcta": ["16"]
+    },
+    {
+        "pregunta": "¿Qué actor interpretó Michael Corleone en El Padrino?",
+        "opciones": ["Robert De Niro", "Al Pacino", "Marlon Brando", "James Caan"],
+        "respuesta_correcta": ["Al Pacino"]
+    },
+    {
+        "pregunta": "¿Cómo se llama el amigo inseparable de \"Dora la Exploradora\"?",
+        "opciones": ["Botas", "Mapa", "Mochila", "Zorro"],
+        "respuesta_correcta": ["Botas"]
+    },
+    {
+        "pregunta": "¿Cómo se llama la hija de Bella Swan en la Saga Crepúsculo?",
+        "opciones": ["Alice", "Renesme", "Esme", "Rosalie"],
+        "respuesta_correcta": ["Renesme"]
+    },
+    {
+        "pregunta": "¿De cuántas partes se compone la saga de \"El Padrino\"?",
+        "opciones": ["2", "3", "4", "5"],
+        "respuesta_correcta": ["3"]
+    },
+    {
+        "pregunta": "¿Qué miembro de la nave \"Enterprise\" es el responsable del teletransporte en Star Trek?",
+        "opciones": ["Spock", "Uhura", "Sulu", "Scotty"],
+        "respuesta_correcta": ["Scotty"]
+    },
+    {
+        "pregunta": "¿En qué serie es Barney Stinson uno de los protagonistas?",
+        "opciones": ["Friends", "Big Bang Theory", "How I Met Your Mother", "Two and a Half Men"],
+        "respuesta_correcta": ["How I Met Your Mother"]
+    },
+    {
+        "pregunta": "¿Quién de ellos no perteneció a la primera banda de Guns and Roses?",
+        "opciones": ["Izzy Stradlin", "Duff McKagan", "Axl Rose", "John Lennon"],
+        "respuesta_correcta": ["John Lennon"]
+    },
+    {
+        "pregunta": "¿Cuál de las siguientes actrices ha aparecido en las tres temporadas de American Horror Story?",
+        "opciones": ["Evan Rachel Wood", "Emma Roberts", "Jessica Lange", "Sarah Paulson"],
+        "respuesta_correcta": ["Jessica Lange"]
+    },
+    {
+        "pregunta": "¿Dónde luchaban Starsky y Hutch contra el crimen?",
+        "opciones": ["Nueva York", "Miami", "Los Ángeles", "San Francisco"],
+        "respuesta_correcta": ["Los Ángeles"]
+    },
+    {
+        "pregunta": "¿En qué año nació Michael Jackson?",
+        "opciones": ["1955", "1956", "1957", "1958"],
+        "respuesta_correcta": ["1958"]
+    },
+    {
+        "pregunta": "¿Cómo se llamaba el perro de Luke Skywalker?",
+        "opciones": ["Chewbacca", "R2-D2", "Boba Fett", "No tenía"],
+        "respuesta_correcta": ["No tenía"]
+    },
+    {
+        "pregunta": "¿En cuál de estos grupos no canta una mujer?",
+        "opciones": ["Nirvana", "Smashing Pumpkins", "No Doubt", "The Cranberries"],
+        "respuesta_correcta": ["Nirvana"]
+    },
+    {
+        "pregunta": "¿Quién vive en una piña debajo del mar?",
+        "opciones": ["Patrick Estrella", "Arenita Mejillas", "Bob Esponja", "Calamardo"],
+        "respuesta_correcta": ["Bob Esponja"]
+    },
+    {
+        "pregunta": "¿Cómo se llama el hijo de Shakira y Piqué?",
+        "opciones": ["Gerard", "Milan", "Sasha", "Ivan"],
+        "respuesta_correcta": ["Milan"]
+    },
+    {
+        "pregunta": "¿En qué año se fundó Twitter?",
+        "opciones": ["2004", "2005", "2006", "2007"],
+        "respuesta_correcta": ["2006"]
+    },
+    {
+        "pregunta": "¿Qué movimiento llegó en 1970 con la canción \"Anarchy in the U.K.\" a su punto culminante?",
+        "opciones": ["Grunge", "New Wave", "Heavy Metal", "Punk"],
+        "respuesta_correcta": ["Punk"]
+    },
+    {
+        "pregunta": "¿Cuál es el nombre del actor que interpreta a Harry Potter?",
+        "opciones": ["Rupert Grint", "Tom Felton", "Daniel Radcliffe", "Eddie Redmayne"],
+        "respuesta_correcta": ["Daniel Radcliffe"]
+    },
+    {
+        "pregunta": "¿Cuál de los siguientes actores no actúa en \"La Que Se Avecina\"?",
+        "opciones": ["Fernando Tejero", "Llum Barrera", "Pablo Chiapella", "Eva Isanta"],
+        "respuesta_correcta": ["Llum Barrera"]
+    },
+    {
+        "pregunta": "¿Quién es el actor vampiro protagonista de la saga \"Crepúsculo\"?",
+        "opciones": ["Robert Pattinson", "Taylor Lautner", "Kellan Lutz", "Peter Facinelli"],
+        "respuesta_correcta": ["Robert Pattinson"]
+    },
+    {
+        "pregunta": "¿Qué personaje Disney baja por un río con una canoa?",
+        "opciones": ["Mulán", "Pocahontas", "Moana", "Rapunzel"],
+        "respuesta_correcta": ["Pocahontas"]
+    },
+    {
+        "pregunta": "¿En qué película se dice 'La vida es como una caja de bombones, nunca sabes qué te va a tocar'?",
+        "opciones": ["Forrest Gump", "El indomable Will Hunting", "Rain Man", "El hombre que susurraba a los caballos"],
+        "respuesta_correcta": ["Forrest Gump"]
+    },
+    {
+        "pregunta": "¿Cómo se llamaba el panadero de Barrio Sésamo?",
+        "opciones": ["Ernesto", "Berto", "Epi", "Chema"],
+        "respuesta_correcta": ["Chema"]
+    },
+    {
+        "pregunta": "¿Cuál de estos jugadores aparece en la tapa del videojuego FIFA 2013?",
+        "opciones": ["Cristiano Ronaldo", "Neymar Jr.", "Andrés Iniesta", "Lionel Messi"],
+        "respuesta_correcta": ["Lionel Messi"]
+    },
+    {
+        "pregunta": "¿Quién lleva un bolsillo mágico?",
+        "opciones": ["Shin Chan", "Doraemon", "Goku", "Naruto"],
+        "respuesta_correcta": ["Doraemon"]
+    },
+    {
+        "pregunta": "¿Cómo se llamaba el cantante de Queen?",
+        "opciones": ["Brian May", "Roger Taylor", "John Deacon", "Freddie Mercury"],
+        "respuesta_correcta": ["Freddie Mercury"]
+    },
+    {
+        "pregunta": "¿Cuántas categorías tiene el juego \"Preguntados\"?",
+        "opciones": ["4", "5", "6", "7"],
+        "respuesta_correcta": ["6"]
+    },
+    {
+        "pregunta": "¿Quién es Alan en \"Dos Hombres y Medio\"?",
+        "opciones": ["El hijo de Charlie", "El hermano de Charlie", "El vecino de Charlie", "El amigo de Charlie"],
+        "respuesta_correcta": ["El hermano de Charlie"]
+    },
+    {
+        "pregunta": "¿Cómo se llama el ayudante de Iron Man?",
+        "opciones": ["Rhodes", "Fury", "Jarvis", "Pepper"],
+        "respuesta_correcta": ["Jarvis"]
+    },
+    {
+        "pregunta": "¿En cuál de estos juegos el terreno tiene hongos, flores, bombas de DDT, y como enemigos y arañas, mariquitas y otros insectos?",
+        "opciones": ["Centipede", "Galaga", "Pac-Man", "Millipede"],
+        "respuesta_correcta": ["Millipede"]
+    },
+    {
+        "pregunta": "¿Cuántos años tenía Mozart al morir?",
+        "opciones": ["27", "30", "35", "40"],
+        "respuesta_correcta": ["35"]
+    },
+    {
+        "pregunta": "¿Cuál de estas películas ganó el Óscar a la mejor película?",
+        "opciones": ["La naranja mecánica", "Tiburón", "Patton", "El padrino"],
+        "respuesta_correcta": ["Patton"]
+    },
+    {
+        "pregunta": "¿Cuál es la última película por la que el director Terrence Malick ganó la Palma de Oro en el Festival de Cannes?",
+        "opciones": ["El nuevo mundo", "To the Wonder", "Días del cielo", "El árbol de la vida"],
+        "respuesta_correcta": ["El árbol de la vida"]
+    },
+    {
+        "pregunta": "¿Dónde nació John Lennon?",
+        "opciones": ["Manchester", "Londres", "Birmingham", "Liverpool"],
+        "respuesta_correcta": ["Liverpool"]
+    },
+    {
+        "pregunta": "¿Qué quería comerse Alf?",
+        "opciones": ["Al perro", "Al gato", "A la pecera", "A los pájaros"],
+        "respuesta_correcta": ["Al gato"]
+    },
+    {
+        "pregunta": "¿Cuáles son los nombres de \"Los Tres Chiflados\"?",
+        "opciones": ["Moe, Curly y Shep", "Moe, Larry y Joe", "Moe, Larry y Curly", "Moe, Shemp y Joe"],
+        "respuesta_correcta": ["Moe, Larry y Curly"]
+    },
+    {
+        "pregunta": "¿Cuál es la cantante que publicó en 2008 el album \"Hard Candy\"?",
+        "opciones": ["Beyoncé", "Rihanna", "Britney Spears", "Madonna"],
+        "respuesta_correcta": ["Madonna"]
+    },
+    {
+        "pregunta": "¿Cómo es conocida mundialmente la cantante Beyonce?",
+        "opciones": ["Bee", "Yonce", "Queen B", "B-Girl"],
+        "respuesta_correcta": ["Queen B"]
+    },
+    {
+        "pregunta": "¿Cómo se llamaba el primer gato de Los Simpsons?",
+        "opciones": ["Bola de nieve I", "Bola de nieve II", "Bota", "Pelusa"],
+        "respuesta_correcta": ["Bola de nieve I"]
+    },
+    {
+        "pregunta": "¿Quién resulta ser el príncipe mestizo en la sexta película de Harry Potter?",
+        "opciones": ["Tom Riddle", "Albus Dumbledore", "Draco Malfoy", "Severus Snape"],
+        "respuesta_correcta": ["Severus Snape"]
+    },
+    {
+        "pregunta": "¿Qué cantante estuvo saliendo con Selena Gómez?",
+        "opciones": ["Zayn Malik", "Justin Bieber", "The Weeknd", "Nick Jonas"],
+        "respuesta_correcta": ["Justin Bieber"]
+    },
+    {
+        "pregunta": "¿De qué planeta son originarios los ewoks del universo de \"La Guerra de las Galaxias\"?",
+        "opciones": ["Hoth", "Tatooine", "Endor", "Naboo"],
+        "respuesta_correcta": ["Endor"]
+    },
+    {
+        "pregunta": "¿De quién es la canción 'Master of Puppets'?",
+        "opciones": ["Iron Maiden", "Megadeth", "Black Sabbath", "Metallica"],
+        "respuesta_correcta": ["Metallica"]
+    },
+    {
+        "pregunta": "¿Quién ganó \"Artista del Año\" en los American Music Awards 2013?",
+        "opciones": ["Ariana Grande", "Rihanna", "Taylor Swift", "Katy Perry"],
+        "respuesta_correcta": ["Taylor Swift"]
+    },
+    {
+        "pregunta": "¿Cómo se llama el personaje malvado de Aladdin?",
+        "opciones": ["Genio", "Iago", "Sultan", "Jafar"],
+        "respuesta_correcta": ["Jafar"]
+    },
+    {
+        "pregunta": "¿Quién de los siguientes actores salía en la película 'El otro lado de la cama'?",
+        "opciones": ["Penélope Cruz", "Natalia Verbeke", "Elena Anaya", "Marta Etura"],
+        "respuesta_correcta": ["Natalia Verbeke"]
+    },
+    {
+        "pregunta": "¿Cuál es el nombre de la canción de la película \"Titanic\"?",
+        "opciones": ["Ocean of Dreams", "Heart of the Ocean", "Titanic Love", "My heart will go on"],
+        "respuesta_correcta": ["My heart will go on"]
+    },
+    {
+        "pregunta": "¿De qué color era Clifford, el perro gigante?",
+        "opciones": ["Verde", "Azul", "Amarillo", "Rojo"],
+        "respuesta_correcta": ["Rojo"]
+    },
+    {
+        "pregunta": "¿Qué es Assasin's Creed?",
+        "opciones": ["Una serie", "Un cómic", "Un libro", "Un videojuego"],
+        "respuesta_correcta": ["Un videojuego"]
+    },
+    {
+        "pregunta": "¿Por qué película obtuvo Sofía Loren un Oscar?",
+        "opciones": ["A Special Day", "El Cid", "Two Women (Dos mujeres)", "Marriage Italian Style"],
+        "respuesta_correcta": ["Two Women (Dos mujeres)"]
+    },
+    {
+        "pregunta": "¿Cómo se llama el disco que lanzó Katy Perry en el 2013?",
+        "opciones": ["Witness", "Teenage Dream", "One of the Boys", "PRISM"],
+        "respuesta_correcta": ["PRISM"]
+    },
+    {
+        "pregunta": "¿Cuál es el nombre real de Lady Gaga?",
+        "opciones": ["Giovanna Stefani", "Stefani Joanne Angelina Germanotta", "Angela Maria Germanotta", "Gaga Maria Joanne"],
+        "respuesta_correcta": ["Stefani Joanne Angelina Germanotta"]
+    },
+    {
+        "pregunta": "¿Quién es Justin Bieber?",
+        "opciones": ["Un actor", "Un presentador", "Un cantante", "Un político"],
+        "respuesta_correcta": ["Un cantante"]
+    },
+    {
+        "pregunta": "¿Cómo se llama el actor que interpreta a Michael en la película \"El padrino\"?",
+        "opciones": ["Robert De Niro", "Marlon Brando", "James Caan", "Al Pacino"],
+        "respuesta_correcta": ["Al Pacino"]
+    },
+    {
+        "pregunta": "¿Cómo se llaman los acompañantes de Frank de la Jungla?",
+        "opciones": ["Juan y Pedro", "Santi y Nacho", "Luis y Mario", "Carlos y Jose"],
+        "respuesta_correcta": ["Santi y Nacho"]
+    },
+    {
+        "pregunta": "¿Quién presentaba el programa 'Crónicas Marcianas'?",
+        "opciones": ["Andreu Buenafuente", "Javier Sardá", "Jesús Vázquez", "Paco Lobatón"],
+        "respuesta_correcta": ["Javier Sardá"]
+    },
+    {
+        "pregunta": "¿Cuál es la nacionalidad de la cantante Shakira?",
+        "opciones": ["Mexicana", "Española", "Colombiana", "Venezolana"],
+        "respuesta_correcta": ["Colombiana"]
+    },
+    {
+        "pregunta": "¿Qué personaje histórico interpreta Daniel Day-Lewis en una película de Steven Spielberg?",
+        "opciones": ["Theodore Roosevelt", "George Washington", "Winston Churchill", "Abraham Lincoln"],
+        "respuesta_correcta": ["Abraham Lincoln"]
+    },
+    {
+        "pregunta": "¿En qué año se fundó The Walt Disney Company?",
+        "opciones": ["1910", "1920", "1923", "1931"],
+        "respuesta_correcta": ["1923"]
+    },
+    {
+        "pregunta": "¿A qué familia pertenece Dobby, el elfo doméstico en la historia de Harry Potter?",
+        "opciones": ["Granger", "Weasley", "Potter", "Malfoy"],
+        "respuesta_correcta": ["Malfoy"]
+    },
+    {
+        "pregunta": "¿Qué actor protagonizó la película \"Grease\"?",
+        "opciones": ["Tom Hanks", "John Travolta", "Robert Redford", "Patrick Swayze"],
+        "respuesta_correcta": ["John Travolta"]
+    },
+    {
+        "pregunta": "¿Qué famoso actor norteamericano fue el primer marido de Lauren Bacall?",
+        "opciones": ["Clark Gable", "Humphrey Bogart", "James Stewart", "Henry Fonda"],
+        "respuesta_correcta": ["Humphrey Bogart"]
+    },
+    {
+        "pregunta": "¿Quién se hizo famoso, gracias a su frase \"que hay de nuevo viejo\"?",
+        "opciones": ["Mickey Mouse", "Bugs bunny", "Daffy Duck", "Porky Pig"],
+        "respuesta_correcta": ["Bugs bunny"]
+    },
+    {
+        "pregunta": "¿Qué cantante hizo una aparición en el medio tiempo del Superbowl 2014?",
+        "opciones": ["Justin Timberlake", "Beyoncé", "Bruno Mars", "Madonna"],
+        "respuesta_correcta": ["Bruno Mars"]
+    },
+    {
+        "pregunta": "¿Cómo se llama la princesa de Disney conocida como \"La Sirenita”?",
+        "opciones": ["Jasmine", "Bella", "Aurora", "Ariel"],
+        "respuesta_correcta": ["Ariel"]
+    },
+    {
+        "pregunta": "¿Cómo se llama la bebé de Los Simpsons?",
+        "opciones": ["Lisa", "Marge", "Maggie", "Mona"],
+        "respuesta_correcta": ["Maggie"]
+    },
+    {
+        "pregunta": "¿De dónde proviene el reggae?",
+        "opciones": ["Trinidad y Tobago", "Cuba", "Puerto Rico", "Jamaica"],
+        "respuesta_correcta": ["Jamaica"]
+    },
+    {
+        "pregunta": "¿Cómo se llama el primer hijo de Goku de Dragon Ball?",
+        "opciones": ["Vegeta", "Gohan", "Trunks", "Goten"],
+        "respuesta_correcta": ["Gohan"]
+    },
+    {
+        "pregunta": "¿Cuántos capítulos tiene la serie de televisión 'Friends?",
+        "opciones": ["186", "205", "236", "258"],
+        "respuesta_correcta": ["236"]
+    },
+    {
+        "pregunta": "¿Con qué grupo comenzó a tener éxito Eric Clapton?",
+        "opciones": ["Cream", "Led Zeppelin", "The Rolling Stones", "The Yardbirds"],
+        "respuesta_correcta": ["The Yardbirds"]
+    },
+    {
+        "pregunta": "¿Quién protagonizo la película \"Descubriendo nunca jamás\"?",
+        "opciones": ["Johnny Depp", "Leonardo DiCaprio", "Brad Pitt", "Hugh Jackman"],
+        "respuesta_correcta": ["Johnny Depp"]
+    },
+    {
+        "pregunta": "¿Dónde se celebra el festival de música \" Alhambra Sound \"?",
+        "opciones": ["Madrid", "Sevilla", "Granada", "Málaga"],
+        "respuesta_correcta": ["Granada"]
+    },
+    {
+        "pregunta": "¿Quién es Mario Casas?",
+        "opciones": ["Un cantante", "Un director", "Un actor", "Un escritor"],
+        "respuesta_correcta": ["Un actor"]
+    },
+    {
+        "pregunta": "¿Alrededor de qué ciudad se encontraba la 'Ruta del Bakalao'?",
+        "opciones": ["Barcelona", "Madrid", "Valencia", "Bilbao"],
+        "respuesta_correcta": ["Valencia"]
+    },
+    {
+        "pregunta": "¿Qué integrante de The Beatles falleció en 2001?",
+        "opciones": ["John Lennon", "Paul McCartney", "Ringo Starr", "George Harrison"],
+        "respuesta_correcta": ["George Harrison"]
+    },
+    {
+        "pregunta": "¿A qué se dedica el personaje Ted Mosby de 'Como conocí a vuestra madre?",
+        "opciones": ["Médico", "Abogado", "Arquitecto", "Profesor"],
+        "respuesta_correcta": ["Arquitecto"]
+    },
+    {
+        "pregunta": "¿Quién es el profesor del colegio Hogwarts que se convierte en Hombre lobo?",
+        "opciones": ["Sirius Black", "Horace Slughorn", "Gilderoy Lockhart", "Remus Lupin"],
+        "respuesta_correcta": ["Remus Lupin"]
+    },
+    {
+        "pregunta": "¿Cómo se llama el pájaro símbolo de los Juegos del Hambre?",
+        "opciones": ["Águila", "Fénix", "Sinsajo", "Cuervo"],
+        "respuesta_correcta": ["Sinsajo"]
+    },
+    {
+        "pregunta": "¿Cuál fue el primer festival de rock gratuito en durar más de 3 días en 1969?",
+        "opciones": ["Lollapalooza", "Bonnaroo", "Woodstock", "Glastonbury"],
+        "respuesta_correcta": ["Woodstock"]
+    },
+    {
+        "pregunta": "¿Cómo se llama el personaje de 'Hellraiser' que tiene clavos en la cara?",
+        "opciones": ["The Engineer", "Chatterer", "Butterball", "Pinhead"],
+        "respuesta_correcta": ["Pinhead"]
+    },
+    {
+        "pregunta": "¿En que banda canta Anthony Kiedis?",
+        "opciones": ["Nirvana", "Pearl Jam", "Foo Fighters", "Red Hot Chili Peppers"],
+        "respuesta_correcta": ["Red Hot Chili Peppers"]
+    },
+    {
+        "pregunta": "¿De qué famosa película de Disney es el personaje Jafar?",
+        "opciones": ["El Rey León", "Pocahontas", "Aladdin", "La Bella y la Bestia"],
+        "respuesta_correcta": ["Aladdin"]
+    },
+    {
+        "pregunta": "¿Cuál es la famosa película de Audrey Hepburn donde salía una conocida joyería?",
+        "opciones": ["Sabrina", "La princesa que todo lo aprendió en los libros", "Desayuno con Diamantes", "My Fair Lady"],
+        "respuesta_correcta": ["Desayuno con Diamantes"]
+    },
+    {
+        "pregunta": "¿Qué actriz hace un desnudo de su brazo en 'Gilda'?",
+        "opciones": ["Marilyn Monroe", "Audrey Hepburn", "Elizabeth Taylor", "Rita Hayworth"],
+        "respuesta_correcta": ["Rita Hayworth"]
+    }
+]

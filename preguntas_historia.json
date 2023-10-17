@@ -1,0 +1,887 @@
+[
+    {
+        "pregunta": "¿Cuál es el área urbana más poblada de la India?",
+        "opciones": ["Delhi", "Bombay", "Bangalore", "Calcuta"],
+        "respuesta_correcta": "Bombay"
+    },
+    {
+        "pregunta": "¿En qué provincia se encuentra Elche?",
+        "opciones": ["Valencia", "Murcia", "Alicante", "Castellón"],
+        "respuesta_correcta": "Alicante"
+    },
+    {
+        "pregunta": "¿Cuál es la moneda oficial de Costa Rica?",
+        "opciones": ["Peso", "Dólar", "Colón costarricense", "Balboa"],
+        "respuesta_correcta": "Colón costarricense"
+    },
+    {
+        "pregunta": "¿Cuál de los siguientes países no es una isla?",
+        "opciones": ["Jamaica", "Madagascar", "Todos son islas", "Japón"],
+        "respuesta_correcta": "Todos son islas"
+    },
+    {
+        "pregunta": "¿Dónde se encuentra la isla de Koh Samui?",
+        "opciones": ["Indonesia", "Tailandia", "Malasia", "Filipinas"],
+        "respuesta_correcta": "Tailandia"
+    },
+    {
+        "pregunta": "¿Cuál es la capital de Uruguay?",
+        "opciones": ["Buenos Aires", "Asunción", "Montevideo", "La Paz"],
+        "respuesta_correcta": "Montevideo"
+    },
+    {
+        "pregunta": "¿Dónde se encuentra el río Nilo?",
+        "opciones": ["Asia", "Europa", "En África", "América"],
+        "respuesta_correcta": "En África"
+    },
+    {
+        "pregunta": "¿Dónde se encuentra la villa portuaria más antigua de Francia?",
+        "opciones": ["Burdeos", "Marseille", "Niza", "París"],
+        "respuesta_correcta": "Marseille"
+    },
+    {
+        "pregunta": "¿De dónde es el queso D.O. Idiazábal?",
+        "opciones": ["Navarra", "La Rioja", "Gipuzkoa", "Asturias"],
+        "respuesta_correcta": "Gipuzkoa"
+    },
+    {
+        "pregunta": "¿Cómo se llama el presidente de la República de Ecuador?",
+        "opciones": ["Hugo Chávez", "Rafael Correa", "Lenín Moreno", "Evo Morales"],
+        "respuesta_correcta": "Rafael Correa"
+    },
+    {
+        "pregunta": "¿Cuál es el sexto país más grande el mundo?",
+        "opciones": ["India", "Estados Unidos", "Brasil", "Australia"],
+        "respuesta_correcta": "Australia"
+    },
+    {
+        "pregunta": "¿En qué ciudad se encuentra el museo San Telmo?",
+        "opciones": ["Bilbao", "Donostia", "Vitoria", "Pamplona"],
+        "respuesta_correcta": "Donostia"
+    },
+    {
+        "pregunta": "¿Cuál es el idioma tradicional en Bulgaria?",
+        "opciones": ["Serbio", "Rumano", "Búlgaro", "Albanés"],
+        "respuesta_correcta": "Búlgaro"
+    },
+    {
+        "pregunta": "¿Cómo se le conoce a los habitantes de Málaga?",
+        "opciones": ["Maños", "Boquerones", "Murcianos", "Manchegos"],
+        "respuesta_correcta": "Boquerones"
+    },
+    {
+        "pregunta": "¿A qué isla pertenece la ciudad de Honolulu?",
+        "opciones": ["Samoa", "Fiyi", "Tahití", "Hawai"],
+        "respuesta_correcta": "Hawai"
+    },
+    {
+        "pregunta": "¿Cuál de estos países NO se encuentra ubicado en sudamérica?",
+        "opciones": ["Chile", "Haiti", "Argentina", "Colombia"],
+        "respuesta_correcta": "Haiti"
+    },
+    {
+        "pregunta": "¿Dónde se encuentra Panamá?",
+        "opciones": ["América del Sur", "América Central", "Caribe", "América del Norte"],
+        "respuesta_correcta": "América Central"
+    },
+    {
+        "pregunta": "¿Cuál de los siguientes países tiene al subterráneo como uno de sus sistemas de transporte?",
+        "opciones": ["Chad", "Mali", "Níger", "Argelia"],
+        "respuesta_correcta": "Argelia"
+    },
+    {
+        "pregunta": "¿En qué país del sur América se habla portugués?",
+        "opciones": ["Argentina", "Venezuela", "Brasil", "Perú"],
+        "respuesta_correcta": "Brasil"
+    },
+    {
+        "pregunta": "¿En qué país es típico el flamenco?",
+        "opciones": ["Italia", "Francia", "Portugal", "España"],
+        "respuesta_correcta": "España"
+    },
+    {
+        "pregunta": "¿Cuál de los siguientes países considera a la vaca como un animal sagrado?",
+        "opciones": ["China", "India", "Egipto", "Australia"],
+        "respuesta_correcta": "India"
+    },
+    {
+        "pregunta": "¿Cuántas estrellas tiene la bandera de China?",
+        "opciones": ["3", "5", "7", "10"],
+        "respuesta_correcta": "5"
+    },
+    {
+        "pregunta": "¿Qué ciudad se conoce como 'Ciudad Condal'?",
+        "opciones": ["Madrid", "Sevilla", "Barcelona", "Bilbao"],
+        "respuesta_correcta": "Barcelona"
+    },
+    {
+        "pregunta": "¿Cuál de los siguientes países NO tiene una bandera de color azul, rojo y amarillo?",
+        "opciones": ["Colombia", "Ecuador", "Venezuela", "Perú"],
+        "respuesta_correcta": "Perú"
+    },
+    {
+        "pregunta": "¿Cuál estado se rige por una teocracia?",
+        "opciones": ["Arabia Saudita", "Israel", "El Vaticano", "Irán"],
+        "respuesta_correcta": "El Vaticano"
+    },
+    {
+        "pregunta": "¿En qué país se encuentra la ciudad de Atenas?",
+        "opciones": ["Turquía", "Italia", "Grecia", "Macedonia del Norte"],
+        "respuesta_correcta": "Grecia"
+    },
+    {
+        "pregunta": "¿Dónde se encuentra la región de Medio Oriente?",
+        "opciones": ["Entre Marruecos y Egipto", "Entre Siria y la frontera Irán-Afganistán", "Entre Turquía y Yemen", "Entre Arabia Saudita y Omán"],
+        "respuesta_correcta": "Entre Siria y la frontera Irán-Afganistán"
+    },
+    {
+        "pregunta": "¿Qué país es considerado 'el país de los mil lagos'?",
+        "opciones": ["Canadá", "Rusia", "Finlandia", "Suecia"],
+        "respuesta_correcta": "Finlandia"
+    },
+    {
+        "pregunta": "¿En qué país está Poitiers?",
+        "opciones": ["Alemania", "Italia", "Francia", "Bélgica"],
+        "respuesta_correcta": "Francia"
+    },
+    {
+        "pregunta": "¿Cuál de estos países no es un país tropical?",
+        "opciones": ["Brasil", "Costa Rica", "Venezuela", "Croacia"],
+        "respuesta_correcta": "Croacia"
+    },
+    {
+        "pregunta": "¿Qué país es famoso por su 'October Fest'?",
+        "opciones": ["Austria", "Suiza", "Alemania", "Bélgica"],
+        "respuesta_correcta": "Alemania"
+    },
+    {
+        "pregunta": "¿En qué país se encuentra 'Cochabamba'?",
+        "opciones": ["Chile", "Argentina", "Bolivia", "Perú"],
+        "respuesta_correcta": "Bolivia"
+    },
+    {
+        "pregunta": "¿Dónde queda el país de Perú?",
+        "opciones": ["América Central", "Sudamérica", "Caribe", "América del Norte"],
+        "respuesta_correcta": "Sudamérica"
+    },
+    {
+        "pregunta": "¿Cuál es el idioma predominante en América?",
+        "opciones": ["Portugués", "Inglés", "Español", "Francés"],
+        "respuesta_correcta": "Español"
+    },
+    {
+        "pregunta": "¿En qué país europeo se encuentra la ciudad de Salisbury?",
+        "opciones": ["Escocia", "Irlanda", "Inglaterra", "Gales"],
+        "respuesta_correcta": "Inglaterra"
+    },
+    {
+        "pregunta": "¿Qué país no tiene costas?",
+        "opciones": ["Argentina", "Bolivia", "Colombia", "Chile"],
+        "respuesta_correcta": "Bolivia"
+    },
+    {
+        "pregunta": "¿Cuál de los siguientes países no es de Europa?",
+        "opciones": ["Hungría", "Bulgaria", "Nigeria", "Grecia"],
+        "respuesta_correcta": "Nigeria"
+    },
+    {
+        "pregunta": "¿Con qué provincia no limita el País Vasco?",
+        "opciones": ["Navarra", "Burgos", "Cantabria", "Zaragoza"],
+        "respuesta_correcta": "Zaragoza"
+    },
+    {
+        "pregunta": "¿En qué país se encuentra Oslo?",
+        "opciones": ["Suecia", "Dinamarca", "Finlandia", "Noruega"],
+        "respuesta_correcta": "Noruega"
+    },
+    {
+        "pregunta": "¿En qué país asiático se encuentra el templo de Borobudur?",
+        "opciones": ["Tailandia", "Camboya", "Indonesia", "Malasia"],
+        "respuesta_correcta": "Indonesia"
+    },
+    {
+        "pregunta": "¿Cómo se les dice a los nacidos en Cuba?",
+        "opciones": ["Mexicano", "Español", "Portorriqueño", "Cubano"],
+        "respuesta_correcta": "Cubano"
+    },
+    {
+        "pregunta": "¿En qué país se encuentra la ciudad de Eindhoven?",
+        "opciones": ["Alemania", "Bélgica", "Holanda", "Francia"],
+        "respuesta_correcta": "Holanda"
+    },
+    {
+        "pregunta": "¿Cuál de estos ríos desemboca en el Mar Mediterráneo?",
+        "opciones": ["Duero", "Tajo", "Ebro", "Genil"],
+        "respuesta_correcta": "Ebro"
+    },
+    {
+        "pregunta": "¿Cuál es el gentilicio de la provincia de Huelva (España)?",
+        "opciones": ["Huelvano", "Huelvense", "Onubense", "Huelvino"],
+        "respuesta_correcta": "Onubense"
+    },
+    {
+        "pregunta": "¿De qué ciudad viene el equipo de fútbol Juventus?",
+        "opciones": ["Roma", "Milán", "Nápoles", "Turín"],
+        "respuesta_correcta": "Turín"
+    },
+    {
+        "pregunta": "¿Dónde se encuentra la Cochinchina?",
+        "opciones": ["Laos", "Camboya", "Tailandia", "Vietnam"],
+        "respuesta_correcta": "Vietnam"
+    },
+    {
+        "pregunta": "¿Dónde se encuentra Irak?",
+        "opciones": ["Europa", "África", "Asia", "América"],
+        "respuesta_correcta": "Asia"
+    },
+    {
+        "pregunta": "¿Cómo se les llama a los habitantes de Huelva?",
+        "opciones": ["Huelvinos", "Huelvenses", "Huelvanos", "Onubenses"],
+        "respuesta_correcta": "Onubenses"
+    },
+    {
+        "pregunta": "¿A qué continente pertenece Islandia?",
+        "opciones": ["Europa", "América", "África", "Asia"],
+        "respuesta_correcta": "Europa"
+    },
+    {
+        "pregunta": "¿Dónde tuvo lugar la Expo 2008?",
+        "opciones": ["Barcelona", "Madrid", "Zaragoza", "Valencia"],
+        "respuesta_correcta": "Zaragoza"
+    },
+    {
+        "pregunta": "¿Qué país es el mayor productor de leche del mundo?",
+        "opciones": ["Estados Unidos", "India", "China", "Australia"],
+        "respuesta_correcta": "India"
+    },
+    {
+        "pregunta": "¿Cuál es la capital de Madagascar?",
+        "opciones": ["Port Louis", "Maputo", "Antananarivo", "Mombasa"],
+        "respuesta_correcta": "Antananarivo"
+    },
+    {
+        "pregunta": "¿En qué hemisferio está Groenlandia?",
+        "opciones": ["Norte", "Sur", "Este", "Oeste"],
+        "respuesta_correcta": "Norte"
+    },
+    {
+        "pregunta": "¿Qué país tiene más territorio en la Amazonía?",
+        "opciones": ["Colombia", "Venezuela", "Perú", "Brasil"],
+        "respuesta_correcta": "Brasil"
+    },
+    {
+        "pregunta": "¿Cuál es la capital de Croacia?",
+        "opciones": ["Belgrado", "Budapest", "Sarajevo", "Zagreb"],
+        "respuesta_correcta": "Zagreb"
+    },
+    {
+        "pregunta": "¿En qué país se celebra la tomatina?",
+        "opciones": ["Italia", "España", "Portugal", "Francia"],
+        "respuesta_correcta": "España"
+    },
+    {
+        "pregunta": "¿A qué continente pertenece Mongolia?",
+        "opciones": ["Europa", "África", "Asia", "América"],
+        "respuesta_correcta": "Asia"
+    },
+    {
+        "pregunta": "¿Por cuanta agua está cubierta la Tierra?",
+        "opciones": ["50%", "60,5%", "70,7%", "80,3%"],
+        "respuesta_correcta": "70,7%"
+    },
+    {
+        "pregunta": "¿En qué ciudad puedes visitar los jardines y el palacio del Generalife?",
+        "opciones": ["Córdoba", "Sevilla", "Granada", "Málaga"],
+        "respuesta_correcta": "Granada"
+    },
+    {
+        "pregunta": "¿En qué continente apareció el Ébola?",
+        "opciones": ["Europa", "Asia", "América", "África"],
+        "respuesta_correcta": "África"
+    },
+    {
+        "pregunta": "¿A qué continente pertenece Ecuador?",
+        "opciones": ["Europa", "África", "Asia", "América"],
+        "respuesta_correcta": "América"
+    },
+    {
+        "pregunta": "¿De qué continente es originario el cacao?",
+        "opciones": ["Europa", "África", "Asia", "América"],
+        "respuesta_correcta": "América"
+    },
+    {
+        "pregunta": "¿En qué continente se encuentra situado el río Tigris?",
+        "opciones": ["Europa", "África", "Asia", "América"],
+        "respuesta_correcta": "Asia"
+    },
+    {
+        "pregunta": "¿Cuáles son los colores de la bandera de Panamá?",
+        "opciones": ["Rojo, azul y verde", "Rojo, azul y blanco", "Amarillo, azul y blanco", "Verde, blanco y negro"],
+        "respuesta_correcta": "Rojo, azul y blanco"
+    },
+    {
+        "pregunta": "¿Qué colores tiene la bandera de Uruguay?",
+        "opciones": ["Verde, blanco y oro", "Rojo, blanco y oro", "Azul, blanco y oro", "Amarillo, blanco y verde"],
+        "respuesta_correcta": "Azul, blanco y oro"
+    },
+    {
+        "pregunta": "¿De qué isla comparten la jurisdicción Francia y España?",
+        "opciones": ["Isla de Ibiza", "Isla de Menorca", "Isla de Mallorca", "La isla de los Faisanes"],
+        "respuesta_correcta": "La isla de los Faisanes"
+    },
+    {
+        "pregunta": "¿En dónde nace el famoso río Nilo?",
+        "opciones": ["Lago Nyasa", "Lago Tanganica", "Lago Alberto", "Lago Victoria"],
+        "respuesta_correcta": "Lago Victoria"
+    },
+    {
+        "pregunta": "¿Qué país tiene el código AO?",
+        "opciones": ["Australia", "Austria", "Angola", "Azerbaiyán"],
+        "respuesta_correcta": "Angola"
+    },
+    {
+        "pregunta": "¿A qué país pertenece la Isla Margarita?",
+        "opciones": ["Colombia", "Venezuela", "Ecuador", "Perú"],
+        "respuesta_correcta": "Venezuela"
+    },
+    {
+        "pregunta": "¿Qué es el Tsingy de Bemaraha de Madagascar?",
+        "opciones": ["Un río", "Una montaña", "Un bosque de piedras", "Una ciudad"],
+        "respuesta_correcta": "Un bosque de piedras"
+    },
+    {
+        "pregunta": "¿Cuál es el código internacional para Irak?",
+        "opciones": ["IR", "IK", "IQ", "IA"],
+        "respuesta_correcta": "IQ"
+    },
+    {
+        "pregunta": "¿A qué ciudad argentina se la llama 'La Feliz'?",
+        "opciones": ["Buenos Aires", "Córdoba", "Rosario", "Mar del Plata"],
+        "respuesta_correcta": "Mar del Plata"
+    },
+    {
+        "pregunta": "¿Dónde está el Cabo de Gata?",
+        "opciones": ["Italia", "Grecia", "Portugal", "España"],
+        "respuesta_correcta": "España"
+    },
+    {
+        "pregunta": "¿Dónde se encuentra la Cueva del Milodón?",
+        "opciones": ["Argentina", "Perú", "Chile", "Bolivia"],
+        "respuesta_correcta": "Chile"
+    },
+    {
+        "pregunta": "¿Si pasas sobre el puente de Angostura, qué río estás cruzando?",
+        "opciones": ["El Amazonas", "El Paraná", "El Orinoco", "El Magdalena"],
+        "respuesta_correcta": "El Orinoco"
+    },
+    {
+        "pregunta": "¿Con qué países tiene frontera el Líbano?",
+        "opciones": ["Egipto y Siria", "Israel y Siria", "Turquía y Siria", "Jordania y Egipto"],
+        "respuesta_correcta": "Israel y Siria"
+    },
+    {
+        "pregunta": "¿Cómo se llama el mar donde se ubica Puerto Rico y Rep. Dominicana?",
+        "opciones": ["Mar de los Sargazos", "Mar Caribe", "Océano Atlántico", "Golfo de México"],
+        "respuesta_correcta": "Mar Caribe"
+    },
+    {
+        "pregunta": "¿Qué colores tiene la bandera de Bosnia y Herzegovina?",
+        "opciones": ["Verde, amarillo y blanco", "Azul, rojo y blanco", "Negro, rojo y verde", "Azul, amarillo y blanco"],
+        "respuesta_correcta": "Azul, amarillo y blanco"
+    },
+    {
+        "pregunta": "¿Cuál es la capital de la comunidad de Castilla-La Mancha?",
+        "opciones": ["Valladolid", "Zaragoza", "Salamanca", "Toledo"],
+        "respuesta_correcta": "Toledo"
+    },
+    {
+        "pregunta": "¿Cuál es la capital de Nueva Zelanda?",
+        "opciones": ["Auckland", "Christchurch", "Dunedin", "Wellington"],
+        "respuesta_correcta": "Wellington"
+    },
+    {
+        "pregunta": "¿Con cuál de los siguientes países NO limita Colombia?",
+        "opciones": ["Venezuela", "Perú", "Ecuador", "Guyana"],
+        "respuesta_correcta": "Guyana"
+    },
+    {
+        "pregunta": "¿En qué ciudad de Chile se realiza el festival de la Canción más importante de Latinoamérica?",
+        "opciones": ["Santiago", "Valparaíso", "Viña del Mar", "Concepción"],
+        "respuesta_correcta": "Viña del Mar"
+    },
+    {
+        "pregunta": "¿En qué ciudad se encuentra el distrito de Chamberí?",
+        "opciones": ["Barcelona", "Sevilla", "Valencia", "Madrid"],
+        "respuesta_correcta": "Madrid"
+    },
+    {
+        "pregunta": "¿Dónde se encuentra el enclave arqueológico de Petra, una ciudad excavada y esculpida en la piedra?",
+        "opciones": ["Egipto", "Israel", "Jordania", "Irak"],
+        "respuesta_correcta": "Jordania"
+    },
+    {
+        "pregunta": "¿En qué provincia española está situado el desierto de Tabernas?",
+        "opciones": ["Granada", "Murcia", "Cádiz", "Almería"],
+        "respuesta_correcta": "Almería"
+    },
+    {
+        "pregunta": "¿Cuál fue la primera capital de Costa Rica?",
+        "opciones": ["San José", "Liberia", "Cartago", "Heredia"],
+        "respuesta_correcta": "Cartago"
+    },
+    {
+        "pregunta": "¿En qué provincia de Argentina se encuentra el obelisco?",
+        "opciones": ["Córdoba", "Santa Fe", "Mendoza", "Buenos Aires"],
+        "respuesta_correcta": "Buenos Aires"
+    },
+    {
+        "pregunta": "¿Qué volcán destruyó la ciudad italiana de Pompeya?",
+        "opciones": ["Etna", "Stromboli", "Vesubio", "Colima"],
+        "respuesta_correcta": "Vesubio"
+    },
+    {
+        "pregunta": "¿En qué país está la Costa Azul?",
+        "opciones": ["Italia", "España", "Portugal", "Francia"],
+        "respuesta_correcta": "Francia"
+    },
+    {
+        "pregunta": "¿A qué país pertenecen las Islas Feroe?",
+        "opciones": ["Islandia", "Noruega", "Suecia", "Dinamarca"],
+        "respuesta_correcta": "Dinamarca"
+    },
+    {
+        "pregunta": "¿Dónde está el Parque 'Los picos de Europa'?",
+        "opciones": ["Sierra de Guadarrama", "Pirineos", "Sierra de Gredos", "Cordillera Cantábrica"],
+        "respuesta_correcta": "Cordillera Cantábrica"
+    },
+    {
+        "pregunta": "¿En qué país se ubica el desierto de Atacama?",
+        "opciones": ["Perú", "Bolivia", "Chile", "Argentina"],
+        "respuesta_correcta": "Chile"
+    },
+    {
+        "pregunta": "¿Qué país no forma parte de la U.E.?",
+        "opciones": ["Francia", "Alemania", "Italia", "Suiza"],
+        "respuesta_correcta": "Suiza"
+    },
+    {
+        "pregunta": "¿En qué continente se encuentra el país de Irak?",
+        "opciones": ["África", "Europa", "Asia", "América"],
+        "respuesta_correcta": "Asia"
+    },
+    {
+        "pregunta": "¿De dónde es típica la fabada?",
+        "opciones": ["Galicia", "Cataluña", "Andalucía", "Asturias"],
+        "respuesta_correcta": "Asturias"
+    },
+    {
+        "pregunta": "¿Cuál es la capital de Noruega?",
+        "opciones": ["Helsinki", "Reikiavik", "Estocolmo", "Oslo"],
+        "respuesta_correcta": "Oslo"
+    },
+    {
+        "pregunta": "¿Cuál de estas provincias NO tiene costa?",
+        "opciones": ["Barcelona", "Valencia", "Toledo", "Cádiz"],
+        "respuesta_correcta": "Toledo"
+    },
+    {
+        "pregunta": "¿Cuál es la capital de Georgia?",
+        "opciones": ["Batumi", "Kutaisi", "Tiflis", "Gori"],
+        "respuesta_correcta": "Tiflis"
+    },
+    {
+        "pregunta": "¿En qué se dividen los pesos argentinos?",
+        "opciones": ["En soles", "En reales", "En pesos menores", "En centavos"],
+        "respuesta_correcta": "En centavos"
+    },
+    {
+        "pregunta": "¿Qué océano baña el Cuerno de África?",
+        "opciones": ["Atlántico", "Pacífico", "Ártico", "Índico"],
+        "respuesta_correcta": "El Índico"
+    },
+    {
+        "pregunta": "¿Con qué objeto se asocia a Italia visualmente?",
+        "opciones": ["Una bota", "Un sombrero", "Una pizza", "Un helado"],
+        "respuesta_correcta": "Una bota"
+    },
+    {
+        "pregunta": "¿Dónde desemboca el río Ebro?",
+        "opciones": ["Mar Cantábrico", "Mar Mediterráneo", "Océano Atlántico", "Mar de Alborán"],
+        "respuesta_correcta": "Mar Mediterráneo"
+    },
+    {
+        "pregunta": "¿Dónde está el barrio de Charlottenburg?",
+        "opciones": ["Viena", "París", "Roma", "Berlín"],
+        "respuesta_correcta": "Berlín"
+    },
+    {
+        "pregunta": "¿De las siguientes ciudades, en cuál está la Estatua de la Libertad?",
+        "opciones": ["Los Ángeles", "Chicago", "Miami", "Nueva York"],
+        "respuesta_correcta": "Nueva York"
+    },
+    {
+        "pregunta": "¿Cuál de las siguientes es una isla del archipiélago de Cabrera?",
+        "opciones": ["Mallorca", "Menorca", "Ibiza", "Conejera"],
+        "respuesta_correcta": "Conejera"
+    },
+    {
+        "pregunta": "¿En qué se divide Colombia territorialmente, además de su Distrito Capital?",
+        "opciones": ["Provincias", "Regiones", "Estados", "Departamentos"],
+        "respuesta_correcta": "Departamentos"
+    },
+    {
+        "pregunta": "¿Cuántas islas denominadas 'Conejera' hay en España?",
+        "opciones": ["Uno", "Dos", "Tres", "Cuatro"],
+        "respuesta_correcta": "Cuatro"
+    },
+    {
+        "pregunta": "¿En qué país se construyó por primera vez una red de subterráneos en el mundo?",
+        "opciones": ["Francia", "Estados Unidos", "Inglaterra", "Alemania"],
+        "respuesta_correcta": "Inglaterra"
+    },
+    {
+        "pregunta": "¿Cómo se llamaba la gran masa de tierra que formaba un solo gran continente?",
+        "opciones": ["Eurásia", "Atlántida", "Pangea", "Gondwana"],
+        "respuesta_correcta": "Pangea"
+    },
+    {
+        "pregunta": "¿Dónde está la torre Eiffel?",
+        "opciones": ["Londres", "Bruselas", "Berlín", "París"],
+        "respuesta_correcta": "En París"
+    },
+    {
+        "pregunta": "¿En qué continente se encuentra Yibuti?",
+        "opciones": ["Asia", "Europa", "América", "África"],
+        "respuesta_correcta": "África"
+    },
+    {
+        "pregunta": "¿Desde qué ciudad de España puedes ver el monte llamado Mujer Muerta 'Jebel Musa'?",
+        "opciones": ["Málaga", "Algeciras", "Ceuta", "Melilla"],
+        "respuesta_correcta": "Ceuta"
+    },
+    {
+        "pregunta": "¿Cuál de los siguientes colores es el menos frecuente en las banderas de los países árabes?",
+        "opciones": ["Verde", "Rojo", "Blanco", "Amarillo"],
+        "respuesta_correcta": "Amarillo"
+    },
+    {
+        "pregunta": "¿Cuál de estas ciudades no es de Argentina?",
+        "opciones": ["Rosario", "Buenos Aires", "Córdoba", "Cali"],
+        "respuesta_correcta": "Cali"
+    },
+    {
+        "pregunta": "¿Dónde se encuentra el Tribunal de Cuentas de la Unión Europea?",
+        "opciones": ["Bruselas", "Estrasburgo", "Luxemburgo", "Ginebra"],
+        "respuesta_correcta": "Luxemburgo"
+    },
+    {
+        "pregunta": "¿Cuál es el pico más alto de España?",
+        "opciones": ["Mulhacén", "Aneto", "Pico Almanzor", "El Teide"],
+        "respuesta_correcta": "El Teide"
+    },
+    {
+        "pregunta": "¿De qué país el panda es el animal nacional?",
+        "opciones": ["India", "Mongolia", "China", "Bhután"],
+        "respuesta_correcta": "China"
+    },
+    {
+        "pregunta": "¿Cuál es la región de origen de la mortadela?",
+        "opciones": ["España", "Italia", "Francia", "Portugal"],
+        "respuesta_correcta": "Italia"
+    },
+    {
+        "pregunta": "¿Cuál es el país de Europa con mayor altitud media?",
+        "opciones": ["Austria", "Suiza", "España", "Italia"],
+        "respuesta_correcta": "Suiza"
+    },
+    {
+        "pregunta": "¿A qué país pertenece Gibraltar?",
+        "opciones": ["España", "Portugal", "Reino Unido", "Francia"],
+        "respuesta_correcta": "Reino Unido"
+    },
+    {
+        "pregunta": "¿Qué cataratas separan Brasil y Argentina?",
+        "opciones": ["Cataratas del Victoria", "Cataratas del Angel", "Cataratas del Iguazú", "Cataratas del Niágara"],
+        "respuesta_correcta": "Cataratas del Iguazú"
+    },
+    {
+        "pregunta": "¿Dónde queda Panamá?",
+        "opciones": ["América del Sur", "América del Norte", "América Central", "El Caribe"],
+        "respuesta_correcta": "América Central"
+    },
+    {
+        "pregunta": "¿Cuál es el país de origen de la galletita pretzel?",
+        "opciones": ["Austria", "Suiza", "Alemania", "Bélgica"],
+        "respuesta_correcta": "Alemania"
+    },
+    {
+        "pregunta": "¿Cuál es la ciudad más poblada de Oceanía?",
+        "opciones": ["Wellington", "Auckland", "Canberra", "Sidney"],
+        "respuesta_correcta": "Sidney"
+    },
+    {
+        "pregunta": "¿Cuál es la capital del Sáhara Occidental?",
+        "opciones": ["Rabat", "Nouakchott", "Bamako", "El Aaiún"],
+        "respuesta_correcta": "El Aaiún"
+    },
+    {
+        "pregunta": "¿Cuál es la capital de Finlandia?",
+        "opciones": ["Estocolmo", "Reikiavik", "Oslo", "Helsinki"],
+        "respuesta_correcta": "Helsinki"
+    },
+    {
+        "pregunta": "¿De qué país es danza nacional la cueca?",
+        "opciones": ["Argentina", "México", "Chile", "Perú"],
+        "respuesta_correcta": "Chile"
+    },
+    {
+        "pregunta": "¿De dónde son típicos los espetos?",
+        "opciones": ["De Valencia", "De Málaga", "De Galicia", "De Cádiz"],
+        "respuesta_correcta": "De Málaga"
+    },
+    {
+        "pregunta": "¿Cuándo es invierno en el hemisferio sur?",
+        "opciones": ["De Diciembre a Marzo", "De Septiembre a Diciembre", "De Marzo a Junio", "De Junio a Septiembre"],
+        "respuesta_correcta": "De Junio a Septiembre"
+    },
+    {
+        "pregunta": "¿De dónde son típicos los 'Castellers'?",
+        "opciones": ["Andalucía", "Galicia", "Catalunya", "Madrid"],
+        "respuesta_correcta": "Catalunya"
+    },
+    {
+        "pregunta": "¿En qué país se encuentra la mayor cantidad del mundo de oro y diamantes?",
+        "opciones": ["Brasil", "Australia", "Sudáfrica", "India"],
+        "respuesta_correcta": "Sudáfrica"
+    },
+    {
+        "pregunta": "¿Cuál es la capital de Gran Canaria?",
+        "opciones": ["Santa Cruz de Tenerife", "Las Palmas", "La Laguna", "Arrecife"],
+        "respuesta_correcta": "Las Palmas"
+    },
+    {
+        "pregunta": "¿Cuál es uno de los tragos típicos de Colombia?",
+        "opciones": ["Tequila", "Pisco", "Aguardiente", "Ron"],
+        "respuesta_correcta": "Aguardiente"
+    },
+    {
+        "pregunta": "¿Cuál es la mayor atracción turística de Córdoba, España?",
+        "opciones": ["La Alhambra", "La Sagrada Familia", "La Giralda", "La Mezquita"],
+        "respuesta_correcta": "La Mezquita"
+    },
+    {
+        "pregunta": "¿Dónde se encuentra Mairena de Aljarafe?",
+        "opciones": ["Granada", "Cádiz", "Sevilla", "Málaga"],
+        "respuesta_correcta": "Sevilla"
+    },
+    {
+        "pregunta": "¿Qué vía artificial de navegación une al Mar Rojo y el Mar Mediterráneo?",
+        "opciones": ["El canal de Panamá", "El canal de Suez", "El canal de Kiel", "El canal de Manchester"],
+        "respuesta_correcta": "El canal de Suez"
+    },
+    {
+        "pregunta": "¿Cuál de estos es el plato típico de la Comunidad Valenciana?",
+        "opciones": ["Tortilla Española", "Gazpacho", "Fabada", "Paella"],
+        "respuesta_correcta": "Paella"
+    },
+    {
+        "pregunta": "¿En qué continente se encuentra España?",
+        "opciones": ["América", "África", "Asia", "Europa"],
+        "respuesta_correcta": "En Europa"
+    },
+    {
+        "pregunta": "¿Cuál es la religión mayoritaria en Grecia?",
+        "opciones": ["Catolicismo", "Islam", "Judaísmo", "Cristianismo Ortodoxo"],
+        "respuesta_correcta": "Cristianismo Ortodoxo"
+    },
+    {
+        "pregunta": "¿Dónde está la Tierra del Fuego?",
+        "opciones": ["Chile", "Argentina", "Bolivia", "Paraguay"],
+        "respuesta_correcta": "Argentina"
+    },
+    {
+        "pregunta": "¿Cómo es la bandera de Suiza?",
+        "opciones": ["Fondo azul y cruz amarilla", "Fondo blanco y cruz roja", "Fondo verde y cruz amarilla", "Fondo rojo y cruz blanca"],
+        "respuesta_correcta": "Fondo rojo y cruz blanca"
+    },
+    {
+        "pregunta": "¿En qué país latinoamericano está el famoso salar de Uyuni?",
+        "opciones": ["Argentina", "Perú", "Bolivia", "Colombia"],
+        "respuesta_correcta": "Bolivia"
+    },
+    {
+        "pregunta": "¿Cuántos meridianos y paralelos hay en total?",
+        "opciones": ["360", "720", "180", "Infinitos"],
+        "respuesta_correcta": "Infinitos"
+    },
+    {
+        "pregunta": "¿Dónde situarías el municipio de Orihuela?",
+        "opciones": ["Murcia", "Alicante", "Valencia", "Almería"],
+        "respuesta_correcta": "Alicante"
+    },
+    {
+        "pregunta": "¿Dónde se encuentran Los Montes de Toledo?",
+        "opciones": ["Portugal", "Andalucía", "Extremadura", "España"],
+        "respuesta_correcta": "España"
+    },
+    {
+        "pregunta": "¿Qué país NO formó parte de la extinta Yugoslavia?",
+        "opciones": ["Eslovenia", "Bosnia y Herzegovina", "Macedonia", "Polonia"],
+        "respuesta_correcta": "Polonia"
+    },
+    {
+        "pregunta": "¿A qué municipio pertenece el cabo de Gata?",
+        "opciones": ["Almería", "Níjar", "Roquetas de Mar", "Mojácar"],
+        "respuesta_correcta": "Níjar"
+    },
+    {
+        "pregunta": "¿Qué provincias andaluzas limitan con Portugal?",
+        "opciones": ["Huelva y Sevilla", "Solo Huelva", "Cádiz y Huelva", "Huelva y Cádiz"],
+        "respuesta_correcta": "Solo Huelva"
+    },
+    {
+        "pregunta": "¿En qué provincia española está Barbate?",
+        "opciones": ["Málaga", "Sevilla", "Huelva", "Cádiz"],
+        "respuesta_correcta": "Cádiz"
+    },
+    {
+        "pregunta": "¿Cuál es la capital del estado de Illinois?",
+        "opciones": ["Chicago", "Naperville", "Peoria", "Springfield"],
+        "respuesta_correcta": "Springfield"
+    },
+    {
+        "pregunta": "¿Cuál es la serpiente más venenosa que se conoce?",
+        "opciones": ["Cobra", "Víbora", "Boa Constrictor", "La Mamba Negra"],
+        "respuesta_correcta": "La Mamba Negra"
+    },
+    {
+        "pregunta": "¿Dónde está el palacio de Versalles?",
+        "opciones": ["Londres", "Roma", "París", "Madrid"],
+        "respuesta_correcta": "París"
+    },
+    {
+        "pregunta": "¿Qué localidad andaluza es famosa por sus 'molletes'?",
+        "opciones": ["Antequera", "Granada", "Sevilla", "Córdoba"],
+        "respuesta_correcta": "Antequera"
+    },
+    {
+        "pregunta": "¿Cuál es la capital de Corea del Sur?",
+        "opciones": ["Busan", "Daegu", "Incheon", "Seúl"],
+        "respuesta_correcta": "Seúl"
+    },
+    {
+        "pregunta": "¿Cuál es el océano más grande del mundo?",
+        "opciones": ["Océano Atlántico", "Océano Índico", "Océano Pacífico", "Océano Ártico"],
+        "respuesta_correcta": "Océano Pacífico"
+    },
+    {
+        "pregunta": "¿Cuál es el nombre actual del antiguo Imperio Otomano?",
+        "opciones": ["Grecia", "Egipto", "Siria", "Turquía"],
+        "respuesta_correcta": "Turquía"
+    },
+    {
+        "pregunta": "¿Dónde desemboca el Río Magdalena?",
+        "opciones": ["En el Océano Atlántico", "En el Océano Pacífico", "En el mar Caribe", "En el Lago de Maracaibo"],
+        "respuesta_correcta": "En el mar Caribe"
+    },
+    {
+        "pregunta": "¿Cuál es la capital de Hungría?",
+        "opciones": ["Praga", "Viena", "Bratislava", "Budapest"],
+        "respuesta_correcta": "Budapest"
+    },
+    {
+        "pregunta": "¿Cuál es la capital de Azerbaijan?",
+        "opciones": ["Astana", "Tiflis", "Ereván", "Bakú"],
+        "respuesta_correcta": "Bakú"
+    },
+    {
+        "pregunta": "¿En qué se dividen los pesos argentinos?",
+        "opciones": ["En soles", "En bolívares", "En pesos", "En centavos"],
+        "respuesta_correcta": "En centavos"
+    },
+    {
+        "pregunta": "¿Cuál es la patrona de la ciudad de Zaragoza?",
+        "opciones": ["Virgen de Guadalupe", "Virgen de Fátima", "Virgen del Pilar", "Virgen de la Macarena"],
+        "respuesta_correcta": "Virgen del Pilar"
+    },
+    {
+        "pregunta": "¿En qué provincia española se encuentran las ruinas romanas de Baelo Claudia?",
+        "opciones": ["Málaga", "Sevilla", "Granada", "Cádiz"],
+        "respuesta_correcta": "Cádiz"
+    },
+    {
+        "pregunta": "¿Cuál es el río más caudaloso del mundo?",
+        "opciones": ["El Nilo", "El Misisipi", "El Amazonas", "El Yangtsé"],
+        "respuesta_correcta": "El Amazonas"
+    },
+    {
+        "pregunta": "¿Cuál es la isla más grande del archipiélago malayo?",
+        "opciones": ["Borneo", "Java", "Sumatra", "Nueva Guinea"],
+        "respuesta_correcta": "Nueva Guinea"
+    },
+    {
+        "pregunta": "¿Qué son Sol, Xi'An y Popayan?",
+        "opciones": ["Islas", "Pirámides", "Ríos", "Montañas"],
+        "respuesta_correcta": "Pirámides"
+    },
+    {
+        "pregunta": "¿En el territorio de qué país viven en la actualidad los dragones de Komodo?",
+        "opciones": ["Filipinas", "Tailandia", "Malasia", "Indonesia"],
+        "respuesta_correcta": "Indonesia"
+    },
+    {
+        "pregunta": "¿En qué isla del archipiélago canario se encuentra el volcán más alto de España?",
+        "opciones": ["Gran Canaria", "Lanzarote", "Fuerteventura", "Tenerife"],
+        "respuesta_correcta": "Tenerife"
+    },
+    {
+        "pregunta": "¿Cuántas comunidades autónomas hay en España?",
+        "opciones": ["15", "16", "17", "18"],
+        "respuesta_correcta": "17"
+    },
+    {
+        "pregunta": "¿Cuál es la capital de Guyana?",
+        "opciones": ["Georgetown", "Lima", "Asunción", "Sucre"],
+        "respuesta_correcta": "Georgetown"
+    },
+    {
+        "pregunta": "¿De dónde son famosos los cogollos?",
+        "opciones": ["Madrid", "Barcelona", "Tudela", "Sevilla"],
+        "respuesta_correcta": "Tudela"
+    },
+    {
+        "pregunta": "¿Cuál de estos códigos internacionales pertenece a Argentina?",
+        "opciones": ["AR", "BR", "CL", "CO"],
+        "respuesta_correcta": "AR"
+    },
+    {
+        "pregunta": "¿Con qué país delimita Turkmenistán?",
+        "opciones": ["Rusia", "Kazajistán", "Afganistán", "Uzbekistán"],
+        "respuesta_correcta": "Uzbekistán"
+    },
+    {
+        "pregunta": "¿Dónde se encuentra el barrio de Greenwich?",
+        "opciones": ["Nueva York", "París", "Londres", "Roma"],
+        "respuesta_correcta": "Londres"
+    },
+    {
+        "pregunta": "¿En qué ciudad está La Alhambra?",
+        "opciones": ["Sevilla", "Madrid", "Granada", "Valencia"],
+        "respuesta_correcta": "Granada"
+    },
+    {
+        "pregunta": "¿Dónde se encuentra el monte Vesubio?",
+        "opciones": ["Grecia", "España", "Italia", "Francia"],
+        "respuesta_correcta": "Italia"
+    },
+    {
+        "pregunta": "¿Cuáles son los colores de la bandera polaca?",
+        "opciones": ["Rojo y blanco", "Verde y amarillo", "Azul y blanco", "Negro y rojo"],
+        "respuesta_correcta": "Rojo y blanco"
+    },
+    {
+        "pregunta": "¿Cuál es el segundo municipio más poblado de Cataluña?",
+        "opciones": ["Barcelona", "Badalona", "Terrassa", "Hospitalet de Llobregat"],
+        "respuesta_correcta": "Hospitalet de Llobregat"
+    }
+]

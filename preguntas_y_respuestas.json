@@ -745,11 +745,6 @@
       "respuesta_correcta": ["Casa Tomada"]
   },
   {
-      "pregunta": "Se queda más solo que...",
-      "opciones": ["un árbol", "el viento", "la lluvia", "la una"],
-      "respuesta_correcta": ["la una"]
-  },
-  {
       "pregunta": "¿Cuál de los siguientes instrumentos no es de viento metal?",
       "opciones": ["Trombón", "Tuba", "Trompeta", "Flauta travesera"],
       "respuesta_correcta": ["Flauta travesera"]

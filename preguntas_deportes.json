@@ -293,6 +293,481 @@
         "pregunta": "¿Con qué deporte relacionarías a Emanuel Ginóbili?",
         "opciones": ["Fútbol", "Rugby", "Tennis", "Baloncesto"],
         "respuesta_correcta": ["Baloncesto"]
+    },
+    {
+        "pregunta": "¿Qué selección eliminó a España en el mundial de Sudáfrica 2010?",
+        "opciones": ["Brasil", "Alemania", "No fue eliminada", "Italia"],
+        "respuesta_correcta": ["No fue eliminada"]
+    },
+    {
+        "pregunta": "¿Qué entrenador es famoso por 'meter el dedo en el ojo'?",
+        "opciones": ["Pep Guardiola", "Carlo Ancelotti", "José Mourinho", "Diego Simeone"],
+        "respuesta_correcta": ["José Mourinho"]
+    },
+    {
+        "pregunta": "¿Qué país ha ganado más Eurocopas seguidas?",
+        "opciones": ["Francia", "Alemania", "España", "Italia"],
+        "respuesta_correcta": ["España"]
+    },
+    {
+        "pregunta": "¿Cuántas medallas consiguió Mireia Belmonte en Londres 2012?",
+        "opciones": ["Una", "Dos", "Tres", "Cuatro"],
+        "respuesta_correcta": ["Dos"]
+    },
+    {
+        "pregunta": "¿Cómo se llama el estadio del Villareal C.F.?",
+        "opciones": ["El Molinón", "La Rosaleda", "El Madrigal", "Mestalla"],
+        "respuesta_correcta": ["El Madrigal"]
+    },
+    {
+        "pregunta": "¿Quién es el jugador de tenis que más veces ha ganado el torneo Roland Garros?",
+        "opciones": ["Roger Federer", "Novak Djokovic", "Pete Sampras", "Rafael Nadal"],
+        "respuesta_correcta": ["Rafael Nadal"]
+    },
+    {
+        "pregunta": "¿Qué país ganó más medallas en Londres 2012?",
+        "opciones": ["China", "Rusia", "Estados Unidos", "Reino Unido"],
+        "respuesta_correcta": ["Estados Unidos"]
+    },
+    {
+        "pregunta": "¿En qué ciudad nació Ayrton Senna, tres veces campeón de Fórmula 1?",
+        "opciones": ["Río de Janeiro, Brasil", "Belo Horizonte, Brasil", "Sao Paulo, Brasil", "Curitiba, Brasil"],
+        "respuesta_correcta": ["Sao Paulo, Brasil"]
+    },
+    {
+        "pregunta": "¿Qué equipo de fútbol americano debe su nombre a un poema del escritor norteamericano Edgar Allan Poe?",
+        "opciones": ["Patriots de Nueva Inglaterra", "Broncos de Denver", "Ravens de Baltimore", "Steelers de Pittsburgh"],
+        "respuesta_correcta": ["Ravens de Baltimore"]
+    },
+    {
+        "pregunta": "¿A qué deporte le corresponde el \"córner corto\"?",
+        "opciones": ["Fútbol", "Balonmano", "Hockey sobre Hierba", "Hockey sobre Césped"],
+        "respuesta_correcta": ["Hockey sobre Césped"]
+    },
+    {
+        "pregunta": "¿Quién es el cancerbero de un equipo?",
+        "opciones": ["Capitán", "Delantero", "Portero", "Defensor"],
+        "respuesta_correcta": ["Portero"]
+    },
+    {
+        "pregunta": "¿Qué se levanta para hacer un 'caballito' con la bici?",
+        "opciones": ["Manillar", "Rueda trasera", "Rueda delantera", "Pedales"],
+        "respuesta_correcta": ["Rueda delantera"]
+    },
+    {
+        "pregunta": "¿Qué deporte es controlado internacionalmente por el IJF?",
+        "opciones": ["Taekwondo", "Karate", "Judo", "Kendo"],
+        "respuesta_correcta": ["Judo"]
+    },
+    {
+        "pregunta": "¿Quién es el fichaje más caro de un jugador español hasta 2013?",
+        "opciones": ["David Villa", "Fernando Torres", "Sergio Ramos", "Cesc Fàbregas"],
+        "respuesta_correcta": ["Fernando Torres"]
+    },
+    {
+        "pregunta": "¿A qué país pertenece el equipo europeo Arsenal?",
+        "opciones": ["Francia", "Alemania", "Inglaterra", "España"],
+        "respuesta_correcta": ["Inglaterra"]
+    },
+    {
+        "pregunta": "¿Qué tipo de medallas consiguió Mireia Belmonte en Londes 2012?",
+        "opciones": ["Oro", "Plata", "Bronce", "Ninguna"],
+        "respuesta_correcta": ["Plata"]
+    },
+    {
+        "pregunta": "¿Cuál es el único equipo de fútbol que ha ganado un sextete?",
+        "opciones": ["Real Madrid", "Manchester United", "F.C. Barcelona", "Bayern Munich"],
+        "respuesta_correcta": ["F.C. Barcelona"]
+    },
+    {
+        "pregunta": "¿Cuántos anillos de la NBA ganó Michael Jordan con los Chicago Bulls?",
+        "opciones": ["Cuatro", "Cinco", "Seis", "Siete"],
+        "respuesta_correcta": ["Seis"]
+    },
+    {
+        "pregunta": "¿Quién marcó el gol de falta en la final de Champions disputada entre el Barcelona y el Sampdoria en 1992?",
+        "opciones": ["Rivaldo", "Ronaldinho", "Koeman", "Puyol"],
+        "respuesta_correcta": ["Koeman"]
+    },
+    {
+        "pregunta": "¿De qué color es el cinturón que indica la mayor clasificación y que visten los maestros de kárate?",
+        "opciones": ["Marrón", "Rojo", "Blanco", "Negro"],
+        "respuesta_correcta": ["Negro"]
+    },
+    {
+        "pregunta": "¿Cuánto dura un partido de rugby?",
+        "opciones": ["60 min", "70 min", "80 min", "90 min"],
+        "respuesta_correcta": ["80 min"]
+    },
+    {
+        "pregunta": "¿Cuántas jugadoras participan en un juego de volleyball?",
+        "opciones": ["5", "6", "7", "8"],
+        "respuesta_correcta": ["6"]
+    },
+    {
+        "pregunta": "¿Qué futbolista portó una playera debajo de su jersey con la leyenda \"I Belong to Jesus\"?",
+        "opciones": ["Cristiano Ronaldo", "Ricardo Kaká", "Lionel Messi", "Neymar"],
+        "respuesta_correcta": ["Ricardo Kaká"]
+    },
+    {
+        "pregunta": "¿En qué equipo de fútbol español jugó \"El Piojo\" López?",
+        "opciones": ["Real Madrid", "Atlético de Madrid", "Valencia CF", "Sevilla FC"],
+        "respuesta_correcta": ["Valencia CF"]
+    },
+    {
+        "pregunta": "¿Qué entrenador de origen argentino es conocido como el \"cholo\"?",
+        "opciones": ["Marcelo Bielsa", "Diego Maradona", "Mauricio Pochettino", "Diego Pablo Simeone"],
+        "respuesta_correcta": ["Diego Pablo Simeone"]
+    },
+    {
+        "pregunta": "¿Dónde nació el tenista español Rafael Nadal?",
+        "opciones": ["Barcelona", "Madrid", "Mallorca", "Sevilla"],
+        "respuesta_correcta": ["Mallorca"]
+    },
+    {
+        "pregunta": "¿En qué deporte destacó Julio César Chávez?",
+        "opciones": ["Fútbol", "Boxeo", "Karate", "Lucha Libre"],
+        "respuesta_correcta": ["Boxeo"]
+    },
+    {
+        "pregunta": "En los Juego Olímpicos de Invierno se compite en luge. ¿Qué es luge?",
+        "opciones": ["Un tipo de esquí", "Un salto con trampolín", "Un trineo", "Una pista de patinaje"],
+        "respuesta_correcta": ["Un trineo"]
+    },
+    {
+        "pregunta": "¿Qué país llama a su selección nacional de fútbol los 'Reggae Boyz'?",
+        "opciones": ["Jamaica", "Kenia", "Nigeria", "Ghana"],
+        "respuesta_correcta": ["Jamaica"]
+    },
+    {
+        "pregunta": "¿Qué significan las siglas ACB?",
+        "opciones": ["Asociación de Clubes de Balonmano", "Asociación de Clubes de Béisbol", "Asociación de Clubes de Baloncesto", "Asociación de Clubes de Bolos"],
+        "respuesta_correcta": ["Asociación de Clubes de Baloncesto"]
+    },
+    {
+        "pregunta": "¿Qué deporte practica Rafael Nadal a nivel profesional?",
+        "opciones": ["Baloncesto", "Tenis", "Pádel", "Golf"],
+        "respuesta_correcta": ["Tenis"]
+    },
+    {
+        "pregunta": "¿Qué deporte practicaba Giacomo Agostini?",
+        "opciones": ["Fórmula 1", "Motociclismo", "Bicicross", "Motocross"],
+        "respuesta_correcta": ["Motociclismo"]
+    },
+    {
+        "pregunta": "¿Qué equipo no disputó la Eurocopa 2012?",
+        "opciones": ["Eslovaquia", "Macedonia", "Rumania", "Irlanda"],
+        "respuesta_correcta": ["Macedonia"]
+    },
+    {
+        "pregunta": "¿De qué ciudad es el Chelsea Football Club?",
+        "opciones": ["Liverpool", "Londres", "Manchester", "Leeds"],
+        "respuesta_correcta": ["Londres"]
+    },
+    {
+        "pregunta": "¿Cuál de estos clubes de fútbol no ha ganado la Champions League?",
+        "opciones": ["Manchester United", "Real Madrid", "Liverpool", "Arsenal"],
+        "respuesta_correcta": ["Arsenal"]
+    },
+    {
+        "pregunta": "¿De qué país es la selección nacional llamada 'Diables Rouges' en francés o 'Rode Diuvels' en flamenco, que significa los Diablos Rojos en español?",
+        "opciones": ["Francia", "Bélgica", "Suiza", "Luxemburgo"],
+        "respuesta_correcta": ["Bélgica"]
+    },
+    {
+        "pregunta": "¿Qué equipo de la NBA ha ganado más campeonatos?",
+        "opciones": ["Los Angeles Lakers", "Boston Celtics", "Chicago Bulls", "Golden State Warriors"],
+        "respuesta_correcta": ["Boston Celtics"]
+    },
+    {
+        "pregunta": "¿Qué entrenador no ha ganado nunca un Mundial de fútbol?",
+        "opciones": ["Vicente del Bosque", "Didier Deschamps", "Cruyff", "Joachim Löw"],
+        "respuesta_correcta": ["Cruyff"]
+    },
+    {
+        "pregunta": "¿Con qué deporte relacionarías a Christian Mayer?",
+        "opciones": ["Fútbol", "Esquí", "Tenis", "Ninguna es correcta"],
+        "respuesta_correcta": ["Ninguna es correcta"]
+    },
+    {
+        "pregunta": "¿Qué equipo de Segunda B llegó a la semifinal de la Copa del Rey 2011/2012?",
+        "opciones": ["Real Oviedo", "Mirandés", "Albacete", "Lleida"],
+        "respuesta_correcta": ["Mirandés"]
+    },
+    {
+        "pregunta": "¿Cuál es el equipo de fútbol más famoso de la ciudad italiana de Turín?",
+        "opciones": ["AC Milan", "AS Roma", "Juventus", "Lazio"],
+        "respuesta_correcta": ["Juventus"]
+    },
+    {
+        "pregunta": "¿Quién fue el 'Pichichi' de la liga española 2010/2011?",
+        "opciones": ["Lionel Messi", "Cristiano Ronaldo", "David Villa", "Fernando Torres"],
+        "respuesta_correcta": ["Cristiano Ronaldo"]
+    },
+    {
+        "pregunta": "¿En qué club se formó Alfredo Di Stefano?",
+        "opciones": ["Boca Juniors", "River Plate", "Club Nacional", "Club Atlético Peñarol"],
+        "respuesta_correcta": ["River Plate"]
+    },
+    {
+        "pregunta": "¿En qué año debutó como entrenador Pep Guardiola en el FC Barcelona?",
+        "opciones": ["2006", "2007", "2008", "2009"],
+        "respuesta_correcta": ["2008"]
+    },
+    {
+        "pregunta": "¿En qué mundial de fútbol ocurrió del famoso cabezazo de Zidane a Materazzi?",
+        "opciones": ["Francia 1998", "Corea-Japón 2002", "Alemania 2006", "Sudáfrica 2010"],
+        "respuesta_correcta": ["Alemania 2006"]
+    },
+    {
+        "pregunta": "¿Qué jugador fue expulsado del mundial de 1994 por doping positivo?",
+        "opciones": ["Pelé", "Rivaldo", "Maradona", "Ronaldo"],
+        "respuesta_correcta": ["Maradona"]
+    },
+    {
+        "pregunta": "¿Cuál de estas no es una prueba de decathlon?",
+        "opciones": ["Jabalina", "Maratón", "Salto con pértiga", "400 metros lisos"],
+        "respuesta_correcta": ["Maratón"]
+    },
+    {
+        "pregunta": "¿A qué jugador apodan con \"el chicharito\"?",
+        "opciones": ["Carlos Vela", "Héctor Herrera", "Giovani dos Santos", "Javier Hernández"],
+        "respuesta_correcta": ["Javier Hernández"]
+    },
+    {
+        "pregunta": "¿Cuál de los siguientes corredores de la Fórmula 1 falleció en 1994?",
+        "opciones": ["Michael Schumacher", "Ayrton Senna", "Alain Prost", "Mika Häkkinen"],
+        "respuesta_correcta": ["Ayrton Senna"]
+    },
+    {
+        "pregunta": "¿A qué edad debutó Iker Casillas en el Real Madrid?",
+        "opciones": ["16", "17", "18", "19"],
+        "respuesta_correcta": ["17"]
+    },
+    {
+        "pregunta": "¿Qué futbolista ha vestido más veces la 'Roja'?",
+        "opciones": ["Sergio Ramos", "Iker Casillas", "Andrés Iniesta", "Xavi Hernández"],
+        "respuesta_correcta": ["Iker Casillas"]
+    },
+    {
+        "pregunta": "¿En qué deporte puedes hacer una \"tacada\"?",
+        "opciones": ["Fútbol", "Billar", "Béisbol", "Golf"],
+        "respuesta_correcta": ["Billar"]
+    },
+    {
+        "pregunta": "¿Qué selección ganó la Copa Mundial de Fútbol Francia 98?",
+        "opciones": ["Brasil", "Italia", "Francia", "Argentina"],
+        "respuesta_correcta": ["Francia"]
+    },
+    {
+        "pregunta": "En golf, ¿cuántos metros mide una yarda?",
+        "opciones": ["0,5 metros", "0,75 metros", "0,914 metros", "1 metro"],
+        "respuesta_correcta": ["0,914 metros"]
+    },
+    {
+        "pregunta": "¿En qué ciudad del Mediterráneo tuvieron lugar las ediciones de la America's Cup 2011 y 2012?",
+        "opciones": ["Barcelona", "Málaga", "Valencia", "Marsella"],
+        "respuesta_correcta": ["Valencia"]
+    },
+    {
+        "pregunta": "¿Dónde nació el lateral Roberto Carlos?",
+        "opciones": ["Río de Janeiro", "São Paulo", "Brasília", "Salvador"],
+        "respuesta_correcta": ["Río de Janeiro"]
+    },
+    {
+        "pregunta": "¿Cuál es el único balón de Oro nacido en España?",
+        "opciones": ["Fernando Torres", "Xavi Hernández", "Andrés Iniesta", "Luis Suárez"],
+        "respuesta_correcta": ["Luis Suárez"]
+    },
+    {
+        "pregunta": "¿Qué equipo de rugby hace una conocida danza antes de cada partido?",
+        "opciones": ["Wallabies", "Springboks", "Lions", "All Blacks"],
+        "respuesta_correcta": ["All Blacks"]
+    },
+    {
+        "pregunta": "¿Dónde se llevó a cabo el mundial de fútbol de 1962?",
+        "opciones": ["Brasil", "México", "Chile", "Inglaterra"],
+        "respuesta_correcta": ["Chile"]
+    },
+    {
+        "pregunta": "¿A qué compositor griego se debe la partitura original del himno de los Juegos Olímpicos?",
+        "opciones": ["Dimitri Mitropoulos", "Mikis Theodorakis", "Spirou Samara", "Vangelis"],
+        "respuesta_correcta": ["Spirou Samara"]
+    },
+    {
+        "pregunta": "¿Qué marca de raqueta usa Roger Federer?",
+        "opciones": ["Wilson", "Babolat", "Head", "Dunlop"],
+        "respuesta_correcta": ["Wilson"]
+    },
+    {
+        "pregunta": "¿Cuántos jugadores tiene un equipo de futbol en el campo de juego?",
+        "opciones": ["10", "11", "12", "13"],
+        "respuesta_correcta": ["11"]
+    },
+    {
+        "pregunta": "¿Quién le metió el dedo en el ojo a Tito Vilanova en la Supercopa de España de fútbol 2011?",
+        "opciones": ["Lionel Messi", "Cristiano Ronaldo", "Pep Guardiola", "José Mourinho"],
+        "respuesta_correcta": ["José Mourinho"]
+    },
+    {
+        "pregunta": "¿En qué deporte al aire libre gana el jugador que al final tiene los puntos más bajos?",
+        "opciones": ["Tennis", "Basketball", "Golf", "Rugby"],
+        "respuesta_correcta": ["Golf"]
+    },
+    {
+        "pregunta": "¿Qué transporta un caddie en golf?",
+        "opciones": ["Los palos", "Las pelotas", "El carro", "El agua"],
+        "respuesta_correcta": ["Los palos"]
+    },
+    {
+        "pregunta": "¿Cómo se llama el estadio del Bayern de Múnich?",
+        "opciones": ["Signal Iduna Park", "San Siro", "Allianz Arena", "Camp Nou"],
+        "respuesta_correcta": ["Allianz Arena"]
+    },
+    {
+        "pregunta": "¿Qué piloto de carreras murió en 2011?",
+        "opciones": ["Ayrton Senna", "Michael Schumacher", "Niki Lauda", "Marco Simoncelli"],
+        "respuesta_correcta": ["Marco Simoncelli"]
+    },
+    {
+        "pregunta": "¿Cuál es el deporte nacional de Japón?",
+        "opciones": ["Karate", "Kendo", "Sumo", "Judo"],
+        "respuesta_correcta": ["Sumo"]
+    },
+    {
+        "pregunta": "¿Quién marcó el gol que le dio al Real Madrid su novena copa de Europa?",
+        "opciones": ["Ronaldo", "Raul", "Roberto Carlos", "Zidane"],
+        "respuesta_correcta": ["Zidane"]
+    },
+    {
+        "pregunta": "¿Con qué se premiaba a los campeones olímpicos de la antigüedad?",
+        "opciones": ["Corona de oro", "Corona de laurel", "Medalla de oro", "Túnica púrpura"],
+        "respuesta_correcta": ["Corona de laurel"]
+    },
+    {
+        "pregunta": "¿En qué año se fundó el Real Madrid?",
+        "opciones": ["1899", "1900", "1901", "1902"],
+        "respuesta_correcta": ["1902"]
+    },
+    {
+        "pregunta": "¿Cuántos anillos de la NBA ganó Michael Jordan?",
+        "opciones": ["4", "5", "6", "7"],
+        "respuesta_correcta": ["6"]
+    },
+    {
+        "pregunta": "¿En qué año se fundó la Real Sociedad de Fútbol?",
+        "opciones": ["1905", "1907", "1909", "1911"],
+        "respuesta_correcta": ["1909"]
+    },
+    {
+        "pregunta": "¿Cuántos 'three peat' (tres anillos NBA consecutivos) tiene Michael Jordan?",
+        "opciones": ["Uno", "Dos", "Tres", "Cuatro"],
+        "respuesta_correcta": ["Dos"]
+    },
+    {
+        "pregunta": "¿Quién tiene el récord mundial de atletismo en 100m lisos en 9,58 segundos?",
+        "opciones": ["Tyson Gay", "Justin Gatlin", "Usain Bolt", "Yohan Blake"],
+        "respuesta_correcta": ["Usain Bolt"]
+    },
+    {
+        "pregunta": "Además del Real Madrid y F.C. Barcelona. ¿Algún otro equipo jugó todas las temporadas de la Liga Española en Primera División?",
+        "opciones": ["Real Sociedad", "Sevilla FC", "Athletic Club", "Valencia CF"],
+        "respuesta_correcta": ["Athletic Club"]
+    },
+    {
+        "pregunta": "El FC Barcelona se fundó mediante un anuncio. ¿Dónde se publicó?",
+        "opciones": ["En un periódico", "En una revista", "En un cartel", "En la radio"],
+        "respuesta_correcta": ["En una revista"]
+    },
+    {
+        "pregunta": "¿Dónde serán los Juegos Olímpicos en 2016?",
+        "opciones": ["Londres", "Tokio", "Río de Janeiro", "Beijing"],
+        "respuesta_correcta": ["Río de Janeiro"]
+    },
+    {
+        "pregunta": "¿Cuál es el piloto de Fórmula 1 más joven en ganar 4 títulos mundiales?",
+        "opciones": ["Fernando Alonso", "Lewis Hamilton", "Sebastián Vettel", "Nico Rosberg"],
+        "respuesta_correcta": ["Sebastián Vettel"]
+    },
+    {
+        "pregunta": "¿Qué estadio de fútbol español fue el primero en tener asientos para los aficionados?",
+        "opciones": ["Santiago Bernabéu", "Camp Nou", "Ramón Sánchez Pizjuán", "Vicente Calderón"],
+        "respuesta_correcta": ["Vicente Calderón"]
+    },
+    {
+        "pregunta": "¿Qué tirada necesitas en el parchís para sacar una ficha de casa?",
+        "opciones": ["4", "5", "6", "7"],
+        "respuesta_correcta": ["5"]
+    },
+    {
+        "pregunta": "¿Qué deporte profesional se relaciona con las siglas MLB?",
+        "opciones": ["Basketball", "Baseball", "Bowling", "Badminton"],
+        "respuesta_correcta": ["Baseball"]
+    },
+    {
+        "pregunta": "¿Qué revista concedía el Balón de Oro?",
+        "opciones": ["FourFourTwo", "Goal", "Soccer International", "France Football"],
+        "respuesta_correcta": ["France Football"]
+    },
+    {
+        "pregunta": "¿Qué fichaje del F.C. Barcelona ha sido el más barato y a la vez el más rentable de la historia?",
+        "opciones": ["Luis Suárez", "Ronaldinho", "Lionel Messi", "Andrés Iniesta"],
+        "respuesta_correcta": ["Lionel Messi"]
+    },
+    {
+        "pregunta": "¿Cómo se llama el palo utilizado en hockey?",
+        "opciones": ["Racket", "Stick", "Bat", "Paddle"],
+        "respuesta_correcta": ["Stick"]
+    },
+    {
+        "pregunta": "Si juegas en la NFL, ¿qué deporte practicas?",
+        "opciones": ["Basketball", "Baseball", "Fútbol americano", "Rugby"],
+        "respuesta_correcta": ["Fútbol americano"]
+    },
+    {
+        "pregunta": "¿Qué equipo de liga española tiene el mayor número de ligas ganadas?",
+        "opciones": ["F.C. Barcelona", "Real Madrid", "Atlético de Madrid", "Valencia CF"],
+        "respuesta_correcta": ["Real Madrid"]
+    },
+    {
+        "pregunta": "¿Qué piloto de Fórmula 1 tiene el apodo de \"Hombre de hielo\"?",
+        "opciones": ["Fernando Alonso", "Sebastián Vettel", "Lewis Hamilton", "Kimi Raikkönen"],
+        "respuesta_correcta": ["Kimi Raikkönen"]
+    },
+    {
+        "pregunta": "¿Quién marcó el gol que le dio a España su primer Mundial de fútbol?",
+        "opciones": ["David Villa", "Fernando Torres", "Sergio Ramos", "Andrés Iniesta"],
+        "respuesta_correcta": ["Andrés Iniesta"]
+    },
+    {
+        "pregunta": "¿Cómo se llamaba la mascota del mundial Sudáfrica 2010?",
+        "opciones": ["Fuleco", "Pique", "Zakumi", "Footix"],
+        "respuesta_correcta": ["Zakumi"]
+    },
+    {
+        "pregunta": "¿Cuántos anillos ganó Michael Jordan durante su carrera profesional?",
+        "opciones": ["4", "5", "6", "7"],
+        "respuesta_correcta": ["6"]
+    },
+    {
+        "pregunta": "¿De qué colores es la camiseta del Atlético de Madrid?",
+        "opciones": ["Azul y blanco", "Amarillo y rojo", "Verde y blanco", "Rojo y blanco"],
+        "respuesta_correcta": ["Rojo y blanco"]
+    },
+    {
+        "pregunta": "¿En qué club de Italia jugó Diego Maradona?",
+        "opciones": ["Juventus", "Inter de Milán", "Roma", "Napoli"],
+        "respuesta_correcta": ["Napoli"]
+    },
+    {
+        "pregunta": "¿Cuál es la última prueba de decathlon?",
+        "opciones": ["400 metros", "110 metros vallas", "Jabalina", "1500 metros"],
+        "respuesta_correcta": ["1500 metros"]
+    },
+    {
+        "pregunta": "¿En qué equipo recaló Raúl González después de abandonar el Real Madrid?",
+        "opciones": ["Al Sadd", "Schalke 04", "New York Cosmos", "LA Galaxy"],
+        "respuesta_correcta": ["Schalke 04"]
     }
     
 ]
