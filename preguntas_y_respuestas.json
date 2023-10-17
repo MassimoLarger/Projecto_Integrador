@@ -1,27 +1,1637 @@
 [
-    {
-      "pregunta": "¿Cuál es la capital de Francia?",
-      "opciones": ["Berlín", "Londres", "París", "Madrid"],
-      "respuesta_correcta": ["París"]
-    },
-    {
-      "pregunta": "¿En qué año se fundó Google?",
-      "opciones": ["1995", "2000", "1998", "2005"],
-      "respuesta_correcta": ["1998"]
-    },
-    {
-      "pregunta": "¿Cuál es el río más largo del mundo?",
-      "opciones": ["Amazonas", "Nilo", "Yangtsé", "Misisipi"],
-      "respuesta_correcta": ["Amazonas"]
-    },
-    {
-      "pregunta": "¿Cuál es el elemento químico con el símbolo 'O'?",
-      "opciones": ["Oxígeno", "Oro", "Osmio", "Oganesón"],
-      "respuesta_correcta": ["Oxígeno"]
-    },
-    {
-      "pregunta": "¿Cuántos continentes hay en el mundo?",
-      "opciones": ["5", "6", "7", "8"],
+  {
+      "pregunta": "¿Quién escribió 'Azazel'?",
+      "opciones": ["Isaac Asimov", "Gabriel García Márquez", "J.K. Rowling", "Stephen King"],
+      "respuesta_correcta": ["Isaac Asimov"]
+  },
+  {
+      "pregunta": "¿En qué isla vivía Otelo?",
+      "opciones": ["Sicilia", "Creta", "Corfú", "Malta"],
+      "respuesta_correcta": ["Creta"]
+  },
+  {
+      "pregunta": "¿Cuál es el nombre del primer gran poema épico de la literatura inglesa?",
+      "opciones": ["Odisea", "Beowulf", "La Ilíada", "Eneida"],
+      "respuesta_correcta": ["Beowulf"]
+  },
+  {
+      "pregunta": "¿Quién pintó 'Mujer mirando por la ventana'?",
+      "opciones": ["Pablo Picasso", "Vincent Van Gogh", "Salvador Dalí", "Joan Miró"],
+      "respuesta_correcta": ["Salvador Dalí"]
+  },
+  {
+      "pregunta": "¿En qué ciudad nació el pintor y escultor Joan Miro?",
+      "opciones": ["Madrid", "Valencia", "Barcelona", "Sevilla"],
+      "respuesta_correcta": ["Barcelona"]
+  },
+  {
+      "pregunta": "¿De qué género es la obra 'Luces de Bohemia'?",
+      "opciones": ["Novela", "Poesía", "Teatro", "Ensayo"],
+      "respuesta_correcta": ["Teatro"]
+  },
+  {
+      "pregunta": "¿Cuál de los siguientes personajes no aparece en la portada del álbum Sgt Pepper's Lonely Hearts Club Band, de la banda británica The Beatles?",
+      "opciones": ["Marilyn Monroe", "Albert Einstein", "Bob Marley", "Shirley Temple"],
+      "respuesta_correcta": ["Bob Marley"]
+  },
+  {
+      "pregunta": "¿Cuál es el baile popular de Aragón?",
+      "opciones": ["Flamenco", "Sardana", "Jota", "Sevillanas"],
+      "respuesta_correcta": ["Jota"]
+  },
+  {
+      "pregunta": "¿En qué año se suicidó Van Gogh?",
+      "opciones": ["1880", "1885", "1890", "1895"],
+      "respuesta_correcta": ["1890"]
+  },
+  {
+      "pregunta": "¿Cuál es el baile típico de Galicia?",
+      "opciones": ["Flamenco", "Sardana", "Jota", "Muiñeira"],
+      "respuesta_correcta": ["Muiñeira"]
+  },
+  {
+      "pregunta": "¿Quién escribió La Divina Comedia?",
+      "opciones": ["William Shakespeare", "Homer", "Dante Alighieri", "Miguel de Cervantes"],
+      "respuesta_correcta": ["Dante Alighieri"]
+  },
+  {
+      "pregunta": "¿Cuántas cuerdas suele tener un bajo eléctrico?",
+      "opciones": ["Tres", "Cuatro", "Cinco", "Seis"],
+      "respuesta_correcta": ["Cuatro"]
+  },
+  {
+      "pregunta": "¿Quién escribió \"El Ejército Negro\"?",
+      "opciones": ["J.K. Rowling", "Santiago García-Clairac", "George Orwell", "Stephen King"],
+      "respuesta_correcta": ["Santiago García-Clairac"]
+  },
+  {
+      "pregunta": "¿Cuál de las siguientes obras fue escrita por Wolfgang Amadeus Mozart?",
+      "opciones": ["Claro de luna", "Las cuatro estaciones", "Réquiem", "El arte de la fuga"],
+      "respuesta_correcta": ["Réquiem"]
+  },
+  {
+      "pregunta": "¿Para qué sirve la paleta?",
+      "opciones": ["Para comer", "Para mezclar pinturas", "Para cavar", "Para escribir"],
+      "respuesta_correcta": ["Para mezclar pinturas"]
+  },
+  {
+      "pregunta": "¿Quién escribió el poema romano, Las Metamorfosis?",
+      "opciones": ["Virgilio", "Ovidio", "Horacio", "Cicerón"],
+      "respuesta_correcta": ["Ovidio"]
+  },
+  {
+      "pregunta": "¿Qué ruta se hace en honor al poeta Miguel Hernández?",
+      "opciones": ["Camino de Santiago", "Ruta de Don Quijote", "La senda del poeta", "Camino del Inca"],
+      "respuesta_correcta": ["La senda del poeta"]
+  },
+  {
+      "pregunta": "¿Qué personaje femenino protagoniza el libro de Dan Brown \"La Conspiración\"?",
+      "opciones": ["Sophie Neveu", "Vittoria Vetra", "Rachel Sexton", "Katherine Solomon"],
+      "respuesta_correcta": ["Rachel Sexton"]
+  },
+  {
+      "pregunta": "¿Según el cuento de \"el principito\" cuál fue el séptimo planeta que visitó?",
+      "opciones": ["El planeta del astrónomo", "El planeta de la rosa", "El planeta de las serpientes", "El planeta tierra"],
+      "respuesta_correcta": ["El planeta tierra"]
+  },
+  {
+      "pregunta": "¿Qué tendencia musical es la que más incursiona en Jamaica?",
+      "opciones": ["Salsa", "Rock", "Reggae", "Hip Hop"],
+      "respuesta_correcta": ["Reggae"]
+  },
+  {
+      "pregunta": "¿Cuál es la famosa cueva que se narra el Quijote?",
+      "opciones": ["Cueva de Cervantes", "Cueva de Montesinos", "Cueva de Dulcinea", "Cueva de Sancho"],
+      "respuesta_correcta": ["Cueva de Montesinos"]
+  },
+  {
+      "pregunta": "¿Qué usamos para diluir los colores de las acuarelas?",
+      "opciones": ["Aceite", "Disolvente", "Agua", "Alcohol"],
+      "respuesta_correcta": ["Agua"]
+  },
+  {
+      "pregunta": "¿Cuántos anillos fueron creados por Sauron para los Señores Enanos en el Señor de los Anillos?",
+      "opciones": ["3", "7", "9", "12"],
       "respuesta_correcta": ["7"]
-    }
-  ]  
+  },
+  {
+      "pregunta": "¿Cómo se llama el padre que devora a su hijo en una obra de Francisco de Goya?",
+      "opciones": ["Neptuno", "Zeus", "Saturno", "Plutón"],
+      "respuesta_correcta": ["Saturno"]
+  },
+  {
+      "pregunta": "¿Cuál de las siguientes palabras es esdrújula?",
+      "opciones": ["Metilico", "Metal", "Metalico", "Metálico"],
+      "respuesta_correcta": ["Metálico"]
+  },
+  {
+      "pregunta": "¿Quién escribió la novela \"El Código Da Vinci\"?",
+      "opciones": ["Paulo Coelho", "Dan Brown", "John Grisham", "Stephen King"],
+      "respuesta_correcta": ["Dan Brown"]
+  },
+  {
+      "pregunta": "¿Cuál de las siguientes obras fue escrita por Gabriel García Márquez?",
+      "opciones": ["Cien años de soledad", "El coronel no tiene quién le escriba", "Don Quijote de la Mancha", "Rayuela"],
+      "respuesta_correcta": ["El coronel no tiene quién le escriba"]
+  },
+  {
+      "pregunta": "¿Cuál es la obra cumbre en la literatura española escrita por Fernando de Rojas?",
+      "opciones": ["Don Quijote", "La Celestina", "La Regenta", "Fortunata y Jacinta"],
+      "respuesta_correcta": ["La Celestina"]
+  },
+  {
+      "pregunta": "¿Cuál de estos pintores hace pinturas con forma geométricas?",
+      "opciones": ["Velázquez", "Rembrandt", "Picasso", "Monet"],
+      "respuesta_correcta": ["Picasso"]
+  },
+  {
+      "pregunta": "¿Cuál de estos libros no fue escrito por Haruki Murakami?",
+      "opciones": ["Kafka en la orilla", "1Q84", "La devoción del sospechoso X", "Norwegian Wood"],
+      "respuesta_correcta": ["La devoción del sospechoso X"]
+  },
+  {
+      "pregunta": "¿Quién escribió \"Romancero Gitano\"?",
+      "opciones": ["Miguel de Cervantes", "Antonio Machado", "Federico García Lorca", "Pablo Neruda"],
+      "respuesta_correcta": ["Federico García Lorca"]
+  },
+  {
+      "pregunta": "¿Con qué cualidad describirías a Tom Sawyer?",
+      "opciones": ["Inteligente", "Travieso", "Serio", "Tímido"],
+      "respuesta_correcta": ["Travieso"]
+  },
+  {
+      "pregunta": "¿A qué familia de instrumentos pertenece la guitarra, el violín y el bajo?",
+      "opciones": ["Viento", "Cuerdas", "Percusión", "Teclado"],
+      "respuesta_correcta": ["Cuerdas"]
+  },
+  {
+      "pregunta": "¿Cuál compositor de música clásica era zurdo?",
+      "opciones": ["Mozart", "Bach", "Beethoven", "Vivaldi"],
+      "respuesta_correcta": ["Beethoven"]
+  },
+  {
+      "pregunta": "¿Cuántos dedos tiene por lo general una caricatura?",
+      "opciones": ["Tres", "Cuatro", "Cinco", "Seis"],
+      "respuesta_correcta": ["Cuatro"]
+  },
+  {
+      "pregunta": "¿Quiénes eran los \"Tres tenores\"?",
+      "opciones": ["Bocelli, Divo, Rossini", "Carreras, Pavarotti, Domingo", "Verdi, Liszt, Chopin", "Mozart, Wagner, Brahms"],
+      "respuesta_correcta": ["Carreras, Pavarotti, Domingo"]
+  },
+  {
+      "pregunta": "¿Quién pintó \"La Sagrada Familia del Cordero\"?",
+      "opciones": ["Leonardo da Vinci", "Rafael Sanzio", "Michelangelo", "Tiziano"],
+      "respuesta_correcta": ["Rafael Sanzio"]
+  },
+  {
+      "pregunta": "¿Cuál de las siguientes pertenece a las 7 maravillas del mundo antiguo?",
+      "opciones": ["Estatua de Zeus en Olimpia", "Machu Picchu", "Gran Pirámide de Giza", "Todas son correctas"],
+      "respuesta_correcta": ["Todas son correctas"]
+  },
+  {
+      "pregunta": "¿Qué nota musical hay entre re y fa?",
+      "opciones": ["Sol", "La", "Si", "Mi"],
+      "respuesta_correcta": ["Mi"]
+  },
+  {
+      "pregunta": "¿Qué instrumento tocaba Zeta Bosio en Soda Stereo?",
+      "opciones": ["Guitarra", "Batería", "Teclado", "Bajo"],
+      "respuesta_correcta": ["Bajo"]
+  },
+  {
+      "pregunta": "¿Cómo se llama al conjunto de 5 líneas y 4 espacios que se usa para componer música?",
+      "opciones": ["Partitura", "Pentagrama", "Notación", "Compás"],
+      "respuesta_correcta": ["Pentagrama"]
+  },
+  {
+      "pregunta": "¿Qué parte del cuerpo se cortó Vicent Van Gogh?",
+      "opciones": ["Mano", "Dedo", "Oreja", "Nariz"],
+      "respuesta_correcta": ["Oreja"]
+  },
+  {
+      "pregunta": "¿Quién escribió \"Platero y yo\"?",
+      "opciones": ["Miguel de Unamuno", "Antonio Machado", "Federico García Lorca", "Juan Ramón Jiménez"],
+      "respuesta_correcta": ["Juan Ramón Jiménez"]
+  },
+  {
+      "pregunta": "¿Quién pintó \"La Anunciación\"?",
+      "opciones": ["Jan Van Eyck", "Jan de Beer", "Leonardo da Vinci", "Caravaggio"],
+      "respuesta_correcta": ["Jan de Beer"]
+  },
+  {
+      "pregunta": "¿Quién pintó la obra mundialmente conocida con el nombre de \"Mona Lisa\" o \"Gioconda\"?",
+      "opciones": ["Michelangelo", "Leonardo Da Vinci", "Rafael Sanzio", "Titian"],
+      "respuesta_correcta": ["Leonardo Da Vinci"]
+  },
+  {
+      "pregunta": "¿Cuál de ellos es un adverbio de lugar?",
+      "opciones": ["Mañana", "Rápidamente", "Ahí", "Tal vez"],
+      "respuesta_correcta": ["Ahí"]
+  },
+  {
+      "pregunta": "¿Cuál de estos poemas escribió Mario Benedetti?",
+      "opciones": ["Hoy te vi", "Amor eterno", "Táctica y estrategia", "Todas las anteriores"],
+      "respuesta_correcta": ["Todas las anteriores"]
+  },
+  {
+      "pregunta": "Amor con amor se paga...",
+      "opciones": ["Y lo demás con lágrimas", "Y el resto es historia", "Y lo demás con dinero", "Y todo se equilibra"],
+      "respuesta_correcta": ["Y lo demás con dinero"]
+  },
+  {
+      "pregunta": "¿Qué libro de Gabriel García Márquez es considerado una de las obras más famosas de la literatura mundial?",
+      "opciones": ["El otoño del patriarca", "El amor en los tiempos del cólera", "Crónica de una muerte anunciada", "Cien años de soledad"],
+      "respuesta_correcta": ["Cien años de soledad"]
+  },
+  {
+      "pregunta": "¿Qué tenía Salvador Dalí de característico?",
+      "opciones": ["El sombrero", "El bastón", "El bigote", "Las gafas"],
+      "respuesta_correcta": ["El bigote"]
+  },
+  {
+      "pregunta": "¿Quién es Laura Gallego García?",
+      "opciones": ["Una actriz", "Una cantante", "Una política", "Una escritora"],
+      "respuesta_correcta": ["Una escritora"]
+  },
+  {
+      "pregunta": "¿Quién es al autor de \"La guerra del fin del mundo\"?",
+      "opciones": ["Gabriel García Márquez", "Isabel Allende", "Mario Vargas Llosa", "Ernesto Sabato"],
+      "respuesta_correcta": ["Mario Vargas Llosa"]
+  },
+  {
+      "pregunta": "¿Cuál es la técnica usada en dibujo a base de carboncillo?",
+      "opciones": ["Raspadura", "Esgrafiado", "Mancha", "Claroscuro"],
+      "respuesta_correcta": ["Mancha"]
+  },
+  {
+      "pregunta": "¿Quién es el autor de la obra: Viaje al centro de la Tierra?",
+      "opciones": ["H.G. Wells", "Julio Verne", "Isaac Asimov", "Ray Bradbury"],
+      "respuesta_correcta": ["Julio Verne"]
+  },
+  {
+      "pregunta": "¿Cuál de las siguientes obras no pertenece a Edgar Allan Poe?",
+      "opciones": ["El cuervo", "El corazón delator", "El monte de las ánimas", "La caída de la Casa Usher"],
+      "respuesta_correcta": ["El monte de las ánimas"]
+  },
+  {
+      "pregunta": "Más vale pájaro en mano...",
+      "opciones": ["que no tener nada", "que cien volando", "que en el aire", "que en el monte"],
+      "respuesta_correcta": ["que cien volando"]
+  },
+  {
+      "pregunta": "¿Dónde se encontraba el cuadro \"El Grito\"?",
+      "opciones": ["Noruega", "Alemania", "Francia", "España"],
+      "respuesta_correcta": ["Francia"]
+  },
+  {
+      "pregunta": "¿A qué ciudad vasca dedicó un cuadro Pablo Picasso?",
+      "opciones": ["San Sebastián", "Bilbao", "Guernica", "Vitoria"],
+      "respuesta_correcta": ["Guernica"]
+  },
+  {
+      "pregunta": "¿Qué importante pieza de arte fue robada y guardada debajo de una cama hasta que se devolvió al Museo Louvre?",
+      "opciones": ["La última cena", "El nacimiento de Venus", "Mona Lisa", "El David"],
+      "respuesta_correcta": ["Mona Lisa"]
+  },
+  {
+      "pregunta": "¿Quién escribió la novela \"Contagio\"?",
+      "opciones": ["Stephen King", "Michael Crichton", "Robin Cook", "John Grisham"],
+      "respuesta_correcta": ["Robin Cook"]
+  },
+  {
+      "pregunta": "¿Cuál de estos artistas se destacó por su estilo impresionista?",
+      "opciones": ["Van Gogh", "Dali", "Rembrandt", "Monet"],
+      "respuesta_correcta": ["Monet"]
+  },
+  {
+      "pregunta": "¿Cuál de éstas es obra de García Lorca?",
+      "opciones": ["El alquimista", "El árbol de la ciencia", "La sombra del viento", "El maleficio de la mariposa"],
+      "respuesta_correcta": ["El maleficio de la mariposa"]
+  },
+  {
+      "pregunta": "¿Cuál de estas obras de Gabriel García Márquez ha sido llevada al cine?",
+      "opciones": ["El amor en los tiempos del cólera", "Cien años de soledad", "El otoño del patriarca", "Todas las anteriores"],
+      "respuesta_correcta": ["Todas las anteriores"]
+  },
+  {
+      "pregunta": "¿Dónde estudió Antoni Gaudí?",
+      "opciones": ["Madrid", "Sevilla", "Valencia", "Barcelona"],
+      "respuesta_correcta": ["Barcelona"]
+  },
+  {
+      "pregunta": "¿Cuál es la tesitura más alta de voz masculina?",
+      "opciones": ["Tenor", "Bajo", "Barítono", "Contratenor"],
+      "respuesta_correcta": ["Contratenor"]
+  },
+  {
+      "pregunta": "¿Quién escribió \"El cuervo\"?",
+      "opciones": ["William Shakespeare", "Edgar Allan Poe", "H.P. Lovecraft", "Robert Frost"],
+      "respuesta_correcta": ["Edgar Allan Poe"]
+  },
+  {
+      "pregunta": "¿Qué autor utilizó en uno de sus poemas el verso de Bécquer \"donde habite el olvido allí estará mi tumba\"?",
+      "opciones": ["Pablo Neruda", "Federico García Lorca", "Joaquín Sabina", "Mario Benedetti"],
+      "respuesta_correcta": ["Neruda"]
+  },
+  {
+      "pregunta": "¿A qué se dedicaban los siete enanitos?",
+      "opciones": ["Eran agricultores", "Eran zapateros", "Eran cazadores", "Eran mineros"],
+      "respuesta_correcta": ["Eran mineros"]
+  },
+  {
+      "pregunta": "¿Cuál es el estilo de la catedral de Burgos?",
+      "opciones": ["Románico", "Barroco", "Gótico", "Renacentista"],
+      "respuesta_correcta": ["Gótico"]
+  },
+  {
+      "pregunta": "¿Cuál es el autor del libro \"Inés del alma mía\"?",
+      "opciones": ["Gabriela Mistral", "Laura Esquivel", "Julia de Burgos", "Isabel Allende"],
+      "respuesta_correcta": ["Isabel Allende"]
+  },
+  {
+      "pregunta": "¿Quién es el autor de Rimas y Leyendas?",
+      "opciones": ["Federico García Lorca", "Gustavo Adolfo Bécquer", "Miguel de Unamuno", "Lope de Vega"],
+      "respuesta_correcta": ["Gustavo Adolfo Bécquer"]
+  },
+  {
+      "pregunta": "¿Qué canción le dedicó Bob Marley a Rita Marley?",
+      "opciones": ["No Woman No Cry", "Redemption Song", "Milkshake & potato chips", "Three Little Birds"],
+      "respuesta_correcta": ["Milkshake & potato chips"]
+  },
+  {
+      "pregunta": "Perro que ladra...",
+      "opciones": ["Siempre muerde", "Es un buen perro", "No muerde", "Necesita atención"],
+      "respuesta_correcta": ["No muerde"]
+  },
+  {
+      "pregunta": "¿Qué afición artística tenía Hitler?",
+      "opciones": ["Escritura", "Música", "Danza", "Pintura"],
+      "respuesta_correcta": ["Pintura"]
+  },
+  {
+      "pregunta": "¿En qué país nació el escritor Jorge Luís Borges?",
+      "opciones": ["México", "Colombia", "Argentina", "España"],
+      "respuesta_correcta": ["Argentina"]
+  },
+  {
+      "pregunta": "¿En qué novela el protagonista es un asesino en serie con un sentido del olfato increíblemente desarrollado?",
+      "opciones": ["Drácula", "Frankenstein", "La metamorfosis", "El Perfume"],
+      "respuesta_correcta": ["El Perfume"]
+  },
+  {
+      "pregunta": "¿De quién es la obra \"El Alcalde de Zalamea\" representada por los vecinos de la localidad pacense de Zalamea de la Serena?",
+      "opciones": ["Lope de Vega", "Garcilaso de la Vega", "Federico García Lorca", "Calderón de la Barca"],
+      "respuesta_correcta": ["Calderón de la Barca"]
+  },
+  {
+      "pregunta": "¿Cuál de los siguientes libros fue escrito por Stephen King?",
+      "opciones": ["Juego de tronos", "La chica del tren", "Insomnia", "El código Da Vinci"],
+      "respuesta_correcta": ["Insomnia"]
+  },
+  {
+      "pregunta": "¿Quién pintó 'La muerte de Lucrecia'?",
+      "opciones": ["Diego Velázquez", "Eduardo Rosales", "Francisco de Goya", "Joaquín Sorolla"],
+      "respuesta_correcta": ["Eduardo Rosales"]
+  },
+  {
+      "pregunta": "¿De qué país es la caricatura \"Condorito\"?",
+      "opciones": ["México", "Argentina", "Chile", "Perú"],
+      "respuesta_correcta": ["Chile"]
+  },
+  {
+      "pregunta": "¿En qué ciudad se encuentra el museo Guggenheim?",
+      "opciones": ["Barcelona", "Madrid", "Bilbao", "Valencia"],
+      "respuesta_correcta": ["Bilbao"]
+  },
+  {
+      "pregunta": "¿A qué corriente pertenece Garcilaso de la Vega?",
+      "opciones": ["Barroco", "Romanticismo", "Renacimiento", "Realismo"],
+      "respuesta_correcta": ["Renacimiento"]
+  },
+  {
+      "pregunta": "¿Quién fue un humanista, filósofo, filólogo y teólogo holandés?",
+      "opciones": ["San Agustín", "Descartes", "Santo Tomás de Aquino", "Erasmo de Róterdam"],
+      "respuesta_correcta": ["Erasmo de Róterdam"]
+  },
+  {
+      "pregunta": "¿Cómo se señalan las rimas en los versos de arte mayor?",
+      "opciones": ["Minúsculas", "Mayúsculas", "Con números", "No se señalan"],
+      "respuesta_correcta": ["Mayúsculas"]
+  },
+  {
+      "pregunta": "¿Quién es el autor de \"Mazurca para dos muertos\"?",
+      "opciones": ["Mario Vargas Llosa", "Camilo José Cela", "Miguel Delibes", "Juan Marsé"],
+      "respuesta_correcta": ["Camilo José Cela"]
+  },
+  {
+      "pregunta": "¿Quién escribió \"Orgullo y Prejuicio\"?",
+      "opciones": ["Emily Brontë", "Virginia Woolf", "Charlotte Brontë", "Jane Austen"],
+      "respuesta_correcta": ["Jane Austen"]
+  },
+  {
+      "pregunta": "¿De qué nacionalidad es el pintor Gustav Klimt?",
+      "opciones": ["Alemán", "Austriaco", "Italiano", "Francés"],
+      "respuesta_correcta": ["Austriaco"]
+  },
+  {
+      "pregunta": "¿Quién es el autor de la frase \"Es tan corto el amor, y es tan largo el olvido\"?",
+      "opciones": ["Mario Benedetti", "Pablo Neruda", "Gabriel García Márquez", "Federico García Lorca"],
+      "respuesta_correcta": ["Pablo Neruda"]
+  },
+  {
+      "pregunta": "¿Cómo se llamaba el padre de Hilde MØller Knag en \"el mundo de Sofía\"?",
+      "opciones": ["Albert Camus", "Albert Sartre", "Albert Knag", "Albert Kierkegaard"],
+      "respuesta_correcta": ["Albert Knag"]
+  },
+  {
+      "pregunta": "¿Qué perdió el soldadito de plomo?",
+      "opciones": ["Una pierna", "Un brazo", "Una mano", "Un ojo"],
+      "respuesta_correcta": ["Una pierna"]
+  },
+  {
+      "pregunta": "¿Cuál es la obra fundamental de Kant?",
+      "opciones": ["El mundo como voluntad y representación", "Crítica de la razón pura", "Meditaciones", "Discurso del método"],
+      "respuesta_correcta": ["Crítica de la razón pura"]
+  },
+  {
+      "pregunta": "¿Cuál fue el primer filósofo del que se tiene alguna noticia?",
+      "opciones": ["Platón", "Sócrates", "Tales de Mileto", "Heráclito"],
+      "respuesta_correcta": ["Tales de Mileto"]
+  },
+  {
+      "pregunta": "¿Qué estaba demasiado verde para la zorra de la fábula de La Fontaine?",
+      "opciones": ["Manzanas", "Uvas", "Peras", "Cerezas"],
+      "respuesta_correcta": ["Uvas"]
+  },
+  {
+      "pregunta": "Caminante no hay camino, se hace...",
+      "opciones": ["buscando respuestas", "caminando despacio", "con cada paso", "camino al andar"],
+      "respuesta_correcta": ["camino al andar"]
+  },
+  {
+      "pregunta": "¿A qué movimiento artístico perteneció el pintor francés Eugène Delacroix?",
+      "opciones": ["Cubismo", "Impresionismo", "Romanticismo", "Neoclasicismo"],
+      "respuesta_correcta": ["Romanticismo"]
+  },
+  {
+      "pregunta": "¿De qué novela de Jane Austen es protagonista el personaje de Elizabeth Bennet?",
+      "opciones": ["Emma", "Sentido y sensibilidad", "Orgullo y Prejuicio", "Mansfield Park"],
+      "respuesta_correcta": ["Orgullo y Prejuicio"]
+  },
+  {
+      "pregunta": "¿Cuántos 'gritos' pintó Munch?",
+      "opciones": ["Uno", "Dos", "Tres", "Cuatro"],
+      "respuesta_correcta": ["Cuatro"]
+  },
+  {
+      "pregunta": "¿En qué museo se encuentra 'El jardín de las delicias'?",
+      "opciones": ["Louvre", "El Prado", "Museo de Orsay", "Museo Británico"],
+      "respuesta_correcta": ["El Prado"]
+  },
+  {
+      "pregunta": "¿Qué técnica utiliza Goya en 'Los desastres de la Guerra'?",
+      "opciones": ["Óleo sobre lienzo", "Acuarela", "Aguafuerte", "Témpera sobre madera"],
+      "respuesta_correcta": ["Aguafuerte"]
+  },
+  {
+      "pregunta": "¿Quién escribió 'El Diario de Ana Frank'?",
+      "opciones": ["Elie Wiesel", "Primo Levi", "Victor Frankl", "Ana Frank"],
+      "respuesta_correcta": ["Ana Frank"]
+  },
+  {
+      "pregunta": "El que a buen árbol se arrima...",
+      "opciones": ["buena fruta recoge", "buen fruto da", "buena sombra le cobija", "no teme al viento"],
+      "respuesta_correcta": ["buena sombra le cobija"]
+  },
+  {
+      "pregunta": "¿Qué era lo primero que iba a comprar la Lechera con el dinero que obtuviera de la leche?",
+      "opciones": ["Pan", "Queso", "Huevos", "Miel"],
+      "respuesta_correcta": ["Huevos"]
+  },
+  {
+      "pregunta": "¿Quién escribió \"El Conde de Montecristo\"?",
+      "opciones": ["Victor Hugo", "Alexandre Dumas", "Honoré de Balzac", "Gustave Flaubert"],
+      "respuesta_correcta": ["Alexandre Dumas"]
+  },
+  {
+      "pregunta": "¿A partir de cuántas sílabas se considera verso de arte mayor?",
+      "opciones": ["5", "7", "8", "9"],
+      "respuesta_correcta": ["9"]
+  },
+  {
+      "pregunta": "¿En qué país nació Jorge Luis Borges?",
+      "opciones": ["México", "España", "Colombia", "Argentina"],
+      "respuesta_correcta": ["Argentina"]
+  },
+  {
+      "pregunta": "El andaluz es un dialecto del...",
+      "opciones": ["Catalán", "Gallego", "Castellano", "Vasco"],
+      "respuesta_correcta": ["Castellano"]
+  },
+  {
+      "pregunta": "¿Qué nombre genérico recibe una estatua en la que se representa a una persona sentada?",
+      "opciones": ["Yacente", "Sedente", "De pie", "Reclinada"],
+      "respuesta_correcta": ["Sedente"]
+  },
+  {
+      "pregunta": "¿Quién escribió \"Crítica de la razón pura\"?",
+      "opciones": ["Georg Wilhelm Friedrich Hegel", "Friedrich Nietzsche", "Baruch Spinoza", "Inmanuel Kant"],
+      "respuesta_correcta": ["Inmanuel Kant"]
+  },
+  {
+      "pregunta": "¿Qué obra NO pertenece a Shakespeare?",
+      "opciones": ["Romeo y Julieta", "Macbeth", "Hamlet", "La Divina Comedia"],
+      "respuesta_correcta": ["La Divina Comedia"]
+  },
+  {
+      "pregunta": "¿Quién de estos artistas pintó \"Los relojes derretidos\"?",
+      "opciones": ["Vincent van Gogh", "Pablo Picasso", "Rembrandt", "Dalí"],
+      "respuesta_correcta": ["Dalí"]
+  },
+  {
+      "pregunta": "¿Dónde nació el pintor Alejandro Obregón?",
+      "opciones": ["Colombia", "México", "Argentina", "España"],
+      "respuesta_correcta": ["España"]
+  },
+  {
+      "pregunta": "¿Qué color consigues mezclando todos los colores del CMYK?",
+      "opciones": ["Blanco", "Rojo", "Verde", "Negro"],
+      "respuesta_correcta": ["Negro"]
+  },
+  {
+      "pregunta": "¿Quién escribió Oliver Twist?",
+      "opciones": ["Robert Louis Stevenson", "Jules Verne", "Mark Twain", "Charles Dickens"],
+      "respuesta_correcta": ["Charles Dickens"]
+  },
+  {
+      "pregunta": "¿Quién dijo la frase \"no soy lo suficientemente joven como para saberlo todo\"?",
+      "opciones": ["George Bernard Shaw", "Winston Churchill", "Oscar Wilde", "Albert Einstein"],
+      "respuesta_correcta": ["Oscar Wilde"]
+  },
+  {
+      "pregunta": "¿En qué ciudad se encuentra el David de Miguel Ángel?",
+      "opciones": ["Roma", "Milán", "Venecia", "Florencia"],
+      "respuesta_correcta": ["Florencia"]
+  },
+  {
+      "pregunta": "¿Quién pintó el cuadro La Persistencia de la Memoria?",
+      "opciones": ["Monet", "Renoir", "Van Gogh", "Dalí"],
+      "respuesta_correcta": ["Dalí"]
+  },
+  {
+      "pregunta": "¿Qué obra está realizada en soporte de cartón?",
+      "opciones": ["La Noche Estrellada", "El Nacimiento de Venus", "El Grito de Munch", "La Última Cena"],
+      "respuesta_correcta": ["El Grito de Munch"]
+  },
+  {
+      "pregunta": "¿Cuál era la 'Ciudad de las Siete Puertas de Homero'?",
+      "opciones": ["Atenas", "Esparta", "Corinto", "Tebas"],
+      "respuesta_correcta": ["Tebas"]
+  },
+  {
+      "pregunta": "¿Cuál era el nombre del capitán que intentó dar caza a Moby Dick?",
+      "opciones": ["Sparrow", "Nemo", "Hook", "Ahab"],
+      "respuesta_correcta": ["Ahab"]
+  },
+  {
+      "pregunta": "Gabriel García Márquez se caracteriza por narrar en un mundo:",
+      "opciones": ["Real Absurdo", "Real Dramático", "Real Maravilloso", "Real Fantástico"],
+      "respuesta_correcta": ["Real Maravilloso"]
+  },
+  {
+      "pregunta": "¿Quién escribió \"Dos años de vacaciones\"?",
+      "opciones": ["Julio Verne", "Mark Twain", "Charles Dickens", "Herman Melville"],
+      "respuesta_correcta": ["Julio Verne"]
+  },
+  {
+      "pregunta": "¿Quién era la diosa de la sabiduría en la mitología griega?",
+      "opciones": ["Afrodita", "Deméter", "Atenea", "Hestia"],
+      "respuesta_correcta": ["Atenea"]
+  },
+  {
+      "pregunta": "¿De qué muere Jean Valjean en la novela 'Los Miserables'?",
+      "opciones": ["De enfermedad", "Asesinado", "De tristeza", "De viejo"],
+      "respuesta_correcta": ["De viejo"]
+  },
+  {
+      "pregunta": "¿De qué estaba hecha la casa que se encontraron Hansel y Gretel?",
+      "opciones": ["Madera", "Chocolate", "Ladrillo", "Piedra"],
+      "respuesta_correcta": ["Chocolate"]
+  },
+  {
+      "pregunta": "¿Quién escribió la novela \"100 años de Soledad\"?",
+      "opciones": ["Mario Vargas Llosa", "Gabriel García Márquez", "Julio Cortázar", "Jorge Luis Borges"],
+      "respuesta_correcta": ["Gabriel García Márquez"]
+  },
+  {
+      "pregunta": "¿Quién escribió 'Mujercitas'?",
+      "opciones": ["Jane Austen", "Emily Brontë", "Louisa May Alcott", "Charlotte Brontë"],
+      "respuesta_correcta": ["Louisa May Alcott"]
+  },
+  {
+      "pregunta": "¿Quién es el autor de \"Las aventuras de Alicia en el País de las Maravillas?\"",
+      "opciones": ["Roald Dahl", "J.M. Barrie", "Lewis Carroll", "L. Frank Baum"],
+      "respuesta_correcta": ["Lewis Carroll"]
+  },
+  {
+      "pregunta": "¿Quién es el autor de \"Las Cuatro Estaciones\"?",
+      "opciones": ["Johann Sebastian Bach", "Ludwig van Beethoven", "Antonio Vivaldi", "Wolfgang Amadeus Mozart"],
+      "respuesta_correcta": ["Antonio Vivaldi"]
+  },
+  {
+      "pregunta": "¿De qué nacionalidad era Leonardo Da Vinci?",
+      "opciones": ["Español", "Francés", "Italiano", "Alemán"],
+      "respuesta_correcta": ["Italiano"]
+  },
+  {
+      "pregunta": "¿Cuál es el nombre del conde de Montecristo?",
+      "opciones": ["Albert de Morcerf", "Fernand Mondego", "Edmon Dantès", "Noirtier de Villefort"],
+      "respuesta_correcta": ["Edmon Dantès"]
+  },
+  {
+      "pregunta": "Más vale tarde...",
+      "opciones": ["que pronto", "que temprano", "que nunca", "que siempre"],
+      "respuesta_correcta": ["que nunca"]
+  },
+  {
+      "pregunta": "En mitología griega, ¿quién traslada a los muertos hacia el inframundo?",
+      "opciones": ["Hades", "Zeus", "Poseidón", "Caronte"],
+      "respuesta_correcta": ["Caronte"]
+  },
+  {
+      "pregunta": "¿De qué color es el Caballo de Santiago?",
+      "opciones": ["Negro", "Marrón", "Blanco", "Gris"],
+      "respuesta_correcta": ["Blanco"]
+  },
+  {
+      "pregunta": "¿Cuál es el nombre dado a la epopeya escrita en la Edad Media?",
+      "opciones": ["Poema épico", "Cantar lírico", "Cantar de trovadores", "Cantar de gesta"],
+      "respuesta_correcta": ["Cantar de gesta"]
+  },
+  {
+      "pregunta": "¿Cómo se denominan las primeras novelas andaluzas?",
+      "opciones": ["Moriscas", "Caballerescas", "Andalusíes", "Cortesanas"],
+      "respuesta_correcta": ["Moriscas"]
+  },
+  {
+      "pregunta": "¿Cuál es el siglo más importante para el arte barroco en España?",
+      "opciones": ["XVI", "XVII", "XVIII", "XIX"],
+      "respuesta_correcta": ["XVII"]
+  },
+  {
+      "pregunta": "¿Cuál es la ciudad europea sede del prestigioso Teatro Negro?",
+      "opciones": ["Viena", "París", "Praga", "Budapest"],
+      "respuesta_correcta": ["Praga"]
+  },
+  {
+      "pregunta": "¿De qué tipo de arte es la escultura Apolo de Belvedere?",
+      "opciones": ["Arte Romano", "Arte Renacentista", "Arte Barroco", "Arte Griego"],
+      "respuesta_correcta": ["Arte Griego"]
+  },
+  {
+      "pregunta": "¿Con qué animal apostó la libre a que llegaba antes que él, en el cuento de La Fontaine?",
+      "opciones": ["Conejo", "Tortuga", "Ratón", "Zorro"],
+      "respuesta_correcta": ["Tortuga"]
+  },
+  {
+      "pregunta": "¿Dónde nació Clarín?",
+      "opciones": ["Asturias", "Madrid", "Zamora", "Barcelona"],
+      "respuesta_correcta": ["Zamora"]
+  },
+  {
+      "pregunta": "¿Cuál es el nombre de Picasso?",
+      "opciones": ["Juan", "Fernando", "Carlos", "Pablo"],
+      "respuesta_correcta": ["Pablo"]
+  },
+  {
+      "pregunta": "¿Qué es 'El País'?",
+      "opciones": ["Libro", "Película", "Ciudad", "Periódico"],
+      "respuesta_correcta": ["Periódico"]
+  },
+  {
+      "pregunta": "En una palabra, el movimiento literario Romanticismo se define con:",
+      "opciones": ["Realismo", "Tragedia", "Sentimientos", "Comedia"],
+      "respuesta_correcta": ["Sentimientos"]
+  },
+  {
+      "pregunta": "Harry Potter fue escrita por...",
+      "opciones": ["George Orwell", "Stephen King", "JK Rowling", "Agatha Christie"],
+      "respuesta_correcta": ["JK Rowling"]
+  },
+  {
+      "pregunta": "¿Cómo se llama el escudero de Don Quijote?",
+      "opciones": ["Pedro", "Juan", "Roberto", "Sancho Panza"],
+      "respuesta_correcta": ["Sancho Panza"]
+  },
+  {
+      "pregunta": "¿Qué plantas pintaba Monet?",
+      "opciones": ["Rosas", "Orquídeas", "Girasoles", "Nenúfares"],
+      "respuesta_correcta": ["Nenúfares"]
+  },
+  {
+      "pregunta": "¿Quién escribió el ensayo feminista 'El segundo sexo'?",
+      "opciones": ["Virginia Woolf", "Simone de Beauvoir", "Margaret Atwood", "Doris Lessing"],
+      "respuesta_correcta": ["Simone de Beauvoir"]
+  },
+  {
+      "pregunta": "¿En qué año apareció por primera vez el personaje Astérix?",
+      "opciones": ["1949", "1969", "1959", "1979"],
+      "respuesta_correcta": ["1959"]
+  },
+  {
+      "pregunta": "¿Cuál de estos es uno de los temas centrales de la obra \"Otelo\"?",
+      "opciones": ["Ambición", "Venganza", "Poder", "Celos"],
+      "respuesta_correcta": ["Celos"]
+  },
+  {
+      "pregunta": "¿Quién fue el arquitecto creador de la catedral de Brasilia?",
+      "opciones": ["Frank Lloyd Wright", "Le Corbusier", "Oscar Niemeyer", "Antoni Gaudí"],
+      "respuesta_correcta": ["Oscar Niemeyer"]
+  },
+  {
+      "pregunta": "¿Cómo se llama la estrofa de cinco versos de arte menor?",
+      "opciones": ["Cuarteta", "Terceto", "Quintilla", "Octava"],
+      "respuesta_correcta": ["Quintilla"]
+  },
+  {
+      "pregunta": "¿Cuál de estos cuentos fue escrito por Julio Cortázar?",
+      "opciones": ["El sur", "Final del juego", "Casa Tomada", "La fiesta ajena"],
+      "respuesta_correcta": ["Casa Tomada"]
+  },
+  {
+      "pregunta": "Se queda más solo que...",
+      "opciones": ["un árbol", "el viento", "la lluvia", "la una"],
+      "respuesta_correcta": ["la una"]
+  },
+  {
+      "pregunta": "¿Cuál de los siguientes instrumentos no es de viento metal?",
+      "opciones": ["Trombón", "Tuba", "Trompeta", "Flauta travesera"],
+      "respuesta_correcta": ["Flauta travesera"]
+  },
+  {
+      "pregunta": "Es Mejor Morir de Pie...",
+      "opciones": ["Que Vivir de Rodillas", "Que Correr", "Que Luchar", "Que Sufrir"],
+      "respuesta_correcta": ["Que Vivir de Rodillas"]
+  },
+  {
+      "pregunta": "¿Quién 'El triunfo de David'?",
+      "opciones": ["Leonardo Da Vinci", "Nicolas Poussin", "Caravaggio", "Rembrandt"],
+      "respuesta_correcta": ["Nicolas Poussin"]
+  },
+  {
+      "pregunta": "¿Quién fue uno de los escritores más destacados de la época del romanticismo?",
+      "opciones": ["Miguel de Cervantes", "Lope de Vega", "Federico García Lorca", "Adolfo Becquer"],
+      "respuesta_correcta": ["Adolfo Becquer"]
+  },
+  {
+      "pregunta": "¿Cómo es Obélix?",
+      "opciones": ["Delgado", "Alto", "Pequeño", "Gordo"],
+      "respuesta_correcta": ["Gordo"]
+  },
+  {
+      "pregunta": "¿Con quién pasó más hambre el Lazarillo de Tormes?",
+      "opciones": ["El hidalgo", "El arcipreste", "El clérigo", "El escudero"],
+      "respuesta_correcta": ["El clérigo"]
+  },
+  {
+      "pregunta": "¿Qué poeta escribió 'Mi bufón'?",
+      "opciones": ["Gustavo Adolfo Bécquer", "Antonio Machado", "Juan Ramón Jiménez", "Federico García Lorca"],
+      "respuesta_correcta": ["Antonio Machado"]
+  },
+  {
+      "pregunta": "¿Tira la piedra...",
+      "opciones": ["Y rompe el cristal", "Y sale corriendo", "Y esconde la mano", "Y da en el blanco"],
+      "respuesta_correcta": ["Y esconde la mano"]
+  },
+  {
+      "pregunta": "¿Cómo se denomina a la poesía popular creada durante la Edad Media por los juglares?",
+      "opciones": ["Mester de clerecía", "Trova", "Mester de juglaría", "Canzone"],
+      "respuesta_correcta": ["Mester de juglaría"]
+  },
+  {
+      "pregunta": "¿Quién escribió la obra \"Trabajo asalariado y capital\"?",
+      "opciones": ["Friedrich Engels", "Vladimir Lenin", "Karl Marx", "John Locke"],
+      "respuesta_correcta": ["Karl Marx"]
+  },
+  {
+      "pregunta": "¿De qué época artística es el pintor Bartolomé Esteban Murillo?",
+      "opciones": ["Renacimiento", "Barroco", "Romanticismo", "Neoclasicismo"],
+      "respuesta_correcta": ["Barroco"]
+  },
+  {
+      "pregunta": "¿En qué ciudad nórdica está situada la acción de la trilogía Millenium, del escritor Stieg Larsson?",
+      "opciones": ["Copenhague", "Oslo", "Reikiavik", "Estocolmo"],
+      "respuesta_correcta": ["Estocolmo"]
+  },
+  {
+      "pregunta": "¿De qué material era el escarabajo del cuento de Edgard Allan Poe?",
+      "opciones": ["Plata", "Bronce", "Oro", "Cobre"],
+      "respuesta_correcta": ["Oro"]
+  },
+  {
+      "pregunta": "¿Cómo despertó el príncipe a la Bella Durmiente?",
+      "opciones": ["Abrazándola", "Hablando", "Cantando", "Besándola"],
+      "respuesta_correcta": ["Besándola"]
+  },
+  {
+      "pregunta": "¿Quién pinto 'La Gioconda'?",
+      "opciones": ["Rafael", "Michelangelo", "Sandro Botticelli", "Leonardo Da Vinci"],
+      "respuesta_correcta": ["Leonardo Da Vinci"]
+  },
+  {
+    "pregunta": "¿A qué edad alcanzan la madurez las crías de elefante?",
+    "opciones": ["5-7 años", "12-15 años", "20-25 años", "30-35 años"],
+    "respuesta_correcta": ["12-15 años"]
+},
+{
+    "pregunta": "¿Cuántas células de esperma fabrican los testículos de un hombre al día?",
+    "opciones": ["1 millón", "5 millones", "10 millones", "100 millones"],
+    "respuesta_correcta": ["10 millones"]
+},
+{
+    "pregunta": "¿Qué nombre tiene el portátil más ligero, en peso, de Apple?",
+    "opciones": ["MacBook Pro", "MacBook", "MacBook Air", "iMac"],
+    "respuesta_correcta": ["MacBook Air"]
+},
+{
+    "pregunta": "¿Cómo llaman los dentistas a 'matar un nervio'?",
+    "opciones": ["Ortodoncia", "Exodoncia", "Endodoncia", "Periodoncia"],
+    "respuesta_correcta": ["Endodoncia"]
+},
+{
+    "pregunta": "¿Quienes fundaron la marca Apple?",
+    "opciones": ["S.Jobs y B.Gates", "S.Wozniak y B.Gates", "S.Jobs y S.Wozniak", "J.Ive y S.Jobs"],
+    "respuesta_correcta": ["S.Jobs y S.Wozniak"]
+},
+{
+    "pregunta": "¿Cuál de las siguientes enfermedades es muy común en los mayores por la disminución de la densidad de los huesos?",
+    "opciones": ["Osteoartritis", "Artritis reumatoide", "Osteoporosis", "Fibromialgia"],
+    "respuesta_correcta": ["Osteoporosis"]
+},
+{
+    "pregunta": "¿Qué parte del cuerpo tiene 27 huesos y 35 músculos?",
+    "opciones": ["Pie", "Mano", "Brazo", "Cabeza"],
+    "respuesta_correcta": ["Mano"]
+},
+{
+    "pregunta": "¿Cuál de estos animales es endémico de Colombia?",
+    "opciones": ["Tucán", "Titi gris", "Cóndor de los Andes", "Puma"],
+    "respuesta_correcta": ["Titi gris"]
+},
+{
+    "pregunta": "En matemáticas, ¿qué es 3,14?",
+    "opciones": ["Euler", "Pi", "Tau", "Phi"],
+    "respuesta_correcta": ["Pi"]
+},
+{
+    "pregunta": "¿Qué animal puede correr sobre el agua?",
+    "opciones": ["Lagarto basilisco", "Gecko", "Iguana", "Camaleón"],
+    "respuesta_correcta": ["Lagarto basilisco"]
+},
+{
+    "pregunta": "¿Por qué vía parenteral se obtiene una biodisponibilidad del 100 por cien del fármaco?",
+    "opciones": ["Oral", "Intravenosa", "Subcutánea", "Intramuscular"],
+    "respuesta_correcta": ["Intravenosa"]
+},
+{
+    "pregunta": "¿Cuál es la fórmula química del ácido clorhídrico?",
+    "opciones": ["H2SO4", "H2O", "HCl", "CH4"],
+    "respuesta_correcta": ["HCl"]
+},
+{
+    "pregunta": "¿Qué estudia la topografía?",
+    "opciones": ["El estudio de las montañas", "La representación gráfica de la superficie de la Tierra", "El estudio de los océanos", "El estudio de las rocas"],
+    "respuesta_correcta": ["La representación gráfica de la superficie de la Tierra"]
+},
+{
+    "pregunta": "¿A cuántas personas podría matar un solo gramo de veneno de la cobra?",
+    "opciones": ["1", "10", "100", "150"],
+    "respuesta_correcta": ["150"]
+},
+{
+    "pregunta": "¿Qué órgano es el encargado de fabricar insulina?",
+    "opciones": ["Hígado", "Riñón", "Páncreas", "Corazón"],
+    "respuesta_correcta": ["Páncreas"]
+},
+{
+    "pregunta": "¿Qué número equivale al 16 en hexadecimal?",
+    "opciones": ["A", "B", "10", "16"],
+    "respuesta_correcta": ["10"]
+},
+{
+    "pregunta": "¿Cuántas vertebras forman la columna vertebral humana?",
+    "opciones": ["24", "28", "30", "33"],
+    "respuesta_correcta": ["33"]
+},
+{
+    "pregunta": "¿Qué compañía multinacional compró al sistema de mensajería WhatsApp?",
+    "opciones": ["Apple", "Google", "Microsoft", "Facebook"],
+    "respuesta_correcta": ["Facebook"]
+},
+{
+    "pregunta": "¿Cómo se llaman los vasos sanguíneos más finos?",
+    "opciones": ["Arterias", "Venas", "Capilares", "Aortas"],
+    "respuesta_correcta": ["Capilares"]
+},
+{
+    "pregunta": "¿Cómo se denomina a la nube que se encuentra a nivel de superficie?",
+    "opciones": ["Cumulonimbus", "Cirrus", "Stratus", "Niebla"],
+    "respuesta_correcta": ["Niebla"]
+},
+{
+    "pregunta": "¿Cuántos millones de años se estima que le restan de vida a nuestro Sol?",
+    "opciones": ["1000", "2500", "5500", "8000"],
+    "respuesta_correcta": ["5500"]
+},
+{
+    "pregunta": "¿Cuál es la hormona sexual masculina más importante?",
+    "opciones": ["Progesterona", "Estrogeno", "Insulina", "Testosterona"],
+    "respuesta_correcta": ["Testosterona"]
+},
+{
+    "pregunta": "¿Gracias a cuál de tus cinco sentidos puedes descodificar vibraciones en el aire?",
+    "opciones": ["Vista", "Tacto", "Olfato", "Oído"],
+    "respuesta_correcta": ["Oído"]
+},
+{
+    "pregunta": "¿De qué sustrato se nutre principalmente el cerebro?",
+    "opciones": ["Proteínas", "Glucosa", "Vitaminas", "Lípidos"],
+    "respuesta_correcta": ["Glucosa"]
+},
+{
+    "pregunta": "¿Cuánto midió el hombre más alto del mundo (acreditado)?",
+    "opciones": ["2.50 mts", "2.72 mts", "3.00 mts", "2.90 mts"],
+    "respuesta_correcta": ["2.72 mts"]
+},
+{
+    "pregunta": "¿Qué virus se atacó con la primera vacuna?",
+    "opciones": ["VIH", "Gripe", "Viruela", "Sarampión"],
+    "respuesta_correcta": ["Viruela"]
+},
+{
+    "pregunta": "¿Qué registra un sismógrafo?",
+    "opciones": ["Vientos", "Temblores de tierra", "Niveles de agua", "Temperaturas"],
+    "respuesta_correcta": ["Temblores de tierra"]
+},
+{
+    "pregunta": "¿Cómo se llama el estudio de los alimentos?",
+    "opciones": ["Gastronomía", "Bromatología", "Dietética", "Nutrición"],
+    "respuesta_correcta": ["Bromatología"]
+},
+{
+    "pregunta": "¿Con que otro nombre se conoce a la piel?",
+    "opciones": ["Melanina", "Dermis", "Epidermis", "Cutis"],
+    "respuesta_correcta": ["Epidermis"]
+},
+{
+    "pregunta": "¿Cuántas patas tienen las arañas?",
+    "opciones": ["6", "8", "10", "12"],
+    "respuesta_correcta": ["8"]
+},
+{
+    "pregunta": "¿Qué es un bacilo?",
+    "opciones": ["Un virus", "Una bacteria en forma de esfera", "Una bacteria en forma de bastón", "Un tipo de hongo"],
+    "respuesta_correcta": ["Una bacteria en forma de bastón"]
+},
+{
+    "pregunta": "¿Cuál es la hormona que le cambia el tono de voz a los hombres?",
+    "opciones": ["Progesterona", "Oxitocina", "Testosterona", "Insulina"],
+    "respuesta_correcta": ["Testosterona"]
+},
+{
+    "pregunta": "¿Qué es la luna?",
+    "opciones": ["Una estrella", "Un planeta", "Un satélite", "Un meteorito"],
+    "respuesta_correcta": ["Un satélite"]
+},
+{
+    "pregunta": "¿De qué están formadas las estrellas?",
+    "opciones": ["De oxígeno y nitrógeno", "De carbono y oxígeno", "De hidrógeno y helio", "De silicio y hierro"],
+    "respuesta_correcta": ["De hidrógeno y helio"]
+},
+{
+    "pregunta": "¿Cuál es el componente principal del chocolate?",
+    "opciones": ["Azúcar", "Leche", "Cacao", "Vainilla"],
+    "respuesta_correcta": ["Cacao"]
+},
+{
+    "pregunta": "¿A partir de qué edad, como máximo, empieza a andar un niño de desarrollo normal?",
+    "opciones": ["6 meses", "12 meses", "18 meses", "24 meses"],
+    "respuesta_correcta": ["18 meses"]
+},
+{
+    "pregunta": "¿Qué es un ser unicelular?",
+    "opciones": ["Un ser vivo con múltiples células", "Un ser vivo de una célula", "Un ser vivo sin células", "Un ser vivo con dos células"],
+    "respuesta_correcta": ["Un ser vivo de una célula"]
+},
+{
+    "pregunta": "¿En qué estado se encuentra el uranio a temperatura ambiente?",
+    "opciones": ["Líquido", "Gaseoso", "Sólido", "Plasmático"],
+    "respuesta_correcta": ["Sólido"]
+},
+{
+    "pregunta": "¿Qué es la filofobia?",
+    "opciones": ["Temor a los libros", "Temor a las multitudes", "Temor a enamorarse", "Temor a las alturas"],
+    "respuesta_correcta": ["Temor a enamorarse"]
+},
+{
+    "pregunta": "¿Qué símbolo tiene el niobio en la tabla periódica?",
+    "opciones": ["Ni", "N", "Nb", "Nbo"],
+    "respuesta_correcta": ["Nb"]
+},
+{
+    "pregunta": "¿Para qué sirven los orificios de las ballenas?",
+    "opciones": ["Para comer", "Para ver", "Para escuchar", "Para respirar"],
+    "respuesta_correcta": ["Para respirar"]
+},
+{
+    "pregunta": "Las 'itis' nos indican que algo está...",
+    "opciones": ["Roto", "Inflamado", "Funcionando", "Desgastado"],
+    "respuesta_correcta": ["Inflamado"]
+},
+{
+    "pregunta": "¿Cómo se le denomina al periodo de la reproducción humana en la que el placer es culminante en ambos órganos sexuales del hombre y de la mujer?",
+    "opciones": ["Erección", "Excitación", "Orgasmo", "Ovulación"],
+    "respuesta_correcta": ["Orgasmo"]
+},
+{
+    "pregunta": "¿Cómo se llama la rama de la medicina que estudia las hormonas y las glándulas?",
+    "opciones": ["Cardiología", "Neurología", "Endocrinología", "Hematología"],
+    "respuesta_correcta": ["Endocrinología"]
+},
+{
+    "pregunta": "¿Qué dedo de la mano sólo tiene dos falanges?",
+    "opciones": ["Índice", "Medio", "Anular", "Pulgar"],
+    "respuesta_correcta": ["Pulgar"]
+},
+{
+    "pregunta": "¿Qué es la fosfatidiletanolamina?",
+    "opciones": ["Una proteína", "Un carbohidrato", "Un aminoácido", "Un fosfolípido"],
+    "respuesta_correcta": ["Un fosfolípido"]
+},
+{
+    "pregunta": "¿Qué enfermedad se produce por la deficiencia en la producción de la hormona insulina por parte del páncreas?",
+    "opciones": ["Cáncer", "Hipertensión", "Asma", "Diabetes"],
+    "respuesta_correcta": ["Diabetes"]
+},
+{
+    "pregunta": "¿Cuál es el símbolo químico de la plata?",
+    "opciones": ["Au", "Ag", "Fe", "Cu"],
+    "respuesta_correcta": ["Ag"]
+},
+{
+    "pregunta": "¿Son lo mismo 20 grados Fahrenheit que 20 grados Celsius?",
+    "opciones": ["Sí", "No"],
+    "respuesta_correcta": ["No"]
+},
+{
+    "pregunta": "¿Qué vitamina ayuda a la fijación de calcio en los huesos?",
+    "opciones": ["Vitamina A", "Vitamina B", "Vitamina C", "Vitamina D"],
+    "respuesta_correcta": ["Vitamina D"]
+},
+{
+    "pregunta": "¿Cuál es el símbolo del potasio?",
+    "opciones": ["P", "Po", "K", "Ka"],
+    "respuesta_correcta": ["K"]
+},
+{
+    "pregunta": "¿Qué es la eremofobia?",
+    "opciones": ["Miedo a los espacios abiertos", "Miedo a los insectos", "Miedo a la soledad", "Ninguna es correcta"],
+    "respuesta_correcta": ["Ninguna es correcta"]
+},
+{
+    "pregunta": "¿Cuál de los siguientes es un gas noble?",
+    "opciones": ["Oxígeno", "Hidrógeno", "Metano", "Neón"],
+    "respuesta_correcta": ["Neón"]
+},
+{
+    "pregunta": "¿Dónde tienen el sentido del gusto las moscas?",
+    "opciones": ["En las alas", "En las antenas", "En las patas", "En la boca"],
+    "respuesta_correcta": ["En las patas"]
+},
+{
+    "pregunta": "¿Qué codificación utiliza solamente 0 y 1?",
+    "opciones": ["Decimal", "Hexadecimal", "Binario", "Alfabético"],
+    "respuesta_correcta": ["Binario"]
+},
+{
+    "pregunta": "Calcula: 20 + 100 + 420 =",
+    "opciones": ["500", "540", "640", "650"],
+    "respuesta_correcta": ["540"]
+},
+{
+    "pregunta": "¿Hasta cuántos colores puede tener un perro collie naturalmente?",
+    "opciones": ["Uno", "Dos", "Tres", "Cuatro"],
+    "respuesta_correcta": ["Tres"]
+},
+{
+    "pregunta": "¿Cuál es el símbolo químico del hierro?",
+    "opciones": ["H", "Hi", "Fe", "He"],
+    "respuesta_correcta": ["Fe"]
+},
+{
+    "pregunta": "¿Qué hormona representa la abreviatura T4?",
+    "opciones": ["Testosterona", "Tirotropina", "Tiroxina", "Triyodotironina"],
+    "respuesta_correcta": ["Tiroxina"]
+},
+{
+    "pregunta": "¿Qué son las pupilas?",
+    "opciones": ["Hueso del oído", "Estructura del cerebro", "Estructura del ojo", "Músculo del brazo"],
+    "respuesta_correcta": ["Estructura del ojo"]
+},
+{
+    "pregunta": "¿Qué animal siempre cae de pie?",
+    "opciones": ["Perro", "Gato", "Tortuga", "Pájaro"],
+    "respuesta_correcta": ["Gato"]
+},
+{
+    "pregunta": "¿Cómo se llama la técnica de cultivo de especies acuáticas vegetales y animales?",
+    "opciones": ["Agricultura", "Hidroponía", "Acuicultura", "Pesca"],
+    "respuesta_correcta": ["Acuicultura"]
+},
+{
+    "pregunta": "¿Qué es la cotangente de un ángulo (cotg)?",
+    "opciones": ["sen/cos", "1/sen", "1/cos", "cos/sen"],
+    "respuesta_correcta": ["cos/sen"]
+},
+{
+    "pregunta": "¿A qué parte del corazón le afectan más los infartos?",
+    "opciones": ["Pericardio", "Endocardio", "Miocardio", "Epicardio"],
+    "respuesta_correcta": ["Miocardio"]
+},
+{
+    "pregunta": "¿De qué metal suele ser la bola de los bolígrafos?",
+    "opciones": ["Hierro", "Tungsteno", "Plata", "Aluminio"],
+    "respuesta_correcta": ["Tungsteno"]
+},
+{
+    "pregunta": "¿Quién formuló la teoría de la relatividad general?",
+    "opciones": ["Isaac Newton", "Niels Bohr", "Galileo Galilei", "Albert Einstein"],
+    "respuesta_correcta": ["Albert Einstein"]
+},
+{
+    "pregunta": "¿Cómo se conoce comúnmente la planta \"Datura stramonium\"?",
+    "opciones": ["Belladona", "Mandrágora", "Estramonio", "Todas son correctas"],
+    "respuesta_correcta": ["Todas son correctas"]
+},
+{
+    "pregunta": "¿Cuál es la fórmula del dióxido de carbono?",
+    "opciones": ["CO", "CO3", "C2O", "CO2"],
+    "respuesta_correcta": ["CO2"]
+},
+{
+    "pregunta": "¿Cuál de las siguientes actitudes en un gato demuestran su tranquilidad?",
+    "opciones": ["Arquear su espalda", "Bufar", "Atacar", "Ninguna es correcta"],
+    "respuesta_correcta": ["Ninguna es correcta"]
+},
+{
+    "pregunta": "¿Qué es el esternocleidomastoideo?",
+    "opciones": ["Un hueso", "Una arteria", "Una vena", "Un músculo"],
+    "respuesta_correcta": ["Un músculo"]
+},
+{
+    "pregunta": "¿Cómo conocemos comúnmente al compuesto químico H2O2?",
+    "opciones": ["Ácido sulfúrico", "Agua oxigenada", "Dióxido de hidrógeno", "Cloruro de hidrógeno"],
+    "respuesta_correcta": ["Agua oxigenada"]
+},
+{
+    "pregunta": "¿De qué país proviene del pez dorado?",
+    "opciones": ["Japón", "China", "India", "Tailandia"],
+    "respuesta_correcta": ["China"]
+},
+{
+    "pregunta": "¿Qué ciencia se ocupa del clima?",
+    "opciones": ["Geografía", "Astronomía", "Climatología", "Meteorología"],
+    "respuesta_correcta": ["Meteorología"]
+},
+{
+    "pregunta": "¿A qué parte del cuerpo afecta la enfermedad de Crohn?",
+    "opciones": ["Hígado", "Pulmones", "Riñones", "Intestino"],
+    "respuesta_correcta": ["Intestino"]
+},
+{
+    "pregunta": "Los glóbulos rojos también se llaman...",
+    "opciones": ["Leucocitos", "Plaquetas", "Eritrocitos", "Neutrófilos"],
+    "respuesta_correcta": ["Eritrocitos"]
+},
+{
+    "pregunta": "¿Qué es la estrella de mar?",
+    "opciones": ["Molusco", "Crustáceo", "Equinodermo", "Cnidario"],
+    "respuesta_correcta": ["Equinodermo"]
+},
+{
+    "pregunta": "Si te hacen una angiografía, ¿qué están fotografiando?",
+    "opciones": ["El cerebro", "Los pulmones", "Los vasos sanguíneos", "Los huesos"],
+    "respuesta_correcta": ["Los vasos sanguíneos"]
+},
+{
+    "pregunta": "¿Qué es la celiaquía?",
+    "opciones": ["Alergia a la lactosa", "Intolerancia el gluten", "Deficiencia de vitamina B12", "Alergia a los frutos secos"],
+    "respuesta_correcta": ["Intolerancia el gluten"]
+},
+{
+    "pregunta": "¿Qué sonido hacen las gallinas?",
+    "opciones": ["Maullan", "Mugir", "Balar", "Cararean"],
+    "respuesta_correcta": ["Cararean"]
+},
+{
+    "pregunta": "¿Cómo se llama la amnesia caracterizada por una incapacidad para recordar los eventos ocurridos después de haber sufrido una lesión cerebral?",
+    "opciones": ["Amnesia retrógrada", "Amnesia global", "Amnesia disociativa", "Amnesia anterógrada"],
+    "respuesta_correcta": ["Amnesia anterógrada"]
+},
+{
+    "pregunta": "¿Qué nombre recibe el defecto visual que consiste en que el eje de los ojos no está centrado?",
+    "opciones": ["Astigmatismo", "Hipermetropía", "Miopía", "Estrabismo"],
+    "respuesta_correcta": ["Estrabismo"]
+},
+{
+    "pregunta": "¿Qué componente de ADN se uno en su estructura con la guanina?",
+    "opciones": ["Adenina", "Citosina", "Timina", "Uracilo"],
+    "respuesta_correcta": ["Citosina"]
+},
+{
+    "pregunta": "¿Cuál es la sustancia deficiente en los diabéticos?",
+    "opciones": ["Glucosa", "Insulina", "Glucacon", "Epinefrina"],
+    "respuesta_correcta": ["Insulina"]
+},
+{
+    "pregunta": "¿Cómo se llaman las lesiones en la pared del tubo digestivo?",
+    "opciones": ["Pólipo", "Fístula", "Úlcera", "Divertículo"],
+    "respuesta_correcta": ["Úlcera"]
+},
+{
+    "pregunta": "¿Qué es la queratina?",
+    "opciones": ["Una enzima", "Una vitamina", "Un carbohidrato", "Una proteína"],
+    "respuesta_correcta": ["Una proteína"]
+},
+{
+    "pregunta": "¿Qué significan las siglas \"www\"?",
+    "opciones": ["Web With Width", "World Wide Window", "World Web Wish", "World Wide Web"],
+    "respuesta_correcta": ["World Wide Web"]
+},
+{
+    "pregunta": "¿Cómo se denomina el juramento que realizan los médicos?",
+    "opciones": ["Juramento de Galeano", "Juramento de Esculapio", "Juramento de Aesclepio", "Juramento Hipocrático"],
+    "respuesta_correcta": ["Juramento Hipocrático"]
+},
+{
+    "pregunta": "¿Qué es el colesterol?",
+    "opciones": ["Un carbohidrato", "Una proteína", "Un lípido", "Una enzima"],
+    "respuesta_correcta": ["Un lípido"]
+},
+{
+    "pregunta": "¿Cómo se llama la torcedura de una articulación en el cuerpo?",
+    "opciones": ["Fractura", "Contusión", "Esguince", "Lesión"],
+    "respuesta_correcta": ["Esguince"]
+},
+{
+    "pregunta": "Si padeces la enfermedad de Crohn o colitis ulcerosa, tienes una enfermedad...",
+    "opciones": ["Cardíaca", "Respiratoria", "Intestinal", "Renal"],
+    "respuesta_correcta": ["Intestinal"]
+},
+{
+    "pregunta": "¿Qué tiene más concentración de sal?",
+    "opciones": ["El sudor", "La saliva", "La sangre", "La orina"],
+    "respuesta_correcta": ["La orina"]
+},
+{
+    "pregunta": "¿Qué enfermedad se caracteriza por repentinos ataques de sueño?",
+    "opciones": ["Insomnio", "Apnea del sueño", "Narcolepsia", "Sonambulismo"],
+    "respuesta_correcta": ["Narcolepsia"]
+},
+{
+    "pregunta": "¿Qué es el caracol?",
+    "opciones": ["Crustáceo", "Anélido", "Molusco", "Cnidario"],
+    "respuesta_correcta": ["Molusco"]
+},
+{
+    "pregunta": "¿Dónde se encuentran las medusas con veneno mortal?",
+    "opciones": ["África", "Caribe", "Mediterráneo", "Australia"],
+    "respuesta_correcta": ["Australia"]
+},
+{
+    "pregunta": "¿Dónde tienen las papilas gustativas las moscas?",
+    "opciones": ["En las alas", "En el abdomen", "En las antenas", "En las patas"],
+    "respuesta_correcta": ["En las patas"]
+},
+{
+    "pregunta": "¿De dónde forman parte los axones?",
+    "opciones": ["Célula muscular", "Célula epitelial", "Neurona", "Glóbulo rojo"],
+    "respuesta_correcta": ["Neurona"]
+},
+{
+    "pregunta": "¿Cuál es el símbolo químico del fósforo?",
+    "opciones": ["F", "Ph", "Po", "P"],
+    "respuesta_correcta": ["P"]
+},
+{
+    "pregunta": "¿Qué es lo que más lugar ocupa en el cerebro humano?",
+    "opciones": ["Cerebelo", "Tálamo", "Hipotálamo", "Hemisferios cerebrales"],
+    "respuesta_correcta": ["Hemisferios cerebrales"]
+},
+{
+    "pregunta": "¿Qué significan las siglas USB?",
+    "opciones": ["United System Base", "Universal Serial Bridge", "Unified Slot Block", "Universal Serial Bus"],
+    "respuesta_correcta": ["Universal Serial Bus"]
+},
+{
+    "pregunta": "¿Cuáles de los siguientes no es un grupo sanguíneo?",
+    "opciones": ["AB", "A", "B", "OO"],
+    "respuesta_correcta": ["OO"]
+},
+{
+    "pregunta": "¿A qué tienes miedo si sufres de aracnofobia?",
+    "opciones": ["Serpientes", "Arañas", "Altura", "Lugares cerrados"],
+    "respuesta_correcta": ["Arañas"]
+},
+{
+    "pregunta": "¿Cuál de estos NO es un musculo del cuerpo?",
+    "opciones": ["Bíceps", "Tríceps", "Cruzado", "Deltoides"],
+    "respuesta_correcta": ["Cruzado"]
+},
+{
+    "pregunta": "¿Cómo se llaman las pinzas especiales que se usan en obstetricia para sujetar la cabeza del bebé y hacer tracción sobre ella en los partos difíciles?",
+    "opciones": ["Pinza de Kocher", "Forceps", "Pinza de Allis", "Pinza de Babcock"],
+    "respuesta_correcta": ["Forceps"]
+},
+{
+    "pregunta": "¿Cómo llamamos a la inflamación de la piel?",
+    "opciones": ["Hepatitis", "Conjuntivitis", "Dermatitis", "Sinusitis"],
+    "respuesta_correcta": ["Dermatitis"]
+},
+{
+    "pregunta": "¿Qué droga de las denominadas 'blandas' es útil en el tratamiento del dolor?",
+    "opciones": ["Cocaína", "Marihuana", "Heroína", "LSD"],
+    "respuesta_correcta": ["Marihuana"]
+},
+{
+    "pregunta": "¿Cuál es la distribución de Linux más usada?",
+    "opciones": ["Red Hat", "Fedora", "Debian", "Ubuntu"],
+    "respuesta_correcta": ["Ubuntu"]
+},
+{
+    "pregunta": "¿Cómo llamamos a una lesión térmica o química de los tejidos?",
+    "opciones": ["Esguince", "Quemadura", "Fractura", "Laceración"],
+    "respuesta_correcta": ["Quemadura"]
+},
+{
+    "pregunta": "¿Con qué nombre se conoce la energía producida por las partículas en movimiento?",
+    "opciones": ["Energía Potencial", "Energía Cinética", "Energía Térmica", "Energía Nuclear"],
+    "respuesta_correcta": ["Energía Cinética"]
+},
+{
+    "pregunta": "¿Quién fue el Inventor de la dinamita?",
+    "opciones": ["Thomas Edison", "Nikola Tesla", "Marie Curie", "Alfred Nobel"],
+    "respuesta_correcta": ["Alfred Nobel"]
+},
+{
+    "pregunta": "¿Cómo se llama la arteria principal del cuerpo humano?",
+    "opciones": ["Coronaria", "Carótida", "Aorta", "Femoral"],
+    "respuesta_correcta": ["Aorta"]
+},
+{
+    "pregunta": "¿Qué parte del cuerpo humano puede tener un soplo?",
+    "opciones": ["Pulmón", "Hígado", "Corazón", "Estómago"],
+    "respuesta_correcta": ["Corazón"]
+},
+{
+    "pregunta": "¿Cuántas Leyes de Mendel hay?",
+    "opciones": ["2", "3", "4", "5"],
+    "respuesta_correcta": ["3"]
+},
+{
+    "pregunta": "¿Cuánto es la raíz cuadrada del 121?",
+    "opciones": ["10", "11", "12", "13"],
+    "respuesta_correcta": ["11"]
+},
+{
+    "pregunta": "¿Cómo se llama la enfermedad por la que una persona cree infundadamente que padece alguna enfermedad grave?",
+    "opciones": ["Paranoia", "Hipocondría", "Esquizofrenia", "Depresión"],
+    "respuesta_correcta": ["Hipocondría"]
+},
+{
+    "pregunta": "¿El pulso de qué arteria se usa para comprobar la muerte de una persona?",
+    "opciones": ["Aorta", "Femoral", "Coronaria", "Carótida"],
+    "respuesta_correcta": ["Carótida"]
+},
+{
+    "pregunta": "¿Qué es la levadura?",
+    "opciones": ["Un hongo", "Una bacteria", "Un protozoo", "Un alga"],
+    "respuesta_correcta": ["Un hongo"]
+},
+{
+    "pregunta": "¿A partir de qué nivel de inteligencia se puede considerar que alguien es un genio?",
+    "opciones": ["120", "130", "140", "150"],
+    "respuesta_correcta": ["140"]
+},
+{
+    "pregunta": "¿Cómo se llama el registro gráfico de la activa eléctrica del cerebro?",
+    "opciones": ["Electrocardiograma", "Electromiograma", "Electroencefalograma", "Radiografía"],
+    "respuesta_correcta": ["Electroencefalograma"]
+},
+{
+    "pregunta": "¿El ciempiés gigante del Amazonas puede medir más de 30 centímetros y cuelga de las cuevas. ¿Qué mamífero volador le resulta fácil cazar?",
+    "opciones": ["Aves", "Mariposas", "Abejas", "Murciélagos"],
+    "respuesta_correcta": ["Murciélagos"]
+},
+{
+    "pregunta": "¿Qué son los pugs?",
+    "opciones": ["Una raza de gato", "Una raza de perro", "Un tipo de pez", "Un tipo de pájaro"],
+    "respuesta_correcta": ["Una raza de perro"]
+},
+{
+    "pregunta": "¿En cuántos lóbulos se divide el pulmón derecho?",
+    "opciones": ["Dos", "Tres", "Cuatro", "Cinco"],
+    "respuesta_correcta": ["Tres"]
+},
+{
+    "pregunta": "¿Cuál de estas fases NO es una de las fases de la división celular?",
+    "opciones": ["Interfase", "Rinofase", "Profase", "Telofase"],
+    "respuesta_correcta": ["Rinofase"]
+},
+{
+    "pregunta": "¿Quién es considerado el padre de la genética?",
+    "opciones": ["Darwin", "Newton", "Watson", "Gregor Mendel"],
+    "respuesta_correcta": ["Gregor Mendel"]
+},
+{
+    "pregunta": "¿Cuántos grados Kelvin son 0 grados Celcius?",
+    "opciones": ["0", "100", "273,15", "373,15"],
+    "respuesta_correcta": ["273,15"]
+},
+{
+    "pregunta": "¿Cuál de los siguientes NO forma parte de un ordenador personal?",
+    "opciones": ["CPU", "RAM", "Monitor", "Microondas"],
+    "respuesta_correcta": ["Microondas"]
+},
+{
+    "pregunta": "¿Quién fue el inventor de la bombilla?",
+    "opciones": ["Tesla", "Edison", "Franklin", "Bell"],
+    "respuesta_correcta": ["Edison"]
+},
+{
+    "pregunta": "¿Por qué compuesto químico está formada la lavandina?",
+    "opciones": ["Ácido Sulfúrico", "Bicarbonato de Sodio", "Hipoclorito de Sodio", "Ácido Clorhídrico"],
+    "respuesta_correcta": ["Hipoclorito de Sodio"]
+},
+{
+    "pregunta": "¿Cómo se conoce el virus del SIDA?",
+    "opciones": ["HPV", "EBV", "VIH", "RSV"],
+    "respuesta_correcta": ["VIH"]
+},
+{
+    "pregunta": "¿Cuál es el músculo causante del espasmo muscular \"Torticolis\"?",
+    "opciones": ["Bíceps", "Deltoides", "Trapezio", "Esternocleidomastoideo"],
+    "respuesta_correcta": ["Esternocleidomastoideo"]
+},
+{
+    "pregunta": "¿Por qué tipo de elementos están formadas las sales binarias?",
+    "opciones": ["Dos metales", "Dos no metales", "Un metal y un gas noble", "Un metal y un no metal"],
+    "respuesta_correcta": ["Un metal y un no metal"]
+},
+{
+    "pregunta": "¿Qué significan las siglas ADN?",
+    "opciones": ["Ácido diclorhídrico", "Ácido desoxirribonucleico", "Adenina dinitrato", "Ácido dinucleótido"],
+    "respuesta_correcta": ["Ácido desoxirribonucleico"]
+},
+{
+    "pregunta": "¿Qué son los leucocitos?",
+    "opciones": ["Glóbulos rojos", "Glóbulos blancos", "Plaquetas", "Bacterias"],
+    "respuesta_correcta": ["Glóbulos blancos"]
+},
+{
+    "pregunta": "¿Cómo se conoce comúnmente al compuesto químico NaCI?",
+    "opciones": ["Azúcar", "Bicarbonato", "Sal", "Agua"],
+    "respuesta_correcta": ["Sal"]
+},
+{
+    "pregunta": "¿Cuántas alas tiene una pulga?",
+    "opciones": ["Dos", "Cuatro", "Seis", "Ninguna"],
+    "respuesta_correcta": ["Ninguna"]
+},
+{
+    "pregunta": "¿Qué es un bit?",
+    "opciones": ["Un conjunto de bytes", "Un programa informático", "La unidad más grande de almacenamiento", "La unidad más pequeña de almacenamiento"],
+    "respuesta_correcta": ["La unidad más pequeña de almacenamiento"]
+},
+{
+    "pregunta": "¿Qué hay que ponerle a un vidrio para convertirlo en un espejo?",
+    "opciones": ["Plata", "Oro", "Aluminio", "Hierro"],
+    "respuesta_correcta": ["Aluminio"]
+},
+{
+    "pregunta": "¿Cómo se llama la técnica consistente en descender la temperatura del cuerpo humano por debajo de -190ºC?",
+    "opciones": ["Criogenización", "Destilación", "Congelación", "Refrigeración"],
+    "respuesta_correcta": ["Criogenización"]
+},
+{
+    "pregunta": "¿Qué nervio es el VII par craneal?",
+    "opciones": ["Nervio óptico", "Nervio auditivo", "Nervio trigémino", "Nervio facial"],
+    "respuesta_correcta": ["Nervio facial"]
+},
+{
+    "pregunta": "¿Cuál de los siguientes números es mayor?",
+    "opciones": ["El número e", "El número 3", "El número Pi", "El número 2"],
+    "respuesta_correcta": ["El número Pi"]
+},
+{
+    "pregunta": "¿Dónde se almacena la información genética del ser humano?",
+    "opciones": ["ARN", "ADN", "Proteínas", "Cromosomas"],
+    "respuesta_correcta": ["ADN"]
+},
+{
+    "pregunta": "¿Qué estudia el herpetólogo?",
+    "opciones": ["Pájaros y aves", "Reptiles y víboras", "Peces y anfibios", "Insectos"],
+    "respuesta_correcta": ["Reptiles y víboras"]
+},
+{
+    "pregunta": "¿Cómo se llama el estado vital en que la persona actúa conforme a estímulos e intereses ajenos, creyendo que le son propios?",
+    "opciones": ["Ilusión", "Delirio", "Alienación", "Conformismo"],
+    "respuesta_correcta": ["Alienación"]
+},
+{
+    "pregunta": "¿El déficit de qué vitamina produce raquitismo?",
+    "opciones": ["A", "B", "C", "D"],
+    "respuesta_correcta": ["D"]
+},
+{
+    "pregunta": "¿En qué año falleció Steve Jobs?",
+    "opciones": ["2007", "2011", "2015", "2019"],
+    "respuesta_correcta": ["2011"]
+},
+{
+    "pregunta": "¿Quién postuló la ley del principio de inercia?",
+    "opciones": ["Galileo Galilei", "Albert Einstein", "Nikola Tesla", "Isaac Newton"],
+    "respuesta_correcta": ["Isaac Newton"]
+},
+{
+    "pregunta": "¿Cuántas veces se calcula que latirá el corazón a lo largo de toda la vida de una persona?",
+    "opciones": ["1.000 millones", "2.500 millones", "4.000 millones", "7.000 millones"],
+    "respuesta_correcta": ["4.000 millones"]
+},
+{
+    "pregunta": "¿Cuánto es la raíz cuadrada de 625?",
+    "opciones": ["15", "20", "25", "30"],
+    "respuesta_correcta": ["25"]
+},
+{
+    "pregunta": "¿Cómo se denomina el sulfato de calcio, cuando se usa para escribir?",
+    "opciones": ["Papel", "Grafito", "Tiza", "Tinte"],
+    "respuesta_correcta": ["Tiza"]
+},
+{
+    "pregunta": "¿Dónde llevan los cocodrilos a sus crías?",
+    "opciones": ["En sus patas", "En su espalda", "En la cola", "En la boca"],
+    "respuesta_correcta": ["En la boca"]
+},
+{
+    "pregunta": "¿Cuántos colores tenía la primera tarjeta gráfica?",
+    "opciones": ["2", "8", "16", "256"],
+    "respuesta_correcta": ["2"]
+},
+{
+    "pregunta": "¿Qué articulación une el fémur con la tibia?",
+    "opciones": ["Cadera", "Rodilla", "Tobillo", "Muñeca"],
+    "respuesta_correcta": ["Rodilla"]
+},
+{
+    "pregunta": "¿Qué función tienen las manchas de la jirafa?",
+    "opciones": ["Sacar el calor", "Mimetizarse", "Atraer pareja", "Absorber la luz solar"],
+    "respuesta_correcta": ["Sacar el calor"]
+},
+{
+    "pregunta": "¿Qué hace un procrastinador?",
+    "opciones": ["Pospone sus actividades", "Realiza multitareas", "Planifica su tiempo", "Trabaja sin descanso"],
+    "respuesta_correcta": ["Pospone sus actividades"]
+},
+{
+    "pregunta": "¿Cuál es el único nervio que no pasa por el tálamo?",
+    "opciones": ["Nervio Ocular", "Nervio Auditivo", "Nervio Facial", "Nervio Olfativo"],
+    "respuesta_correcta": ["Nervio Olfativo"]
+},
+{
+    "pregunta": "¿Qué sustancia permite realizar la fotosíntesis?",
+    "opciones": ["Adrenalina", "Insulina", "Estrogeno", "Clorofila"],
+    "respuesta_correcta": ["Clorofila"]
+},
+{
+    "pregunta": "¿Qué son la morfina y la heroína?",
+    "opciones": ["Estimulantes", "Opiáceos", "Hallucinógenos", "Depresores"],
+    "respuesta_correcta": ["Opiáceos"]
+},
+{
+    "pregunta": "¿Cómo se llama la cresta que hace el labio debajo de la nariz?",
+    "opciones": ["Surco mentolabial", "Línea mandibular", "Surco nasolabial", "Pliegue mentoniano"],
+    "respuesta_correcta": ["Surco nasolabial"]
+},
+{
+    "pregunta": "¿Qué es el ciclo de krebs?",
+    "opciones": ["Ciclo de la vida", "Ciclo celular", "Ciclo de reproducción", "Ciclo del ácido cítrico"],
+    "respuesta_correcta": ["Ciclo del ácido cítrico"]
+},
+{
+    "pregunta": "¿Qué órgano del cuerpo es el más dañado por el consumo excesivo de alcohol?",
+    "opciones": ["Estómago", "Páncreas", "Hígado", "Riñón"],
+    "respuesta_correcta": ["Hígado"]
+}
+]

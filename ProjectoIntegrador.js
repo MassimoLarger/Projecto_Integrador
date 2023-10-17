@@ -6,7 +6,7 @@ let nombre;
 
 function cargarPreguntas() {
   // Utilizar fetch para cargar el archivo JSON
-  fetch('preguntas_artes.json')
+  fetch('preguntas_y_respuestas.json')
       .then(response => response.json())
       .then(data => {
           preguntas = shuffleArray(data);
