@@ -3,10 +3,17 @@ var indicePreguntaActual = 0;
 var puntuacion = 0;
 var vidas = 5; // Ahora se establece en 5 vidas
 let nombre;
+let categoria;
 
 function cargarPreguntas() {
+  // Obtener el valor seleccionado del elemento de selección
+  let categoria = document.getElementById('category').value;
+
+  // Construir la URL basada en la categoría seleccionada
+  let url = `${categoria}.json`;
+
   // Utilizar fetch para cargar el archivo JSON
-  fetch('preguntas_y_respuestas.json')
+  fetch(url)
       .then(response => response.json())
       .then(data => {
           preguntas = shuffleArray(data);
@@ -47,11 +54,14 @@ function shuffleArray(array) {
 function iniciarJuego() {
   // Movemos la obtención del nombre aquí
   nombre = document.getElementById('name').value;
-
+  if (isFinite(nombre)) {
+    alert('Por favor, ingrese un nombre válido.');
+  } else {
   document.getElementById('form-container').style.display = 'none';
   document.getElementById('trivia-container').style.display = 'block';
 
   cargarPregunta(indicePreguntaActual);
+  }
 }
 
 function responderTrivia(botonSeleccionado) {
