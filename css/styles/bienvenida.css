@@ -310,11 +310,29 @@ body {
   vertical-align: top;
 }
 .bienvenida-MBp .image7 {
-  width: 20rem;
-  height: 20rem;
+  width: 30rem;
+  height: 30rem;
   position: absolute;
-  left: 62.25rem;
-  top: 35rem;
+  left: 57.25rem;
+  top: 30rem;
+  object-fit: cover;
+  vertical-align: top;
+}
+.bienvenida-MBp .image8 {
+  width: 50rem;
+  height: 50rem;
+  position: absolute;
+  left: 95rem;
+  top: 10rem;
+  object-fit: cover;
+  vertical-align: top;
+}
+.bienvenida-MBp .image9 {
+  width: 40rem;
+  height: 40rem;
+  position: absolute;
+  left: 40rem;
+  top: 7rem;
   object-fit: cover;
   vertical-align: top;
 }
