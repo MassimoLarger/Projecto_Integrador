@@ -14,20 +14,29 @@
 <body>
     <div class="bienvenida-MBp">
     <div class="group-2-9J2">
-        <img class="logo-CvW" src="./css/assets/logo.png"/>
+        <img class="logo-CvW" src="./css/assets/logo.png" onclick="volverAPagina()"/>
         <p class="preguntopa-LG2">PREGUNTOPÍA</p>
-      </div>
-    <main>      
-        <div id="form-container">
-            <p><label for="category">Seleccione su categoria:</label>
-                <select id="category">
-                    <option value="preguntas_artes">Arte</option>
-                    <option value="preguntas_ciencias">Ciencia</option>
-                    <option value="preguntas_deportes">Deporte</option>
-                    <option value="preguntas_entretenimiento">Entretenimiento</option>
-                    <option value="preguntas_geografia">Geografia</option>
-                    <option value="preguntas_historia">Historia</option>
-                    <option value="preguntas_y_respuestas">Todos</option>
-                </select></p>
+        <p class="text4">Seleccione su categoria:</p>
+    </div>
+    <div id="category">
+        <img class="image1" id="category" value="preguntas_artes" src="./css/assets/arte.png" onclick="irAPagina()"/>
+        <img class="image2" id="category" value="preguntas_ciencias" src="./css/assets/ciencia.png" onclick="irAPagina()"/>
+        <img class="image3" id="category" value="preguntas_deportes" src="./css/assets/deporte.png" onclick="irAPagina()"/>
+        <img class="image4" id="category" value="preguntas_entretenimiento" src="./css/assets/entretenimiento.png" onclick="irAPagina()"/>
+        <img class="image5" id="category" value="preguntas_geografia" src="./css/assets/geografia.png" onclick="irAPagina()"/>
+        <img class="image6" id="category" value="preguntas_historia" src="./css/assets/historia.png" onclick="irAPagina()"/>
+        <img class="image7" id="category" value="preguntas_y_respuestas" src="./css/assets/todas.png" onclick="irAPagina()"/>
+    </div>
+        <script>
+            function irAPagina() {
+              window.location.href = "../Juego.html";
+           }
+        </script>
+
+        <script>
+            function volverAPagina() {
+            window.location.href = "./css/bienvenida.html";
+        }
+        </script>
 </body>
 </html>

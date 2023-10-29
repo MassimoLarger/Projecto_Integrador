@@ -14,7 +14,7 @@
 <body>
     <div class="bienvenida-MBp">
     <div class="group-2-9J2">
-        <img class="logo-CvW" src="./css/assets/logo.png"/>
+        <img class="logo-CvW" src="./css/assets/logo.png" onclick="volverAPagina()"/>
         <p class="preguntopa-LG2">PREGUNTOPÍA</p>
       </div>
     <main>
@@ -40,7 +40,11 @@
         </div>
     </main>
         
-        <!-- Mover la importación del JSON al final del cuerpo del HTML -->
+        <script>
+            function volverAPagina() {
+            window.location.href = "./css/bienvenida.html";
+        }
+        </script>
         <script src="ProjectoIntegrador.js" defer></script>
     </div>
 </body>
