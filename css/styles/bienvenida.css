@@ -74,7 +74,10 @@ body {
   white-space: nowrap;
   background-color: #ed709a;
   border-radius: 5rem;
+  cursor: pointer;
+  z-index: 1; /* Ajusta según sea necesario */
 }
+
 .bienvenida-MBp .el-universo-donde-la-trivia-cobra-vida-enfrenta-desafos-compite-con-jugadores-globales-y-escala-hasta-la-cima-del-saber-descbrelo-ahora-y-sumrgete-en-el-desafo-whk {
   width: 51.4rem;
   height: 8.2rem;
