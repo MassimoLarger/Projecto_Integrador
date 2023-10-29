@@ -19,17 +19,20 @@
         <p class="text4">Seleccione su categoria:</p>
     </div>
     <div id="category">
-        <img class="image1" id="category" value="preguntas_artes" src="./css/assets/arte.png" onclick="irAPagina()"/>
-        <img class="image2" id="category" value="preguntas_ciencias" src="./css/assets/ciencia.png" onclick="irAPagina()"/>
-        <img class="image3" id="category" value="preguntas_deportes" src="./css/assets/deporte.png" onclick="irAPagina()"/>
-        <img class="image4" id="category" value="preguntas_entretenimiento" src="./css/assets/entretenimiento.png" onclick="irAPagina()"/>
-        <img class="image5" id="category" value="preguntas_geografia" src="./css/assets/geografia.png" onclick="irAPagina()"/>
-        <img class="image6" id="category" value="preguntas_historia" src="./css/assets/historia.png" onclick="irAPagina()"/>
-        <img class="image7" id="category" value="preguntas_y_respuestas" src="./css/assets/todas.png" onclick="irAPagina()"/>
+        <img class="image1" data-value="preguntas_artes" src="./css/assets/arte.png" onclick="irAPagina()"/>
+        <img class="image2" data-value="preguntas_ciencias" src="./css/assets/ciencia.png" onclick="irAPagina()"/>
+        <img class="image3" data-value="preguntas_deportes" src="./css/assets/deporte.png" onclick="irAPagina()"/>
+        <img class="image4" data-value="preguntas_entretenimiento" src="./css/assets/entretenimiento.png" onclick="irAPagina()"/>
+        <img class="image5" data-value="preguntas_geografia" src="./css/assets/geografia.png" onclick="irAPagina()"/>
+        <img class="image6" data-value="preguntas_historia" src="./css/assets/historia.png" onclick="irAPagina()"/>
+        <img class="image7" data-value="preguntas_y_respuestas" src="./css/assets/todas.png" onclick="irAPagina()"/>
     </div>
+
         <script>
             function irAPagina() {
               window.location.href = "../Juego.html";
+              categoria = event.target.getAttribute('data-value');
+              localStorage.setItem('categoria', categoria);
            }
         </script>
 

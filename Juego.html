@@ -24,19 +24,28 @@
                 <p class="text2">Vidas: <span id="vidas">5</span></p>
             </div>
 
-            <p class="text3"></p><label for="name">Nombre:</label>
-            <input type="text" id="name" placeholder="Ingrese su nombre" /></p>
+        <form id="form-container">
+            <p class="text3">Nombre:</p>
+            <input class="label" type="text" id="name" placeholder="Ingrese su nombre"/>
             
             <div class="group-3-7yc" onclick="cargarPreguntas()">
                 <p>Iniciar Juego</p>
-              </div>
-        </div>
+            </div>
+        </form>
 
         <div id="trivia-container" style="display: none;">
-            <p id="question"></p>
+            <p class="text5" id="question"></p>
             <!-- Cambiar a botones y manejar la respuesta directamente -->
             <div id="options"></div>
             <div id="respuesta"></div>
+        </div>
+
+        <div id="fin-juego" style="display: none;">
+            <p class="text6">¡Juego terminado!</p>
+            <p class="text7">Nombre: <span id="nombreResultado"></span></p>
+            <p class="text8">Puntuación: <span id="puntuacionResultado"></span></p>
+            <p class="text9">Vidas Restantes: <span id="vidasResultado"></span></p>
+            <button class="button"onclick="volverAPagina()">Volver al Inicio</button>
         </div>
     </main>
         
@@ -45,6 +54,7 @@
             window.location.href = "./css/bienvenida.html";
         }
         </script>
+
         <script src="ProjectoIntegrador.js" defer></script>
     </div>
 </body>

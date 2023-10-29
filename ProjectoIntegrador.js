@@ -3,12 +3,9 @@ var indicePreguntaActual = 0;
 var puntuacion = 0;
 var vidas = 5; // Ahora se establece en 5 vidas
 let nombre;
-let categoria;
 
 function cargarPreguntas() {
-  // Obtener el valor seleccionado del elemento de selección
-  let categoria = document.getElementById('category').value;
-
+  let categoria= localStorage.getItem('categoria');
   // Construir la URL basada en la categoría seleccionada
   let url = `${categoria}.json`;
 
@@ -34,9 +31,11 @@ function cargarPregunta(indicePregunta) {
   var opcionesHTML = '';
   respuestaCorrectaActual = preguntaActual.respuesta_correcta; // Guardar la respuesta correcta actual
   opcionesAleatorias.forEach(function (opcion, index) {
+    // Asigna clases específicas a los botones (por ejemplo, button1, button2, etc.)
+    var buttonClass = 'button' + (index + 1);
     opcionesHTML += `
       <li>
-        <button onclick="responderTrivia(this)" data-es-correcta="${respuestaCorrectaActual.includes(opcion)}">${opcion}</button>
+        <button class="${buttonClass}" onclick="responderTrivia(this)" data-es-correcta="${respuestaCorrectaActual.includes(opcion)}">${opcion}</button>
       </li>`;
   });
   document.getElementById('options').innerHTML = opcionesHTML;  
@@ -86,12 +85,25 @@ function responderTrivia(botonSeleccionado) {
   // Verificar si el jugador ha seleccionado una respuesta
   if (opcionSeleccionada !== null) {
     var respuestaContainer = document.getElementById('respuesta');
+    var respuestaTexto = document.createElement('p');
+    respuestaTexto.className = 'respuesta-texto';
+    respuestaTexto.innerText = esCorrecta ? '¡Respuesta correcta!' : 'Respuesta incorrecta. La respuesta correcta es: ' + respuestaCorrecta;
 
+    respuestaContainer.appendChild(respuestaTexto);
+
+    // Agregar la clase oculto después de un tiempo específico (por ejemplo, 3 segundos)
+    setTimeout(function () {
+      respuestaTexto.classList.add('oculto');
+      // Eliminar el elemento de la respuesta después de ocultarlo
+      setTimeout(function () {
+        respuestaContainer.removeChild(respuestaTexto);
+      }, 500);
+    }, 1000);
+
+    // Actualizar la puntuación y vidas
     if (esCorrecta) {
-      respuestaContainer.innerText = '¡Respuesta correcta!';
       puntuacion += 10;
     } else {
-      respuestaContainer.innerText = 'Respuesta incorrecta. La respuesta correcta es: ' + respuestaCorrecta;
       vidas--;
     }
 
@@ -124,20 +136,19 @@ function actualizarInfoJuego() {
 }
 
 function mostrarResultadoFinal() {
-  // Lógica para mostrar el resultado final, puedes mostrar un mensaje,
-  // lanzar un alert, o cualquier otra acción que desees.
-  alert(`¡Juego terminado!\nJugador ${nombre} ha obtenido una puntuación de: ${puntuacion}`);
-  reiniciarJuego();
-  // Recargar la página para reiniciar el juego
-  window.location.reload();
-}
+  // Ocultar contenedor de información de juego
+  document.getElementById('info-container').style.display = 'none';
 
-function reiniciarJuego() {
-  indicePreguntaActual = 0;
-  puntuacion = 0;
-  vidas = 5; // Reiniciar las vidas a 5
-  cargarPreguntas();
-  actualizarInfoJuego();
+  // Ocultar contenedor de juego
+  document.getElementById('trivia-container').style.display = 'none';
+
+  // Mostrar contenedor de fin de juego
+  document.getElementById('fin-juego').style.display = 'block';
+
+  // Mostrar información del jugador
+  document.getElementById('nombreResultado').innerText = nombre;
+  document.getElementById('puntuacionResultado').innerText = puntuacion;
+  document.getElementById('vidasResultado').innerText = vidas;
 }
 
 function shuffleArray(array) {
