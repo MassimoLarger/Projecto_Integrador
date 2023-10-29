@@ -227,3 +227,15 @@ body {
   object-fit: cover;
   vertical-align: top;
 }
+.bienvenida-MBp .text {
+  width: 51.4rem;
+  height: 8.2rem;
+  position: absolute;
+  left: 17.8rem;
+  top: 49.4rem;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.3625;
+  color: #ffffff;
+  font-family: Nunito Sans, 'Source Sans Pro';
+}
