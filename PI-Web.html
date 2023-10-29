@@ -17,13 +17,7 @@
         <img class="logo-CvW" src="./css/assets/logo.png"/>
         <p class="preguntopa-LG2">PREGUNTOPÍA</p>
       </div>
-    <main>
-        <section id="inicio">
-            <div id="info-container">
-                <p class="text">Puntuación: <span id="puntuacion">0</span></p>
-                <p class="text2">Vidas: <span id="vidas">5</span></p>
-            </div>
-
+    <main>      
         <div id="form-container">
             <p><label for="category">Seleccione su categoria:</label>
                 <select id="category">
@@ -35,23 +29,5 @@
                     <option value="preguntas_historia">Historia</option>
                     <option value="preguntas_y_respuestas">Todos</option>
                 </select></p>
-
-            <p><label for="name">Nombre:</label>
-            <input type="text" id="name" placeholder="Ingrese su nombre" /></p>
-
-            <p><button onclick="cargarPreguntas()">Iniciar Juego</button></p>
-        </div>
-
-        <div id="trivia-container" style="display: none;">
-            <p id="question"></p>
-            <!-- Cambiar a botones y manejar la respuesta directamente -->
-            <div id="options"></div>
-            <div id="respuesta"></div>
-        </div>
-    </main>
-        
-        <!-- Mover la importación del JSON al final del cuerpo del HTML -->
-        <script src="ProjectoIntegrador.js" defer></script>
-    </div>
 </body>
 </html>
