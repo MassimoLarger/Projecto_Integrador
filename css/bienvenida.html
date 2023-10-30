@@ -9,25 +9,54 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito+Sans%3A600%2C900"/>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro%3A600%2C900"/>
   <link rel="stylesheet" href="./styles/bienvenida.css"/>
+  <style>
+    /* Estilos específicos para teléfonos */
+    @media screen and (max-width: 600px) {
+      .telefono-only {
+        display: block;
+      }
+      .desktop-tablet-only {
+        display: none;
+      }
+    }
+    /* Estilos específicos para escritorio y tabletas */
+    @media screen and (min-width: 601px) {
+      .telefono-only {
+        display: none;
+      }
+      .desktop-tablet-only {
+        display: block;
+      }
+    }
+  </style>
 </head>
 <body>
-<div class="bienvenida-MBp">
-  <p class="preprate-para-la-aventura-intelectual-de-tu-vida-sZU">¡Prepárate para la aventura intelectual de tu vida!</p>
-
-  <div class="group-1-7yc" onclick="irAPagina()">
-    <p>Jugar Ahora</p>
+  <!-- Contenido para teléfonos -->
+  <div class="telefono-only">
+    <p>¡Contenido especial para teléfonos!</p>
   </div>
 
+  <!-- Contenido para PC y tabletas -->
+  <div class="desktop-tablet-only">
+    <div class="bienvenida-MBp">
+    <p class="preprate-para-la-aventura-intelectual-de-tu-vida-sZU">¡Prepárate para la aventura intelectual de tu vida!</p>
+    <!-- Resto de tu contenido para PC y tabletas -->
+    <p class="el-universo-donde-la-trivia-cobra-vida-enfrenta-desafos-compite-con-jugadores-globales-y-escala-hasta-la-cima-del-saber-descbrelo-ahora-y-sumrgete-en-el-desafo-whk">El universo donde la trivia cobra vida. Enfrenta desafíos, compite con jugadores globales y escala hasta la cima del saber. ¡Descúbrelo ahora y sumérgete en el desafío!</p>
+    <div class="group-2-9J2">
+      <img class="logo-CvW" src="./assets/logo.png"/>
+      <p class="preguntopa-LG2">PREGUNTOPÍA</p>
+      <img class="cerebroinicio-Qj4" src="./assets/cerebroinicio.png"/>
+
+      <div class="group-1-7yc" onclick="irAPagina()">
+        <p>Jugar Ahora</p>
+      </div>
+    </div>
+  </div>
+  </div>
   <script>
     function irAPagina() {
       window.location.href = "../Categoria.html";
-      }
+    }
   </script>
-
-  <p class="el-universo-donde-la-trivia-cobra-vida-enfrenta-desafos-compite-con-jugadores-globales-y-escala-hasta-la-cima-del-saber-descbrelo-ahora-y-sumrgete-en-el-desafo-whk">El universo donde la trivia cobra vida. Enfrenta desafíos, compite con jugadores globales y escala hasta la cima del saber. ¡Descúbrelo ahora y sumérgete en el desafío!</p>
-  <div class="group-2-9J2">
-    <img class="logo-CvW" src="./assets/logo.png"/>
-    <p class="preguntopa-LG2">PREGUNTOPÍA</p>
-  <img class="cerebroinicio-Qj4" src="./assets/cerebroinicio.png"/>
-  </div>
 </body>
+</html>
