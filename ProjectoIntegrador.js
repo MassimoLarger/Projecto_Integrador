@@ -120,7 +120,7 @@ function responderTrivia(botonSeleccionado) {
         // Fin del juego
         mostrarResultadoFinal();
       }
-    }, 100);  // Esperar 1 segundo (1000 milisegundos) antes de cargar la siguiente pregunta
+    }, 1000);  // Esperar 1 segundo (1000 milisegundos) antes de cargar la siguiente pregunta
   }
 }
 
