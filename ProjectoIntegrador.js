@@ -35,7 +35,8 @@ function cargarPregunta(indicePregunta) {
     var buttonClass = 'button' + (index + 1);
     opcionesHTML += `
       <li>
-        <button class="${buttonClass}" onclick="responderTrivia(this)" data-es-correcta="${respuestaCorrectaActual.includes(opcion)}">${opcion}</button>
+        <button class="${buttonClass}" onclick="responderTrivia(this)" data-es-correcta="${respuestaCorrectaActual.includes(opcion)}">
+        ${opcion}</button>
       </li>`;
   });
   document.getElementById('options').innerHTML = opcionesHTML;  
@@ -87,7 +88,8 @@ function responderTrivia(botonSeleccionado) {
     var respuestaContainer = document.getElementById('respuesta');
     var respuestaTexto = document.createElement('p');
     respuestaTexto.className = 'respuesta-texto';
-    respuestaTexto.innerText = esCorrecta ? '¡Respuesta correcta!' : 'Respuesta incorrecta. La respuesta correcta es: ' + respuestaCorrecta;
+    respuestaTexto.innerText = esCorrecta ? '¡Respuesta correcta!' : 'Respuesta incorrecta. La respuesta correcta es: ' +
+    respuestaCorrecta;
 
     respuestaContainer.appendChild(respuestaTexto);
 
@@ -102,7 +104,7 @@ function responderTrivia(botonSeleccionado) {
 
     // Actualizar la puntuación y vidas
     if (esCorrecta) {
-      puntuacion += 10;
+      puntuacion += 100;
     } else {
       vidas--;
     }
@@ -149,12 +151,4 @@ function mostrarResultadoFinal() {
   document.getElementById('nombreResultado').innerText = nombre;
   document.getElementById('puntuacionResultado').innerText = puntuacion;
   document.getElementById('vidasResultado').innerText = vidas;
-}
-
-function shuffleArray(array) {
-  for (let i = array.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [array[i], array[j]] = [array[j], array[i]];
-  }
-  return array;
 }
