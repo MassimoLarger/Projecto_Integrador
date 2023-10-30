@@ -461,3 +461,30 @@ body {
 .oculto {
   opacity: 0;
 }
+.bienvenida-MBp .text11 {
+  width: 35.9rem;
+  height: 5.5rem;
+  position: absolute;
+  left: 58.1rem;
+  top: 10.3rem;
+  font-size: 4rem;
+  font-weight: 600;
+  line-height: 1.3625;
+  color: #f06f9a;
+  font-family: Nunito Sans, 'Source Sans Pro';
+  white-space: nowrap;
+}
+
+.bienvenida-MBp .text10 {
+  width: 35.9rem;
+  height: 5.5rem;
+  position: absolute;
+  left: 53.1rem;
+  top: 15.3rem;
+  font-size: 3rem;
+  font-weight: 600;
+  line-height: 1.3625;
+  color: #f06f9a;
+  font-family: Nunito Sans, 'Source Sans Pro';
+  white-space: nowrap;
+}
