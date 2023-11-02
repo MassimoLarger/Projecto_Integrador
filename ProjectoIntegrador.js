@@ -6,6 +6,7 @@ let nombre;
 let timeLeft = 15;  // Tiempo inicial
 let timerInterval;
 let timerElement = document.getElementById('timer');
+var juegoFinalizado = false;
 
 
 function cargarPreguntas() {
@@ -55,14 +56,20 @@ function cargarPregunta(indicePregunta) {
 }
 
 function updateTimer() {
+  if (juegoFinalizado) {
+    clearInterval(timerInterval);
+    return;
+  }
+
   timeLeft -= 1;
   timerElement.textContent = timeLeft;
 
   if (timeLeft <= 0) {
-      clearInterval(timerInterval);
-      responderTrivia(false);  // Tratar la respuesta como incorrecta si se agota el tiempo
+    clearInterval(timerInterval);
+    responderTrivia(false);  // Tratar la respuesta como incorrecta si se agota el tiempo
   }
 }
+
 
 // Función para aleatorizar un arreglo utilizando el algoritmo de Fisher-Yates
 function shuffleArray(array) {
@@ -160,8 +167,9 @@ function actualizarInfoJuego() {
 }
 
 function mostrarResultadoFinal() {
-  
+  juegoFinalizado = true;  // Establecer que el juego ha finalizado
   clearInterval(timerInterval); // Añade esta línea para detener el temporizador
+
   // Ocultar contenedor de información de juego
   document.getElementById('info-container').style.display = 'none';
 
