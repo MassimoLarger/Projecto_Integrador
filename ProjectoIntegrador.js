@@ -160,6 +160,8 @@ function actualizarInfoJuego() {
 }
 
 function mostrarResultadoFinal() {
+  
+  clearInterval(timerInterval); // Añade esta línea para detener el temporizador
   // Ocultar contenedor de información de juego
   document.getElementById('info-container').style.display = 'none';
 
