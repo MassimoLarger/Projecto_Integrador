@@ -3,6 +3,10 @@ var indicePreguntaActual = 0;
 var puntuacion = 0;
 var vidas = 5; // Ahora se establece en 5 vidas
 let nombre;
+let timeLeft = 15;  // Tiempo inicial
+let timerInterval;
+let timerElement = document.getElementById('timer');
+
 
 function cargarPreguntas() {
   let categoria= localStorage.getItem('categoria');
@@ -39,7 +43,25 @@ function cargarPregunta(indicePregunta) {
         ${opcion}</button>
       </li>`;
   });
-  document.getElementById('options').innerHTML = opcionesHTML;  
+  document.getElementById('options').innerHTML = opcionesHTML;
+  
+  // Aquí inicia el código del temporizador
+  if (timerInterval) {
+      clearInterval(timerInterval);
+      timeLeft = 15;  // Reiniciar el tiempo a 10 segundos
+  }
+    timerElement.textContent = timeLeft;
+    timerInterval = setInterval(updateTimer, 1000);
+}
+
+function updateTimer() {
+  timeLeft -= 1;
+  timerElement.textContent = timeLeft;
+
+  if (timeLeft <= 0) {
+      clearInterval(timerInterval);
+      responderTrivia(false);  // Tratar la respuesta como incorrecta si se agota el tiempo
+  }
 }
 
 // Función para aleatorizar un arreglo utilizando el algoritmo de Fisher-Yates
@@ -65,65 +87,65 @@ function iniciarJuego() {
 }
 
 function responderTrivia(botonSeleccionado) {
-  // Remover la clase 'seleccionado' de todos los botones
-  var botones = document.querySelectorAll('#options button');
-  botones.forEach(function (boton) {
-    boton.classList.remove('seleccionado');
-  });
+  // Si se ha seleccionado un botón, remover la clase 'seleccionado' de todos los botones
+  if (botonSeleccionado) {
+    var botones = document.querySelectorAll('#options button');
+    botones.forEach(function (boton) {
+      boton.classList.remove('seleccionado');
+    });
 
-  // Agregar la clase 'seleccionado' al botón seleccionado
-  botonSeleccionado.classList.add('seleccionado');
+    // Agregar la clase 'seleccionado' al botón seleccionado
+    botonSeleccionado.classList.add('seleccionado');
+  }
 
-  // Extraer la respuesta correcta del atributo data
-  var esCorrecta = botonSeleccionado.getAttribute('data-es-correcta') === 'true';
+  // Si no se seleccionó ningún botón (temporizador agotado), considerar la respuesta como incorrecta
+  var esCorrecta = botonSeleccionado ? botonSeleccionado.getAttribute('data-es-correcta') === 'true' : false;
 
   // Obtener la respuesta correcta guardada previamente
   var respuestaCorrecta = respuestaCorrectaActual[0]; // Solo necesitamos la primera respuesta correcta
-  
-  // Obtener la opción seleccionada después de hacer clic en un botón
-  var opcionSeleccionada = botonSeleccionado.innerText;
 
-  // Verificar si el jugador ha seleccionado una respuesta
-  if (opcionSeleccionada !== null) {
-    var respuestaContainer = document.getElementById('respuesta');
-    var respuestaTexto = document.createElement('p');
-    respuestaTexto.className = 'respuesta-texto';
-    respuestaTexto.innerText = esCorrecta ? '¡Respuesta correcta!' : 'Respuesta incorrecta. La respuesta correcta es: ' +
-    respuestaCorrecta;
+  var opcionSeleccionada = botonSeleccionado ? botonSeleccionado.innerText : "Tiempo agotado";
 
-    respuestaContainer.appendChild(respuestaTexto);
+  var respuestaContainer = document.getElementById('respuesta');
+  var respuestaTexto = document.createElement('p');
+  respuestaTexto.className = 'respuesta-texto';
+  respuestaTexto.innerText = esCorrecta ? '¡Respuesta correcta!' : 'Respuesta incorrecta. La respuesta correcta es: ' + respuestaCorrecta;
 
-    // Agregar la clase oculto después de un tiempo específico (por ejemplo, 3 segundos)
+  respuestaContainer.appendChild(respuestaTexto);
+
+  // Agregar la clase oculto después de un tiempo específico (por ejemplo, 3 segundos)
+  setTimeout(function () {
+    respuestaTexto.classList.add('oculto');
+    // Eliminar el elemento de la respuesta después de ocultarlo
     setTimeout(function () {
-      respuestaTexto.classList.add('oculto');
-      // Eliminar el elemento de la respuesta después de ocultarlo
-      setTimeout(function () {
-        respuestaContainer.removeChild(respuestaTexto);
-      }, 500);
-    }, 1000);
+      respuestaContainer.removeChild(respuestaTexto);
+    }, 500);
+  }, 1000);
 
-    // Actualizar la puntuación y vidas
-    if (esCorrecta) {
-      puntuacion += 100;
-    } else {
-      vidas--;
-    }
-
-    actualizarInfoJuego();
-
-    // Cargar la siguiente pregunta después de un breve retraso
-    setTimeout(function () {
-      // Verificar si quedan más preguntas
-      if (indicePreguntaActual < preguntas.length - 1) {
-        // Cargar la siguiente pregunta
-        indicePreguntaActual++;
-        cargarPregunta(indicePreguntaActual);
-      } else {
-        // Fin del juego
-        mostrarResultadoFinal();
-      }
-    }, 1000);  // Esperar 1 segundo (1000 milisegundos) antes de cargar la siguiente pregunta
+  // Actualizar la puntuación y vidas
+  if (esCorrecta) {
+    puntuacion += 100;
+  } else {
+    vidas--;
   }
+
+  actualizarInfoJuego();
+
+  // Cargar la siguiente pregunta después de un breve retraso
+  setTimeout(function () {
+    // Verificar si quedan más preguntas
+    if (indicePreguntaActual < preguntas.length - 1) {
+      // Cargar la siguiente pregunta
+      indicePreguntaActual++;
+      cargarPregunta(indicePreguntaActual);
+    } else {
+      // Fin del juego
+      mostrarResultadoFinal();
+    }
+  }, 1000);  // Esperar 1 segundo (1000 milisegundos) antes de cargar la siguiente pregunta
+
+  // Detener el temporizador cuando el jugador responda
+  clearInterval(timerInterval);
 }
 
 function actualizarInfoJuego() {
