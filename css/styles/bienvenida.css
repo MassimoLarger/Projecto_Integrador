@@ -508,3 +508,38 @@ body {
   white-space: nowrap;
   width: 19.7rem;
 }
+
+.button:hover{
+  border-color: #FFD700;
+  border: 3px solid #FFD700;
+}
+
+.button1:hover{
+  border-color: #FFD700;
+  border: 3px solid #FFD700;
+}
+
+.button2:hover{
+  border-color: #FFD700;
+  border: 3px solid #FFD700;
+}
+
+.button3:hover{
+  border-color: #FFD700;
+  border: 3px solid #FFD700;
+}
+
+.button4:hover{
+  border-color: #FFD700;
+  border: 3px solid #FFD700;
+}
+
+.bienvenida-MBp .group-1-7yc:hover{
+  border-color: #FFD700;
+  border: 1px solid #FFD700;
+}
+
+.bienvenida-MBp .group-3-7yc:hover{
+  border-color: #FFD700;
+  border: 1px solid #FFD700;
+}
