@@ -189,11 +189,11 @@ function mostrarResultadoFinal() {
   document.getElementById('vidasResultado').innerText = vidas;
 
   // Guardar la puntuación del jugador
-  var puntuacionJugador = {
+  puntuacionesAnteriores.push({
     nombre: nombre,
-    puntuación: puntuacion,
+    puntuacion: puntuacion,
     vidas: vidas
-  };
+  });
 
   // Obtener puntuaciones anteriores del almacenamiento local
   var puntuacionesAnteriores = JSON.parse(localStorage.getItem('puntuaciones')) || [];
@@ -211,17 +211,32 @@ function mostrarResultadoFinal() {
   localStorage.setItem('puntuaciones', JSON.stringify(puntuacionesAnteriores));
 }
 
-function mostrarMarcadorPuntuaciones() {
-  // Obtener puntuaciones almacenadas del localStorage
-  var puntuacionesAnteriores = JSON.parse(localStorage.getItem('puntuaciones')) || [];
+// Obtener puntuaciones almacenadas desde el almacenamiento local
+function obtenerPuntuacionesAlmacenadas() {
+  const puntuacionesAlmacenadas = localStorage.getItem('puntuaciones');
+  return puntuacionesAlmacenadas ? JSON.parse(puntuacionesAlmacenadas) : [];
+}
 
-  // Mostrar el marcador en tu interfaz de usuario (puedes ajustar según tu estructura HTML)
-  var marcadorElement = document.getElementById('marcador');
-  marcadorElement.innerHTML = '<h2>Marcador de Puntuaciones</h2>';
+// Guardar una nueva puntuación en el almacenamiento local
+function guardarPuntuacion(nombre, puntuacion, vidas) {
+  const puntuaciones = obtenerPuntuacionesAlmacenadas();
+  puntuaciones.push({ nombre, puntuacion, vidas });
+  // Ordenar las puntuaciones de mayor a menor
+  puntuaciones.sort((a, b) => b.puntuacion - a.puntuacion);
+  // Guardar solo las 10 puntuaciones más altas
+  const puntuacionesTop10 = puntuaciones.slice(0, 10);
+  localStorage.setItem('puntuaciones', JSON.stringify(puntuacionesTop10));
+}
 
-  puntuacionesAnteriores.forEach(function (puntuacion, index) {
-    var puntuacionItem = document.createElement('p');
-    puntuacionItem.innerText = `${index + 1}. ${puntuacion.nombre}: ${puntuacion.puntuacion}`;
-    marcadorElement.appendChild(puntuacionItem);
+// Mostrar las puntuaciones más altas en el marcador
+function mostrarPuntuaciones() {
+  const puntuacionesTop10 = obtenerPuntuacionesAlmacenadas();
+  // Mostrar las puntuaciones en tu marcador HTML (debes agregar un marcador en tu HTML)
+  const marcadorElement = document.getElementById('marcador');
+  marcadorElement.innerHTML = ''; // Limpiar el contenido anterior
+  puntuacionesTop10.forEach((puntuacion, index) => {
+    const item = document.createElement('li');
+    item.innerText = `${index + 1}. ${puntuacion.nombre}: ${puntuacion.puntuacion}`;
+    marcadorElement.appendChild(item);
   });
 }
