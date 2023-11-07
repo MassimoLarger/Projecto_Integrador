@@ -70,7 +70,6 @@ function updateTimer() {
   }
 }
 
-
 // Función para aleatorizar un arreglo utilizando el algoritmo de Fisher-Yates
 function shuffleArray(array) {
   for (let i = array.length - 1; i > 0; i--) {
@@ -107,6 +106,11 @@ function responderTrivia(botonSeleccionado) {
 
   // Si no se seleccionó ningún botón (temporizador agotado), considerar la respuesta como incorrecta
   var esCorrecta = botonSeleccionado ? botonSeleccionado.getAttribute('data-es-correcta') === 'true' : false;
+
+  // Si el tiempo se agotó, considerar la respuesta como incorrecta
+  if (timeLeft <= 0) {
+    esCorrecta = false;
+  }
 
   // Obtener la respuesta correcta guardada previamente
   var respuestaCorrecta = respuestaCorrectaActual[0]; // Solo necesitamos la primera respuesta correcta
@@ -183,4 +187,41 @@ function mostrarResultadoFinal() {
   document.getElementById('nombreResultado').innerText = nombre;
   document.getElementById('puntuacionResultado').innerText = puntuacion;
   document.getElementById('vidasResultado').innerText = vidas;
+
+  // Guardar la puntuación del jugador
+  var puntuacionJugador = {
+    nombre: nombre,
+    puntuación: puntuacion,
+    vidas: vidas
+  };
+
+  // Obtener puntuaciones anteriores del almacenamiento local
+  var puntuacionesAnteriores = JSON.parse(localStorage.getItem('puntuaciones')) || [];
+
+  // Agregar la nueva puntuación a la lista
+  puntuacionesAnteriores.push(puntuacionJugador);
+
+  // Ordenar las puntuaciones de mayor a menor
+  puntuacionesAnteriores.sort((a, b) => b.puntuacion - a.puntuacion);
+
+  // Limitar la cantidad de puntuaciones almacenadas (opcional)
+  puntuacionesAnteriores = puntuacionesAnteriores.slice(0, 10);
+
+  // Guardar las puntuaciones actualizadas en localStorage
+  localStorage.setItem('puntuaciones', JSON.stringify(puntuacionesAnteriores));
+}
+
+function mostrarMarcadorPuntuaciones() {
+  // Obtener puntuaciones almacenadas del localStorage
+  var puntuacionesAnteriores = JSON.parse(localStorage.getItem('puntuaciones')) || [];
+
+  // Mostrar el marcador en tu interfaz de usuario (puedes ajustar según tu estructura HTML)
+  var marcadorElement = document.getElementById('marcador');
+  marcadorElement.innerHTML = '<h2>Marcador de Puntuaciones</h2>';
+
+  puntuacionesAnteriores.forEach(function (puntuacion, index) {
+    var puntuacionItem = document.createElement('p');
+    puntuacionItem.innerText = `${index + 1}. ${puntuacion.nombre}: ${puntuacion.puntuacion}`;
+    marcadorElement.appendChild(puntuacionItem);
+  });
 }
