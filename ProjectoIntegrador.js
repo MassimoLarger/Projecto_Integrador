@@ -189,34 +189,11 @@ function mostrarResultadoFinal() {
   document.getElementById('vidasResultado').innerText = vidas;
 
   // Guardar la puntuación del jugador
-  puntuacionesAnteriores.push({
-    nombre: nombre,
-    puntuacion: puntuacion,
-    vidas: vidas
-  });
+  guardarPuntuacion(nombre, puntuacion, vidas);
 
-  // Obtener puntuaciones anteriores del almacenamiento local
-  var puntuacionesAnteriores = JSON.parse(localStorage.getItem('puntuaciones')) || [];
-
-  // Agregar la nueva puntuación a la lista
-  puntuacionesAnteriores.push(puntuacionJugador);
-
-  // Ordenar las puntuaciones de mayor a menor
-  puntuacionesAnteriores.sort((a, b) => b.puntuacion - a.puntuacion);
-
-  // Limitar la cantidad de puntuaciones almacenadas (opcional)
-  puntuacionesAnteriores = puntuacionesAnteriores.slice(0, 10);
-
-  // Guardar las puntuaciones actualizadas en localStorage
-  localStorage.setItem('puntuaciones', JSON.stringify(puntuacionesAnteriores));
-}
-
-// Obtener puntuaciones almacenadas desde el almacenamiento local
-function obtenerPuntuacionesAlmacenadas() {
-  const puntuacionesAlmacenadas = localStorage.getItem('puntuaciones');
-  return puntuacionesAlmacenadas ? JSON.parse(puntuacionesAlmacenadas) : [];
-}
-
+  // Mostrar las puntuaciones más altas
+  mostrarPuntuaciones();
+  
 // Guardar una nueva puntuación en el almacenamiento local
 function guardarPuntuacion(nombre, puntuacion, vidas) {
   const puntuaciones = obtenerPuntuacionesAlmacenadas();
