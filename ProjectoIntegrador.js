@@ -194,6 +194,8 @@ function mostrarResultadoFinal() {
   // Mostrar las puntuaciones más altas
   mostrarPuntuaciones();
   
+}
+  
 // Guardar una nueva puntuación en el almacenamiento local
 function guardarPuntuacion(nombre, puntuacion, vidas) {
   const puntuaciones = obtenerPuntuacionesAlmacenadas();
@@ -215,5 +217,5 @@ function mostrarPuntuaciones() {
     const item = document.createElement('li');
     item.innerText = `${index + 1}. ${puntuacion.nombre}: ${puntuacion.puntuacion}`;
     marcadorElement.appendChild(item);
-  });
+  })
 }
