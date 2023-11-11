@@ -39,17 +39,17 @@ function cargarPregunta(indicePregunta) {
     // Asigna clases específicas a los botones (por ejemplo, button1, button2, etc.)
     var buttonClass = 'button' + (index + 1);
     opcionesHTML += `
-      <li>
-        <button class="${buttonClass}" onclick="responderTrivia(this)" data-es-correcta="${respuestaCorrectaActual.includes(opcion)}">
-        ${opcion}</button>
-      </li>`;
+    <li>
+      <button class="${buttonClass}" onclick="responderTrivia(this)" data-es-correcta="${respuestaCorrectaActual.includes(opcion)}">
+      ${opcion}</button>
+    </li>`;
   });
   document.getElementById('options').innerHTML = opcionesHTML;
   
   // Aquí inicia el código del temporizador
   if (timerInterval) {
       clearInterval(timerInterval);
-      timeLeft = 15;  // Reiniciar el tiempo a 10 segundos
+      timeLeft = 15;  // Reiniciar el tiempo a 15 segundos
   }
     timerElement.textContent = timeLeft;
     timerInterval = setInterval(updateTimer, 1000);
@@ -93,48 +93,44 @@ function iniciarJuego() {
 }
 
 function responderTrivia(botonSeleccionado) {
-  // Si se ha seleccionado un botón, remover la clase 'seleccionado' de todos los botones
-  if (botonSeleccionado) {
-    var botones = document.querySelectorAll('#options button');
-    botones.forEach(function (boton) {
-      boton.classList.remove('seleccionado');
-    });
+  // Obtener todos los botones
+  var botones = document.querySelectorAll('#options button');
 
-    // Agregar la clase 'seleccionado' al botón seleccionado
-    botonSeleccionado.classList.add('seleccionado');
-  }
-
-  // Si no se seleccionó ningún botón (temporizador agotado), considerar la respuesta como incorrecta
-  var esCorrecta = botonSeleccionado ? botonSeleccionado.getAttribute('data-es-correcta') === 'true' : false;
-
-  // Si el tiempo se agotó, considerar la respuesta como incorrecta
-  if (timeLeft <= 0) {
-    esCorrecta = false;
-  }
+  // Deshabilitar todos los botones después de la respuesta
+  botones.forEach(function (boton) {
+    boton.disabled = true;
+  });
 
   // Obtener la respuesta correcta guardada previamente
-  var respuestaCorrecta = respuestaCorrectaActual[0]; // Solo necesitamos la primera respuesta correcta
+  var respuestaCorrecta = respuestaCorrectaActual[0];
 
-  var opcionSeleccionada = botonSeleccionado ? botonSeleccionado.innerText : "Tiempo agotado";
+  // Verificar si la respuesta es correcta o incorrecta y asignar colores
+  if (botonSeleccionado) {
+    var esRespuestaCorrecta = respuestaCorrecta.includes(botonSeleccionado.innerText);
+    
+    botones.forEach(function (boton) {
+      var esRespuestaIncorrecta = respuestaCorrecta.includes(boton.innerText);
+      
+      if (esRespuestaCorrecta) {
+        botonSeleccionado.style.backgroundColor = '#00FF00'; // Color verde para respuesta correcta
+      } else if (esRespuestaIncorrecta) {
+        boton.style.backgroundColor = '#FF0000'; // Color rojo para respuesta incorrecta
+      }
+    });
+  }
 
-  var respuestaContainer = document.getElementById('respuesta');
-  var respuestaTexto = document.createElement('p');
-  respuestaTexto.className = 'respuesta-texto';
-  respuestaTexto.innerText = esCorrecta ? '¡Respuesta correcta!' : 'Respuesta incorrecta. La respuesta correcta es: ' + respuestaCorrecta;
-
-  respuestaContainer.appendChild(respuestaTexto);
-
-  // Agregar la clase oculto después de un tiempo específico (por ejemplo, 3 segundos)
-  setTimeout(function () {
-    respuestaTexto.classList.add('oculto');
-    // Eliminar el elemento de la respuesta después de ocultarlo
-    setTimeout(function () {
-      respuestaContainer.removeChild(respuestaTexto);
-    }, 500);
-  }, 1000);
+  // Si el tiempo se agotó, cambiar el color de la respuesta correcta a amarillo
+  if (timeLeft <= 0) {
+    botones.forEach(function (boton) {
+      var esRespuestaCorrecta = respuestaCorrecta.includes(boton.innerText);
+      if (esRespuestaCorrecta) {
+        boton.style.backgroundColor = '#ffb600'; // Color amarillo para respuesta correcta cuando se agota el tiempo
+      }
+    });
+  }
 
   // Actualizar la puntuación y vidas
-  if (esCorrecta) {
+  if (botonSeleccionado && botonSeleccionado.getAttribute('data-es-correcta') === 'true') {
     puntuacion += 100;
   } else {
     vidas--;
@@ -144,16 +140,25 @@ function responderTrivia(botonSeleccionado) {
 
   // Cargar la siguiente pregunta después de un breve retraso
   setTimeout(function () {
+    // Restablecer los colores y habilitar los botones para la siguiente pregunta
+    botones.forEach(function (boton) {
+      boton.style.backgroundColor = '';
+      boton.disabled = false;
+    });
+
     // Verificar si quedan más preguntas
     if (indicePreguntaActual < preguntas.length - 1) {
       // Cargar la siguiente pregunta
       indicePreguntaActual++;
       cargarPregunta(indicePreguntaActual);
     } else {
-      // Fin del juego
-      mostrarResultadoFinal();
+      // Pausa de 2 segundo antes de mostrar el resultado final
+      setTimeout(function () {
+        // Fin del juego
+        mostrarResultadoFinal();
+      }, 2000);
     }
-  }, 1000);  // Esperar 1 segundo (1000 milisegundos) antes de cargar la siguiente pregunta
+  }, 2000);  // Esperar 2 segundo (2000 milisegundos) antes de cargar la siguiente pregunta
 
   // Detener el temporizador cuando el jugador responda
   clearInterval(timerInterval);
@@ -166,7 +171,10 @@ function actualizarInfoJuego() {
 
   // Verificar si el jugador ha perdido todas las vidas
   if (vidas <= 0) {
-    mostrarResultadoFinal();
+    setTimeout(function () {
+      // Fin del juego
+      mostrarResultadoFinal();
+    }, 2000);
   }
 }
 
