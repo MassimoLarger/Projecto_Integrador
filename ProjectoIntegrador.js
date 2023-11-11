@@ -107,14 +107,24 @@ function responderTrivia(botonSeleccionado) {
   // Verificar si la respuesta es correcta o incorrecta y asignar colores
   if (botonSeleccionado) {
     var esRespuestaCorrecta = respuestaCorrecta.includes(botonSeleccionado.innerText);
-    
+
     botones.forEach(function (boton) {
       var esRespuestaIncorrecta = respuestaCorrecta.includes(boton.innerText);
-      
+
       if (esRespuestaCorrecta) {
         botonSeleccionado.style.backgroundColor = '#00FF00'; // Color verde para respuesta correcta
       } else if (esRespuestaIncorrecta) {
-        boton.style.backgroundColor = '#FF0000'; // Color rojo para respuesta incorrecta
+        botonSeleccionado.style.backgroundColor = '#FF0000'; // Color rojo para respuesta incorrecta
+
+        // Después de 1 segundo, cambiar el color del botón con la respuesta correcta a verde
+        setTimeout(function () {
+          botones.forEach(function (boton) {
+            var esRespuestaCorrecta = respuestaCorrecta.includes(boton.innerText);
+            if (esRespuestaCorrecta) {
+              boton.style.backgroundColor = '#00FF00'; // Color verde para respuesta correcta
+            }
+          });
+        }, 1000);
       }
     });
   }
@@ -156,9 +166,9 @@ function responderTrivia(botonSeleccionado) {
       setTimeout(function () {
         // Fin del juego
         mostrarResultadoFinal();
-      }, 2000);
+      }, 3000);
     }
-  }, 2000);  // Esperar 2 segundo (2000 milisegundos) antes de cargar la siguiente pregunta
+  }, 3000);  // Esperar 2 segundo (2000 milisegundos) antes de cargar la siguiente pregunta
 
   // Detener el temporizador cuando el jugador responda
   clearInterval(timerInterval);
