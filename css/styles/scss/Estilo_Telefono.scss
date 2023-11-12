@@ -1,7 +1,6 @@
 html {
   font-size: 62.5%;
 }
-  
 * {
   margin: 0;
   padding: 0;
@@ -18,14 +17,256 @@ body {
   padding: 0;
   overflow: hidden;
   font-size: 1.6rem;
-  } 
+}
+.fondo_movil{
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../assets_movil/fondo2.png');
+  background-color: #ffffff;
+}
+.fondo_movil .auto-group {
+  box-sizing: border-box;
+  padding: 5.8rem 8.95rem 20.2rem 9.05rem;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../assets_movil/vector-2.png');
+  flex-shrink: 0;
+}
+.fondo_movil .auto-group .preguntopa-L5G {
+  margin: 0rem 0.5rem 2.6rem 0rem;
+  font-size: 3.2rem;
+  font-weight: 900;
+  line-height: 1.3625;
+  color: #ffffff;
+  font-family: Nunito Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.fondo_movil .auto-group .Title {
+  max-width: 24.8rem;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.3625;
+  color: #ffffff;
+  font-family: Nunito Sans, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.fondo_movil .auto-group-block {
+  box-sizing: border-box;
+  padding: 15rem 3.9rem 7.2rem 3.9rem;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.fondo_movil .auto-group-block .cerebroinicio{
+  margin-left: 0.013rem;
+  width: 20.613rem;
+  height: 20rem;
+  object-fit: cover;
+  vertical-align: top;
+  border-radius: 7.2rem;
+  flex-shrink: 0;
+}
+.fondo_movil .auto-group-block .buttonblue {
+  width: 100%;
+  height: 5rem;
+  text-align: center;
+  font-size: 2.6rem;
+  font-weight: 600;
+  line-height: 1.3625;
+  color: #ffffff;
+  font-family: Nunito Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #293175;
+  border-radius: 1.2rem;
+  flex-shrink: 0;
+}
+.fondo_movil .textLogin {
+  position: absolute;
+  left: 10rem;
+  top: 53rem;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.3625;
+  color: #293175;
+  font-family: Nunito Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.fondo_movil .buttonsLogin {
+  box-sizing: border-box;
+  padding: 1rem 1rem 1rem 1rem;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.fondo_movil .buttonsLogin .buttonF {
+  margin: 0rem 0.3rem 2rem 0.3rem;
+  box-sizing: border-box;
+  padding: 0.5rem 5rem 0.5rem 4.5rem;
+  width: calc(100% - 0.6rem);
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  background-color: #2992fb;
+  border-radius: 1.2rem;
+  flex-shrink: 0;
+}
+.fondo_movil .buttonsLogin .buttonF .iconF {
+  margin: 0rem 0.883rem 0.1rem 0rem;
+  width: 3rem;
+  height: 3rem;
+  position: absolute;
+  left: 6.5rem;
+  top: 58rem;
+}
+.fondo_movil .buttonsLogin .buttonF .textF {
+  margin-top: 0.2rem;
+  position: absolute;
+  left: 11rem;
+  top: 58rem;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.3625;
+  color: #ffffff;
+  font-family: Nunito Sans, 'Source Sans Pro';
+}
+.fondo_movil .buttonsLogin .buttonA {
+  margin: 0rem 0.4rem 2rem 0.2rem;
+  box-sizing: border-box;
+  padding: 0.5rem 5rem 0.5rem 4.5rem;
+  width: calc(100% - 0.6rem);
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 1.2rem;
+  flex-shrink: 0;
+}
+.fondo_movil .buttonsLogin .buttonA .iconA {
+  margin: 0rem 1.4rem 1rem 0rem;
+  width: 2.527rem;
+  height: 3rem;
+  position: absolute;
+  left: 6.5rem;
+  top: 65rem;
+}
+.fondo_movil .buttonsLogin .buttonA .textA {
+  margin-top: 0.2rem;
+  position: absolute;
+  left: 12.5rem;
+  top: 65rem;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.3625;
+  color: #000000;
+  font-family: Nunito Sans, 'Source Sans Pro';
+}
+.fondo_movil .buttonsLogin .buttonG {
+  margin: 0rem 0.4rem 1.1rem 0.2rem;
+  box-sizing: border-box;
+  padding: 0.5rem 5rem 0.5rem 4.5rem;
+  width: calc(100% - 0.6rem);
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 1.2rem;
+  flex-shrink: 0;
+}
+.fondo_movil .buttonsLogin .buttonG .iconG {
+  margin-right: 0.66rem;
+  width: 2.94rem;
+  height: 3rem;
+  position: absolute;
+  left: 6.5rem;
+  top: 72rem;
+}
+.fondo_movil .buttonsLogin .buttonG .textG {
+  margin-top: 0.2rem;
+  position: absolute;
+  left: 12rem;
+  top: 72rem;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.3625;
+  color: #000000;
+  font-family: Nunito Sans, 'Source Sans Pro';
+}
+.fondo_movil .buttonsLogin .invitado {
+  margin: 0rem 0.2rem 0.5rem 0rem;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 200;
+  line-height: 1.3640000025;
+  text-transform: capitalize;
+  text-decoration-line: underline;
+  color: #293175;
+  font-family: Nunito Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: baseline;
+  flex-shrink: 0;
+}
+.fondo_movil .buttonsLogin .invitado .play {
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 1.3625;
+  text-transform: capitalize;
+  text-decoration-line: underline;
+  color: #293175;
+  font-family: Nunito Sans, 'Source Sans Pro';
+}
+.fondo_movil .buttonsLogin .privacidad {
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 1.3625;
+  color: #293175;
+  font-family: Nunito Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: baseline;
+  flex-shrink: 0;
+}
+.fondo_movil .buttonsLogin .privacidad .sub-0 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #293175;
+  font-family: Nunito Sans, 'Source Sans Pro';
+}
+.fondo_movil .buttonsLogin .privacidad .sub-1 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 1.3625;
+  text-decoration-line: underline;
+  color: #293175;
+  font-family: Nunito Sans, 'Source Sans Pro';
+}
+
 .bienvenida-Movil {
   width: 100%;
   height: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url('../assets_movil/diseo-sin-ttulo-1-bg.png');
+  background-image: url('../assets_movil/fondo.png');
   background-color: #ffffff;
 }
 .bienvenida-Movil .text1 {
