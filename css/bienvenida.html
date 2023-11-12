@@ -8,13 +8,12 @@
   <title>Bienvenida</title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito+Sans%3A600%2C900"/>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro%3A600%2C900"/>
-
   <!-- Archivo para PC -->
   <link rel="stylesheet" media="screen and (min-width: 600px)" href="./styles/Estilo_Pc.css"/>
   <!-- Archivo para dispositivos móviles -->
   <link rel="stylesheet" media="screen and (max-width: 599px)" href="./styles/Estilo_Telefono.css"/>
-
   <style>
+
     /* Estilos específicos para teléfonos */
     @media screen and (max-width: 600px) {
         .telefono-only {
@@ -49,7 +48,6 @@
         <div class="buttonblue" onclick="modificarpagina()">Iniciar juego</div>
       </div>
     </div>
-  </div>
   <script>
     function modificarpagina() {
       // Modificion del contenido dinámicamente
@@ -87,12 +85,12 @@
       window.location.href = "../Categoria.html";
     }
   </script>
-  
+  </div>
+
   <!-- Contenido para PC y tabletas -->
   <div class="desktop-tablet-only">
     <div class="bienvenida-MBp">
     <p class="preprate-para-la-aventura-intelectual-de-tu-vida-sZU">¡Prepárate para la aventura intelectual de tu vida!</p>
-    <!-- Resto de tu contenido para PC y tabletas -->
     <p class="el-universo-donde-la-trivia-cobra-vida-enfrenta-desafos-compite-con-jugadores-globales-y-escala-hasta-la-cima-del-saber-descbrelo-ahora-y-sumrgete-en-el-desafo-whk">El universo donde la trivia cobra vida. Enfrenta desafíos, compite con jugadores globales y escala hasta la cima del saber. ¡Descúbrelo ahora y sumérgete en el desafío!</p>
     <div class="group-2-9J2">
       <img class="logo-CvW" src="./assets/logo.png"/>
@@ -102,11 +100,11 @@
       <div class="group-1-7yc" onclick="cambiarpage()">Jugar Ahora</div>
     </div>
   </div>
-  </div>
   <script>
     function cambiarpage() {
       window.location.href = "../Categoria.html";
     }
   </script>
+  </div>
 </body>
 </html>
