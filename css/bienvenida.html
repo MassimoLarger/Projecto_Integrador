@@ -8,7 +8,12 @@
   <title>Bienvenida</title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito+Sans%3A600%2C900"/>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro%3A600%2C900"/>
-  <link rel="stylesheet" href="./styles/Estilo_Pc.css"/>
+
+  <!-- Archivo para PC -->
+  <link rel="stylesheet" media="screen and (min-width: 600px)" href="./styles/Estilo_Pc.css"/>
+  <!-- Archivo para dispositivos móviles -->
+  <link rel="stylesheet" media="screen and (max-width: 599px)" href="./styles/Estilo_Telefono.css"/>
+
   <style>
     /* Estilos específicos para teléfonos */
     @media screen and (max-width: 600px) {
@@ -26,13 +31,7 @@
         display: none;
       }
       .desktop-tablet-only {
-        width: 100%;
-        height: 100%;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-        background-image: url('../assets/vector-1.png');
-        background-color: #ffffff;
+        display: block;
       }
     }
   </style>
@@ -40,9 +39,55 @@
 <body>
   <!-- Contenido para teléfonos -->
   <div class="telefono-only">
-    <p>¡Contenido especial para teléfonos!</p>
+    <div class="fondo_movil">
+      <div class="auto-group">
+        <p class="preguntopa-L5G">PREGUNTOPÍA</p>
+        <p class="Title">¡Prepárate para la aventura intelectual de tu vida!</p>
+      </div>
+      <div class="auto-group-block" id="contenidoCambiable">
+        <img class="cerebroinicio" src="./assets_movil/cerebroinicio.png"/>
+        <div class="buttonblue" onclick="modificarpagina()">Iniciar juego</div>
+      </div>
+    </div>
   </div>
+  <script>
+    function modificarpagina() {
+      // Modificion del contenido dinámicamente
+      var contenidoMovil = document.getElementById("contenidoCambiable");
 
+      contenidoMovil.innerHTML = `
+          <p class="textLogin">Juega con tus amigos</p>
+          <div class="buttonsLogin">
+            <div class="buttonF">
+              <img class="iconF" src="./assets_movil/social-icons-facebook.png"/>
+              <p class="textF">Iniciar con Facebook</p>
+            </div>
+            <div class="buttonA">
+              <img class="iconA" src="./assets_movil/social-icons-apple.png"/>
+              <p class="textA">Iniciar con Apple</p>
+            </div>
+            <div class="buttonG">
+              <img class="iconG" src="./assets_movil/social-icons-google.png"/>
+              <p class="textG">Iniciar con Google</p>
+            </div>
+            <p class="invitado">
+              <span class="play" onclick="cambiarpage()">Ingresa como invitado</span>
+            </p>
+            <p class="privacidad">
+              <span class="sub-0">Si eliges continuar, aceptas los </span>
+              <span class="sub-1">Términos y la Política de Privacidad.</span>
+            </p>
+          </div>
+        </div>
+      `;
+    }
+  </script>
+  <script>
+    function cambiarpage() {
+      window.location.href = "../Categoria.html";
+    }
+  </script>
+  
   <!-- Contenido para PC y tabletas -->
   <div class="desktop-tablet-only">
     <div class="bienvenida-MBp">
@@ -54,14 +99,12 @@
       <p class="preguntopa-LG2">PREGUNTOPÍA</p>
       <img class="cerebroinicio-Qj4" src="./assets/cerebroinicio.png"/>
 
-      <div class="group-1-7yc" onclick="irAPagina()">
-        <p>Jugar Ahora</p>
-      </div>
+      <div class="group-1-7yc" onclick="cambiarpage()">Jugar Ahora</div>
     </div>
   </div>
   </div>
   <script>
-    function irAPagina() {
+    function cambiarpage() {
       window.location.href = "../Categoria.html";
     }
   </script>
