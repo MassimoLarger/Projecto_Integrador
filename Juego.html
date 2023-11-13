@@ -56,7 +56,7 @@
                 </div>
 
             <form id="form-container">
-                <p class="text3">Nombre:</p>
+                <p class="text3">¿Cual es tu nombre?</p>
                 <input class="label" type="text" id="name" placeholder="Ingrese su nombre"/>
                 
                 <div class="group-3-7yc" onclick="cargarPreguntas()">
@@ -138,12 +138,22 @@
             </div>
 
             <div id="fin-juego" style="display: none;">
-                <p class="text6">¡Juego terminado!</p>
-                <img class="image9" src="./css/assets/CerebroWin.png"/>
-                <p class="text7">Nombre: <span id="nombreResultado"></span></p>
-                <p class="text8">Puntuación: <span id="puntuacionResultado"></span></p>
-                <p class="text9">Vidas Restantes: <span id="vidasResultado"></span></p>
+                <p class="text6">¡Juego Terminado!</p>
+                <div class="image9">
+                </div>
+                <div class="puntaje-DFp">
+                  <p class="puntos-ganados">Puntos ganados en este juego</p>
+                  <p class="text8"><span id="puntuacionResultado"></span></p>
+                </div>
+                <div class="ganador">
+                  <div class="rectangle-3">
+                  </div>
+                  <div class="nombre-text">Nombre</div>
+                  <div class="ganador-text"><span id="nombreResultado"></span></div>
+                  <p class="text9">Vidas Restantes: <span id="vidasResultado"></span></p>
+                </div>
                 <button class="button"onclick="volverAPagina()">Volver al Inicio</button>
+              </div>
             </div>
         </main>
         </div>
