@@ -228,12 +228,18 @@ function guardarPuntuacion(nombre, puntuacion, vidas) {
 // Mostrar las puntuaciones más altas en el marcador
 function mostrarPuntuaciones() {
   const puntuacionesTop10 = obtenerPuntuacionesAlmacenadas();
-  // Mostrar las puntuaciones en tu marcador HTML (debes agregar un marcador en tu HTML)
-  const marcadorElement = document.getElementById('marcador');
-  marcadorElement.innerHTML = ''; // Limpiar el contenido anterior
+  const tablaElement = document.getElementById('tablaPuntuaciones');
+  const tbody = tablaElement.getElementsByTagName('tbody')[0];
+  tbody.innerHTML = ''; // Limpiar el contenido anterior
+
   puntuacionesTop10.forEach((puntuacion, index) => {
-    const item = document.createElement('li');
-    item.innerText = `${index + 1}. ${puntuacion.nombre}: ${puntuacion.puntuacion}`;
-    marcadorElement.appendChild(item);
-  })
+    const row = tbody.insertRow(index);
+    const cellNombre = row.insertCell(0);
+    const cellPuntuacion = row.insertCell(1);
+    const cellVidas = row.insertCell(2);
+
+    cellNombre.innerText = puntuacion.nombre;
+    cellPuntuacion.innerText = puntuacion.puntuacion;
+    cellVidas.innerText = puntuacion.vidas;
+  });
 }

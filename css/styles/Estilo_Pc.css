@@ -521,3 +521,23 @@ body {
   border-color: #FFD700;
   border: 1px solid #FFD700;
 }
+.bienvenida-MBp .table-container {
+  width: 50%;
+  height: 20%;
+  position: absolute;
+  left: 10rem;
+  top: 37rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: rgba(204, 214, 221, 0.373);
+}
+.bienvenida-MBp .table {
+  width: 100%;
+}
+.bienvenida-MBp .th, .bienvenida-MBp .td {
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+.bienvenida-MBp .th {
+  background-color: #4caf50;
+  color: white;
+}
