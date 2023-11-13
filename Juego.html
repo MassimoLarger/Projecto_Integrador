@@ -63,7 +63,8 @@
                     <p>Iniciar Juego</p>
                 </div>
                 <div class="table-container">
-                  <table id="tablaPuntuaciones" class="table">
+                  <h2>Resultados del Juego</h2>
+                  <table class="table">
                     <thead>
                       <tr>
                         <th>Nombre Jugador</th>
@@ -72,56 +73,7 @@
                       </tr>
                     </thead>
                     <tbody>
-                      <tr>
-                        <td>1. ""</td>
-                        <td>""</td>
-                        <td>""</td>
-                      </tr>
-                      <tr>
-                        <td>2. ""</td>
-                        <td>""</td>
-                        <td>""</td>
-                      </tr>
-                      <tr>
-                        <td>3. ""</td>
-                        <td>""</td>
-                        <td>""</td>
-                      </tr>
-                      <tr>
-                        <td>4. ""</td>
-                        <td>""</td>
-                        <td>""</td>
-                      </tr>
-                      <tr>
-                        <td>5. ""</td>
-                        <td>""</td>
-                        <td>""</td>
-                      </tr>
-                      <tr>
-                        <td>6. ""</td>
-                        <td>""</td>
-                        <td>""</td>
-                      </tr>
-                      <tr>
-                        <td>7. ""</td>
-                        <td>""</td>
-                        <td>""</td>
-                      </tr>
-                      <tr>
-                        <td>8. ""</td>
-                        <td>""</td>
-                        <td>""</td>
-                      </tr>
-                      <tr>
-                        <td>9. ""</td>
-                        <td>""</td>
-                        <td>""</td>
-                      </tr>
-                      <tr>
-                        <td>10. ""</td>
-                        <td>""</td>
-                        <td>""</td>
-                      </tr>
+                      <!-- Aquí se llenarán dinámicamente los resultados del juego -->
                     </tbody>
                   </table>
                 </div>
@@ -157,14 +109,21 @@
             </div>
         </main>
         </div>
-        
         <script>
-            function volverAPagina() {
-            window.location.href = "../Juego.html";
-        }
-        </script>
+          function volverAPagina() {
+            // Restablecer vidas y puntuación
+            vidas = 5;
+            puntuacion = 0;
 
-        <script src="ProjectoIntegrador.js" defer></script>
+            // Actualizar la información del juego en pantalla
+            actualizarInfoJuego();
+
+            // Ocultar contenedor de resultados del juego
+            document.getElementById('form-container').style.display = 'block';
+            document.getElementById('fin-juego').style.display = 'none';
+          }
+      </script>
+      <script src="ProjectoIntegrador.js" defer></script>
     </div>
 </body>
 </html>

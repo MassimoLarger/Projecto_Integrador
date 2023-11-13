@@ -332,7 +332,7 @@
     {
         "pregunta": "¿Qué autor utilizó en uno de sus poemas el verso de Bécquer \"donde habite el olvido allí estará mi tumba\"?",
         "opciones": ["Pablo Neruda", "Federico García Lorca", "Joaquín Sabina", "Mario Benedetti"],
-        "respuesta_correcta": ["Neruda"]
+        "respuesta_correcta": ["Pablo Neruda"]
     },
     {
         "pregunta": "¿A qué se dedicaban los siete enanitos?",

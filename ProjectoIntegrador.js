@@ -8,7 +8,6 @@ let timerInterval;
 let timerElement = document.getElementById('timer');
 var juegoFinalizado = false;
 
-
 function cargarPreguntas() {
   let categoria= localStorage.getItem('categoria');
   // Construir la URL basada en la categoría seleccionada
@@ -206,40 +205,45 @@ function mostrarResultadoFinal() {
   document.getElementById('puntuacionResultado').innerText = puntuacion;
   document.getElementById('vidasResultado').innerText = vidas;
 
-  // Guardar la puntuación del jugador
-  guardarPuntuacion(nombre, puntuacion, vidas);
+ // Obtener el cuerpo de la tabla
+  const tbody = document.querySelector('.bienvenida-MBp .table tbody');
 
-  // Mostrar las puntuaciones más altas
-  mostrarPuntuaciones();
-  
-}
-  
-// Guardar una nueva puntuación en el almacenamiento local
-function guardarPuntuacion(nombre, puntuacion, vidas) {
-  const puntuaciones = obtenerPuntuacionesAlmacenadas();
-  puntuaciones.push({ nombre, puntuacion, vidas });
-  // Ordenar las puntuaciones de mayor a menor
-  puntuaciones.sort((a, b) => b.puntuacion - a.puntuacion);
-  // Guardar solo las 10 puntuaciones más altas
-  const puntuacionesTop10 = puntuaciones.slice(0, 10);
-  localStorage.setItem('puntuaciones', JSON.stringify(puntuacionesTop10));
-}
+  // Crear una nueva fila para el jugador actual
+  const newRow = tbody.insertRow();
+  const cellNombre = newRow.insertCell(0);
+  const cellPuntuacion = newRow.insertCell(1);
+  const cellVidas = newRow.insertCell(2);
 
-// Mostrar las puntuaciones más altas en el marcador
-function mostrarPuntuaciones() {
-  const puntuacionesTop10 = obtenerPuntuacionesAlmacenadas();
-  const tablaElement = document.getElementById('tablaPuntuaciones');
-  const tbody = tablaElement.getElementsByTagName('tbody')[0];
-  tbody.innerHTML = ''; // Limpiar el contenido anterior
+  // Asignar los valores del jugador a las celdas
+  cellNombre.innerHTML = nombre;
+  cellPuntuacion.innerHTML = puntuacion;
+  cellVidas.innerHTML = vidas;
 
-  puntuacionesTop10.forEach((puntuacion, index) => {
-    const row = tbody.insertRow(index);
-    const cellNombre = row.insertCell(0);
-    const cellPuntuacion = row.insertCell(1);
-    const cellVidas = row.insertCell(2);
+  // Obtener todas las filas existentes en la tabla
+  const rows = Array.from(tbody.querySelectorAll('tr'));
 
-    cellNombre.innerText = puntuacion.nombre;
-    cellPuntuacion.innerText = puntuacion.puntuacion;
-    cellVidas.innerText = puntuacion.vidas;
+  // Añadir la nueva fila a las filas existentes
+  rows.push(newRow);
+
+  // Ordenar las filas por puntuación y vidas en orden descendente
+  rows.sort((a, b) => {
+      const puntuacionA = parseInt(a.cells[1].innerHTML);
+      const puntuacionB = parseInt(b.cells[1].innerHTML);
+      const vidasA = parseInt(a.cells[2].innerHTML);
+      const vidasB = parseInt(b.cells[2].innerHTML);
+
+      // Ordenar por puntuación en orden descendente
+      if (puntuacionA !== puntuacionB) {
+          return puntuacionB - puntuacionA;
+      }
+
+      // Si las puntuaciones son iguales, ordenar por vidas en orden descendente
+      return vidasB - vidasA;
   });
+
+  // Limpiar el contenido actual de la tabla
+  tbody.innerHTML = '';
+
+  // Recorrer las filas ordenadas y añadir las primeras 10 a la tabla
+  rows.slice(0, 10).forEach(row => tbody.appendChild(row));
 }
