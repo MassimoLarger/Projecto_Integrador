@@ -241,7 +241,7 @@
     },
     {
         "pregunta": "¿Son lo mismo 20 grados Fahrenheit que 20 grados Celsius?",
-        "opciones": ["Sí", "No"],
+        "opciones": ["Sí", "No", "Tal vez", "Ninguna es correcta"],
         "respuesta_correcta": ["No"]
     },
     {
@@ -386,8 +386,8 @@
     },
     {
         "pregunta": "¿Qué es la celiaquía?",
-        "opciones": ["Alergia a la lactosa", "Intolerancia el gluten", "Deficiencia de vitamina B12", "Alergia a los frutos secos"],
-        "respuesta_correcta": ["Intolerancia el gluten"]
+        "opciones": ["Alergia a la lactosa", "Intolerancia al gluten", "Deficiencia de vitamina B12", "Alergia a los frutos secos"],
+        "respuesta_correcta": ["Intolerancia al gluten"]
     },
     {
         "pregunta": "¿Qué sonido hacen las gallinas?",
