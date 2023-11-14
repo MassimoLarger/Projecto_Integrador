@@ -676,7 +676,7 @@
     },
     {
         "pregunta": "¿Cuál es el siglo más importante para el arte barroco en España?",
-        "opciones": ["XVI", "XVII", "XVIII", "XIX"],
+        "opciones": ["VI", "II", "XVII", "XIX"],
         "respuesta_correcta": ["XVII"]
     },
     {

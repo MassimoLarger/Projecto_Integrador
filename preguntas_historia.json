@@ -356,7 +356,7 @@
     },
     {
         "pregunta": "¿En qué siglo Europa conquistó Australia?",
-        "opciones": ["XV", "XVI", "XVII", "XVIII"],
+        "opciones": ["XV", "V", "XVII", "IX"],
         "respuesta_correcta": ["XVII"]
     },
     {
