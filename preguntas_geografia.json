@@ -417,7 +417,7 @@
     {
         "pregunta": "¿Dónde se encuentra el enclave arqueológico de Petra, una ciudad excavada y esculpida en la piedra?",
         "opciones": ["Egipto", "Jordania", "Turquía", "Grecia"],
-        "respuesta_correcta": ["En Jordania"]
+        "respuesta_correcta": ["Jordania"]
     },
     {
         "pregunta": "¿En qué provincia española está situado el desierto de Tabernas?",
@@ -782,7 +782,7 @@
     {
         "pregunta": "¿Dónde desemboca el Río Magdalena?",
         "opciones": ["Océano Atlántico", "Océano Pacífico", "Mar Caribe", "Lago Maracaibo"],
-        "respuesta_correcta": ["En el mar Caribe"]
+        "respuesta_correcta": ["Mar Caribe"]
     },
     {
         "pregunta": "¿Cuál es la capital de Hungría?",
@@ -812,7 +812,7 @@
     {
         "pregunta": "¿Cuál es el río más caudaloso del mundo?",
         "opciones": ["Río Mississippi", "Río Nilo", "Río Amazonas", "Río Congo"],
-        "respuesta_correcta": ["El Amazonas"]
+        "respuesta_correcta": ["Río Amazonas"]
     },
     {
         "pregunta": "¿Cuál es la isla más grande del archipiélago malayo?",

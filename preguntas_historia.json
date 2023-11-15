@@ -232,7 +232,7 @@
     {
         "pregunta": "¿A quién mató el anarquista Angiolillo?",
         "opciones": ["Alfonso XIII", "Antonio Cánovas del Castillo", "Miguel Primo de Rivera", "José Canalejas"],
-        "respuesta_correcta": ["Cánovas del Castillo"]
+        "respuesta_correcta": ["Antonio Cánovas del Castillo"]
     },
     {
         "pregunta": "La fiebre del oro fue un período de migraciones hacia áreas rurales para explorar oro. ¿Dónde se produjo la más famosa?",
@@ -327,7 +327,7 @@
     {
         "pregunta": "¿Según el griego, qué significa el nombre 'Mesopotamia'?",
         "opciones": ["Tierra de faraones", "Entre mares", "Entre montañas", "Entre ríos"],
-        "respuesta_correcta": ["Entre Ríos"]
+        "respuesta_correcta": ["Entre ríos"]
     },
     {
         "pregunta": "¿Quién recibió en 2009 el Premio Nobel de la Paz?",
@@ -356,7 +356,7 @@
     },
     {
         "pregunta": "¿En qué siglo Europa conquistó Australia?",
-        "opciones": ["XV", "XVI", "XVII", "XVIII"],
+        "opciones": ["XV", "V", "XVII", "IX"],
         "respuesta_correcta": ["XVII"]
     },
     {
