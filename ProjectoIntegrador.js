@@ -10,7 +10,7 @@ var juegoFinalizado = false;
 
 function cargarPreguntas() {
   let categoria= localStorage.getItem('categoria');
-  
+
   // Construir la URL basada en la categoría seleccionada
   let url = `${categoria}.json`;
 
@@ -191,9 +191,6 @@ function actualizarInfoJuego() {
 function mostrarResultadoFinal() {
   juegoFinalizado = true;  // Establecer que el juego ha finalizado
   clearInterval(timerInterval); // Añade esta línea para detener el temporizador
-
-  // Ocultar contenedor de información de juego
-  document.getElementById('info-container').style.display = 'none';
 
   // Ocultar contenedor de juego
   document.getElementById('trivia-container').style.display = 'none';
