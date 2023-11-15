@@ -276,6 +276,9 @@
           function irAPagina() {
             // Obtener el valor de data-value del elemento clicado
             var categoria = event.target.getAttribute('data-value');
+            
+            // Guardar la categoría en localStorage
+            localStorage.setItem('categoria', categoria);
 
             // Obtener el elemento img que mostrará la imagen dinámica
             var imagenDinamica = document.getElementById('imagenDinamica');

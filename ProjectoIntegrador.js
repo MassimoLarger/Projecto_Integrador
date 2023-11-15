@@ -10,6 +10,7 @@ var juegoFinalizado = false;
 
 function cargarPreguntas() {
   let categoria= localStorage.getItem('categoria');
+  
   // Construir la URL basada en la categoría seleccionada
   let url = `${categoria}.json`;
 
