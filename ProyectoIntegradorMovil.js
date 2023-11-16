@@ -8,7 +8,7 @@ let timerInterval;
 let timerElement = document.getElementById('timer');
 var juegoFinalizado = false;
 
-function cargarPreguntas() {
+function cargarPreguntasMovil() {
   let categoria= localStorage.getItem('categoria');
 
   // Construir la URL basada en la categoría seleccionada
@@ -18,21 +18,21 @@ function cargarPreguntas() {
   fetch(url)
       .then(response => response.json())
       .then(data => {
-          preguntas = shuffleArray(data);
-          iniciarJuego();  // Llamamos a iniciarJuego después de cargar las preguntas
+          preguntas = shuffleArrayMovil(data);
+          iniciarJuegoMovil();  // Llamamos a iniciarJuego después de cargar las preguntas
       })
       .catch(error => {
           console.error('Error al cargar el archivo JSON:', error);
       });
 }
 
-function cargarPregunta(indicePregunta) {
+function cargarPreguntaMovil(indicePregunta) {
   // Lógica para cargar la pregunta y opciones en el HTML
   var preguntaActual = preguntas[indicePregunta];
   document.getElementById('question').innerText = preguntaActual.pregunta;
 
   // Aleatorizar el orden de las opciones
-  var opcionesAleatorias = shuffleArray([...preguntaActual.opciones]);
+  var opcionesAleatorias = shuffleArrayMovil([...preguntaActual.opciones]);
   var opcionesHTML = '';
   respuestaCorrectaActual = preguntaActual.respuesta_correcta; // Guardar la respuesta correcta actual
   opcionesAleatorias.forEach(function (opcion, index) {
@@ -40,7 +40,7 @@ function cargarPregunta(indicePregunta) {
     var buttonClass = 'button' + (index + 1);
     opcionesHTML += `
     <li>
-      <button class="${buttonClass}" onclick="responderTrivia(this)" data-es-correcta="${respuestaCorrectaActual.includes(opcion)}">
+      <button class="${buttonClass}" onclick="responderTriviaMovil(this)" data-es-correcta="${respuestaCorrectaActual.includes(opcion)}">
       ${opcion}</button>
     </li>`;
   });
@@ -55,7 +55,7 @@ function cargarPregunta(indicePregunta) {
     timerInterval = setInterval(updateTimer, 1000);
 }
 
-function updateTimer() {
+function updateTimerMovil() {
   if (juegoFinalizado) {
     clearInterval(timerInterval);
     return;
@@ -66,12 +66,12 @@ function updateTimer() {
 
   if (timeLeft <= 0) {
     clearInterval(timerInterval);
-    responderTrivia(false);  // Tratar la respuesta como incorrecta si se agota el tiempo
+    responderTriviaMovil(false);  // Tratar la respuesta como incorrecta si se agota el tiempo
   }
 }
 
 // Función para aleatorizar un arreglo utilizando el algoritmo de Fisher-Yates
-function shuffleArray(array) {
+function shuffleArrayMovil(array) {
   for (let i = array.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
     [array[i], array[j]] = [array[j], array[i]];
@@ -79,7 +79,7 @@ function shuffleArray(array) {
   return array;
 }
 
-function iniciarJuego() {
+function iniciarJuegoMovil() {
   // Movemos la obtención del nombre aquí
   nombre = document.getElementById('name').value;
   if (isFinite(nombre)) {
@@ -88,11 +88,11 @@ function iniciarJuego() {
   document.getElementById('form-container').style.display = 'none';
   document.getElementById('trivia-container').style.display = 'block';
 
-  cargarPregunta(indicePreguntaActual);
+  cargarPreguntaMovil(indicePreguntaActual);
   }
 }
 
-function responderTrivia(botonSeleccionado) {
+function responderTriviaMovil(botonSeleccionado) {
   // Obtener todos los botones
   var botones = document.querySelectorAll('#options button');
 
@@ -112,16 +112,16 @@ function responderTrivia(botonSeleccionado) {
       var esRespuestaIncorrecta = respuestaCorrecta.includes(boton.innerText);
 
       if (esRespuestaCorrecta) {
-        botonSeleccionado.style.backgroundColor = '#8BC34B'; // Color verde para respuesta correcta
+        botonSeleccionado.style.backgroundColor = '#009929'; // Color verde para respuesta correcta
       } else if (esRespuestaIncorrecta) {
         botonSeleccionado.style.backgroundColor = '#FF0000'; // Color rojo para respuesta incorrecta
 
         // Después de 1 segundo, cambiar el color del botón con la respuesta correcta a verde
-        setTimeout(function () {
+        setTimeoutMovil(function () {
           botones.forEach(function (boton) {
             var esRespuestaCorrecta = respuestaCorrecta.includes(boton.innerText);
             if (esRespuestaCorrecta) {
-              boton.style.backgroundColor = '#8BC34B'; // Color verde para respuesta correcta
+              boton.style.backgroundColor = '#009929'; // Color verde para respuesta correcta
             }
           });
         }, 1000);
@@ -146,10 +146,10 @@ function responderTrivia(botonSeleccionado) {
     vidas--;
   }
 
-  actualizarInfoJuego();
+  actualizarInfoJuegoMovil();
 
   // Cargar la siguiente pregunta después de un breve retraso
-  setTimeout(function () {
+  setTimeoutMovil(function () {
     // Restablecer los colores y habilitar los botones para la siguiente pregunta
     botones.forEach(function (boton) {
       boton.style.backgroundColor = '';
@@ -160,12 +160,12 @@ function responderTrivia(botonSeleccionado) {
     if (indicePreguntaActual < preguntas.length - 1) {
       // Cargar la siguiente pregunta
       indicePreguntaActual++;
-      cargarPregunta(indicePreguntaActual);
+      cargarPreguntaMovil(indicePreguntaActual);
     } else {
       // Pausa de 2 segundo antes de mostrar el resultado final
-      setTimeout(function () {
+      setTimeoutMovil(function () {
         // Fin del juego
-        mostrarResultadoFinal();
+        mostrarResultadoFinalMovil();
       }, 3000);
     }
   }, 3000);  // Esperar 2 segundo (2000 milisegundos) antes de cargar la siguiente pregunta
@@ -174,21 +174,21 @@ function responderTrivia(botonSeleccionado) {
   clearInterval(timerInterval);
 }
 
-function actualizarInfoJuego() {
+function actualizarInfoJuegoMovil() {
   // Actualizar la puntuación y vidas en pantalla
   document.getElementById('puntuacion').innerText = puntuacion;
   document.getElementById('vidas').innerText = vidas;
 
   // Verificar si el jugador ha perdido todas las vidas
   if (vidas <= 0) {
-    setTimeout(function () {
+    setTimeoutMovil(function () {
       // Fin del juego
-      mostrarResultadoFinal();
+      mostrarResultadoFinalMovil();
     }, 2000);
   }
 }
 
-function mostrarResultadoFinal() {
+function mostrarResultadoFinalMovil() {
   juegoFinalizado = true;  // Establecer que el juego ha finalizado
   clearInterval(timerInterval); // Añade esta línea para detener el temporizador
 

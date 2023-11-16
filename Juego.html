@@ -38,109 +38,96 @@
 <body>
     <!-- Contenido para teléfonos -->
     <div class="telefono-only">
-        <div class="bienvenida-Movil" id="contenidoCambiable">
-            <div class="rectangle-white"></div>
-            <div class="rectangle-yellow"></div>
-            <img class="image-House" src="./css/assets_movil/image-Inicio.png"/>
-            <img class="image-calender" src="./css/assets_movil/image-8.png"/>
-            <img class="logo" src="./css/assets_movil/logo.png"/>
-            <div class="oval-uDL">
-            </div>
-            <div class="buttonred">
-            </div>
-            <div class="crear-partida" onclick="modificarpagina1()">Comenzar a jugar</div>
-            <img class="image-brain" src="./css/assets_movil/image-14.png"/>
-            <img class="image-3line" src="./css/assets_movil/image-16.png"/>
-            <div class="rectangle-grey">
-            </div>
-            <p class="text1">¡Prepárate para una batalla de cerebros!</p>
-            <div class="cerebroGreat">
-            </div>
-            <div class="line-10-W8a">
-            </div>
-            <div class="line-11-SY2">
-            </div>
-            <div class="line-12-maJ">
-            </div>
-            <div class="line-14-7PG">
-            </div>
-            <p class="Scores">Tus puntuaciones</p>
-            <div class="table-container">
-                <table id="tablaPuntuaciones" class="table">
-                  <thead>
-                    <tr>
-                      <th>Nombre Jugador</th>
-                      <th>Puntuación</th>
-                      <th>Vidas</th>
-                    </tr>
+        <div class="bienvenida-Movil">
+          <div id="main">
+              <div class="rectangle-white"></div>
+              <div class="rectangle-yellow"></div>
+              <img class="image-House" src="./css/assets_movil/image-Inicio.png"/>
+              <img class="image-calender" src="./css/assets_movil/image-8.png"/>
+              <img class="logo" src="./css/assets_movil/logo.png"/>
+              <div class="oval-uDL">
+              </div>
+              <div class="buttonred">
+              </div>
+              <div class="crear-partida" onclick="modificarpagina()">Comenzar a jugar</div>
+              <img class="image-brain" src="./css/assets_movil/image-14.png"/>
+              <img class="image-3line" src="./css/assets_movil/image-16.png"/>
+              <img class="image-bell" src="./css/assets_movil/image-7.png"/>
+              <img class="image-config" src="./css/assets_movil/image-15.png"/>
+              <div class="rectangle-grey">
+                <img class="cerebroGreat" src='./css/assets_movil/cerebroGreat.png'/>
+                <p class="text1">¡Prepárate para una batalla de cerebros!</p>
+              </div>
+              <p class="Scores">Tus puntuaciones</p>
+              <div class="table-container">
+                  <table id="tablaPuntuaciones" class="table">
+                    <thead>
+                      <tr>
+                          <th>Nombre Jugador</th>
+                          <th>Puntuación</th>
+                          <th>Vidas</th>
+                      </tr>
                   </thead>
                   <tbody>
-                    <tr>
-                      <td>1. ""</td>
-                      <td>""</td>
-                      <td>""</td>
-                    </tr>
-                    <tr>
-                      <td>2. ""</td>
-                      <td>""</td>
-                      <td>""</td>
-                    </tr>
-                    <tr>
-                      <td>3. ""</td>
-                      <td>""</td>
-                      <td>""</td>
-                    </tr>
-                    <tr>
-                      <td>4. ""</td>
-                      <td>""</td>
-                      <td>""</td>
-                    </tr>
-                    <tr>
-                      <td>5. ""</td>
-                      <td>""</td>
-                      <td>""</td>
-                    </tr>
-                    <tr>
-                      <td>6. ""</td>
-                      <td>""</td>
-                      <td>""</td>
-                    </tr>
-                    <tr>
-                      <td>7. ""</td>
-                      <td>""</td>
-                      <td>""</td>
-                    </tr>
-                    <tr>
-                      <td>8. ""</td>
-                      <td>""</td>
-                      <td>""</td>
-                    </tr>
-                    <tr>
-                      <td>9. ""</td>
-                      <td>""</td>
-                      <td>""</td>
-                    </tr>
-                    <tr>
-                      <td>10. ""</td>
-                      <td>""</td>
-                      <td>""</td>
-                    </tr>
+                      <!-- Aquí se llenarán dinámicamente los resultados del juego -->
                   </tbody>
-                </table>
+                  </table>
+                </div>
+                <p class="textnombre">Ingrese su Nombre</p>
+                <input class="label" type="text" id="namemovil" placeholder="Ingrese su nombre"/>
+                <div class="rectangle-opaco" onclick="continuar()" id="contenidoTutorial">
+                  <img class="cerebroHi" src="./css/assets_movil/cerebroHi.png"/>
+                  <img class="bubble" src="./css/assets_movil/rectangle-11.png"/>
+                  <p class="textBubble">
+                      ¡Qué bueno verte! <br/> Acompáñame a conocer <br/> la nueva experiencia.</p>
+                  <p class="textScreen">
+                      Toca en cualquier <br/> lugar para continuar </p>
               </div>
-              <p class="textnombre">Ingrese su Nombre</p>
-              <input class="label" type="text" id="namemovil" placeholder="Ingrese su nombre"/>
-              <div class="rectangle-opaco" onclick="continuar()" id="contenidoTutorial">
-                <img class="cerebroHi" src="./css/assets_movil/cerebroHi.png"/>
-                <img class="bubble" src="./css/assets_movil/rectangle-11.png"/>
-                <p class="textBubble">
-                    ¡Qué bueno verte! <br/> Acompáñame a conocer <br/> la nueva experiencia.</p>
-                <p class="textScreen">
-                    Toca en cualquier <br/> lugar para continuar </p>
             </div>
+            <div id="category" style="display: none;">
+            <img class="image1" data-value="preguntas_artes" src="./css/assets_movil/arte.png" onclick="irAPaginamovil()"/>
+            <img class="image2" data-value="preguntas_ciencias" src="./css/assets_movil/ciencia.png" onclick="irAPaginamovil()"/>
+            <img class="image3" data-value="preguntas_deportes" src="./css/assets_movil/deporte.png" onclick="irAPaginamovil()"/>
+            <img class="image4" data-value="preguntas_entretenimiento" src="./css/assets_movil/entretenimiento.png" onclick="irAPaginamovil()"/>
+            <img class="image5" data-value="preguntas_geografia" src="./css/assets_movil/geografia.png" onclick="irAPaginamovil()"/>
+            <img class="image6" data-value="preguntas_historia" src="./css/assets_movil/historia.png" onclick="irAPaginamovil()"/>
+            <img class="image7" data-value="preguntas_y_respuestas" src="./css/assets_movil/todas.png" onclick="irAPaginamovil()"/>
+          </div>
+          <div id="trivia-container" style="display: none;">
+            <img class="image-category" id="imagenDinamica"/>
+            <p class="text5" id="question"></p>
+            <p class="text">Puntuación: <span id="puntuacion">0</span></p>
+            <p class="text2">Vidas: <span id="vidas">5</span></p>
+            <!-- Cambiar a botones y manejar la respuesta directamente -->
+            <div class="reloj-emY" id="timer">15</div>
+            <div id="options"></div>
+            <div id="respuesta"></div>
+        </div>
+
+        <div id="fin-juego" style="display: none;">
+            <p class="text6">¡Juego Terminado!</p>
+            <div class="image9">
+            </div>
+            <div class="puntaje-DFp">
+              <p class="puntos-ganados">Puntos ganados en este juego</p>
+              <p class="text8"><span id="puntuacionResultado"></span></p>
+            </div>
+            <div class="ganador">
+              <div class="rectangle-3">
+              </div>
+              <div class="nombre-text">Nombre</div>
+              <div class="ganador-text"><span id="nombreResultado"></span></div>
+              <p class="text9">Vidas Restantes: <span id="vidasResultado"></span></p>
+            </div>
+            <button class="buttonback"onclick="volverAPagina()">Volver al Inicio</button>
+            <button class="button"onclick="volverAJugar()">Volver a Jugar</button>
           </div>
         </div>
+    </main>
     </div>
+    
+        </div>   
+      </div>
     <script>
         function continuar() {
           // Oculta el contenidoTutorial al hacer clic
@@ -148,23 +135,57 @@
         }
     </script>
     <script>
-        function modificarpagina1() {
-          // Modificion del contenido dinámicamente
-          var contenidoMovil = document.getElementById("contenidoCambiable");
-    
-          contenidoMovil.innerHTML = `
-            <div id="category">
-                <img class="image1" data-value="preguntas_artes" src="./css/assets_movil/arte.png" onclick="()"/>
-                <img class="image2" data-value="preguntas_ciencias" src="./css/assets_movil/ciencia.png" onclick="()"/>
-                <img class="image3" data-value="preguntas_deportes" src="./css/assets_movil/deporte.png" onclick="()"/>
-                <img class="image4" data-value="preguntas_entretenimiento" src="./css/assets_movil/entretenimiento.png" onclick="()"/>
-                <img class="image5" data-value="preguntas_geografia" src="./css/assets_movil/geografia.png" onclick="()"/>
-                <img class="image6" data-value="preguntas_historia" src="./css/assets_movil/historia.png" onclick="()"/>
-                <img class="image7" data-value="preguntas_y_respuestas" src="./css/assets_movil/todas.png" onclick="()"/>
-            </div>
-          `;
-        }
+      function modificarpagina() {
+        // Ocultar contenedor de resultados del juego
+        document.getElementById('category').style.display = 'block';
+        document.getElementById('main').style.display = 'none';
+      }
     </script>
+    <script>
+      function irAPaginamovil() {
+            // Obtener el valor de data-value del elemento clicado
+            var categoria = event.target.getAttribute('data-value');
+            
+            // Guardar la categoría en localStorage
+            localStorage.setItem('categoria', categoria);
+
+            // Obtener el elemento con id 'category' y ocultarlo
+            var categoryDiv = document.getElementById('category');
+            if (categoryDiv) {
+              categoryDiv.style.display = 'none';
+            }
+            
+            cargarPreguntasMovil()
+      }
+    </script>
+    <script>
+      function volverAPagina() {
+        // Restablecer vidas y puntuación
+        vidas = 5;
+        puntuacion = 0;
+
+        // Actualizar la información del juego en pantalla
+        actualizarInfoJuego();
+
+        // Ocultar contenedor de resultados del juego
+        document.getElementById('fin-juego').style.display = 'none';
+        document.getElementById('category').style.display = 'block';
+      }
+  </script>
+  <script>
+    function volverAJugar() {
+      // Restablecer vidas y puntuación
+      vidas = 5;
+      puntuacion = 0;
+
+      // Actualizar la información del juego en pantalla
+      actualizarInfoJuego();
+
+      // Ocultar contenedor de resultados del juego
+      document.getElementById('form-container').style.display = 'block';
+      document.getElementById('fin-juego').style.display = 'none';
+    }
+  </script>
 
     <!-- Contenido para PC y tabletas -->
     <div class="desktop-tablet-only">
@@ -196,13 +217,13 @@
                     <p>Iniciar Juego</p>
                 </div>
                 <div class="table-container">
-                    <h2>Resultados del Juego</h2>
+                    <h1>Resultados del Juego</h1>
                     <table class="table">
                         <thead>
                             <tr>
-                                <th>Nombre Jugador</th>
-                                <th>Puntuación</th>
-                                <th>Vidas</th>
+                                <th><h2>Nombre Jugador</h2></th>
+                                <th><h2>Puntuación</h2></th>
+                                <th><h2>Vidas</h2></th>
                             </tr>
                         </thead>
                         <tbody>
@@ -276,6 +297,9 @@
           function irAPagina() {
             // Obtener el valor de data-value del elemento clicado
             var categoria = event.target.getAttribute('data-value');
+            
+            // Guardar la categoría en localStorage
+            localStorage.setItem('categoria', categoria);
 
             // Obtener el elemento img que mostrará la imagen dinámica
             var imagenDinamica = document.getElementById('imagenDinamica');
@@ -323,6 +347,7 @@
     }
     </script>
     <script src="ProjectoIntegrador.js" defer></script>
+    <script src="ProyectoIntegradorMovil.js" defer></script>
     </div>
 </body>
 </html>

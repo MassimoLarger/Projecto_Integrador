@@ -280,6 +280,8 @@ body {
   width: 41.5rem;
   height: 8rem;
   position: absolute;
+  left: 0;
+  top: 0rem;
   background-color: #ffe000;
 }
 .bienvenida-Movil .image-House {
@@ -353,10 +355,28 @@ body {
 }
 .bienvenida-Movil .image-3line {
   width: 3rem;
-  height: 2.3rem;
+  height: 3rem;
   position: absolute;
-  left: 37.9rem;
-  top: 3rem;
+  left: 37rem;
+  top: 2.8rem;
+  object-fit: cover;
+  vertical-align: top;
+}
+.bienvenida-Movil .image-config {
+  width: 3rem;
+  height: 3rem;
+  position: absolute;
+  left: 3.5rem;
+  top: 2.8rem;
+  object-fit: cover;
+  vertical-align: top;
+}
+.bienvenida-Movil .image-bell {
+  width: 3rem;
+  height: 3rem;
+  position: absolute;
+  left: 32rem;
+  top: 2.8rem;
   object-fit: cover;
   vertical-align: top;
 }
@@ -373,8 +393,8 @@ body {
   width: 25.3rem;
   height: 5.5rem;
   position: absolute;
-  left: 14.2rem;
-  top: 12.7rem;
+  left: 12rem;
+  top: 0.8rem;
   font-size: 2rem;
   font-weight: 600;
   line-height: 1.3625;
@@ -382,19 +402,16 @@ body {
   font-family: Nunito Sans, 'Source Sans Pro';
 }
 .bienvenida-Movil .cerebroGreat {
-  width: 7.2333rem;
-  height: 7rem;
-  position: relative;
-  left: 4.5rem;
-  top: 12rem;
-  background-size: 127.143% 233.333%;
-  background-position: -0.9333rem -4.6667rem;
-  background-image: url('../assets_movil/cerebroGreat.png');
+  width: 10rem;
+  height: 16rem;
+  position: absolute;
+  left: 1rem;
+  top: -4.5rem;
 }
 .bienvenida-Movil .Scores {
   position: absolute;
   left: 3.2rem;
-  top: 22rem;
+  top: 19rem;
   font-size: 1.8rem;
   font-weight: 900;
   line-height: 3;
@@ -403,10 +420,11 @@ body {
   white-space: nowrap;
 }
 .bienvenida-Movil .table-container {
-  overflow-x: auto;
-  max-width: 90%; /* Establecer el ancho máximo del contenedor según sea necesario */
-  margin-left: 2rem;
-  margin-top: 20rem;
+  width: 90%;
+  height: 30%;
+  position: absolute;
+  left: 2rem;
+  top: 24rem;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   background-color: rgba(204, 214, 221, 0.373);
 }
