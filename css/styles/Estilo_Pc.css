@@ -250,60 +250,76 @@ body {
   white-space: nowrap;
 }
 .bienvenida-MBp .image1 {
-  width: 20.5rem;
-  height: 19.1rem;
+  width: 22rem;
+  height: 26rem;
   position: absolute;
-  left: 20rem;
+  left: 40rem;
   top: 20rem;
+  object-fit: cover;
+  vertical-align: top;
 }
 .bienvenida-MBp .image2 {
-  width: 17.5rem;
-  height: 16.5rem;
+  width: 20rem;
+  height: 24rem;
   position: absolute;
-  left: 120rem;
-  top: 20rem;
+  left: 41rem;
+  top: 48rem;
+  object-fit: cover;
+  vertical-align: top;
 }
 .bienvenida-MBp .image3 {
-  width: 19.3rem;
-  height: 17.8rem;
+  width: 22rem;
+  height: 26rem;
   position: absolute;
-  left: 20rem;
-  top: 40rem;
+  left: 68rem;
+  top: 19.5rem;
+  object-fit: cover;
+  vertical-align: top;
 }
 .bienvenida-MBp .image4 {
-  width: 20.5rem;
-  height: 19.1rem;
+  width: 22rem;
+  height: 24rem;
   position: absolute;
-  left: 120rem;
-  top: 60rem;
+  left: 68rem;
+  top: 47.5rem;
+  object-fit: cover;
+  vertical-align: top;
 }
 .bienvenida-MBp .image5 {
-  width: 17.9rem;
-  height: 18.7rem;
+  width: 22rem;
+  height: 26rem;
   position: absolute;
-  left: 20rem;
-  top: 60rem;
+  left: 98rem;
+  top: 19.5rem;
+  object-fit: cover;
+  vertical-align: top;
 }
 .bienvenida-MBp .image6 {
-  width: 20.5rem;
-  height: 19.1rem;
+  width: 22rem;
+  height: 26rem;
   position: absolute;
-  left: 120rem;
-  top: 40rem;
+  left: 98rem;
+  top: 46rem;
+  object-fit: cover;
+  vertical-align: top;
 }
 .bienvenida-MBp .image7 {
-  width: 38.8rem;
-  height: 49rem;
+  width: 36rem;
+  height: 44rem;
   position: absolute;
-  left: 60rem;
-  top: 25rem;
+  left: 2rem;
+  top: 22rem;
+  object-fit: cover;
+  vertical-align: top;
 }
 .bienvenida-MBp .image8 {
-  width: 20.5rem;
-  height: 19.1rem;
+  width: 50rem;
+  height: 50rem;
   position: absolute;
   left: 95rem;
   top: 10rem;
+  object-fit: cover;
+  vertical-align: top;
 }
 .bienvenida-MBp .image9 {
   width: 55rem;
@@ -447,29 +463,28 @@ body {
   z-index: 1;
 }
 .bienvenida-MBp .text11 {
-  width: 44.9rem;
+  width: 35.9rem;
   height: 5.5rem;
   position: absolute;
-  left: 63rem;
+  left: 61rem;
   top: 10rem;
-  font-size: 6rem;
+  font-size: 4rem;
   font-weight: 600;
   line-height: 1.3625;
-  color: #ffffff;
+  color: #f06f9a;
   font-family: Nunito Sans, 'Source Sans Pro';
   white-space: nowrap;
 }
-
 .bienvenida-MBp .text10 {
   width: 35.9rem;
   height: 5.5rem;
   position: absolute;
-  left: 67rem;
-  top: 16rem;
+  left: 56rem;
+  top: 15rem;
   font-size: 3rem;
   font-weight: 600;
   line-height: 1.3625;
-  color: #ffffff;
+  color: #f06f9a;
   font-family: Nunito Sans, 'Source Sans Pro';
   white-space: nowrap;
 }
@@ -547,7 +562,7 @@ body {
 .bienvenida-MBp .table-container .table .th, .bienvenida-MBp .table-container .table .td {
   color: #ffffff;
   text-align: center;
-  border: 1px solid #ffffff; /* Establece el color de las líneas internas de la tabla */
+  border: 1px solid #ffffff;
 }
 .bienvenida-MBp .table-container .table tbody tr:nth-child(odd) {
   background-color: #646cb0; /* Color para filas impares del tbody */
@@ -555,7 +570,7 @@ body {
 }
 .bienvenida-MBp .table-container .table tbody tr:nth-child(even) {
   background-color: #858dd1; /* Color para filas pares del tbody */
-  border: 1px solid #ffffff;
+  border: 1px solid #ffffff; 
 }
 .bienvenida-MBp .puntaje-DFp {
   width: 33.9rem;
