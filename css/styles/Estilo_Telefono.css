@@ -346,6 +346,24 @@ body {
   font-family: Inter, 'Source Sans Pro';
   white-space: nowrap;
 }
+.bienvenida-Movil .iniciar-juego {
+  width: 23rem;
+  height: 5rem;
+  position: absolute;
+  left: 9rem;
+  top: 34.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.5rem;
+  font-weight: 800;
+  line-height: 1.3625;
+  color: #ffffff;
+  font-family: Nunito Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  background-color: #ed709a;
+  border-radius: 2rem;
+}
 .bienvenida-Movil .image-brain {
   width: 3.5rem;
   height: 3.5rem;
@@ -421,25 +439,35 @@ body {
 }
 .bienvenida-Movil .table-container-movil {
   width: 90%;
-  height: 30%;
+  height: 35%;
   position: absolute;
   left: 2rem;
-  top: 24rem;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  background-color: rgba(204, 214, 221, 0.373);
+  top: 42rem;
+  color: #ffffff;
+  border: solid 0.1rem rgba(255, 255, 255, 0.8999999762);
+  background-color: rgba(96, 73, 160, 0.8999999762);
+  border-radius: 3rem;
+  text-align: center;
+  font-size: 12px;
 }
-.bienvenida-Movil .table {
-  border-collapse: collapse;
+.bienvenida-Movil .table-container-movil .table {
   width: 100%;
+  color: #ffffff;
+  text-align: center;
+  font-size: 14px; /* Ajusta el tamaño de la fuente */
 }
-.bienvenida-Movil .th, .bienvenida-Movil .td {
-  padding: 15px;
-  text-align: left;
-  border-bottom: 1px solid #ddd;
+.bienvenida-Movil .table-container-movil .table .th, .bienvenida-MBp .table-container-movil .table .td {
+  color: #ffffff;
+  text-align: center;
+  border: 1px solid #ffffff; /* Establece el color de las líneas internas de la tabla */
 }
-.bienvenida-Movil .th {
-  background-color: #4caf50;
-  color: white;
+.bienvenida-Movil .table-container-movil .table tbody tr:nth-child(odd) {
+  background-color: #646cb0; /* Color para filas impares del tbody */
+  border: 1px solid #ffffff;
+}
+.bienvenida-Movil .table-container-movil .table tbody tr:nth-child(even) {
+  background-color: #858dd1; /* Color para filas pares del tbody */
+  border: 1px solid #ffffff;
 }
 .bienvenida-Movil .rectangle-opaco {
   width: 42.8rem;
@@ -495,53 +523,211 @@ body {
   font-family: Nunito Sans, 'Source Sans Pro';
 }
 .bienvenida-Movil .textnombre {
-    position: absolute;
-    left: 7.5rem;
-    top: 52rem;
-    text-align: center;
-    font-size: 3rem;
-    font-weight: 900;
-    line-height: 1.3625;
-    color: #ffffff;
-    font-family: Nunito Sans, 'Source Sans Pro';
+  position: absolute;
+  left: 7rem;
+  top: 23rem;
+  font-size: 3.2rem;
+  font-weight: 600;
+  line-height: 1.3625;
+  color: #ffffff;
+  font-family: Nunito Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
 }
 .bienvenida-Movil .label {
-    width: 35rem;
-    height: 5rem;
-    position: absolute;
-    left: 3.5rem;
-    top: 58rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 2rem;
-    font-weight: 600;
-    line-height: 1.3625;
-    color: #ffffff;
-    font-family: Nunito Sans, 'Source Sans Pro';
-    white-space: nowrap;
-    background-color: #4f9ced;
-    border-radius: 1rem;
-    text-align: center; /* Alinea el texto horizontalmente */
+  position: absolute;
+  text-align: center;
+  left: 4.5rem;
+  top: 28rem;
+  box-sizing: border-box;
+  padding: 0.8rem 1.3rem 1rem 1.3rem;
+  width: calc(100% - 8.2rem);
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.3625;
+  color: #9aa7b1;
+  font-family: Nunito Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  background-color: #ffffff;
+  border-radius: 2rem;
+  flex-shrink: 0;
   }
-.bienvenida-Movil .image1 {
-
+.bienvenida-Movil .image-movil1 {
+  width: 18rem;
+  height: 26rem;
+  position: absolute;
+  left: 1.5rem;
+  top: 28rem;
 }
-.bienvenida-Movil .image2 {
-
+.bienvenida-Movil .image-movil2 {
+  width: 18rem;
+  height: 24rem;
+  position: absolute;
+  left: 22rem;
+  top: 29.5rem;
 }
-.bienvenida-Movil .image3 {
-
+.bienvenida-Movil .image-movil3 {
+  width: 18rem;
+  height: 26rem;
+  position: absolute;
+  left: 1.5rem;
+  top: 50rem;
 }
-.bienvenida-Movil .image4 {
-
+.bienvenida-Movil .image-movil4 {
+  width: 18rem;
+  height: 26rem;
+  position: absolute;
+  left: 21rem;
+  top: 49rem;
 }
-.bienvenida-Movil .image5 {
-
+.bienvenida-Movil .image-movil5 {
+  width: 16rem;
+  height: 24rem;
+  position: absolute;
+  left: 3rem;
+  top: 67rem;
 }
-.bienvenida-Movil .image6 {
-
+.bienvenida-Movil .image-movil6 {
+  width: 20rem;
+  height: 27rem;
+  position: absolute;
+  left: 21rem;
+  top: 67rem;
 }
-.bienvenida-Movil .image7 {
-
+.bienvenida-Movil .image-movil7 {
+  width: 22rem;
+  height: 30rem;
+  position: absolute;
+  left: 10rem;
+  top: 5rem;
+}
+.bienvenida-Movil .text-movil1 {
+  position: absolute;
+  left: 10rem;
+  top: 3rem;
+  font-size: 3.2rem;
+  font-weight: 800;
+  line-height: 1.3625;
+  color: #ffe000;
+  font-family: Nunito Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.bienvenida-Movil .text-movil2 {
+  position: absolute;
+  left: 9rem;
+  top: 8rem;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.3625;
+  color: #ffe000;
+  font-family: Nunito Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.bienvenida-Movil .cerebroHi2 {
+  width: 30rem;
+  height: 30rem;
+  position: absolute;
+  left: 6rem;
+  top: 40rem;
+  object-fit: cover;
+  vertical-align: top;
+}
+.bienvenida-Movil .bubble2 {
+  width: 35rem;
+  height: 35rem;
+  position: absolute;
+  left: 3.5rem;
+  top: 15.25rem;
+  object-fit: contain;
+  vertical-align: top;
+  border-radius: 3.5rem;
+}
+.bienvenida-Movil .textBubble2 {
+  width: 32rem;
+  height: 6rem;
+  position: absolute;
+  left: 5rem;
+  top: 23rem;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.3625;
+  color: #000000;
+  font-family: Nunito Sans, 'Source Sans Pro';
+}
+.bienvenida-Movil .logo-Sok {
+  width: 10rem;
+  height: 10rem;
+  position: absolute;
+  left: 16rem;
+  top: 4rem;
+  object-fit: cover;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.bienvenida-Movil .iconoHI {
+  width: 15rem;
+  height: 15rem;
+  position: absolute;
+  left: 14rem;
+  top: 72rem;
+  object-fit: cover;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.bienvenida-Movil .preguntopa-NBc {
+  position: absolute;
+  left: 12.5rem;
+  top: 16rem;
+  font-size: 2.4rem;
+  font-weight: 600;
+  line-height: 1.3625;
+  color: #ffe000;
+  font-family: Nunito Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.bienvenida-Movil .block {
+  margin-bottom: 10rem;
+  box-sizing: border-box;
+  padding: 0.95rem 2.55rem 0.95rem 3.4rem;
+  width: 100%;
+  height: 12rem;
+  display: flex;
+  align-items: flex-start;
+  background-color: #ffffff;
+  flex-shrink: 0;
+}
+.bienvenida-Movil .block .points{
+}
+.bienvenida-Movil .block .life{
+}
+.bienvenida-Movil .block .reloj-movil{
+  align-items: center;
+  background-color:#ffb600;
+  border-radius: 5rem;
+  color:#1e1e1e;
+  display: flex;
+  font-family: 
+  Nunito Sans, 'Source Sans Pro';
+  font-size: 2.1rem;
+  font-weight: 800;
+  height: 6.5rem;
+  justify-content: center;
+  left: 123.5rem;
+  line-height: 1.3625;
+  position: absolute;
+  top: 7rem;
+  white-space: nowrap;
+  width: 19.7rem;
+}
+.bienvenida-Movil .block .image-category-movil{
+}
+.bienvenida-Movil .block .options-movil{
+}
+.bienvenida-Movil .block .respuesta-movil{
+}
+.bienvenida-Movil .question{
 }

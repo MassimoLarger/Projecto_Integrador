@@ -566,11 +566,11 @@ body {
 }
 .bienvenida-MBp .table-container .table tbody tr:nth-child(odd) {
   background-color: #646cb0; /* Color para filas impares del tbody */
-  border: 1px solid #ffffff; /* Establece el color de las líneas internas de la tabla */
+  border: 1px solid #ffffff;
 }
 .bienvenida-MBp .table-container .table tbody tr:nth-child(even) {
   background-color: #858dd1; /* Color para filas pares del tbody */
-  border: 1px solid #ffffff; /* Establece el color de las líneas internas de la tabla */
+  border: 1px solid #ffffff;
 }
 .bienvenida-MBp .puntaje-DFp {
   width: 33.9rem;

@@ -34,8 +34,6 @@
       }
     }
   </style>
-  <script src="ProjectoIntegrador.js" defer></script>
-  <script src="ProyectoIntegradorMovil.js" defer></script>
 </head>
 <body>
     <!-- Contenido para teléfonos -->
@@ -56,13 +54,11 @@
               <img class="image-3line" src="./css/assets_movil/image-16.png"/>
               <img class="image-bell" src="./css/assets_movil/image-7.png"/>
               <img class="image-config" src="./css/assets_movil/image-15.png"/>
+              <div id="main2"></div>
               <div class="rectangle-grey">
                 <img class="cerebroGreat" src='./css/assets_movil/cerebroGreat.png'/>
                 <p class="text1">¡Prepárate para una batalla de cerebros!</p>
               </div>
-              
-                <p class="textnombre">Ingrese su Nombre</p>
-                <input class="label" type="text" id="name-movil" placeholder="Ingrese su nombre"/>
                 <div class="rectangle-opaco" onclick="continuar()" id="contenidoTutorial">
                   <img class="cerebroHi" src="./css/assets_movil/cerebroHi.png"/>
                   <img class="bubble" src="./css/assets_movil/rectangle-11.png"/>
@@ -73,21 +69,30 @@
               </div>
             </div>
             <div id="category-movil" style="display: none;">
-            <img class="image1" data-value="preguntas_artes" src="./css/assets_movil/arte.png" onclick="irAPaginamovil()"/>
-            <img class="image2" data-value="preguntas_ciencias" src="./css/assets_movil/ciencia.png" onclick="irAPaginamovil()"/>
-            <img class="image3" data-value="preguntas_deportes" src="./css/assets_movil/deporte.png" onclick="irAPaginamovil()"/>
-            <img class="image4" data-value="preguntas_entretenimiento" src="./css/assets_movil/entretenimiento.png" onclick="irAPaginamovil()"/>
-            <img class="image5" data-value="preguntas_geografia" src="./css/assets_movil/geografia.png" onclick="irAPaginamovil()"/>
-            <img class="image6" data-value="preguntas_historia" src="./css/assets_movil/historia.png" onclick="irAPaginamovil()"/>
-            <img class="image7" data-value="preguntas_y_respuestas" src="./css/assets_movil/todas.png" onclick="irAPaginamovil()"/>
+            <p class="text-movil1">CATEGORÍAS</p>
+            <p class="text-movil2">Seleccione una categoría:</p>
+            <img class="image-movil1" data-value-movil="preguntas_artes" src="./css/assets_movil/arte.png" onclick="irAPaginamovil()"/>
+            <img class="image-movil2" data-value-movil="preguntas_ciencias" src="./css/assets_movil/ciencia.png" onclick="irAPaginamovil()"/>
+            <img class="image-movil3" data-value-movil="preguntas_deportes" src="./css/assets_movil/deporte.png" onclick="irAPaginamovil()"/>
+            <img class="image-movil4" data-value-movil="preguntas_entretenimiento" src="./css/assets_movil/entretenimiento.png" onclick="irAPaginamovil()"/>
+            <img class="image-movil5" data-value-movil="preguntas_geografia" src="./css/assets_movil/geografia.png" onclick="irAPaginamovil()"/>
+            <img class="image-movil6" data-value-movil="preguntas_historia" src="./css/assets_movil/historia.png" onclick="irAPaginamovil()"/>
+            <img class="image-movil7" data-value-movil="preguntas_y_respuestas" src="./css/assets_movil/todas.png" onclick="irAPaginamovil()"/>
           </div>
-          <div id="Inicio-movil">
-          <p class="Scores">Tus puntuaciones</p>
+          <div id="Inicio-movil" style="display: none;">
+            <img class="logo-Sok" src="./css/assets_movil/logo.png"/>
+            <p class="preguntopa-NBc">PREGUNTOPÍA</p>
+            <p class="textnombre">¿Cuál es tu nombre?</p>
+            <input class="label" type="text" id="name-movil" placeholder="Ingrese su nombre" />
+            <div class="iniciar-juego" onclick="cargarPreguntasMovil()">Iniciar Juego</div>
+            <img class="iconoHI" src="./css/assets_movil/cerebroHi.png"/>
+          <p class="Scores"></p>
               <div class="table-container-movil">
                   <table id="tablaPuntuaciones" class="table">
+                    <h1>Tus puntuaciones</h1>
                     <thead>
                       <tr>
-                          <th>Nombre Jugador</th>
+                          <th>Jugador</th>
                           <th>Puntuación</th>
                           <th>Vidas</th>
                       </tr>
@@ -99,13 +104,16 @@
                 </div>
               </div>
           <div id="trivia-container-movil" style="display: none;">
-            <p class="text5" id="question-movil"></p>
-            <p class="text">Puntuación: <span id="puntuacion-movil">0</span></p>
-            <p class="text2">Vidas: <span id="vidas-movil">5</span></p>
-            <!-- Cambiar a botones y manejar la respuesta directamente -->
-            <div class="reloj-emY" id="timer-movil">15</div>
-            <div id="options-movil"></div>
-            <div id="respuesta-movil"></div>
+            <div class="block">
+              <img class="image-category-movil" id="imagenDinamica_movil"/>
+              <p class="question" id="question-movil"></p>
+              <p class="points">Puntuación: <span id="puntuacion-movil">0</span></p>
+              <p class="life">Vidas: <span id="vidas-movil">5</span></p>
+              <!-- Cambiar a botones y manejar la respuesta directamente -->
+              <div class="reloj-movil" id="timer-movil">15</div>
+              <div id="options-movil"></div>
+              <div id="respuesta-movil"></div>
+            </div>
         </div>
         <div id="fin-juego-movil" style="display: none;">
             <p class="text6">¡Juego Terminado!</p>
@@ -128,37 +136,67 @@
         </div>
     </main>
     </div>
-    
         </div>   
       </div>
     <script>
         function continuar() {
           // Oculta el contenidoTutorial al hacer clic
           document.getElementById('contenidoTutorial').style.display = 'none';
+          masHTML = `<img class="cerebroHi2" src="./css/assets_movil/cerebroHi.png"/>
+                  <img class="bubble2" src="./css/assets_movil/rectangle-11.png"/>
+                  <p class="textBubble2">
+                      Pulsa Comenzar a Jugar para elegir Categoria <br/> Pulsa el cerebro para desafiar tu mente <br/>
+                      Pulsa el calendario para el reto diario <br/> Pulsa la casa para volver.</p>`;
+          document.getElementById('main2').innerHTML = masHTML;
         }
     </script>
     <script>
       function modificarpagina() {
         // Ocultar contenedor de resultados del juego
-        document.getElementById('category').style.display = 'block';
+        document.getElementById('category-movil').style.display = 'block';
         document.getElementById('main').style.display = 'none';
       }
     </script>
     <script>
       function irAPaginamovil() {
-            // Obtener el valor de data-value del elemento clicado
-            var categoriamovil = event.target.getAttribute('data-value');
-            
-            // Guardar la categoría en localStorage
-            localStorage.setItem('categoria-movil', categoriamovil);
+        // Obtener el valor de data-value del elemento clicado
+        var categoriamovil = event.target.getAttribute('data-value-movil');
 
-            // Obtener el elemento con id 'category' y ocultarlo
-            var categoryDiv = document.getElementById('category-movil');
-            if (categoryDiv) {
-              categoryDiv.style.display = 'none';
+        // Guardar la categoría en localStorage
+        localStorage.setItem('categoria-movil', categoriamovil);
+
+        switch (categoriamovil) {
+              case 'preguntas_artes':
+                imagenDinamica_movil.src = './css/assets_movil/arte.png';
+                break;
+              case 'preguntas_ciencias':
+                imagenDinamica_movil.src = './css/assets_movil/ciencia.png';
+                break;
+              case 'preguntas_deportes':
+                imagenDinamica_movil.src = './css/assets_movil/deporte.png';
+                break;
+              case 'preguntas_entretenimiento':
+                imagenDinamica_movil.src = './css/assets_movil/entretenimiento.png';
+                break;
+              case 'preguntas_geografia':
+                imagenDinamica_movil.src = './css/assets_movil/geografia.png';
+                break;
+              case 'preguntas_historia':
+                imagenDinamica_movil.src = './css/assets_movil/historia.png';
+                break;
+              case 'preguntas_y_respuestas':
+                imagenDinamica_movil.src = './css/assets_movil/todas.png';
+                break;
             }
-            
-            cargarPreguntasMovil()
+
+        // Obtener el elemento con id 'category-movil' y ocultarlo si existe
+        var categoryMovilDiv = document.getElementById('category-movil');
+        if (categoryMovilDiv) {
+            categoryMovilDiv.style.display = 'none';
+            document.getElementById('Inicio-movil').style.display = 'block';
+        } else {
+            console.error("Elemento 'category-movil' no encontrado.");
+        }
       }
     </script>
     <script>
@@ -343,7 +381,8 @@
         window.location.href = "./css/bienvenida.html";
     }
     </script>
-    
     </div>
+  <script src="ProjectoIntegrador.js" defer></script>
+  <script src="ProyectoIntegradorMovil.js" defer></script>
 </body>
 </html>

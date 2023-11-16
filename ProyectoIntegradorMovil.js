@@ -1,39 +1,67 @@
-var preguntas;
-var indicePreguntaActual = 0;
-var puntuacion = 0;
-var vidas = 5; // Ahora se establece en 5 vidas
-let nombre;
-let timeLeft = 15;  // Tiempo inicial
-let timerInterval;
-let timerElement = document.getElementById('timer');
-var juegoFinalizado = false;
+var preguntas_movil;
+var indicePreguntaActual_movil = 0;
+var puntuacion_movil = 0;
+var vidas_movil = 5; // Ahora se establece en 5 vidas
+let nombre_movil;
+let timeLeft_movil = 15; // Tiempo inicial
+let timerInterval_movil;
+let timerElement_movil = document.getElementById('timer-movil');
+var juegoFinalizado_movil = false;
 
 function cargarPreguntasMovil() {
-  let categoria_movil= localStorage.getItem('categoria-movil');
+  let categoria_movil = localStorage.getItem('categoria-movil');
 
   // Construir la URL basada en la categoría seleccionada
   let url = `${categoria_movil}.json`;
 
+  // Obtener el elemento que quieres cambiar de color
+  let bloqueMovil = document.querySelector('.bienvenida-Movil .block');
+
+  // Cambiar el color del bloque según la categoría
+  switch (categoria_movil) {
+    case 'preguntas_artes':
+      bloqueMovil.style.backgroundColor = '#e93325';
+      break;
+    case 'preguntas_ciencias':
+      bloqueMovil.style.backgroundColor = '#12c648';
+      break;         
+    case 'preguntas_deportes':
+      bloqueMovil.style.backgroundColor = '#ff8c00';
+      break;       
+    case 'preguntas_entretenimiento':
+      bloqueMovil.style.backgroundColor = '#19c1eb';
+      break;
+    case 'preguntas_geografia':
+      bloqueMovil.style.backgroundColor = '#2170c2'; 
+      break;    
+    case 'preguntas_historia':
+      bloqueMovil.style.backgroundColor = '#7e4b45';
+      break;  
+    case 'preguntas_y_respuestas':
+      bloqueMovil.style.backgroundColor = '#ffe000';
+      break;
+  }
+
   // Utilizar fetch para cargar el archivo JSON
   fetch(url)
-      .then(response => response.json())
-      .then(data => {
-          preguntas = shuffleArrayMovil(data);
-          iniciarJuegoMovil();  // Llamamos a iniciarJuego después de cargar las preguntas
-      })
-      .catch(error => {
-          console.error('Error al cargar el archivo JSON:', error);
-      });
+    .then((response) => response.json())
+    .then((data) => {
+      preguntas_movil = shuffleArrayMovil(data);
+      iniciarJuegoMovil(); // Llamamos a iniciarJuego después de cargar las preguntas
+    })
+    .catch((error) => {
+      console.error('Error al cargar el archivo JSON:', error);
+    });
 }
 
 function cargarPreguntaMovil(indicePregunta) {
   // Lógica para cargar la pregunta y opciones en el HTML
-  var preguntaActual = preguntas[indicePregunta];
+  var preguntaActual = preguntas_movil[indicePregunta];
   document.getElementById('question-movil').innerText = preguntaActual.pregunta;
 
   // Aleatorizar el orden de las opciones
   var opcionesAleatorias = shuffleArrayMovil([...preguntaActual.opciones]);
-  var opcionesHTML = '';
+  var opcionesmovilHTML = '';
   respuestaCorrectaActual = preguntaActual.respuesta_correcta; // Guardar la respuesta correcta actual
   opcionesAleatorias.forEach(function (opcion, index) {
     // Asigna clases específicas a los botones (por ejemplo, button1, button2, etc.)
@@ -45,28 +73,28 @@ function cargarPreguntaMovil(indicePregunta) {
     </li>`;
   });
   document.getElementById('options-movil').innerHTML = opcionesmovilHTML;
-  
+
   // Aquí inicia el código del temporizador
-  if (timerInterval) {
-      clearInterval(timerInterval);
-      timeLeft = 15;  // Reiniciar el tiempo a 15 segundos
+  if (timerInterval_movil) {
+    clearInterval(timerInterval_movil);
+    timeLeft_movil = 15; // Reiniciar el tiempo a 15 segundos
   }
-    timerElement.textContent = timeLeft;
-    timerInterval = setInterval(updateTimer, 1000);
+  timerElement_movil.textContent = timeLeft_movil;
+  timerInterval_movil = setInterval(updateTimerMovil, 1000);
 }
 
 function updateTimerMovil() {
-  if (juegoFinalizado) {
-    clearInterval(timerInterval);
+  if (juegoFinalizado_movil) {
+    clearInterval(timerInterval_movil);
     return;
   }
 
-  timeLeft -= 1;
-  timerElement.textContent = timeLeft;
+  timeLeft_movil -= 1;
+  timerElement_movil.textContent = timeLeft_movil;
 
-  if (timeLeft <= 0) {
-    clearInterval(timerInterval);
-    responderTriviaMovil(false);  // Tratar la respuesta como incorrecta si se agota el tiempo
+  if (timeLeft_movil <= 0) {
+    clearInterval(timerInterval_movil);
+    responderTriviaMovil(false); // Tratar la respuesta como incorrecta si se agota el tiempo
   }
 }
 
@@ -82,19 +110,19 @@ function shuffleArrayMovil(array) {
 function iniciarJuegoMovil() {
   // Movemos la obtención del nombre aquí
   nombre_movil = document.getElementById('name-movil').value;
-  if (isFinite(nombre_movil)) {
+  if (!isNaN(nombre_movil) || nombre_movil.trim() === '') {
     alert('Por favor, ingrese un nombre válido.');
   } else {
-  document.getElementById('Inicio-movil').style.display = 'none';
-  document.getElementById('trivia-container-movil').style.display = 'block';
+    document.getElementById('Inicio-movil').style.display = 'none';
+    document.getElementById('trivia-container-movil').style.display = 'block';
 
-  cargarPreguntaMovil(indicePreguntaActual);
+    cargarPreguntaMovil(indicePreguntaActual_movil);
   }
 }
 
 function responderTriviaMovil(botonSeleccionado) {
   // Obtener todos los botones
-  var botones = document.querySelectorAll('#options button');
+  var botones = document.querySelectorAll('#options-movil button');
 
   // Deshabilitar todos los botones después de la respuesta
   botones.forEach(function (boton) {
@@ -130,7 +158,7 @@ function responderTriviaMovil(botonSeleccionado) {
   }
 
   // Si el tiempo se agotó, cambiar el color de la respuesta correcta a amarillo
-  if (timeLeft <= 0) {
+  if (timeLeft_movil <= 0) {
     botones.forEach(function (boton) {
       var esRespuestaCorrecta = respuestaCorrecta.includes(boton.innerText);
       if (esRespuestaCorrecta) {
@@ -141,9 +169,9 @@ function responderTriviaMovil(botonSeleccionado) {
 
   // Actualizar la puntuación y vidas
   if (botonSeleccionado && botonSeleccionado.getAttribute('data-es-correcta') === 'true') {
-    puntuacion += 100;
+    puntuacion_movil += 100;
   } else {
-    vidas--;
+    vidas_movil--;
   }
 
   actualizarInfoJuegoMovil();
@@ -157,10 +185,10 @@ function responderTriviaMovil(botonSeleccionado) {
     });
 
     // Verificar si quedan más preguntas
-    if (indicePreguntaActual < preguntas.length - 1) {
+    if (indicePreguntaActual_movil < preguntas_movil.length - 1) {
       // Cargar la siguiente pregunta
-      indicePreguntaActual++;
-      cargarPreguntaMovil(indicePreguntaActual);
+      indicePreguntaActual_movil++;
+      cargarPreguntaMovil(indicePreguntaActual_movil);
     } else {
       // Pausa de 2 segundo antes de mostrar el resultado final
       setTimeoutMovil(function () {
@@ -168,10 +196,10 @@ function responderTriviaMovil(botonSeleccionado) {
         mostrarResultadoFinalMovil();
       }, 3000);
     }
-  }, 3000);  // Esperar 2 segundo (2000 milisegundos) antes de cargar la siguiente pregunta
+  }, 3000); // Esperar 2 segundo (2000 milisegundos) antes de cargar la siguiente pregunta
 
   // Detener el temporizador cuando el jugador responda
-  clearInterval(timerInterval);
+  clearInterval(timerInterval_movil);
 }
 
 function actualizarInfoJuegoMovil() {
@@ -189,8 +217,8 @@ function actualizarInfoJuegoMovil() {
 }
 
 function mostrarResultadoFinalMovil() {
-  juegoFinalizado = true;  // Establecer que el juego ha finalizado
-  clearInterval(timerInterval); // Añade esta línea para detener el temporizador
+  juegoFinalizado_movil = true; // Establecer que el juego ha finalizado
+  clearInterval(timerInterval_movil); // Añade esta línea para detener el temporizador
 
   // Ocultar contenedor de juego
   document.getElementById('trivia-container-movil').style.display = 'none';
@@ -199,11 +227,11 @@ function mostrarResultadoFinalMovil() {
   document.getElementById('fin-juego-movil').style.display = 'block';
 
   // Mostrar información del jugador
-  document.getElementById('nombreResultado_movil').innerText = nombre_movil;
-  document.getElementById('puntuacionResultado_movil').innerText = puntuacion_movil;
-  document.getElementById('vidasResultado_movil').innerText = vidas_movil;
+  document.getElementById('nombreResultado-movil').innerText = nombre_movil;
+  document.getElementById('puntuacionResultado-movil').innerText = puntuacion_movil;
+  document.getElementById('vidasResultado-movil').innerText = vidas_movil;
 
- // Obtener el cuerpo de la tabla
+  // Obtener el cuerpo de la tabla
   const tbody = document.querySelector('.bienvenida-Movil .table tbody');
 
   // Crear una nueva fila para el jugador actual
@@ -213,9 +241,9 @@ function mostrarResultadoFinalMovil() {
   const cellVidas = newRow.insertCell(2);
 
   // Asignar los valores del jugador a las celdas
-  cellNombre.innerHTML = nombre;
-  cellPuntuacion.innerHTML = puntuacion;
-  cellVidas.innerHTML = vidas;
+  cellNombre.innerHTML = nombre_movil;
+  cellPuntuacion.innerHTML = puntuacion_movil;
+  cellVidas.innerHTML = vidas_movil;
 
   // Obtener todas las filas existentes en la tabla
   const rows = Array.from(tbody.querySelectorAll('tr'));
@@ -225,23 +253,31 @@ function mostrarResultadoFinalMovil() {
 
   // Ordenar las filas por puntuación y vidas en orden descendente
   rows.sort((a, b) => {
-      const puntuacionA = parseInt(a.cells[1].innerHTML);
-      const puntuacionB = parseInt(b.cells[1].innerHTML);
-      const vidasA = parseInt(a.cells[2].innerHTML);
-      const vidasB = parseInt(b.cells[2].innerHTML);
+    const puntuacion_movilA = parseInt(a.cells[1].innerHTML);
+    const puntuacion_movilB = parseInt(b.cells[1].innerHTML);
+    const vidas_movilA = parseInt(a.cells[2].innerHTML);
+    const vidas_movilB = parseInt(b.cells[2].innerHTML);
 
-      // Ordenar por puntuación en orden descendente
-      if (puntuacionA !== puntuacionB) {
-          return puntuacionB - puntuacionA;
-      }
+    // Ordenar por puntuación en orden descendente
+    if (puntuacion_movilA !== puntuacion_movilB) {
+      return puntuacion_movilB - puntuacion_movilA;
+    }
 
-      // Si las puntuaciones son iguales, ordenar por vidas en orden descendente
-      return vidasB - vidasA;
+    // Si las puntuaciones son iguales, ordenar por vidas en orden descendente
+    return vidas_movilB - vidas_movilA;
   });
 
   // Limpiar el contenido actual de la tabla
   tbody.innerHTML = '';
 
   // Recorrer las filas ordenadas y añadir las primeras 10 a la tabla
-  rows.slice(0, 10).forEach(row => tbody.appendChild(row));
+  rows.slice(0, 10).forEach((row) => tbody.appendChild(row));
+}
+
+function setTimeoutMovil(callback, tiempo) {
+  // Utiliza setTimeout y clearInterval para manejar el retraso
+  var tempTimer = setInterval(function () {
+    clearInterval(tempTimer);
+    callback();
+  }, tiempo);
 }
