@@ -419,7 +419,7 @@ body {
   font-family: Nunito Sans, 'Source Sans Pro';
   white-space: nowrap;
 }
-.bienvenida-Movil .table-container {
+.bienvenida-Movil .table-container-movil {
   width: 90%;
   height: 30%;
   position: absolute;

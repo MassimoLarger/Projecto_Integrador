@@ -9,10 +9,10 @@ let timerElement = document.getElementById('timer');
 var juegoFinalizado = false;
 
 function cargarPreguntasMovil() {
-  let categoria= localStorage.getItem('categoria');
+  let categoria_movil= localStorage.getItem('categoria-movil');
 
   // Construir la URL basada en la categoría seleccionada
-  let url = `${categoria}.json`;
+  let url = `${categoria_movil}.json`;
 
   // Utilizar fetch para cargar el archivo JSON
   fetch(url)
@@ -29,7 +29,7 @@ function cargarPreguntasMovil() {
 function cargarPreguntaMovil(indicePregunta) {
   // Lógica para cargar la pregunta y opciones en el HTML
   var preguntaActual = preguntas[indicePregunta];
-  document.getElementById('question').innerText = preguntaActual.pregunta;
+  document.getElementById('question-movil').innerText = preguntaActual.pregunta;
 
   // Aleatorizar el orden de las opciones
   var opcionesAleatorias = shuffleArrayMovil([...preguntaActual.opciones]);
@@ -37,14 +37,14 @@ function cargarPreguntaMovil(indicePregunta) {
   respuestaCorrectaActual = preguntaActual.respuesta_correcta; // Guardar la respuesta correcta actual
   opcionesAleatorias.forEach(function (opcion, index) {
     // Asigna clases específicas a los botones (por ejemplo, button1, button2, etc.)
-    var buttonClass = 'button' + (index + 1);
-    opcionesHTML += `
+    var buttonmovilClass = 'button-movil' + (index + 1);
+    opcionesmovilHTML += `
     <li>
-      <button class="${buttonClass}" onclick="responderTriviaMovil(this)" data-es-correcta="${respuestaCorrectaActual.includes(opcion)}">
+      <button class="${buttonmovilClass}" onclick="responderTriviaMovil(this)" data-es-correcta="${respuestaCorrectaActual.includes(opcion)}">
       ${opcion}</button>
     </li>`;
   });
-  document.getElementById('options').innerHTML = opcionesHTML;
+  document.getElementById('options-movil').innerHTML = opcionesmovilHTML;
   
   // Aquí inicia el código del temporizador
   if (timerInterval) {
@@ -81,12 +81,12 @@ function shuffleArrayMovil(array) {
 
 function iniciarJuegoMovil() {
   // Movemos la obtención del nombre aquí
-  nombre = document.getElementById('name').value;
-  if (isFinite(nombre)) {
+  nombre_movil = document.getElementById('name-movil').value;
+  if (isFinite(nombre_movil)) {
     alert('Por favor, ingrese un nombre válido.');
   } else {
-  document.getElementById('form-container').style.display = 'none';
-  document.getElementById('trivia-container').style.display = 'block';
+  document.getElementById('Inicio-movil').style.display = 'none';
+  document.getElementById('trivia-container-movil').style.display = 'block';
 
   cargarPreguntaMovil(indicePreguntaActual);
   }
@@ -176,11 +176,11 @@ function responderTriviaMovil(botonSeleccionado) {
 
 function actualizarInfoJuegoMovil() {
   // Actualizar la puntuación y vidas en pantalla
-  document.getElementById('puntuacion').innerText = puntuacion;
-  document.getElementById('vidas').innerText = vidas;
+  document.getElementById('puntuacion-movil').innerText = puntuacion_movil;
+  document.getElementById('vidas-movil').innerText = vidas_movil;
 
   // Verificar si el jugador ha perdido todas las vidas
-  if (vidas <= 0) {
+  if (vidas_movil <= 0) {
     setTimeoutMovil(function () {
       // Fin del juego
       mostrarResultadoFinalMovil();
@@ -193,18 +193,18 @@ function mostrarResultadoFinalMovil() {
   clearInterval(timerInterval); // Añade esta línea para detener el temporizador
 
   // Ocultar contenedor de juego
-  document.getElementById('trivia-container').style.display = 'none';
+  document.getElementById('trivia-container-movil').style.display = 'none';
 
   // Mostrar contenedor de fin de juego
-  document.getElementById('fin-juego').style.display = 'block';
+  document.getElementById('fin-juego-movil').style.display = 'block';
 
   // Mostrar información del jugador
-  document.getElementById('nombreResultado').innerText = nombre;
-  document.getElementById('puntuacionResultado').innerText = puntuacion;
-  document.getElementById('vidasResultado').innerText = vidas;
+  document.getElementById('nombreResultado_movil').innerText = nombre_movil;
+  document.getElementById('puntuacionResultado_movil').innerText = puntuacion_movil;
+  document.getElementById('vidasResultado_movil').innerText = vidas_movil;
 
  // Obtener el cuerpo de la tabla
-  const tbody = document.querySelector('.bienvenida-MBp .table tbody');
+  const tbody = document.querySelector('.bienvenida-Movil .table tbody');
 
   // Crear una nueva fila para el jugador actual
   const newRow = tbody.insertRow();
