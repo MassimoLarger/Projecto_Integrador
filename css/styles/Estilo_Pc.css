@@ -251,64 +251,64 @@ body {
 }
 .bienvenida-MBp .image1 {
   width: 22rem;
-  height: 20rem;
+  height: 26rem;
   position: absolute;
-  left: 20rem;
-  top: 15rem;
+  left: 40rem;
+  top: 20rem;
   object-fit: cover;
   vertical-align: top;
 }
 .bienvenida-MBp .image2 {
   width: 20rem;
-  height: 20rem;
+  height: 24rem;
   position: absolute;
-  left: 104.5rem;
-  top: 15rem;
+  left: 41rem;
+  top: 48rem;
   object-fit: cover;
   vertical-align: top;
 }
 .bienvenida-MBp .image3 {
-  width: 20rem;
-  height: 20rem;
+  width: 22rem;
+  height: 26rem;
   position: absolute;
-  left: 20rem;
-  top: 35rem;
+  left: 68rem;
+  top: 19.5rem;
   object-fit: cover;
   vertical-align: top;
 }
 .bienvenida-MBp .image4 {
-  width: 20rem;
-  height: 20rem;
+  width: 22rem;
+  height: 24rem;
   position: absolute;
-  left: 104.5rem;
-  top: 35rem;
+  left: 68rem;
+  top: 47.5rem;
   object-fit: cover;
   vertical-align: top;
 }
 .bienvenida-MBp .image5 {
-  width: 20rem;
-  height: 20rem;
+  width: 22rem;
+  height: 26rem;
   position: absolute;
-  left: 20rem;
-  top: 55rem;
+  left: 98rem;
+  top: 19.5rem;
   object-fit: cover;
   vertical-align: top;
 }
 .bienvenida-MBp .image6 {
-  width: 20rem;
-  height: 20rem;
+  width: 22rem;
+  height: 26rem;
   position: absolute;
-  left: 104.5rem;
-  top: 55rem;
+  left: 98rem;
+  top: 46rem;
   object-fit: cover;
   vertical-align: top;
 }
 .bienvenida-MBp .image7 {
-  width: 30rem;
-  height: 30rem;
+  width: 36rem;
+  height: 44rem;
   position: absolute;
-  left: 57.25rem;
-  top: 30rem;
+  left: 2rem;
+  top: 22rem;
   object-fit: cover;
   vertical-align: top;
 }
@@ -334,9 +334,9 @@ body {
 .bienvenida-MBp .image-category {
   width: 50rem;
   height: 50rem;
-  position: relative;
-  left: 92rem;
-  top: 17rem;
+  position: absolute;
+  left: 94rem;
+  top: 18rem;
 }
 .button {
   width: 19.7rem;
@@ -466,8 +466,8 @@ body {
   width: 35.9rem;
   height: 5.5rem;
   position: absolute;
-  left: 58.1rem;
-  top: 10.3rem;
+  left: 61rem;
+  top: 10rem;
   font-size: 4rem;
   font-weight: 600;
   line-height: 1.3625;
@@ -479,8 +479,8 @@ body {
   width: 35.9rem;
   height: 5.5rem;
   position: absolute;
-  left: 53.1rem;
-  top: 15.3rem;
+  left: 56rem;
+  top: 15rem;
   font-size: 3rem;
   font-weight: 600;
   line-height: 1.3625;
@@ -542,7 +542,7 @@ body {
 }
 .bienvenida-MBp .table-container {
   width: 50%;
-  height: 20%;
+  height: 40%;
   position: absolute;
   left: 10rem;
   top: 37rem;
@@ -553,10 +553,11 @@ body {
   width: 100%;
 }
 .bienvenida-MBp .th, .bienvenida-MBp .td {
-  text-align: left;
+  text-align: center;
   border-bottom: 1px solid #ddd;
 }
 .bienvenida-MBp .th {
+  
   background-color: #4caf50;
   color: white;
 }
