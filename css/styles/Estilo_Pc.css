@@ -541,25 +541,36 @@ body {
   border: 1px solid #FFD700;
 }
 .bienvenida-MBp .table-container {
-  width: 50%;
+  width: 55%;
   height: 40%;
   position: absolute;
   left: 10rem;
   top: 37rem;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  background-color: rgba(204, 214, 221, 0.373);
-}
-.bienvenida-MBp .table {
-  width: 100%;
-}
-.bienvenida-MBp .th, .bienvenida-MBp .td {
+  color: #ffffff;
+  border: solid 0.1rem rgba(255, 255, 255, 0.8999999762);
+  background-color: rgba(96, 73, 160, 0.8999999762);
+  border-radius: 3rem;
   text-align: center;
-  border-bottom: 1px solid #ddd;
+  font-size: 12px;
 }
-.bienvenida-MBp .th {
-  
-  background-color: #4caf50;
-  color: white;
+.bienvenida-MBp .table-container .table {
+  width: 100%;
+  color: #ffffff;
+  text-align: center;
+  font-size: 14px; /* Ajusta el tamaño de la fuente */
+}
+.bienvenida-MBp .table-container .table .th, .bienvenida-MBp .table-container .table .td {
+  color: #ffffff;
+  text-align: center;
+  border: 1px solid #ffffff; /* Establece el color de las líneas internas de la tabla */
+}
+.bienvenida-MBp .table-container .table tbody tr:nth-child(odd) {
+  background-color: #646cb0; /* Color para filas impares del tbody */
+  border: 1px solid #ffffff; /* Establece el color de las líneas internas de la tabla */
+}
+.bienvenida-MBp .table-container .table tbody tr:nth-child(even) {
+  background-color: #858dd1; /* Color para filas pares del tbody */
+  border: 1px solid #ffffff; /* Establece el color de las líneas internas de la tabla */
 }
 .bienvenida-MBp .puntaje-DFp {
   width: 33.9rem;

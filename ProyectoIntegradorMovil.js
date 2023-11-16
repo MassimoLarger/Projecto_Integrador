@@ -199,9 +199,9 @@ function mostrarResultadoFinalMovil() {
   document.getElementById('fin-juego-movil').style.display = 'block';
 
   // Mostrar información del jugador
-  document.getElementById('nombreResultado').innerText = nombre_movil;
-  document.getElementById('puntuacionResultado').innerText = puntuacion_movil;
-  document.getElementById('vidasResultado').innerText = vidas_movil;
+  document.getElementById('nombreResultado_movil').innerText = nombre_movil;
+  document.getElementById('puntuacionResultado_movil').innerText = puntuacion_movil;
+  document.getElementById('vidasResultado_movil').innerText = vidas_movil;
 
  // Obtener el cuerpo de la tabla
   const tbody = document.querySelector('.bienvenida-Movil .table tbody');

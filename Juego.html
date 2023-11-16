@@ -113,14 +113,14 @@
             </div>
             <div class="puntaje-DFp">
               <p class="puntos-ganados">Puntos ganados en este juego</p>
-              <p class="text8"><span id="puntuacionResultado"></span></p>
+              <p class="text8"><span id="puntuacionResultado_movil"></span></p>
             </div>
             <div class="ganador">
               <div class="rectangle-3">
               </div>
               <div class="nombre-text">Nombre</div>
-              <div class="ganador-text"><span id="nombreResultado"></span></div>
-              <p class="text9">Vidas Restantes: <span id="vidasResultado"></span></p>
+              <div class="ganador-text"><span id="nombreResultado_movil"></span></div>
+              <p class="text9">Vidas Restantes: <span id="vidasResultado_movil"></span></p>
             </div>
             <button class="buttonback"onclick="volverAPaginamovil()">Volver al Inicio</button>
             <button class="button"onclick="volverAJugarmovil()">Volver a Jugar</button>
@@ -220,8 +220,8 @@
                     <p>Iniciar Juego</p>
                 </div>
                 <div class="table-container">
-                    <h1>Resultados del Juego</h1>
                     <table class="table">
+                      <h1>Resultados del Juego</h1>
                         <thead>
                             <tr>
                                 <th><h2>Nombre Jugador</h2></th>
@@ -230,7 +230,9 @@
                             </tr>
                         </thead>
                         <tbody>
+                          <td>
                             <!-- Aquí se llenarán dinámicamente los resultados del juego -->
+                          </td>
                         </tbody>
                     </table>
                 </div>
