@@ -111,7 +111,7 @@ function responderTrivia(botonSeleccionado) {
       var esRespuestaIncorrecta = respuestaCorrecta.includes(boton.innerText);
 
       if (esRespuestaCorrecta) {
-        botonSeleccionado.style.backgroundColor = '#009929'; // Color verde para respuesta correcta
+        botonSeleccionado.style.backgroundColor = '#8BC34B'; // Color verde para respuesta correcta
       } else if (esRespuestaIncorrecta) {
         botonSeleccionado.style.backgroundColor = '#FF0000'; // Color rojo para respuesta incorrecta
 
@@ -120,7 +120,7 @@ function responderTrivia(botonSeleccionado) {
           botones.forEach(function (boton) {
             var esRespuestaCorrecta = respuestaCorrecta.includes(boton.innerText);
             if (esRespuestaCorrecta) {
-              boton.style.backgroundColor = '#009929'; // Color verde para respuesta correcta
+              boton.style.backgroundColor = '#8BC34B'; // Color verde para respuesta correcta
             }
           });
         }, 1000);
