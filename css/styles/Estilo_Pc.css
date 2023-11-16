@@ -250,76 +250,60 @@ body {
   white-space: nowrap;
 }
 .bienvenida-MBp .image1 {
-  width: 22rem;
-  height: 26rem;
+  width: 20.5rem;
+  height: 19.1rem;
   position: absolute;
-  left: 40rem;
+  left: 20rem;
   top: 20rem;
-  object-fit: cover;
-  vertical-align: top;
 }
 .bienvenida-MBp .image2 {
-  width: 20rem;
-  height: 24rem;
+  width: 17.5rem;
+  height: 16.5rem;
   position: absolute;
-  left: 41rem;
-  top: 48rem;
-  object-fit: cover;
-  vertical-align: top;
+  left: 120rem;
+  top: 20rem;
 }
 .bienvenida-MBp .image3 {
-  width: 22rem;
-  height: 26rem;
+  width: 19.3rem;
+  height: 17.8rem;
   position: absolute;
-  left: 68rem;
-  top: 19.5rem;
-  object-fit: cover;
-  vertical-align: top;
+  left: 20rem;
+  top: 40rem;
 }
 .bienvenida-MBp .image4 {
-  width: 22rem;
-  height: 24rem;
+  width: 20.5rem;
+  height: 19.1rem;
   position: absolute;
-  left: 68rem;
-  top: 47.5rem;
-  object-fit: cover;
-  vertical-align: top;
+  left: 120rem;
+  top: 60rem;
 }
 .bienvenida-MBp .image5 {
-  width: 22rem;
-  height: 26rem;
+  width: 17.9rem;
+  height: 18.7rem;
   position: absolute;
-  left: 98rem;
-  top: 19.5rem;
-  object-fit: cover;
-  vertical-align: top;
+  left: 20rem;
+  top: 60rem;
 }
 .bienvenida-MBp .image6 {
-  width: 22rem;
-  height: 26rem;
+  width: 20.5rem;
+  height: 19.1rem;
   position: absolute;
-  left: 98rem;
-  top: 46rem;
-  object-fit: cover;
-  vertical-align: top;
+  left: 120rem;
+  top: 40rem;
 }
 .bienvenida-MBp .image7 {
-  width: 36rem;
-  height: 44rem;
+  width: 38.8rem;
+  height: 49rem;
   position: absolute;
-  left: 2rem;
-  top: 22rem;
-  object-fit: cover;
-  vertical-align: top;
+  left: 60rem;
+  top: 25rem;
 }
 .bienvenida-MBp .image8 {
-  width: 50rem;
-  height: 50rem;
+  width: 20.5rem;
+  height: 19.1rem;
   position: absolute;
   left: 95rem;
   top: 10rem;
-  object-fit: cover;
-  vertical-align: top;
 }
 .bienvenida-MBp .image9 {
   width: 55rem;
@@ -463,28 +447,29 @@ body {
   z-index: 1;
 }
 .bienvenida-MBp .text11 {
-  width: 35.9rem;
+  width: 44.9rem;
   height: 5.5rem;
   position: absolute;
-  left: 61rem;
+  left: 63rem;
   top: 10rem;
-  font-size: 4rem;
+  font-size: 6rem;
   font-weight: 600;
   line-height: 1.3625;
-  color: #f06f9a;
+  color: #ffffff;
   font-family: Nunito Sans, 'Source Sans Pro';
   white-space: nowrap;
 }
+
 .bienvenida-MBp .text10 {
   width: 35.9rem;
   height: 5.5rem;
   position: absolute;
-  left: 56rem;
-  top: 15rem;
+  left: 67rem;
+  top: 16rem;
   font-size: 3rem;
   font-weight: 600;
   line-height: 1.3625;
-  color: #f06f9a;
+  color: #ffffff;
   font-family: Nunito Sans, 'Source Sans Pro';
   white-space: nowrap;
 }
