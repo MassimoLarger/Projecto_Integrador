@@ -118,7 +118,7 @@
         <div id="fin-juego-movil" style="display: none;">
             <div class="rectangle-white"></div>
             <div class="rectangle-yellow"></div>
-            <img class="image-House" src="./css/assets_movil/image-Inicio.png"/>
+            <img class="image-House" src="./css/assets_movil/image-Inicio.png" onclick="volverMovil()"/>
             <img class="image-calender" src="./css/assets_movil/image-8.png"/>
             <img class="logo" src="./css/assets_movil/logo.png"/>
             <div class="oval-uDL"></div>
@@ -234,11 +234,22 @@
       actualizarInfoJuegoMovil();
       cargarPreguntasMovil();
 
-      // Reiniciar el temporizador del reloj
-      reiniciarRelojMovil();
-
       document.getElementById('fin-juego-movil').style.display = 'none';
       document.getElementById('trivia-container-movil').style.display = 'block';
+    }
+  </script>
+  <script>
+    function volverMovil() {
+      // Restablecer vidas y puntuación
+      vidas_movil = 5;
+      puntuacion_movil = 0;
+      juegoFinalizado_movil = false;
+
+      // Actualizar la información del juego en pantalla
+      actualizarInfoJuegoMovil();
+
+      document.getElementById('fin-juego-movil').style.display = 'none';
+      document.getElementById('main').style.display = 'block';
     }
   </script>
 
