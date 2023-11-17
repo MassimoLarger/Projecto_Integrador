@@ -116,22 +116,31 @@
             </div>
         </div>
         <div id="fin-juego-movil" style="display: none;">
-            <p class="text6">¡Juego Terminado!</p>
-            <div class="image9">
+            <div class="rectangle-white"></div>
+            <div class="rectangle-yellow"></div>
+            <img class="image-House" src="./css/assets_movil/image-Inicio.png"/>
+            <img class="image-calender" src="./css/assets_movil/image-8.png"/>
+            <img class="logo" src="./css/assets_movil/logo.png"/>
+            <div class="oval-uDL"></div>
+            <img class="image-brain" src="./css/assets_movil/image-14.png"/>
+            <img class="image-3line" src="./css/assets_movil/image-16.png"/>
+            <img class="image-bell" src="./css/assets_movil/image-7.png"/>
+            <img class="image-config" src="./css/assets_movil/image-15.png"/>
+            <p class="final">¡Juego Terminado!</p>
+            <img class="image-win" src="./css/assets_movil/CerebroWin.png"/>
+            <div class="puntaje-movil">
+              <p class="puntos-ganados-movil">Puntos ganados en este juego</p>
+              <p class="puntos"><span id="puntuacionResultado-movil"></span></p>
             </div>
-            <div class="puntaje-DFp">
-              <p class="puntos-ganados">Puntos ganados en este juego</p>
-              <p class="text8"><span id="puntuacionResultado_movil"></span></p>
-            </div>
-            <div class="ganador">
-              <div class="rectangle-3">
+            <div class="ganador-movil">
+              <div class="rectangle-movil">
               </div>
-              <div class="nombre-text">Nombre</div>
-              <div class="ganador-text"><span id="nombreResultado_movil"></span></div>
-              <p class="text9">Vidas Restantes: <span id="vidasResultado_movil"></span></p>
+              <div class="nombre-movil-text">Nombre</div>
+              <div class="ganador-movil-text"><span id="nombreResultado-movil"></span></div>
+              <p class="vidas">Vidas Restantes: <span id="vidasResultado-movil"></span></p>
             </div>
-            <button class="buttonback"onclick="volverAPaginamovil()">Volver al Inicio</button>
-            <button class="button"onclick="volverAJugarmovil()">Volver a Jugar</button>
+            <button class="buttonback-movil"onclick="CambiarCategoria()">Elegir Categoria</button>
+            <button class="button-movil"onclick="volverAJugarmovil()">Volver a Jugar</button>
           </div>
         </div>
     </main>
@@ -200,10 +209,11 @@
       }
     </script>
     <script>
-      function volverAPaginamovil() {
+      function CambiarCategoria() {
         // Restablecer vidas y puntuación
-        vidas = 5;
-        puntuacion = 0;
+        vidas_movil = 5;
+        puntuacion_movil = 0;
+        juegoFinalizado_movil = false;
 
         // Actualizar la información del juego en pantalla
         actualizarInfoJuegoMovil();
@@ -216,15 +226,19 @@
   <script>
     function volverAJugarmovil() {
       // Restablecer vidas y puntuación
-      vidas = 5;
-      puntuacion = 0;
+      vidas_movil = 5;
+      puntuacion_movil = 0;
+      juegoFinalizado_movil = false;
 
       // Actualizar la información del juego en pantalla
       actualizarInfoJuegoMovil();
+      cargarPreguntasMovil();
 
-      // Ocultar contenedor de resultados del juego
-      document.getElementById('main').style.display = 'block';
+      // Reiniciar el temporizador del reloj
+      reiniciarRelojMovil();
+
       document.getElementById('fin-juego-movil').style.display = 'none';
+      document.getElementById('trivia-container-movil').style.display = 'block';
     }
   </script>
 
@@ -312,6 +326,7 @@
               // Restablecer vidas y puntuación
               vidas = 5;
               puntuacion = 0;
+              juegoFinalizado = false;
   
               // Actualizar la información del juego en pantalla
               actualizarInfoJuego();
@@ -326,12 +341,14 @@
               // Restablecer vidas y puntuación
               vidas = 5;
               puntuacion = 0;
-  
+              juegoFinalizado = false;
+
               // Actualizar la información del juego en pantalla
               actualizarInfoJuego();
+              cargarPreguntas();
   
               // Ocultar contenedor de resultados del juego
-              document.getElementById('form-container').style.display = 'block';
+              document.getElementById('trivia-container').style.display = 'block';
               document.getElementById('fin-juego').style.display = 'none';
             }
         </script>
